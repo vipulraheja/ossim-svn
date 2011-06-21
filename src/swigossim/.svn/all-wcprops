@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/ossim/!svn/ver/12318/trunk/swigossim
+END
+local.properties.template
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/9793/trunk/swigossim/local.properties.template
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/9962/trunk/swigossim/readme.txt
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/8030/trunk/swigossim/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/12318/trunk/swigossim/build.xml
+END

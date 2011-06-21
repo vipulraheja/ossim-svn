@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 106
+Makefile
+ossimConfig.h
+version-config
+version-config.exe
+version-config.exe.manifest
+version-config.obj
+
+
+
+END

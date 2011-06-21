@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/9966/trunk/ossim/src/examples/data_types/directory
+END
+directorytest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9966/trunk/ossim/src/examples/data_types/directory/directorytest.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/7517/trunk/ossim/src/examples/data_types/directory/Makefile
+END

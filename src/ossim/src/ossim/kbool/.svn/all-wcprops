@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/19473/trunk/ossim/src/ossim/kbool
+END
+record.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/kbool/record.cpp
+END
+graph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/17606/trunk/ossim/src/ossim/kbool/graph.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/9232/trunk/ossim/src/ossim/kbool/makefile.vc
+END
+graphlst.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/kbool/graphlst.cpp
+END
+booleng.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/13795/trunk/ossim/src/ossim/kbool/booleng.cpp
+END
+lpoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/kbool/lpoint.cpp
+END
+node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/19473/trunk/ossim/src/ossim/kbool/node.cpp
+END
+line.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/kbool/line.cpp
+END
+scanbeam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/kbool/scanbeam.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/8950/trunk/ossim/src/ossim/kbool/.cvsignore
+END
+link.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/11347/trunk/ossim/src/ossim/kbool/link.cpp
+END

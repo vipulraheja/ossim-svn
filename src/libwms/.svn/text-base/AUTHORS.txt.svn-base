@@ -1,0 +1,9 @@
+// $Id$
+Eric Sokolowski
+     Wrote the original wms code that libws is based on.
+
+Garrett Potts
+     Added c++ support ad additional support classes	
+
+Norman Vine
+  

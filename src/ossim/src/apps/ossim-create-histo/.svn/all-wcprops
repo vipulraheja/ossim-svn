@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/18231/trunk/ossim/src/apps/ossim-create-histo
+END
+ossim-create-histo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/18231/trunk/ossim/src/apps/ossim-create-histo/ossim-create-histo.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15144/trunk/ossim/src/apps/ossim-create-histo/makefile.vc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-create-histo/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/15144/trunk/ossim/src/apps/ossim-create-histo/Makefile
+END

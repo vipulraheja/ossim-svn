@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ossim/otb
+END
+GeodesicCoordinate.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GeodesicCoordinate.h
+END
+InfoSceneCoord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/InfoSceneCoord.cpp
+END
+HermiteInterpolator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/HermiteInterpolator.cpp
+END
+JSDDateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/JSDDateTime.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/16870/trunk/ossim_plugins/ossim/otb/makefile.vc
+END
+InfoIncidenceAngle.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/16870/trunk/ossim_plugins/ossim/otb/InfoIncidenceAngle.h
+END
+RadarSat2NoiseLevel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ossim/otb/RadarSat2NoiseLevel.cpp
+END
+IncidenceAngles.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ossim/otb/IncidenceAngles.cpp
+END
+PlatformPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/PlatformPosition.h
+END
+Sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/18592/trunk/ossim_plugins/ossim/otb/Sensor.h
+END
+GeographicEphemeris.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GeographicEphemeris.h
+END
+RectangularCoordinate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/RectangularCoordinate.cpp
+END
+Noise.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/Noise.h
+END
+SensorParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/17644/trunk/ossim_plugins/ossim/otb/SensorParams.h
+END
+CivilDateTime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/CivilDateTime.cpp
+END
+GalileanEphemeris.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GalileanEphemeris.h
+END
+SarSensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/SarSensor.h
+END
+SceneCoord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ossim/otb/SceneCoord.cpp
+END
+JulianDate.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/JulianDate.h
+END
+ImageNoise.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/ImageNoise.h
+END
+Equation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/Equation.cpp
+END
+Ephemeris.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/Ephemeris.h
+END
+GMSTDateTime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GMSTDateTime.cpp
+END
+GeodesicCoordinate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GeodesicCoordinate.cpp
+END
+RefPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/14820/trunk/ossim_plugins/ossim/otb/RefPoint.h
+END
+Coordinate.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/14820/trunk/ossim_plugins/ossim/otb/Coordinate.h
+END
+MJDDateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/MJDDateTime.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/14256/trunk/ossim_plugins/ossim/otb/Makefile
+END
+JSDDateTime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/JSDDateTime.cpp
+END
+Arithmetic.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/Arithmetic.h
+END
+InfoIncidenceAngle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16870/trunk/ossim_plugins/ossim/otb/InfoIncidenceAngle.cpp
+END
+InfoSceneCoord.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/InfoSceneCoord.h
+END
+HermiteInterpolator.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/HermiteInterpolator.h
+END
+PlatformPosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ossim/otb/PlatformPosition.cpp
+END
+Sensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/18592/trunk/ossim_plugins/ossim/otb/Sensor.cpp
+END
+GeographicEphemeris.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GeographicEphemeris.cpp
+END
+Noise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ossim/otb/Noise.cpp
+END
+SensorParams.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17644/trunk/ossim_plugins/ossim/otb/SensorParams.cpp
+END
+GalileanEphemeris.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GalileanEphemeris.cpp
+END
+RadarSat2NoiseLevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/RadarSat2NoiseLevel.h
+END
+SarSensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/17644/trunk/ossim_plugins/ossim/otb/SarSensor.cpp
+END
+JulianDate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/JulianDate.cpp
+END
+IncidenceAngles.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/16870/trunk/ossim_plugins/ossim/otb/IncidenceAngles.h
+END
+ImageNoise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/ImageNoise.cpp
+END
+Ephemeris.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/Ephemeris.cpp
+END
+RectangularCoordinate.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/RectangularCoordinate.h
+END
+RefPoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/RefPoint.cpp
+END
+MJDDateTime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/MJDDateTime.cpp
+END
+Coordinate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/Coordinate.cpp
+END
+CivilDateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/14820/trunk/ossim_plugins/ossim/otb/CivilDateTime.h
+END
+SceneCoord.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/18121/trunk/ossim_plugins/ossim/otb/SceneCoord.h
+END
+Equation.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/14820/trunk/ossim_plugins/ossim/otb/Equation.h
+END
+GMSTDateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/otb/GMSTDateTime.h
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source
+END
+image_data.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/image_data.cc
+END
+.DS_Store
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/.DS_Store
+END
+image_copy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/image_copy.cc
+END
+image_data.adb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/image_data.adb
+END
+image_copy.adb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/image_copy.adb
+END
+image_open.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/image_open.cc
+END
+image_open.adb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/image_open.adb
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Makefile
+END

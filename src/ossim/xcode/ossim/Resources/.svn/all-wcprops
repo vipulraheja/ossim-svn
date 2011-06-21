@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12708/trunk/ossim/xcode/ossim/Resources
+END
+version.plist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/8578/trunk/ossim/xcode/ossim/Resources/version.plist
+END
+ossimPlanet-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9341/trunk/ossim/xcode/ossim/Resources/ossimPlanet-Info.plist
+END
+ossim_qt-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/9989/trunk/ossim/xcode/ossim/Resources/ossim_qt-Info.plist
+END
+iview-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9188/trunk/ossim/xcode/ossim/Resources/iview-Info.plist
+END
+ossimPlanetQt-info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9493/trunk/ossim/xcode/ossim/Resources/ossimPlanetQt-info.plist
+END
+ossimPlanetQtApp-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12708/trunk/ossim/xcode/ossim/Resources/ossimPlanetQtApp-Info.plist
+END
+imagelinker-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9188/trunk/ossim/xcode/ossim/Resources/imagelinker-Info.plist
+END
+ossim-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/12322/trunk/ossim/xcode/ossim/Resources/ossim-Info.plist
+END

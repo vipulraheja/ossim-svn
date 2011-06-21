@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/17977/trunk/ossim_plugins/nui
+END
+ossimNuiFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15766/trunk/ossim_plugins/nui/ossimNuiFactory.cpp
+END
+ossimNuiExports.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/9529/trunk/ossim_plugins/nui/ossimNuiExports.h
+END
+ossimNuiFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/10108/trunk/ossim_plugins/nui/ossimNuiFactory.h
+END
+ossimNuiHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/17977/trunk/ossim_plugins/nui/ossimNuiHandler.cpp
+END
+ossimnui_plugin.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/14729/trunk/ossim_plugins/nui/ossimnui_plugin.vcproj
+END
+ossimNuiHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/17976/trunk/ossim_plugins/nui/ossimNuiHandler.h
+END
+ossimNuiPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9529/trunk/ossim_plugins/nui/ossimNuiPluginInit.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/11580/trunk/ossim_plugins/nui/Makefile
+END

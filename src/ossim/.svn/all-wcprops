@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/ossim/!svn/ver/19757/trunk/ossim
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ossim/!svn/ver/16903/trunk/ossim/configure
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/18255/trunk/ossim/Doxyfile
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/16136/trunk/ossim/makefile.vc
+END
+header.lgpl
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/2/trunk/ossim/header.lgpl
+END
+Doxyfile.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/17185/trunk/ossim/Doxyfile.in
+END
+ossim.spec.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/7162/trunk/ossim/ossim.spec.in
+END
+COPYING.GPL
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/2/trunk/ossim/COPYING.GPL
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/1531/trunk/ossim/config.guess
+END
+nmake.opt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ossim/!svn/ver/18179/trunk/ossim/nmake.opt
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ossim/!svn/ver/1531/trunk/ossim/config.sub
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ossim/!svn/ver/12535/trunk/ossim/ltmain.sh
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/12530/trunk/ossim/LICENSE.txt
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/16665/trunk/ossim/configure.ac
+END
+COPYING.LGPL
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/2/trunk/ossim/COPYING.LGPL
+END
+header.gpl
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/ossim/!svn/ver/2/trunk/ossim/header.gpl
+END
+Makefile.common.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12710/trunk/ossim/Makefile.common.in
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ossim/!svn/ver/15071/trunk/ossim/README.txt
+END
+ospr.spec
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/423/trunk/ossim/ospr.spec
+END
+LGPL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/12529/trunk/ossim/LGPL.txt
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ossim/!svn/ver/8238/trunk/ossim/.cvsignore
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/19439/trunk/ossim/CMakeLists.txt
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ossim/!svn/ver/16903/trunk/ossim/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/ossim/!svn/ver/2/trunk/ossim/install-sh
+END

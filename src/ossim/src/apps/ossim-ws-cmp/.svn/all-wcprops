@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/19682/trunk/ossim/src/apps/ossim-ws-cmp
+END
+ossim-ws-cmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19682/trunk/ossim/src/apps/ossim-ws-cmp/ossim-ws-cmp.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/16941/trunk/ossim/src/apps/ossim-ws-cmp/makefile.vc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-ws-cmp/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16941/trunk/ossim/src/apps/ossim-ws-cmp/Makefile
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/17809/trunk/ossimPlanet/examples/ossimplanettest
+END
+ossimplanettest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17809/trunk/ossimPlanet/examples/ossimplanettest/ossimplanettest.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15333/trunk/ossimPlanet/examples/ossimplanettest/GNUmakefile
+END

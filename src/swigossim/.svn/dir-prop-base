@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 86
+bin
+history.xml
+libjossim.jnilib
+.project
+.classpath
+local.properties
+jossim.dll
+dist
+
+END

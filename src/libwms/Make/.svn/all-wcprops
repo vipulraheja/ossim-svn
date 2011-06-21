@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/ossim/!svn/ver/16957/trunk/libwms/Make
+END
+makerpms
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/6625/trunk/libwms/Make/makerpms
+END
+makepkg
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/6576/trunk/libwms/Make/makepkg
+END
+makedefs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/16957/trunk/libwms/Make/makedefs
+END
+makeinnosetup
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/6576/trunk/libwms/Make/makeinnosetup
+END
+dependencies
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/6576/trunk/libwms/Make/dependencies
+END
+makedirrules
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/6576/trunk/libwms/Make/makedirrules
+END
+makerules
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/15703/trunk/libwms/Make/makerules
+END
+instrules
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/9904/trunk/libwms/Make/instrules
+END
+maketoprule
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/6584/trunk/libwms/Make/maketoprule
+END
+dolink.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/6576/trunk/libwms/Make/dolink.sh
+END
+cygwin_plugin_def
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/6576/trunk/libwms/Make/cygwin_plugin_def
+END
+makeirixdist
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/6576/trunk/libwms/Make/makeirixdist
+END
+versionrules
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/6620/trunk/libwms/Make/versionrules
+END
+instexamplesrc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/6576/trunk/libwms/Make/instexamplesrc
+END
+help.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/6576/trunk/libwms/Make/help.sh
+END
+helprules
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/6576/trunk/libwms/Make/helprules
+END
+makedirdefs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/6576/trunk/libwms/Make/makedirdefs
+END
+distrules
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/6625/trunk/libwms/Make/distrules
+END

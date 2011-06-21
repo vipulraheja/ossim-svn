@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/19756/trunk/ossim_plugins/kmlsuperoverlay
+END
+ossimKmlSuperOverlayReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayReaderFactory.h
+END
+ossimKmlSuperOverlayWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayWriter.h
+END
+ossimKmlSuperOverlayPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayPluginInit.cpp
+END
+ossimKmlSuperOverlayReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/19756/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayReader.cpp
+END
+ossimKmlSuperOverlayWriterFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayWriterFactory.cpp
+END
+ossimKmlSuperOverlayReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayReader.h
+END
+ossimKmlSuperOverlayWriterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayWriterFactory.h
+END
+ossimKmlSuperOverlayReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayReaderFactory.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19719/trunk/ossim_plugins/kmlsuperoverlay/CMakeLists.txt
+END
+ossimKmlSuperOverlayWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/19756/trunk/ossim_plugins/kmlsuperoverlay/ossimKmlSuperOverlayWriter.cpp
+END

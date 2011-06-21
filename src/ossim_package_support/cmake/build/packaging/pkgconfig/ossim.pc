@@ -1,0 +1,14 @@
+# pkg-config source file
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ossim
+Description: Open Source Software Image Map
+Version: 1.8.12
+Requires: openthreads tiff jpeg 
+Conflicts:
+#Libs: -L${libdir} -lossim
+#Cflags: -I${includedir}

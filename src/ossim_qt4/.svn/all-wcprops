@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/ossim/!svn/ver/19410/trunk/ossim_qt4
+END
+ossim_qt4.pro
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/9467/trunk/ossim_qt4/ossim_qt4.pro
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/15479/trunk/ossim_qt4/Doxyfile
+END
+makedefs.pri
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/15332/trunk/ossim_qt4/makedefs.pri
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/11230/trunk/ossim_qt4/README.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/18478/trunk/ossim_qt4/CMakeLists.txt
+END

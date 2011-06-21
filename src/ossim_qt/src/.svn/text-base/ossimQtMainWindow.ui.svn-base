@@ -1,0 +1,1233 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtMainWindow</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>ossimQtMainWindow</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>683</width>
+            <height>665</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Imagelinker</string>
+    </property>
+    <property name="acceptDrops">
+        <bool>true</bool>
+    </property>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>menubar</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>683</width>
+            <height>33</height>
+        </rect>
+    </property>
+    <item text="&amp;File" name="fileMenu">
+        <separator/>
+        <action name="layerOpenFileAction"/>
+        <separator/>
+        <action name="projectOpenAction"/>
+        <action name="projectCloseAction"/>
+        <action name="projectNewAction"/>
+        <action name="projectSaveAction"/>
+        <action name="projectSaveAsAction"/>
+        <separator/>
+        <action name="projectPreferencesAction"/>
+        <separator/>
+        <action name="projectExitAction"/>
+    </item>
+    <item text="&amp;Layer" name="PopupMenu">
+        <action name="layerManager"/>
+        <separator/>
+        <action name="layerImportImageFileAction"/>
+        <separator/>
+        <action name="layerHistogramMatchAction"/>
+        <action name="layerCombineAction"/>
+        <item text="Combine" name="layerCombineMenu" accel="">
+            <action name="layerCombineMosaicAction"/>
+            <action name="layerCombineBlendAction"/>
+            <action name="layerCombineFeatherAction"/>
+            <action name="layerCombineBandMergeAction"/>
+            <action name="layerCombineOrthoAction"/>
+            <action name="layerCombinerMaxAction"/>
+            <action name="layerCombinerClosestPtAction"/>
+            <action name="layerCombinerTwoColorViewAction"/>
+            <action name="layerCombinerFactoryAction"/>
+        </item>
+        <action name="layerFusionAction"/>
+        <item text="Fusion" name="layerFusionMenu" accel="">
+            <action name="layerFusionColorNormalizedAction"/>
+            <action name="layerFusionLocalCorrelationAction"/>
+            <action name="layerFusionSFIMAction"/>
+        </item>
+        <action name="layerCorrectionAction"/>
+        <item text="Correction" name="layerCorrectionMenu" accel="">
+            <action name="layerCorrectionAtmosphericCorrectionAction"/>
+            <action name="layerCorrectionTopographicAction"/>
+        </item>
+        <action name="layerElevationAction"/>
+        <item text="Elevation" name="layerElevationMenu" accel="">
+            <action name="layerElevationHillShadeAction"/>
+            <action name="layerElevationNormalsAction"/>
+        </item>
+    </item>
+    <item text="Vce" name="PopupMenu_4">
+        <action name="vceNewChainAction"/>
+        <action name="vceComponentDialogAction"/>
+    </item>
+    <item text="&amp;Utilities" name="PopupMenu_5">
+        <action name="utilitiesDatumConverterAction"/>
+        <action name="utilitiesElevationManagerAction"/>
+        <action name="utilitiesUnitConverterAction"/>
+        <action name="utilitiesGeometry_BuilderAction"/>
+    </item>
+    <item text="&amp;Window" name="PopupMenu_2">
+        <action name="windowCascade"/>
+        <action name="windowTile"/>
+        <action name="windowMinimizeAll"/>
+        <action name="windowRestoreAllAction"/>
+        <action name="windowMaximize"/>
+        <separator/>
+        <action name="windowRefreshAllAction"/>
+        <action name="windowCloseAll"/>
+    </item>
+    <item text="&amp;Help" name="helpMenu">
+        <action name="helpContentsAction"/>
+        <action name="helpIndexAction"/>
+        <separator/>
+        <action name="helpAboutAction"/>
+    </item>
+</menubar>
+<toolbars>
+</toolbars>
+<actions>
+    <action>
+        <property name="name">
+            <cstring>projectOpenAction</cstring>
+        </property>
+        <property name="toggleAction">
+            <bool>false</bool>
+        </property>
+        <property name="on">
+            <bool>false</bool>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Open Project</string>
+        </property>
+        <property name="menuText">
+            <string>Open Project...</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>projectSaveAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Save Project</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Save Project</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+S</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>projectSaveAsAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>Save As</string>
+        </property>
+        <property name="menuText">
+            <string>Save &amp;Project As...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>projectExitAction</cstring>
+        </property>
+        <property name="text">
+            <string>Exit</string>
+        </property>
+        <property name="menuText">
+            <string>E&amp;xit</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editUndoAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Undo</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Undo</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Z</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editRedoAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Redo</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Redo</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Y</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editCutAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Cut</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Cut</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+X</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editCopyAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Copy</string>
+        </property>
+        <property name="menuText">
+            <string>C&amp;opy</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+C</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editPasteAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Paste</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Paste</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+V</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editFindAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Find</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Find...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+F</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpContentsAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Contents</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Contents...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpIndexAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Index</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Index...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpAboutAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>About</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;About</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>windowCascade</cstring>
+        </property>
+        <property name="text">
+            <string>Cascade</string>
+        </property>
+        <property name="menuText">
+            <string>Cascade</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>windowTile</cstring>
+        </property>
+        <property name="text">
+            <string>Tile</string>
+        </property>
+        <property name="menuText">
+            <string>Tile</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>windowMinimizeAll</cstring>
+        </property>
+        <property name="text">
+            <string>Minimize all</string>
+        </property>
+        <property name="menuText">
+            <string>Minimize all</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>windowCloseAll</cstring>
+        </property>
+        <property name="text">
+            <string>Close all</string>
+        </property>
+        <property name="menuText">
+            <string>Close all</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>windowMaximize</cstring>
+        </property>
+        <property name="text">
+            <string>Maximize</string>
+        </property>
+        <property name="menuText">
+            <string>Maximize</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>utilitiesDatumConverterAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Datum converter</string>
+        </property>
+        <property name="menuText">
+            <string>Datum converter</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>utilitiesElevationManagerAction</cstring>
+        </property>
+        <property name="text">
+            <string>Elevation manager</string>
+        </property>
+        <property name="menuText">
+            <string>Elevation manager</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>utilitiesUnitConverterAction</cstring>
+        </property>
+        <property name="text">
+            <string>Unit converter</string>
+        </property>
+        <property name="menuText">
+            <string>Unit converter</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerImportImageFileAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Import image file...</string>
+        </property>
+        <property name="menuText">
+            <string>Import image file...</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerOpenFileAction</cstring>
+        </property>
+        <property name="text">
+            <string>&amp;Open Image</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Open Image...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+O</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>windowRestoreAllAction</cstring>
+        </property>
+        <property name="text">
+            <string>Restore all</string>
+        </property>
+        <property name="menuText">
+            <string>Restore all</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>windowRefreshAllAction</cstring>
+        </property>
+        <property name="text">
+            <string>Refresh all</string>
+        </property>
+        <property name="menuText">
+            <string>Refresh all</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerManager</cstring>
+        </property>
+        <property name="text">
+            <string>Manager</string>
+        </property>
+        <property name="menuText">
+            <string>Manager</string>
+        </property>
+    </action>
+    <actiongroup>
+        <property name="name">
+            <cstring>layerFusionActionGroup</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>Fusion</string>
+        </property>
+        <property name="menuText">
+            <string>Fusion</string>
+        </property>
+        <property name="usesDropDown">
+            <bool>true</bool>
+        </property>
+        <action>
+            <property name="name">
+                <cstring>layerFusionColorNormalizedAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Color normalized</string>
+            </property>
+            <property name="menuText">
+                <string>Color normalized</string>
+            </property>
+            <property name="toolTip">
+                <string>Color normalized fusion algorithm</string>
+            </property>
+        </action>
+    </actiongroup>
+    <actiongroup>
+        <property name="name">
+            <cstring>layerRadiometricCorrectionActionGroup</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>Correction</string>
+        </property>
+        <property name="menuText">
+            <string>Correction</string>
+        </property>
+        <property name="usesDropDown">
+            <bool>true</bool>
+        </property>
+        <action>
+            <property name="name">
+                <cstring>layerCorrectionAtmosphericCorrectionAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="enabled">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Atmospheric</string>
+            </property>
+            <property name="menuText">
+                <string>Atmospheric</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerCorrectionTopographicAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="enabled">
+                <bool>true</bool>
+            </property>
+            <property name="text">
+                <string>Topographic</string>
+            </property>
+            <property name="menuText">
+                <string>Topographic</string>
+            </property>
+        </action>
+    </actiongroup>
+    <action>
+        <property name="name">
+            <cstring>projectPreferencesAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>Preferences</string>
+        </property>
+        <property name="menuText">
+            <string>Preferences</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>projectNewAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>New Project</string>
+        </property>
+        <property name="menuText">
+            <string>New Project</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+N</string>
+        </property>
+    </action>
+    <actiongroup>
+        <property name="name">
+            <cstring>layerElevationActionGroup</cstring>
+        </property>
+        <property name="text">
+            <string>Elevation</string>
+        </property>
+        <property name="menuText">
+            <string>Elevation</string>
+        </property>
+        <property name="usesDropDown">
+            <bool>true</bool>
+        </property>
+        <action>
+            <property name="name">
+                <cstring>layerElevationHillShadeAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="enabled">
+                <bool>true</bool>
+            </property>
+            <property name="text">
+                <string>Hillshade</string>
+            </property>
+            <property name="menuText">
+                <string>Hillshade</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerElevationNormalsAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Normals</string>
+            </property>
+            <property name="menuText">
+                <string>Normals</string>
+            </property>
+        </action>
+    </actiongroup>
+    <action>
+        <property name="name">
+            <cstring>projectCloseAction</cstring>
+        </property>
+        <property name="text">
+            <string>&amp;Close Project</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Close Project</string>
+        </property>
+    </action>
+    <actiongroup>
+        <property name="name">
+            <cstring>layerCombineActionGroup</cstring>
+        </property>
+        <property name="text">
+            <string>Combine</string>
+        </property>
+        <property name="menuText">
+            <string>Combine</string>
+        </property>
+        <property name="usesDropDown">
+            <bool>true</bool>
+        </property>
+        <action>
+            <property name="name">
+                <cstring>layerCombineMosaicAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Mosaic</string>
+            </property>
+            <property name="menuText">
+                <string>Mosaic</string>
+            </property>
+            <property name="toolTip">
+                <string>Simple mosaic</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerCombineBlendAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Blend</string>
+            </property>
+            <property name="menuText">
+                <string>Blend</string>
+            </property>
+            <property name="toolTip">
+                <string>Blend</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerCombineFeatherAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Feather</string>
+            </property>
+            <property name="menuText">
+                <string>Feather</string>
+            </property>
+            <property name="toolTip">
+                <string>Feather</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerCombineBandMergeAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Merge bands</string>
+            </property>
+            <property name="menuText">
+                <string>Merge bands</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerCombineOrthoAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>true</bool>
+            </property>
+            <property name="text">
+                <string>Ortho</string>
+            </property>
+            <property name="menuText">
+                <string>Ortho</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerCombinerMaxAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Max</string>
+            </property>
+            <property name="menuText">
+                <string>Max</string>
+            </property>
+        </action>
+        <action>
+            <property name="name">
+                <cstring>layerCombinerFactoryAction</cstring>
+            </property>
+            <property name="toggleAction">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Factory...</string>
+            </property>
+            <property name="menuText">
+                <string>Factory...</string>
+            </property>
+        </action>
+    </actiongroup>
+    <action>
+        <property name="name">
+            <cstring>layerHistogramMatchAction</cstring>
+        </property>
+        <property name="text">
+            <string>Histogram match</string>
+        </property>
+        <property name="menuText">
+            <string>Histogram match</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>vceNewChainAction</cstring>
+        </property>
+        <property name="text">
+            <string>New chain</string>
+        </property>
+        <property name="menuText">
+            <string>New chain</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>vceComponentDialogAction</cstring>
+        </property>
+        <property name="text">
+            <string>Components</string>
+        </property>
+        <property name="menuText">
+            <string>Components</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerCombinerClosestPtAction</cstring>
+        </property>
+        <property name="text">
+            <string>will use the pixel closest to the center of the overlapping region</string>
+        </property>
+        <property name="menuText">
+            <string>Closest to center</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerCombinerTwoColorViewAction</cstring>
+        </property>
+        <property name="text">
+            <string>Will take two inputs and combine the channels</string>
+        </property>
+        <property name="menuText">
+            <string>Two color view</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerCombineAction</cstring>
+        </property>
+        <property name="text">
+            <string>Combine</string>
+        </property>
+        <property name="menuText">
+            <string>Combine</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerFusionAction</cstring>
+        </property>
+        <property name="text">
+            <string>Fusion</string>
+        </property>
+        <property name="menuText">
+            <string>Fusion</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerCorrectionAction</cstring>
+        </property>
+        <property name="text">
+            <string>Correction</string>
+        </property>
+        <property name="menuText">
+            <string>Correction</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerElevationAction</cstring>
+        </property>
+        <property name="text">
+            <string>Elevation</string>
+        </property>
+        <property name="menuText">
+            <string>Elevation</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerFusionLocalCorrelationAction</cstring>
+        </property>
+        <property name="text">
+            <string>Local Correlation</string>
+        </property>
+        <property name="menuText">
+            <string>Local Correlation</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>layerFusionSFIMAction</cstring>
+        </property>
+        <property name="text">
+            <string>SFIM</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>utilitiesGeometry_BuilderAction</cstring>
+        </property>
+        <property name="text">
+            <string>Geometry Builder</string>
+        </property>
+    </action>
+</actions>
+<connections>
+    <connection>
+        <sender>windowCascade</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>windowCascade_activated()</slot>
+    </connection>
+    <connection>
+        <sender>windowCascade</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>windowCascade_activated()</slot>
+    </connection>
+    <connection>
+        <sender>windowTile</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>windowTile_activated()</slot>
+    </connection>
+    <connection>
+        <sender>windowMinimizeAll</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>windowMinimizeAll_activated()</slot>
+    </connection>
+    <connection>
+        <sender>windowCloseAll</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>windowCloseAll_activated()</slot>
+    </connection>
+    <connection>
+        <sender>windowMaximize</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>ActionwindowMaximize_activated()</slot>
+    </connection>
+    <connection>
+        <sender>projectExitAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>projectExitAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>projectOpenAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>projectOpenAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>projectSaveAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>projectSaveAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>projectSaveAsAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>projectSaveAsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>utilitiesElevationManagerAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>utilitiesElevationManagerAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>utilitiesUnitConverterAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>utilitiesUnitConverterAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>utilitiesDatumConverterAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>utilitiesDatumConverterAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerImportImageFileAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerImportFileAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerOpenFileAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerOpenFileAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>windowRestoreAllAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>windowRestoreAllAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>windowRefreshAllAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>windowRefreshAllAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>ossimQtMainWindow</sender>
+        <signal>usesTextLabelChanged(bool)</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>ossimQtMainWindow_usesTextLabelChanged(bool)</slot>
+    </connection>
+    <connection>
+        <sender>layerManager</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerManager_activated()</slot>
+    </connection>
+    <connection>
+        <sender>projectNewAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>projectNewAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>projectCloseAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>projectCloseAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerFusionColorNormalizedAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerFusionColorNormalizedAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombineBandMergeAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombineBandMergeAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombineBlendAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombineBlendAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombineFeatherAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombineFeatherAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombineMosaicAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombineMosaicAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerElevationHillShadeAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerElevationHillShadeAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerElevationNormalsAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerElevationNormalsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCorrectionTopographicAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCorrectionTopographicAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombineOrthoAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombineOrthoAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerHistogramMatchAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerHistogramMatchAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>vceNewChainAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>vceNewChainAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>vceComponentDialogAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>vceComponentDialogAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>projectPreferencesAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>projectPreferencesAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>helpAboutAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>helpAboutActionActivated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombinerMaxAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombinerMaxActionActivated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombinerFactoryAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombinerFactoryActionActivated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombinerClosestPtAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombinerClosestPtAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerCombinerTwoColorViewAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerCombinerTwoColorViewAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerFusionLocalCorrelationAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerFusionLocalCorrelationAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>layerFusionSFIMAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>layerFusionSFIMAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>utilitiesGeometry_BuilderAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtMainWindow</receiver>
+        <slot>utilitiesGeometry_BuilderAction_activated()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in implementation">qapplication.h</include>
+    <include location="local" impldecl="in implementation">ossimQtMainWindowController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtMainWindow.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtMainWindowController;</forward>
+</forwards>
+<variables>
+    <variable>ossimQtMainWindowController *theController;</variable>
+</variables>
+<slots>
+    <slot>dragEnterEvent( QDragEnterEvent * event )</slot>
+    <slot>dropEvent( QDropEvent * event )</slot>
+    <slot>windowCascade_activated()</slot>
+    <slot>windowTile_activated()</slot>
+    <slot>windowMinimizeAll_activated()</slot>
+    <slot>windowCloseAll_activated()</slot>
+    <slot>ActionwindowMaximize_activated()</slot>
+    <slot>projectExitAction_activated()</slot>
+    <slot>projectOpenAction_activated()</slot>
+    <slot>projectSaveAction_activated()</slot>
+    <slot>projectSaveAsAction_activated()</slot>
+    <slot>projectNewAction_activated()</slot>
+    <slot>projectCloseAction_activated()</slot>
+    <slot>utilitiesElevationManagerAction_activated()</slot>
+    <slot>utilitiesUnitConverterAction_activated()</slot>
+    <slot>utilitiesDatumConverterAction_activated()</slot>
+    <slot>layerImportFileAction_activated()</slot>
+    <slot>layerCombineLayersAction_activated()</slot>
+    <slot>layerOpenFileAction_activated()</slot>
+    <slot>displayLayerAction_activated()</slot>
+    <slot>customEvent( QCustomEvent * evt )</slot>
+    <slot>windowRestoreAllAction_activated()</slot>
+    <slot>windowRefreshAllAction_activated()</slot>
+    <slot>ossimQtMainWindow_usesTextLabelChanged( bool )</slot>
+    <slot>layerManager_activated()</slot>
+    <slot>layerFusionColorNormalizedAction_activated()</slot>
+    <slot>layerFusionLocal_CorrelationAction_activated()</slot>
+    <slot>layerCombineBandMergeAction_activated()</slot>
+    <slot>layerCombineBlendAction_activated()</slot>
+    <slot>layerCombineFeatherAction_activated()</slot>
+    <slot>layerCombineMosaicAction_activated()</slot>
+    <slot>layerCombineOrthoAction_activated()</slot>
+    <slot>layerElevationHillShadeAction_activated()</slot>
+    <slot>layerElevationNormalsAction_activated()</slot>
+    <slot>layerCorrectionTopographicAction_activated()</slot>
+    <slot>layerHistogramMatchAction_activated()</slot>
+    <slot>vceNewChainAction_activated()</slot>
+    <slot>vceComponentDialogAction_activated()</slot>
+    <slot>projectPreferencesAction_activated()</slot>
+    <slot>helpAboutActionActivated()</slot>
+    <slot>layerCombinerMaxActionActivated()</slot>
+    <slot>layerCombinerFactoryActionActivated()</slot>
+    <slot>layerCombinerClosestPtAction_activated()</slot>
+    <slot>layerCombinerTwoColorViewAction_activated()</slot>
+    <slot>layerFusionLocalCorrelationAction_activated()</slot>
+    <slot>layerFusionSFIMAction_activated()</slot>
+    <slot>utilitiesGeometry_BuilderAction_activated()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function access="private" specifier="non virtual">init()</function>
+    <function returnType="ossimQtMainWindowController *">getController()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

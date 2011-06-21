@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe
+END
+Gpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Gpt.h
+END
+newmatrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatrm.h
+END
+Exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Exception.h
+END
+PositionQualityEvaluator.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/PositionQualityEvaluator.h
+END
+Matrix3x3.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Matrix3x3.h
+END
+newmatExcept.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatExcept.h
+END
+Matrix4x4.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Matrix4x4.h
+END
+ColumnVector4d.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/ColumnVector4d.h
+END
+Datum.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Datum.h
+END
+newmatap.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatap.h
+END
+LsrSpace.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/LsrSpace.h
+END
+EcefPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/EcefPoint.h
+END
+newmatio.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatio.h
+END
+newmatControlw.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatControlw.h
+END
+LsrVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/LsrVector.h
+END
+Ellipsoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Ellipsoid.h
+END
+Common.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Common.h
+END
+newmat.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmat.h
+END
+newmatInclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatInclude.h
+END
+DatumFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/DatumFactory.h
+END
+newmatPrecision.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatPrecision.h
+END
+Wgs84Datum.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Wgs84Datum.h
+END
+ColumnVector3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/ColumnVector3d.h
+END
+LsrPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/LsrPoint.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Constants.h
+END
+EllipsoidFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/EllipsoidFactory.h
+END
+Dpt3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Dpt3d.h
+END
+EcefRay.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/EcefRay.h
+END
+newmatrc.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatrc.h
+END
+ThreeParamDatum.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/ThreeParamDatum.h
+END
+Quaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Quaternion.h
+END
+EcefVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/EcefVector.h
+END
+newmatnl.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatnl.h
+END
+Dpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/Dpt.h
+END
+newmatSolution.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/12999/trunk/pqe/include/pqe/newmatSolution.h
+END

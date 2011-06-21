@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/16386/trunk/ossim/makefiles/solaris
+END
+makeroot
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/16386/trunk/ossim/makefiles/solaris/makeroot
+END
+makelib
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/12268/trunk/ossim/makefiles/solaris/makelib
+END
+makeprog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/9143/trunk/ossim/makefiles/solaris/makeprog
+END
+makelibcore
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/13689/trunk/ossim/makefiles/solaris/makelibcore
+END

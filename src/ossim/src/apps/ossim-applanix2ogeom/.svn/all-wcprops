@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-applanix2ogeom
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15125/trunk/ossim/src/apps/ossim-applanix2ogeom/makefile.vc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-applanix2ogeom/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15125/trunk/ossim/src/apps/ossim-applanix2ogeom/Makefile
+END
+ossim-applanix2ogeom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/15125/trunk/ossim/src/apps/ossim-applanix2ogeom/ossim-applanix2ogeom.cpp
+END

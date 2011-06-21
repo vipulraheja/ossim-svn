@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/13368/trunk/oms/joms/src/org/ossim/oms/imageio
+END
+OSSIMImageReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/13368/trunk/oms/joms/src/org/ossim/oms/imageio/OSSIMImageReader.java
+END
+OSSIMRenderedImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/11685/trunk/oms/joms/src/org/ossim/oms/imageio/OSSIMRenderedImage.java
+END
+OSSIMImageWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/13368/trunk/oms/joms/src/org/ossim/oms/imageio/OSSIMImageWriter.java
+END

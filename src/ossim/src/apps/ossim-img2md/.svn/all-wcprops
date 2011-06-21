@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-img2md
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15174/trunk/ossim/src/apps/ossim-img2md/makefile.vc
+END
+ossim-img2md.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15174/trunk/ossim/src/apps/ossim-img2md/ossim-img2md.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-img2md/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/15174/trunk/ossim/src/apps/ossim-img2md/Makefile
+END

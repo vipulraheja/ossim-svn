@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/13970/trunk/ossim_plugins/nitro
+END
+ossimNitroImageHandlerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/13954/trunk/ossim_plugins/nitro/ossimNitroImageHandlerFactory.cpp
+END
+ossimNitroHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/13970/trunk/ossim_plugins/nitro/ossimNitroHandler.cpp
+END
+ossimNitroImageHandlerFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/13954/trunk/ossim_plugins/nitro/ossimNitroImageHandlerFactory.h
+END
+ossimNitroHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/13968/trunk/ossim_plugins/nitro/ossimNitroHandler.h
+END
+ossimNitroPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/13969/trunk/ossim_plugins/nitro/ossimNitroPluginInit.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/13954/trunk/ossim_plugins/nitro/Makefile
+END

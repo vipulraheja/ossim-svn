@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+#
+# Author:  David Burken
+#
+# Description:
+#
+# Script to check a svn workspace and return whatsout.
+#
+# $Id$
+
+
+###
+# Use the "svn status" command and stuff the output to an array.
+###
+$command = "svn status";
+
+# print("$command\n");
+@output = `$command`;
+
+###
+# Parse the output and print any files that have been modified.
+###
+foreach $line (@output)	
+{
+   chop ($line);
+   if($line =~ /^M /)
+   {
+      $line =~ s/M //;
+      print ("$line\n");
+   }
+}
+
+exit 0;

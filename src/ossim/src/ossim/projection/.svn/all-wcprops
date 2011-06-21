@@ -1,0 +1,545 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/projection
+END
+ossimEpsgProjectionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17892/trunk/ossim/src/ossim/projection/ossimEpsgProjectionFactory.cpp
+END
+ossimNitfProjectionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/18905/trunk/ossim/src/ossim/projection/ossimNitfProjectionFactory.cpp
+END
+ossimAffineProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/projection/ossimAffineProjection.cpp
+END
+ossimOrthoGraphicProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimOrthoGraphicProjection.cpp
+END
+ossimSonomaSensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17941/trunk/ossim/src/ossim/projection/ossimSonomaSensor.cpp
+END
+ossimNewZealandMapGridProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimNewZealandMapGridProjection.cpp
+END
+ossimPolynomProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/projection/ossimPolynomProjection.cpp
+END
+ossimSpot5Model.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19658/trunk/ossim/src/ossim/projection/ossimSpot5Model.cpp
+END
+ossimPolarStereoProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimPolarStereoProjection.cpp
+END
+ossimBonneProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimBonneProjection.cpp
+END
+ossimEckert4Projection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimEckert4Projection.cpp
+END
+ossimEckert6Projection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimEckert6Projection.cpp
+END
+ossimLambertConformalConicProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/19640/trunk/ossim/src/ossim/projection/ossimLambertConformalConicProjection.cpp
+END
+ossimProjectionViewControllerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/9963/trunk/ossim/src/ossim/projection/ossimProjectionViewControllerFactory.cpp
+END
+ossimCoarseGridModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19457/trunk/ossim/src/ossim/projection/ossimCoarseGridModel.cpp
+END
+ossimBngProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimBngProjection.cpp
+END
+ossimVanDerGrintenProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimVanDerGrintenProjection.cpp
+END
+ossimSensorModelTuple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/12582/trunk/ossim/src/ossim/projection/ossimSensorModelTuple.cpp
+END
+ossimRpcModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19594/trunk/ossim/src/ossim/projection/ossimRpcModel.cpp
+END
+ossimAlbersProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimAlbersProjection.cpp
+END
+ossimSarModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/projection/ossimSarModel.cpp
+END
+ossimWarpProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/projection/ossimWarpProjection.cpp
+END
+ossimMapViewController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/projection/ossimMapViewController.cpp
+END
+ossimNitfMapModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17502/trunk/ossim/src/ossim/projection/ossimNitfMapModel.cpp
+END
+ossimEpsgProjectionDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/projection/ossimEpsgProjectionDatabase.cpp
+END
+ossimBuckeyeSensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16174/trunk/ossim/src/ossim/projection/ossimBuckeyeSensor.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/8241/trunk/ossim/src/ossim/projection/.cvsignore
+END
+ossimTransMercatorProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimTransMercatorProjection.cpp
+END
+ossimBilinearProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/projection/ossimBilinearProjection.cpp
+END
+ossimSensorModelFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/projection/ossimSensorModelFactory.cpp
+END
+ossimApplanixUtmModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/projection/ossimApplanixUtmModel.cpp
+END
+ossimPolarst.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimPolarst.c
+END
+ossimNitfRpcModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/16643/trunk/ossim/src/ossim/projection/ossimNitfRpcModel.cpp
+END
+ossimMapProjectionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/13025/trunk/ossim/src/ossim/projection/ossimMapProjectionInfo.cpp
+END
+ossimCylEquAreaProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimCylEquAreaProjection.cpp
+END
+ossimAzimEquDistProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimAzimEquDistProjection.cpp
+END
+ossimSinusoid.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimSinusoid.c
+END
+ossimProjectionFactoryBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/projection/ossimProjectionFactoryBase.cpp
+END
+ossimMapProjectionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimMapProjectionFactory.cpp
+END
+ossimFcsiModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/13005/trunk/ossim/src/ossim/projection/ossimFcsiModel.cpp
+END
+ossimSinusoidalProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimSinusoidalProjection.cpp
+END
+ossimSkyBoxLearSensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19434/trunk/ossim/src/ossim/projection/ossimSkyBoxLearSensor.cpp
+END
+ossimLensDistortion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15929/trunk/ossim/src/ossim/projection/ossimLensDistortion.cpp
+END
+ossimEquDistCylProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/19654/trunk/ossim/src/ossim/projection/ossimEquDistCylProjection.cpp
+END
+ossimLlxyProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/19651/trunk/ossim/src/ossim/projection/ossimLlxyProjection.cpp
+END
+ossimCassiniProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimCassiniProjection.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/17687/trunk/ossim/src/ossim/projection/makefile.vc
+END
+ossimStereographicProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimStereographicProjection.cpp
+END
+ossimPositionQualityEvaluator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/12771/trunk/ossim/src/ossim/projection/ossimPositionQualityEvaluator.cpp
+END
+ossimTransCylEquAreaProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimTransCylEquAreaProjection.cpp
+END
+ossimImageViewTransformFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/9963/trunk/ossim/src/ossim/projection/ossimImageViewTransformFactory.cpp
+END
+ossimQuickbirdRpcModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17932/trunk/ossim/src/ossim/projection/ossimQuickbirdRpcModel.cpp
+END
+ossimUtm.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimUtm.c
+END
+ossimGnomonicProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimGnomonicProjection.cpp
+END
+ossimImageViewProjectionTransform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/18990/trunk/ossim/src/ossim/projection/ossimImageViewProjectionTransform.cpp
+END
+ossimSpaceObliqueMercatorProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimSpaceObliqueMercatorProjection.cpp
+END
+ossimLandSatModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/14048/trunk/ossim/src/ossim/projection/ossimLandSatModel.cpp
+END
+ossimUps.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimUps.c
+END
+ossimStatePlaneProjectionInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimStatePlaneProjectionInfo.cpp
+END
+ossimUtmpt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/10058/trunk/ossim/src/ossim/projection/ossimUtmpt.cpp
+END
+ossimUpspt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9963/trunk/ossim/src/ossim/projection/ossimUpspt.cpp
+END
+ossimProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/projection/ossimProjection.cpp
+END
+ossimOptimizableProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/11303/trunk/ossim/src/ossim/projection/ossimOptimizableProjection.cpp
+END
+ossimRpcSolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/18960/trunk/ossim/src/ossim/projection/ossimRpcSolver.cpp
+END
+ossimRadialDecentLensDistortion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/projection/ossimRadialDecentLensDistortion.cpp
+END
+ossimMiscProjectionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17623/trunk/ossim/src/ossim/projection/ossimMiscProjectionFactory.cpp
+END
+ossimRpcProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/projection/ossimRpcProjection.cpp
+END
+ossimQuadProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/projection/ossimQuadProjection.cpp
+END
+ossimIkonosRpcModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/16867/trunk/ossim/src/ossim/projection/ossimIkonosRpcModel.cpp
+END
+ossimObliqueMercatorProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimObliqueMercatorProjection.cpp
+END
+ossimSensorModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19438/trunk/ossim/src/ossim/projection/ossimSensorModel.cpp
+END
+ossimPolyconicProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimPolyconicProjection.cpp
+END
+ossimProjectionFactoryRegistry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/19045/trunk/ossim/src/ossim/projection/ossimProjectionFactoryRegistry.cpp
+END
+ossimMeanRadialLensDistortion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/15929/trunk/ossim/src/ossim/projection/ossimMeanRadialLensDistortion.cpp
+END
+ossimImageProjectionModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17932/trunk/ossim/src/ossim/projection/ossimImageProjectionModel.cpp
+END
+ossimUtmProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19653/trunk/ossim/src/ossim/projection/ossimUtmProjection.cpp
+END
+ossimUpsProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimUpsProjection.cpp
+END
+ossimMgrs.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/projection/ossimMgrs.c
+END
+ossimMollweidProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimMollweidProjection.cpp
+END
+ossimMercatorProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimMercatorProjection.cpp
+END
+ossimImageViewTransform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/18998/trunk/ossim/src/ossim/projection/ossimImageViewTransform.cpp
+END
+ossimMapProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19655/trunk/ossim/src/ossim/projection/ossimMapProjection.cpp
+END
+ossimTranmerc.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/projection/ossimTranmerc.c
+END
+ossimSmacCallibrationSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/15946/trunk/ossim/src/ossim/projection/ossimSmacCallibrationSystem.cpp
+END
+ossimCadrgProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimCadrgProjection.cpp
+END
+ossimAdjMapModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/projection/ossimAdjMapModel.cpp
+END
+ossimTiffProjectionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17108/trunk/ossim/src/ossim/projection/ossimTiffProjectionFactory.cpp
+END
+ossimApplanixEcefModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/projection/ossimApplanixEcefModel.cpp
+END
+ossimMillerProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/17815/trunk/ossim/src/ossim/projection/ossimMillerProjection.cpp
+END
+ossimImageViewAffineTransform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/18999/trunk/ossim/src/ossim/projection/ossimImageViewAffineTransform.cpp
+END

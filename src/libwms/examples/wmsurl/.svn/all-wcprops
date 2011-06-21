@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/7369/trunk/libwms/examples/wmsurl
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/7369/trunk/libwms/examples/wmsurl/GNUmakefile
+END
+wmsurl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/6576/trunk/libwms/examples/wmsurl/wmsurl.cpp
+END

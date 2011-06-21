@@ -1,0 +1,10 @@
+###
+# $Id$
+# Intentionally left blank for unix build.
+###
+
+all:
+
+depends:
+
+clean:

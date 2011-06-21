@@ -1,0 +1,17 @@
+//*******************************************************************
+//
+// License:  See top level LICENSE.txt file.
+//
+// Author:  Garrett Potts
+//
+// Description:
+//
+// Contains class declaration for ossimErrorContext.
+//*******************************************************************
+//  $Id$
+
+#ifndef ossimErrorContext_HEADER
+#define ossimErrorContext_HEADER
+
+#include <ossim/base/ossimNotifyContext.h>
+#endif

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Popup
+END
+FramedCloud.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Popup/FramedCloud.js
+END
+Framed.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Popup/Framed.js
+END
+AnchoredBubble.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Popup/AnchoredBubble.js
+END
+Anchored.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Popup/Anchored.js
+END

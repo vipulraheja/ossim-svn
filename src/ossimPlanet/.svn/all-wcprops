@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/ossim/!svn/ver/19702/trunk/ossimPlanet
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/9332/trunk/ossimPlanet/LICENSE.txt
+END
+AUTHORS.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/9332/trunk/ossimPlanet/AUTHORS.txt
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/17564/trunk/ossimPlanet/Doxyfile
+END
+GNUmakefile.old
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/17070/trunk/ossimPlanet/GNUmakefile.old
+END
+binds.act
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/10928/trunk/ossimPlanet/binds.act
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/11822/trunk/ossimPlanet/README.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/19024/trunk/ossimPlanet/CMakeLists.txt
+END

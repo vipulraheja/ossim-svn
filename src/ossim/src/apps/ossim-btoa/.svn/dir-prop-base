@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 52
+ossim-btoa.o
+ossim-btoa
+ossim-btoa.exe
+ossim-btoa.d
+
+END

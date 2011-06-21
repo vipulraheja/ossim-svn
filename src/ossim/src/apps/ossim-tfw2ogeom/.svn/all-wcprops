@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/17815/trunk/ossim/src/apps/ossim-tfw2ogeom
+END
+ossim-tfw2ogeom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17815/trunk/ossim/src/apps/ossim-tfw2ogeom/ossim-tfw2ogeom.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/15204/trunk/ossim/src/apps/ossim-tfw2ogeom/makefile.vc
+END
+template.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/15204/trunk/ossim/src/apps/ossim-tfw2ogeom/template.kwl
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-tfw2ogeom/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15204/trunk/ossim/src/apps/ossim-tfw2ogeom/Makefile
+END

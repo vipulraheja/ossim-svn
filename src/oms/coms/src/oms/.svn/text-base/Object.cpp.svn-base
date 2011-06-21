@@ -1,0 +1,19 @@
+//----------------------------------------------------------------------------
+// License:  See top level LICENSE.txt file.
+//
+// Author:  David Burken
+//
+// Description:  Base class for oms objects.
+//
+//----------------------------------------------------------------------------
+// $Id$
+
+#include <oms/Object.h>
+
+oms::Object::Object()
+{}
+
+oms::Object::~Object()
+{
+}
+

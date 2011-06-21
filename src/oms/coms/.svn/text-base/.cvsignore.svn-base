@@ -1,0 +1,2 @@
+*.o
+.shared_obj

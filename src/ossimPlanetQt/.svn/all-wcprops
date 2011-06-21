@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/19745/trunk/ossimPlanetQt
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12528/trunk/ossimPlanetQt/LICENSE.txt
+END
+ossimPlanetQt.pro
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/12713/trunk/ossimPlanetQt/ossimPlanetQt.pro
+END
+.gdb_history
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/9483/trunk/ossimPlanetQt/.gdb_history
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/18477/trunk/ossimPlanetQt/CMakeLists.txt
+END

@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 99
+autom4te.cache
+Makefile
+Makefile.common
+config.log
+config.cache
+config.status
+*.mak
+.emacs*
+*.obj
+
+
+K 13
+svn:mergeinfo
+V 93
+/branches/ossim-1_8_4/ossim:16755-16825
+/branches/ossim-1_8_4/ossim_plugins/ossim:16755-16825
+END

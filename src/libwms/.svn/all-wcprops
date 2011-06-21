@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/ossim/!svn/ver/17468/trunk/libwms
+END
+libwms.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/16032/trunk/libwms/libwms.vcproj
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/6576/trunk/libwms/LICENSE.txt
+END
+AUTHORS.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/9129/trunk/libwms/AUTHORS.txt
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/6576/trunk/libwms/Doxyfile
+END
+GNUmakefile.old
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/17071/trunk/libwms/GNUmakefile.old
+END
+libwms.sln
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/11029/trunk/libwms/libwms.sln
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/11732/trunk/libwms/README.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/17468/trunk/libwms/CMakeLists.txt
+END

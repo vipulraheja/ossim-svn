@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19753/trunk/ossim/src/apps/ossim-image-compare
+END
+ossim-image-compare.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19753/trunk/ossim/src/apps/ossim-image-compare/ossim-image-compare.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19753/trunk/ossim/src/apps/ossim-image-compare/CMakeLists.txt
+END

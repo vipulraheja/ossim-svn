@@ -1,0 +1,20 @@
+#---
+# File ossimjni/CMakeLists.txt
+# $Id$
+#---
+
+message("**************** begin ossimjni project cmake setup ****************")
+
+cmake_minimum_required(VERSION 2.8)
+
+project(ossimjni)
+
+include(OssimVersion)
+include(OssimUtilities)
+include(OssimCommonVariables)
+
+subdirs(cpp)
+
+OSSIM_ADD_COMMON_MAKE_UNINSTALL()
+
+message("**************** end ossimjni project cmake setup ****************")

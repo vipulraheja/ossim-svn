@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/elevation
+END
+ossimSrtmHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19444/trunk/ossim/src/ossim/elevation/ossimSrtmHandler.cpp
+END
+ossimElevManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19444/trunk/ossim/src/ossim/elevation/ossimElevManager.cpp
+END
+ossimImageElevationHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/19460/trunk/ossim/src/ossim/elevation/ossimImageElevationHandler.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/16135/trunk/ossim/src/ossim/elevation/makefile.vc
+END
+ossimElevCellHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17195/trunk/ossim/src/ossim/elevation/ossimElevCellHandler.cpp
+END
+ossimGeneralRasterElevationDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/18605/trunk/ossim/src/ossim/elevation/ossimGeneralRasterElevationDatabase.cpp
+END
+ossimTiledElevationDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/elevation/ossimTiledElevationDatabase.cpp
+END
+ossimGeneralRasterElevFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/16104/trunk/ossim/src/ossim/elevation/ossimGeneralRasterElevFactory.cpp
+END
+ossimElevationDatabaseFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/19561/trunk/ossim/src/ossim/elevation/ossimElevationDatabaseFactory.cpp
+END
+ossimElevationDatabaseRegistry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/16105/trunk/ossim/src/ossim/elevation/ossimElevationDatabaseRegistry.cpp
+END
+ossimElevSourceFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/elevation/ossimElevSourceFactory.cpp
+END
+ossimGeneralRasterElevHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/elevation/ossimGeneralRasterElevHandler.cpp
+END
+ossimDtedFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16104/trunk/ossim/src/ossim/elevation/ossimDtedFactory.cpp
+END
+ossimElevationDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19444/trunk/ossim/src/ossim/elevation/ossimElevationDatabase.cpp
+END
+ossimElevSource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17195/trunk/ossim/src/ossim/elevation/ossimElevSource.cpp
+END
+ossimDtedElevationDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17699/trunk/ossim/src/ossim/elevation/ossimDtedElevationDatabase.cpp
+END
+ossimSrtmFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16123/trunk/ossim/src/ossim/elevation/ossimSrtmFactory.cpp
+END
+ossimDtedHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17599/trunk/ossim/src/ossim/elevation/ossimDtedHandler.cpp
+END
+ossimImageElevationDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/19452/trunk/ossim/src/ossim/elevation/ossimImageElevationDatabase.cpp
+END
+ossimHgtRef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/17195/trunk/ossim/src/ossim/elevation/ossimHgtRef.cpp
+END
+ossimElevCellHandlerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/14800/trunk/ossim/src/ossim/elevation/ossimElevCellHandlerFactory.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/1758/trunk/ossim/src/ossim/elevation/.cvsignore
+END
+ossimSrtmElevationDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/18140/trunk/ossim/src/ossim/elevation/ossimSrtmElevationDatabase.cpp
+END

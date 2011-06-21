@@ -1,0 +1,411 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtIgenDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtIgenDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>602</width>
+            <height>229</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>image generator</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout10</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QButtonGroup">
+                    <property name="name">
+                        <cstring>theOutputImageButtonGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>output image</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>theOutputFileLineEdit</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>180</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="frameShape">
+                                <enum>LineEditPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                                <enum>Sunken</enum>
+                            </property>
+                            <property name="readOnly">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theOutputFilePushButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>...</string>
+                            </property>
+                            <property name="autoDefault">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QButtonGroup">
+                    <property name="name">
+                        <cstring>theOutputImageTypeButtonGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>output image type</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QComboBox">
+                            <property name="name">
+                                <cstring>theOutputTypeComboBox</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>180</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theEditWriterPushButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>edit writer</string>
+                            </property>
+                            <property name="autoDefault">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QButtonGroup">
+            <property name="name">
+                <cstring>buttonGroup7</cstring>
+            </property>
+            <property name="title">
+                <string>geometry</string>
+            </property>
+            <property name="alignment">
+                <set>AlignHCenter</set>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QButtonGroup">
+                    <property name="name">
+                        <cstring>theScaleButtonGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>scale</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>theGsdLineEdit</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>90</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QButtonGroup">
+                    <property name="name">
+                        <cstring>theLinesButtonGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>lines</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>theLinesLineEdit</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>90</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QButtonGroup">
+                    <property name="name">
+                        <cstring>theSamplesButtonGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>samples</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>theSamplesLineEdit</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>90</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theSceneRectPushButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>use scene rect</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout11</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>143</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theSaveSpecFilePushButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>save spec file only</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theRunIgenPushButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>save image</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>close</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>143</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>closeButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theOutputFilePushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>outputFilePushButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theSaveSpecFilePushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>saveSpecFilePushButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theRunIgenPushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>runIgenPushButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theGsdLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>gsdLineEditReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theLinesLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>linesLineEditReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theSamplesLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>samplesLineEditReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theOutputFileLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>outputFileLineEditReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theSceneRectPushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>sceneRectPushButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theEditWriterPushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>editWriterPushButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theOutputTypeComboBox</sender>
+        <signal>activated(const QString&amp;)</signal>
+        <receiver>ossimQtIgenDialog</receiver>
+        <slot>outputTypeComboBoxActivated(const QString&amp;)</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtIgenController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtScrollingImageWidget.h</include>
+    <include location="local" impldecl="in implementation">ossim/base/ossimImageTypeLut.h</include>
+    <include location="global" impldecl="in implementation">qfiledialog.h</include>
+    <include location="local" impldecl="in implementation">ossimQtIgenDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtIgenController;</forward>
+    <forward>class ossimQtScrollingImageWidget;</forward>
+    <forward>class ossimObject;</forward>
+</forwards>
+<variables>
+    <variable access="private">ossimQtIgenController* theController;</variable>
+    <variable access="public">ossimQtScrollingImageWidget* theImageWidget;</variable>
+</variables>
+<slots>
+    <slot>closeButtonClicked()</slot>
+    <slot>outputFilePushButtonClicked()</slot>
+    <slot>saveSpecFilePushButtonClicked()</slot>
+    <slot>runIgenPushButtonClicked()</slot>
+    <slot>gsdLineEditReturnPressed()</slot>
+    <slot>linesLineEditReturnPressed()</slot>
+    <slot>samplesLineEditReturnPressed()</slot>
+    <slot>outputFileLineEditReturnPressed()</slot>
+    <slot>sceneRectPushButtonClicked()</slot>
+    <slot>imageWidgetDestroyed()</slot>
+    <slot>editWriterPushButtonClicked()</slot>
+    <slot>outputTypeComboBoxActivated( const QString &amp; type )</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function>setImageWidget( ossimQtScrollingImageWidget * widget )</function>
+    <function>setView( const ossimObject * view )</function>
+    <function returnType="ossimQtIgenController *">controller()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

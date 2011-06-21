@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/19686/trunk/ossimPlanetQt/src/gui
+END
+ossimPlanetQtActivityItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19686/trunk/ossimPlanetQt/src/gui/ossimPlanetQtActivityItem.cpp
+END
+ossimPlanetQtVideoControlWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/12233/trunk/ossimPlanetQt/src/gui/ossimPlanetQtVideoControlWidget.cpp
+END
+ossimPlanetQtMainWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19686/trunk/ossimPlanetQt/src/gui/ossimPlanetQtMainWindow.cpp
+END
+ossimPlanetQtLegendItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/12591/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLegendItem.cpp
+END
+ossimPlanetQtLegendKmlItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/14877/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLegendKmlItem.cpp
+END
+ossimPlanetQtLegendNodeItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/13981/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLegendNodeItem.cpp
+END
+ossimPlanetQtActivityWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/10200/trunk/ossimPlanetQt/src/gui/ossimPlanetQtActivityWindow.cpp
+END
+ossimPlanetQtActivityThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/10426/trunk/ossimPlanetQt/src/gui/ossimPlanetQtActivityThread.cpp
+END
+ossimPlanetQtMessageLog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/12632/trunk/ossimPlanetQt/src/gui/ossimPlanetQtMessageLog.cpp
+END
+ossimPlanetQtWmsDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19686/trunk/ossimPlanetQt/src/gui/ossimPlanetQtWmsDialog.cpp
+END
+ossimPlanetQtDropDownDelegate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/11519/trunk/ossimPlanetQt/src/gui/ossimPlanetQtDropDownDelegate.cpp
+END
+ossimPlanetQtRuler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/16580/trunk/ossimPlanetQt/src/gui/ossimPlanetQtRuler.cpp
+END
+ossimPlanetQtLegendAnimationPathItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/12591/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLegendAnimationPathItem.cpp
+END
+ossimPlanetQtAboutDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/10910/trunk/ossimPlanetQt/src/gui/ossimPlanetQtAboutDialog.cpp
+END
+ossimPlanetQtLayerOperation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/14877/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLayerOperation.cpp
+END
+ossimPlanetQtLegend.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19479/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLegend.cpp
+END
+ossimPlanetQtLegendTextureItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15460/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLegendTextureItem.cpp
+END
+ossimPlanetQtActivityWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/13535/trunk/ossimPlanetQt/src/gui/ossimPlanetQtActivityWidget.cpp
+END
+ossimPlanetQtOperation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17210/trunk/ossimPlanetQt/src/gui/ossimPlanetQtOperation.cpp
+END
+ossimPlanetQtPreferences.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9542/trunk/ossimPlanetQt/src/gui/ossimPlanetQtPreferences.cpp
+END
+ossimPlanetQtApplication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/18061/trunk/ossimPlanetQt/src/gui/ossimPlanetQtApplication.cpp
+END
+ossimPlanetQtAlertLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/14908/trunk/ossimPlanetQt/src/gui/ossimPlanetQtAlertLayer.cpp
+END
+ossimPlanetQtLegendVideoItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17092/trunk/ossimPlanetQt/src/gui/ossimPlanetQtLegendVideoItem.cpp
+END
+ossimPlanetQtGlWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15920/trunk/ossimPlanetQt/src/gui/ossimPlanetQtGlWidget.cpp
+END
+ossimPlanetQtActivityThreadQueueItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/12843/trunk/ossimPlanetQt/src/gui/ossimPlanetQtActivityThreadQueueItem.cpp
+END
+ossimPlanetQtNewHttpConnection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/11557/trunk/ossimPlanetQt/src/gui/ossimPlanetQtNewHttpConnection.cpp
+END

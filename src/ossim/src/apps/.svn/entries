@@ -1,0 +1,300 @@
+10
+
+dir
+19757
+http://svn.osgeo.org/ossim/trunk/ossim/src/apps
+http://svn.osgeo.org/ossim
+
+
+
+2011-06-13T15:20:31.633026Z
+19753
+dburken
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b630af17-092b-0410-afba-a002956477a4
+
+ossim-create-histo
+dir
+
+ossim-rpf
+dir
+
+ossim-create-cg
+dir
+
+ossim-info
+dir
+
+ossim-extract-vertices
+dir
+
+makefile.vc
+file
+
+
+
+
+2011-06-18T16:54:23.000000Z
+1a2ebd099ace70f463237057a597e821
+2009-11-03T21:13:14.997326Z
+15844
+dburken
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5039
+
+ossim-orthoigen
+dir
+
+ossim-computeSrtmStats
+dir
+
+ossim-img2rr
+dir
+
+ossim-space-imaging
+dir
+
+ossim-dem
+dir
+
+ossim-image-compare
+dir
+
+ossim-chgkwval
+dir
+
+ossim-tfw2ogeom
+dir
+
+ossim-config.in
+file
+
+
+
+
+2011-06-18T16:54:23.000000Z
+790fec9e560c13288ea2f07bcea42fa4
+2005-08-08T15:13:31.000000Z
+7900
+gpotts
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+526
+
+ossim-icp
+dir
+
+ossim-mosaic
+dir
+
+ossim-cmm
+dir
+
+ossim-ogeom2ogeom
+dir
+
+ossim-img2md
+dir
+
+ossim-igen
+dir
+
+ossim-dms2deg
+dir
+
+ossim-deg2dms
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2011-06-18T16:54:23.000000Z
+5886c8a43d00c40e8f98562bedb7c16d
+2010-04-08T14:13:50.631598Z
+16971
+gpotts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+201
+
+.cvsignore
+file
+
+
+
+
+2011-06-18T16:54:23.000000Z
+f6af98b30e881a3cffb2fdd5f0c81c2e
+2005-10-21T21:30:52.000000Z
+8237
+dburken
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40
+
+ossim-prune
+dir
+
+ossim-pixelflip
+dir
+
+makefile.inc
+file
+
+
+
+
+2011-06-18T16:54:23.000000Z
+0ba24a8578212bece90953b6df12f720
+2008-05-08T19:44:45.957815Z
+12830
+dburken
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+890
+
+ossim-senint
+dir
+
+ossim-band-merge
+dir
+
+ossim-modopt
+dir
+
+ossim-ws-cmp
+dir
+
+ossim-rejout
+dir
+
+ossim-dump-ocg
+dir
+
+ossim-adrg-dump
+dir
+
+ossim-swapbytes
+dir
+
+ossim-applanix2ogeom
+dir
+
+ossim-btoa
+dir
+
+ossim-correl
+dir
+

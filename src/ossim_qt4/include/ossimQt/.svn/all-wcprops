@@ -1,0 +1,593 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/19100/trunk/ossim_qt4/include/ossimQt
+END
+ossimQtImageWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19088/trunk/ossim_qt4/include/ossimQt/ossimQtImageWindow.h
+END
+ossimQtImageChainEditorDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtImageChainEditorDialog.h
+END
+ossimQtSingleImageWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19064/trunk/ossim_qt4/include/ossimQt/ossimQtSingleImageWindow.h
+END
+ossimQtRLevelFilterDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtRLevelFilterDialog.h
+END
+ossimQtRoiAnnotator.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtRoiAnnotator.h
+END
+ossimQtEventIds.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtEventIds.h
+END
+ossimQtDatumConverterDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtDatumConverterDialog.h
+END
+ossimQtDataManagerDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtDataManagerDialog.h
+END
+ossimQtHistogramBuilderDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtHistogramBuilderDialog.h
+END
+ossimQtBandSelectorDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtBandSelectorDialog.h
+END
+ossimQtElevationManagerController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/16149/trunk/ossim_qt4/include/ossimQt/ossimQtElevationManagerController.h
+END
+ossimQtImageWindowControllerEventFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtImageWindowControllerEventFilter.h
+END
+ossimQtIgenController.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtIgenController.h
+END
+ossimQtLayerEditorController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtLayerEditorController.h
+END
+ossimQtApplicationUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtApplicationUtility.h
+END
+ossimQtPropertyMatrixItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyMatrixItem.h
+END
+ossimQtMatrixPropertyDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtMatrixPropertyDialog.h
+END
+ossimQtCombinerEditorDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtCombinerEditorDialogController.h
+END
+ossimQtMainWindowWorkspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtMainWindowWorkspace.h
+END
+ossimQtOverviewBuilderDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtOverviewBuilderDialog.h
+END
+ossimQtVectorEditorDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtVectorEditorDialogController.h
+END
+ossimQtAdjustableParameterDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtAdjustableParameterDialog.h
+END
+ossimQtImageChainEditorController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtImageChainEditorController.h
+END
+ossimQtPropertyDateItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyDateItem.h
+END
+ossimQtImagelinkerAboutDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15057/trunk/ossim_qt4/include/ossimQt/ossimQtImagelinkerAboutDialog.h
+END
+ossimQtInformationDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtInformationDialog.h
+END
+ossimQtBandSelectorController.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtBandSelectorController.h
+END
+ossimQtDataManagerListBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtDataManagerListBox.h
+END
+ossimQtSliderTableItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtSliderTableItem.h
+END
+ossimQtMatrixPropertyController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtMatrixPropertyController.h
+END
+ossimQWidgetFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQWidgetFactoryRegistry.h
+END
+ossimQtPropertyStringListItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyStringListItem.h
+END
+ossimQtStringListPropertyDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtStringListPropertyDialog.h
+END
+ossimQtStaticTileImageCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtStaticTileImageCache.h
+END
+ossimQtPositionQualityDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtPositionQualityDialog.h
+END
+ossimQtRoiRectAnnotator.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtRoiRectAnnotator.h
+END
+ossimQtMainWindow2.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/14072/trunk/ossim_qt4/include/ossimQt/ossimQtMainWindow2.h
+END
+ossimQtHsiRemapperDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtHsiRemapperDialog.h
+END
+ossimQtScrollImgWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtScrollImgWidget.h
+END
+ossimQtPluginsDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/13071/trunk/ossim_qt4/include/ossimQt/ossimQtPluginsDialog.h
+END
+ossimQtPropertyColorItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyColorItem.h
+END
+ossimQtPropertyBooleanItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyBooleanItem.h
+END
+ossimQtAdjustableParameterDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtAdjustableParameterDialogController.h
+END
+ossimQtQuadProjectionDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtQuadProjectionDialog.h
+END
+ossimQtPropertyDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/19100/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyDialogController.h
+END
+ossimQtPropertyListView.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyListView.h
+END
+ossimQtStringListPropertyController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtStringListPropertyController.h
+END
+ossimQtHistogramDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtHistogramDialog.h
+END
+ossimQtImageInfoDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtImageInfoDialog.h
+END
+ossimQtMainWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtMainWindowController.h
+END
+ossimQtPreferencesDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPreferencesDialog.h
+END
+ossimQtExport.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtExport.h
+END
+ossimQtHsiRemapperController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtHsiRemapperController.h
+END
+ossimQtProgressDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtProgressDialog.h
+END
+ossimQtEditorWidgetManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtEditorWidgetManager.h
+END
+ossimQtGeometryBuilderDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtGeometryBuilderDialogController.h
+END
+ossimQtTopographicCorrectionDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtTopographicCorrectionDialog.h
+END
+ossimQtUnitConverterDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtUnitConverterDialog.h
+END
+ossimQtQuadProjectionController.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtQuadProjectionController.h
+END
+ossimQtViewDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19066/trunk/ossim_qt4/include/ossimQt/ossimQtViewDialogController.h
+END
+ossimQtLayerChooser.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtLayerChooser.h
+END
+ossimQtAnnotatorBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtAnnotatorBase.h
+END
+ossimQtHistogramController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtHistogramController.h
+END
+ossimQtHistogramWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/12310/trunk/ossim_qt4/include/ossimQt/ossimQtHistogramWidget.h
+END
+ossimQtImageInfoController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtImageInfoController.h
+END
+ossimQtPropertyItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyItem.h
+END
+ossimQtPropertyDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19100/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyDialog.h
+END
+ossimQtPropertyFilenameItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyFilenameItem.h
+END
+ossimQtProject.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtProject.h
+END
+ossimQtBrightnessContrastDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtBrightnessContrastDialog.h
+END
+ossimQWidgetFactoryInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQWidgetFactoryInterface.h
+END
+ossimQtSwipeScrollingImageWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtSwipeScrollingImageWidget.h
+END
+ossimQtMainWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/14072/trunk/ossim_qt4/include/ossimQt/ossimQtMainWindow.h
+END
+ossimQtPropertyFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyFactory.h
+END
+ossimQtImageWindowController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/19066/trunk/ossim_qt4/include/ossimQt/ossimQtImageWindowController.h
+END
+ossimQtEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19064/trunk/ossim_qt4/include/ossimQt/ossimQtEvent.h
+END
+ossimQtGeometryBuilderDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtGeometryBuilderDialog.h
+END
+ossimQtLayerEditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtLayerEditor.h
+END
+ossimQtPreferencesDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPreferencesDialogController.h
+END
+ossimQtCombinerEditorDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtCombinerEditorDialog.h
+END
+ossimQtAboutDialogBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtAboutDialogBase.h
+END
+ossimQtPropertyNumericItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyNumericItem.h
+END
+ossimQtDisplayUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtDisplayUtility.h
+END
+ossimQtVectorEditorDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtVectorEditorDialog.h
+END
+ossimQtPropertyFontItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyFontItem.h
+END
+ossimQtPropertyStringItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyStringItem.h
+END
+ossimQtViewDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19066/trunk/ossim_qt4/include/ossimQt/ossimQtViewDialog.h
+END
+ossimQtIcpDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimQtIcpDialog.h
+END
+ossimQtTopographicCorrectionDialogController.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtTopographicCorrectionDialogController.h
+END
+ossimQtIviewAboutDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15057/trunk/ossim_qt4/include/ossimQt/ossimQtIviewAboutDialog.h
+END
+ossimQWidgetEditorFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQWidgetEditorFactory.h
+END
+ossimDataManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim_qt4/include/ossimQt/ossimDataManager.h
+END
+ossimQt4HistogramDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/12330/trunk/ossim_qt4/include/ossimQt/ossimQt4HistogramDialog.h
+END
+ossimQtElevationManagerDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/16149/trunk/ossim_qt4/include/ossimQt/ossimQtElevationManagerDialog.h
+END
+ossimQtIgenDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtIgenDialog.h
+END
+ossimQtScrollingImageWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19070/trunk/ossim_qt4/include/ossimQt/ossimQtScrollingImageWidget.h
+END
+ossimQtPropertyContainerItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyContainerItem.h
+END
+ossimQtPropertyTextItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/12140/trunk/ossim_qt4/include/ossimQt/ossimQtPropertyTextItem.h
+END

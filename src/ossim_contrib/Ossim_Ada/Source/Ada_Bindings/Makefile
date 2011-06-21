@@ -1,0 +1,8 @@
+OBJS= ossim_constants.ads ossim_common.ads dpt.adb drect.adb filterresampler.adb geopolygon.adb gpt.adb imagesourceinterface.adb init.adb ipt.adb irect.adb listener.adb listenermanager.adb listener-process.adb listener-process-progresspercent.adb listener-process-stdoutprogress.adb lookuptable.adb lookuptable-scalertypelut.adb ossim.adb ossim-connectable.adb ossim-connectable-source.adb ossim-connectable-source-image.adb ossim-connectable-source-image-combiner.adb ossim-connectable-source-image-combiner-mosaic.adb ossim-connectable-source-image-filter.adb ossim-connectable-source-image-filter-cachetilesource.adb ossim-connectable-source-image-filter-casttilesource.adb ossim-connectable-source-image-filter-polycutter.adb ossim-connectable-source-image-filter-polycutter-geo.adb ossim-connectable-source-image-filter-renderer.adb ossim-connectable-source-image-handler.adb ossim-connectable-source-image-handler-tifftilesource.adb ossim-connectable-source-metadata.adb ossim-connectable-source-metadata-writer.adb ossim-connectable-source-metadata-writer-file.adb ossim-connectable-source-metadata-writer-file-geom.adb ossim-connectable-source-metadata-writer-file-readme.adb ossim-connectable-source-output.adb ossim-connectable-source-output-imagewriter.adb ossim-connectable-source-output-imagewriter-file.adb ossim-data.adb ossim-data-rectilinear.adb ossim-data-rectilinear-image.adb ossim-factory.adb ossim-factory-imagewriter.adb ossimimagedatafactory.adb ossimkeywordlist.adb ossim-mapprojectioninfo.adb ossim-projection.adb ossim-projection-map.adb ossimrtti.adb ossimstring.adb ossimstring-filename.adb polygon.adb processinterface.adb 
+
+all:
+	gnatmake -g -c  ${OBJS} 
+	ar -r ../../libossimbindings.a *.o
+	ranlib ../../libossimbindings.a
+
+

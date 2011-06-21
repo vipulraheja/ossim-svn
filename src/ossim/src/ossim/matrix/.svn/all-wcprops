@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/15847/trunk/ossim/src/ossim/matrix
+END
+myexcept.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/15833/trunk/ossim/src/ossim/matrix/myexcept.cpp
+END
+nl_ex.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/3248/trunk/ossim/src/ossim/matrix/nl_ex.txt
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9232/trunk/ossim/src/ossim/matrix/makefile.vc
+END
+ms.mak
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/ms.mak
+END
+bandmat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/bandmat.cpp
+END
+ms_nt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/ms_nt.mak
+END
+sl_ex.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/3248/trunk/ossim/src/ossim/matrix/sl_ex.txt
+END
+bc.mak
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/bc.mak
+END
+bc32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/bc32.mak
+END
+gnu.mak
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/gnu.mak
+END
+watcom.mak
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/watcom.mak
+END
+cholesky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/cholesky.cpp
+END
+evalue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/evalue.cpp
+END
+newmatnl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/newmatnl.cpp
+END
+sort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/sort.cpp
+END
+newmat.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/newmat.txt
+END
+example.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/3248/trunk/ossim/src/ossim/matrix/example.txt
+END
+newfft.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/newfft.cpp
+END
+newmatrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/newmatrm.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/.cvsignore
+END
+watco_nt.mak
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/watco_nt.mak
+END
+cc.mak
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/2/trunk/ossim/src/ossim/matrix/cc.mak
+END
+test_exc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/3248/trunk/ossim/src/ossim/matrix/test_exc.txt
+END
+newmat1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/newmat1.cpp
+END
+solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/solution.cpp
+END
+newmat2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/newmat2.cpp
+END
+newmat3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/newmat3.cpp
+END
+newmat4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/newmat4.cpp
+END
+fft.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/fft.cpp
+END
+newmat5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/newmat5.cpp
+END
+newmat6.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/newmat6.cpp
+END
+newmat7.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/newmat7.cpp
+END
+newmat8.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/newmat8.cpp
+END
+newmat9.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/newmat9.cpp
+END
+hholder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12766/trunk/ossim/src/ossim/matrix/hholder.cpp
+END
+jacobi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/jacobi.cpp
+END
+newmatex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/15833/trunk/ossim/src/ossim/matrix/newmatex.cpp
+END
+submat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/submat.cpp
+END
+svd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/matrix/svd.cpp
+END

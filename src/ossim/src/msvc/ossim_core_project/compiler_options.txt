@@ -1,0 +1,2 @@
+/D_FILE_OFFSET_BITS=64 /D_LARGE_FILES /DMPI_SETTING=0 /DHAS_OPEN_
+THREADS=0 /DGEOTIFF_ENABLED /DGDAL_SETTING=1 /DFREETYPE_SETTING=0 /DHAVE_CONFIG_H /I..\..\packages\gdal\gcore /I..\..\packages\gdal\port /I..\..\packages\gdal\ogr /I..\..\packages\gdal\ogr\ogrsf_frmts /I..\..\packages\gdal\ogr\ogrsf_frmts\shape -I..\..\packages\gdal\frmts\gtiff\libgeotiff /I..\..\packages\gdal\frmts\iso8211 /I..\..\packages\gdal\frmts\gtiff\libtiff /I..\..\packages\gdal\frmts\shapelib \I..\..\ossim_core \I..\..

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/19721/trunk/ossim_plugins/liblas
+END
+ossimLibLasReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19721/trunk/ossim_plugins/liblas/ossimLibLasReaderFactory.h
+END
+ossimLibLasPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19721/trunk/ossim_plugins/liblas/ossimLibLasPluginInit.cpp
+END
+ossimLibLasReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19721/trunk/ossim_plugins/liblas/ossimLibLasReader.cpp
+END
+ossimLibLasReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19721/trunk/ossim_plugins/liblas/ossimLibLasReader.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19721/trunk/ossim_plugins/liblas/CMakeLists.txt
+END
+ossimLibLasReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19721/trunk/ossim_plugins/liblas/ossimLibLasReaderFactory.cpp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-chgkwval
+END
+ossim-chgkwval.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15135/trunk/ossim/src/apps/ossim-chgkwval/ossim-chgkwval.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/15135/trunk/ossim/src/apps/ossim-chgkwval/makefile.vc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-chgkwval/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15135/trunk/ossim/src/apps/ossim-chgkwval/Makefile
+END

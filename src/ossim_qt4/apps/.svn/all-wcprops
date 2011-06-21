@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/18487/trunk/ossim_qt4/apps
+END
+apps.pro
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/10322/trunk/ossim_qt4/apps/apps.pro
+END
+app.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/12001/trunk/ossim_qt4/apps/app.qrc
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/9467/trunk/ossim_qt4/apps/.cvsignore
+END

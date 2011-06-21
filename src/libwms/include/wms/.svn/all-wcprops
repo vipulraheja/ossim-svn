@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/11367/trunk/libwms/include/wms
+END
+iso8601.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/6576/trunk/libwms/include/wms/iso8601.h
+END
+wmsRefPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/7225/trunk/libwms/include/wms/wmsRefPtr.h
+END
+wmsReferenced.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/10083/trunk/libwms/include/wms/wmsReferenced.h
+END
+wmsUrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/8250/trunk/libwms/include/wms/wmsUrl.h
+END
+wmsMemoryStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/8231/trunk/libwms/include/wms/wmsMemoryStream.h
+END
+wmsCapabilitiesParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/8243/trunk/libwms/include/wms/wmsCapabilitiesParser.h
+END
+wmsNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/7596/trunk/libwms/include/wms/wmsNotify.h
+END
+wmsCapabilitiesState.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9565/trunk/libwms/include/wms/wmsCapabilitiesState.h
+END
+wmsCurlMemoryStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/10812/trunk/libwms/include/wms/wmsCurlMemoryStream.h
+END
+wmsCapabilitiesRoot.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9693/trunk/libwms/include/wms/wmsCapabilitiesRoot.h
+END
+wmsClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/11367/trunk/libwms/include/wms/wmsClient.h
+END
+wms.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/8246/trunk/libwms/include/wms/wms.h
+END
+wmsStyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/6576/trunk/libwms/include/wms/wmsStyle.h
+END
+wmsExport.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/6576/trunk/libwms/include/wms/wmsExport.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/18179/trunk/ossim/share/ossim
+END
+ossim_state_plane_readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16951/trunk/ossim/share/ossim/ossim_state_plane_readme.txt
+END
+ossim_harn_state_plane_epsg.csv
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17815/trunk/ossim/share/ossim/ossim_harn_state_plane_epsg.csv
+END
+ossim_state_plane_spcs.csv
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17816/trunk/ossim/share/ossim/ossim_state_plane_spcs.csv
+END
+ossim_harn_state_plane_esri.csv
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17816/trunk/ossim/share/ossim/ossim_harn_state_plane_esri.csv
+END
+ossim_epsg_projections-v7_4.csv
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/18179/trunk/ossim/share/ossim/ossim_epsg_projections-v7_4.csv
+END
+ossim_wkt_pcs.csv
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/17816/trunk/ossim/share/ossim/ossim_wkt_pcs.csv
+END

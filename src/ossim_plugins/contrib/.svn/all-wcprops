@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/19641/trunk/ossim_plugins/contrib
+END
+ossimContribPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9916/trunk/ossim_plugins/contrib/ossimContribPluginInit.cpp
+END
+ossimCFARFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/9916/trunk/ossim_plugins/contrib/ossimCFARFilter.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/16168/trunk/ossim_plugins/contrib/makefile.vc
+END
+ossimContribExports.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/9916/trunk/ossim_plugins/contrib/ossimContribExports.h
+END
+ossimContribImageSourceFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/10071/trunk/ossim_plugins/contrib/ossimContribImageSourceFactory.cpp
+END
+ossimSPOTNatural.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/16169/trunk/ossim_plugins/contrib/ossimSPOTNatural.cpp
+END
+ossimComplexAbs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/10108/trunk/ossim_plugins/contrib/ossimComplexAbs.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19641/trunk/ossim_plugins/contrib/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/10406/trunk/ossim_plugins/contrib/Makefile
+END
+ossimCFARFilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/13026/trunk/ossim_plugins/contrib/ossimCFARFilter.cpp
+END
+ossimContribImageSourceFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/9916/trunk/ossim_plugins/contrib/ossimContribImageSourceFactory.h
+END
+ossimSPOTNatural.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/10071/trunk/ossim_plugins/contrib/ossimSPOTNatural.h
+END
+ossimComplexAbs.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/10108/trunk/ossim_plugins/contrib/ossimComplexAbs.h
+END

@@ -1,0 +1,52 @@
+@INCLUDE_COMMON@
+DIRECTORIES=$(filter-out cvs CVS vce pathFinder histogramViewer fooApp foo toc_render utm2geo dumpocg icat pasta roadFind dtedChecker, $(wildcard *))
+
+# ---
+# To handle "for d in $(VAR);" expanding to  "for d in ;"
+# if no directories present and producing an error on sun os.
+# Substitute empty string with bogus string.
+# ---
+ifeq ($(strip $(DIRECTORIES)),)
+DIRECTORIES=BOGUS_DIR
+endif
+
+all: ossim-config
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) all) ; \
+		fi ; \
+	done ;
+
+depends:
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) depends) ; \
+		fi; \
+	done ;
+
+clean_depends:
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) clean_depends) ; \
+		fi ; \
+	done ;
+
+clean: 
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) clean) ; \
+		fi ; \
+	done ;
+
+ossim-config:	ossim-config.in ../../Makefile.common ./Makefile 
+	@rm -f ossim-config
+	@echo '#!/bin/sh' > ossim-config
+	@echo 'OSSIM_LIBS="$(OSSIM_APP_LINK)"' >> ossim-config
+	@echo 'OSSIM_CFLAGS="$(CFLAGS) $(BASE_DEFINES)"' >> ossim-config
+	@echo 'OSSIM_CPPFLAGS="$(CXXFLAGS) $(BASE_DEFINES)"' >> ossim-config
+	@echo 'OSSIM_PREFIX="$(prefix)"' >> ossim-config
+	@echo 'OSSIM_VERSION="$(OSSIM_VERSION)"' >> ossim-config
+	@echo 'OSSIM_INCLUDES="$(BASE_INCLUDES)"' >> ossim-config
+	@cat ossim-config.in >> ossim-config
+	@chmod a+x ossim-config
+

@@ -1,0 +1,23 @@
+###
+# $Id$
+#
+# Windows nmake make file.
+###
+OSSIM_ROOT	=	..\..\..
+!INCLUDE $(OSSIM_ROOT)\nmake.opt
+
+OBJ = \
+booleng.obj \
+graph.obj \
+graphlst.obj \
+line.obj \
+link.obj \
+lpoint.obj \
+node.obj \
+record.obj \
+scanbeam.obj
+
+default:	$(OBJ)
+
+clean:
+	$(RM) *.obj

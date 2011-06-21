@@ -1,0 +1,659 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings
+END
+ossim.adb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim.adb
+END
+ossimkeywordlist.adb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimkeywordlist.adb
+END
+ossim-factory-imagewriter.ads
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-factory-imagewriter.ads
+END
+ossimrtti.adb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimrtti.adb
+END
+ossim-data-rectilinear.adb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-data-rectilinear.adb
+END
+ossimstring.ads
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimstring.ads
+END
+ossim-connectable-source-metadata-writer-file-readme.adb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer-file-readme.adb
+END
+init.adb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/init.adb
+END
+geopolygon.ads
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/geopolygon.ads
+END
+ossim-connectable-source-metadata-writer-file.adb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer-file.adb
+END
+ossim-connectable-source-image-filter-renderer.adb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-renderer.adb
+END
+ossim.ads
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim.ads
+END
+ossimkeywordlist.ads
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimkeywordlist.ads
+END
+ossim-connectable-source-image-filter-polycutter.adb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-polycutter.adb
+END
+ossim-mapprojectioninfo.adb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-mapprojectioninfo.adb
+END
+ossimrtti.ads
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimrtti.ads
+END
+ossim-connectable-source-image-combiner.adb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-combiner.adb
+END
+listenermanager.adb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listenermanager.adb
+END
+ossim-data-rectilinear-image.adb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-data-rectilinear-image.adb
+END
+ossim-connectable-source-metadata.adb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata.adb
+END
+lookuptable.adb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/lookuptable.adb
+END
+ossim-data-rectilinear.ads
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-data-rectilinear.ads
+END
+ossim-connectable-source-image.adb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image.adb
+END
+ossim-connectable-source-metadata-writer-file-readme.ads
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer-file-readme.ads
+END
+init.ads
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/init.ads
+END
+dpt.adb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/dpt.adb
+END
+ossim-connectable-source-image-combiner-mosaic.adb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-combiner-mosaic.adb
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/Makefile
+END
+ossim-connectable-source-metadata-writer-file.ads
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer-file.ads
+END
+ossim-connectable-source-image-filter-renderer.ads
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-renderer.ads
+END
+ossim-factory.adb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-factory.adb
+END
+ossim-connectable-source-image-filter-polycutter.ads
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-polycutter.ads
+END
+processinterface.adb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/processinterface.adb
+END
+ossim-mapprojectioninfo.ads
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-mapprojectioninfo.ads
+END
+ossim-connectable-source-image-combiner.ads
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-combiner.ads
+END
+filterresampler.adb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/filterresampler.adb
+END
+listenermanager.ads
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listenermanager.ads
+END
+ossim-data-rectilinear-image.ads
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-data-rectilinear-image.ads
+END
+lookuptable.ads
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/lookuptable.ads
+END
+ossim-connectable-source-metadata.ads
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata.ads
+END
+ossim-connectable-source-image.ads
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image.ads
+END
+ossim-projection.adb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-projection.adb
+END
+ossim-connectable-source-image-filter-cachetilesource.adb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-cachetilesource.adb
+END
+listener-process-stdoutprogress.adb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener-process-stdoutprogress.adb
+END
+dpt.ads
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/dpt.ads
+END
+ossim-connectable-source-image-combiner-mosaic.ads
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-combiner-mosaic.ads
+END
+ossim-connectable-source-output-imagewriter.adb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-output-imagewriter.adb
+END
+lookuptable-scalertypelut.adb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/lookuptable-scalertypelut.adb
+END
+ossim-factory.ads
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-factory.ads
+END
+processinterface.ads
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/processinterface.ads
+END
+filterresampler.ads
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/filterresampler.ads
+END
+ossim_common.ads
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim_common.ads
+END
+imagesourceinterface.adb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/imagesourceinterface.adb
+END
+listener-process-progresspercent.adb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener-process-progresspercent.adb
+END
+ossim-projection.ads
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-projection.ads
+END
+ossim-connectable-source-image-filter-polycutter-geo.adb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-polycutter-geo.adb
+END
+ossim-connectable-source-image-filter-cachetilesource.ads
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-cachetilesource.ads
+END
+listener-process-stdoutprogress.ads
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener-process-stdoutprogress.ads
+END
+polygon.adb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/polygon.adb
+END
+ossim-connectable-source-metadata-writer.adb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer.adb
+END
+ossim-connectable-source-metadata-writer-file-geom.adb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer-file-geom.adb
+END
+ossim-connectable-source-image-filter-casttilesource.adb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-casttilesource.adb
+END
+ossim-connectable-source-image-handler.adb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-handler.adb
+END
+ossim-connectable-source-output-imagewriter.ads
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-output-imagewriter.ads
+END
+ossimstring-filename.adb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimstring-filename.adb
+END
+lookuptable-scalertypelut.ads
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/lookuptable-scalertypelut.ads
+END
+drect.adb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/drect.adb
+END
+ossim-connectable-source.adb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source.adb
+END
+imagesourceinterface.ads
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/imagesourceinterface.ads
+END
+listener-process-progresspercent.ads
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener-process-progresspercent.ads
+END
+irect.adb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/irect.adb
+END
+ossim-connectable-source-image-filter-polycutter-geo.ads
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-polycutter-geo.ads
+END
+ossim_constants.ads
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim_constants.ads
+END
+polygon.ads
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/polygon.ads
+END
+ossim-connectable-source-metadata-writer.ads
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer.ads
+END
+ossim-connectable-source-metadata-writer-file-geom.ads
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-metadata-writer-file-geom.ads
+END
+ossim-connectable-source-image-filter-casttilesource.ads
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter-casttilesource.ads
+END
+ossim-connectable-source-image-handler.ads
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-handler.ads
+END
+ossim-projection-map.adb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-projection-map.adb
+END
+ossimimagedatafactory.adb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimimagedatafactory.adb
+END
+ossimstring-filename.ads
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimstring-filename.ads
+END
+drect.ads
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/drect.ads
+END
+ossim-connectable-source-image-handler-tifftilesource.adb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-handler-tifftilesource.adb
+END
+ossim-connectable-source.ads
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source.ads
+END
+listener.adb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener.adb
+END
+irect.ads
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/irect.ads
+END
+gpt.adb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/gpt.adb
+END
+ossim-connectable-source-output-imagewriter-file.adb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-output-imagewriter-file.adb
+END
+ipt.adb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ipt.adb
+END
+ossim-projection-map.ads
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-projection-map.ads
+END
+ossimimagedatafactory.ads
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimimagedatafactory.ads
+END
+listener-process.adb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener-process.adb
+END
+ossim-connectable-source-output.adb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-output.adb
+END
+ossim-data.adb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-data.adb
+END
+ossim-connectable-source-image-handler-tifftilesource.ads
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-handler-tifftilesource.ads
+END
+ossim-connectable.adb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable.adb
+END
+ossim-connectable-source-image-filter.adb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter.adb
+END
+listener.ads
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener.ads
+END
+gpt.ads
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/gpt.ads
+END
+ossim-connectable-source-output-imagewriter-file.ads
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-output-imagewriter-file.ads
+END
+ossim-factory-imagewriter.adb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-factory-imagewriter.adb
+END
+ipt.ads
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ipt.ads
+END
+ossimstring.adb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossimstring.adb
+END
+geopolygon.adb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/geopolygon.adb
+END
+listener-process.ads
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/listener-process.ads
+END
+ossim-connectable-source-output.ads
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-output.ads
+END
+ossim-data.ads
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-data.ads
+END
+ossim-connectable.ads
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable.ads
+END
+ossim-connectable-source-image-filter.ads
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Source/Ada_Bindings/ossim-connectable-source-image-filter.ads
+END

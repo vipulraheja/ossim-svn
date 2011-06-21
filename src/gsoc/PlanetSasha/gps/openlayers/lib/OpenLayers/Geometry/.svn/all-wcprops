@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry
+END
+Curve.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/Curve.js
+END
+MultiPoint.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/MultiPoint.js
+END
+Rectangle.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/Rectangle.js
+END
+Polygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/Polygon.js
+END
+Surface.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/Surface.js
+END
+MultiLineString.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/MultiLineString.js
+END
+Point.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/Point.js
+END
+LinearRing.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/LinearRing.js
+END
+Collection.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/Collection.js
+END
+LineString.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/LineString.js
+END
+MultiPolygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Geometry/MultiPolygon.js
+END

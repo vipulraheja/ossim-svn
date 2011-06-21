@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/18521/trunk/oms/coms/test
+END
+omstest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/9821/trunk/oms/coms/test/omstest.cpp
+END
+oms-video-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/18505/trunk/oms/coms/test/oms-video-test.cpp
+END
+omsIcpTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/10407/trunk/oms/coms/test/omsIcpTest.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/10309/trunk/oms/coms/test/Makefile
+END
+oms-stage-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/18521/trunk/oms/coms/test/oms-stage-test.cpp
+END

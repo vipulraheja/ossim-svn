@@ -1,0 +1,8 @@
+GenXSequence.lo: GenXSequence.cpp GenXSequence.hpp PCodeConst.hpp \
+ mergePCodeWords.h
+
+GenXSequence.hpp:
+
+PCodeConst.hpp:
+
+mergePCodeWords.h:

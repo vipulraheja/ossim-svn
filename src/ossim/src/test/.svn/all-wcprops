@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/19757/trunk/ossim/src/test
+END
+ossim-remap-table-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-remap-table-test.cpp
+END
+ossim-point-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-point-test.cpp
+END
+ossim-threaded-app-tile-cache-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-threaded-app-tile-cache-test.cpp
+END
+ossim-info-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-info-test.cpp
+END
+ossim-histo-compare.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-histo-compare.cpp
+END
+ossim-thin-plate-spline-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-thin-plate-spline-test.cpp
+END
+ossim-elevation-manager-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-elevation-manager-test.cpp
+END
+ossim-xml-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-xml-test.cpp
+END
+ossim-image-chain-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-image-chain-test.cpp
+END
+ossim-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-test.cpp
+END
+ossim-epsg-factory-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-epsg-factory-test.cpp
+END
+ossim-threaded-elevation-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-threaded-elevation-test.cpp
+END
+ossim-string-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-string-test.cpp
+END
+ossim-foo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-foo.cpp
+END
+ossim-image-elevation-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-image-elevation-test.cpp
+END
+ossim-csv-file-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-csv-file-test.cpp
+END
+ossim-image-geometry-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-image-geometry-test.cpp
+END
+ossim-date-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-date-test.cpp
+END
+ossim-gsd-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-gsd-test.cpp
+END
+ossim-mask-filter-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-mask-filter-test.cpp
+END
+ossim-jobqueue-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-jobqueue-test.cpp
+END
+ossim-pixel-flipper-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-pixel-flipper-test.cpp
+END
+ossim-single-image-chain-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-single-image-chain-test.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/19755/trunk/ossim/src/test/CMakeLists.txt
+END
+ossim-lsr-space-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-lsr-space-test.cpp
+END
+ossim-gpt-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-gpt-test.cpp
+END
+ossim-image-writer-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-image-writer-test.cpp
+END
+ossim-image-handler-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-image-handler-test.cpp
+END
+ossim-get-pixel-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-get-pixel-test.cpp
+END
+ossim-visitor-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-visitor-test.cpp
+END
+ossim-notify-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-notify-test.cpp
+END
+ossim-datum-shift.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-datum-shift.cpp
+END
+ossim-ref-ptr-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19757/trunk/ossim/src/test/ossim-ref-ptr-test.cpp
+END
+ossim-keywordlist-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-keywordlist-test.cpp
+END
+ossim-filename-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-filename-test.cpp
+END
+ossim-projection-factory-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-projection-factory-test.cpp
+END
+ossim-batch-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-batch-test.cpp
+END
+ossim-tiff-info-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-tiff-info-test.cpp
+END
+ossim-duration-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-duration-test.cpp
+END
+ossim-tiled-elevation-test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19751/trunk/ossim/src/test/ossim-tiled-elevation-test.cpp
+END

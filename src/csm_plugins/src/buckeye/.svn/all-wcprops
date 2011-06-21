@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/17295/trunk/csm_plugins/src/buckeye
+END
+BuckeyeSensorModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16685/trunk/csm_plugins/src/buckeye/BuckeyeSensorModel.cpp
+END
+BuckeyeSMPlugin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/17295/trunk/csm_plugins/src/buckeye/BuckeyeSMPlugin.cpp
+END
+BuckeyeSensorModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17248/trunk/csm_plugins/src/buckeye/BuckeyeSensorModel.h
+END
+BuckeyeSMPlugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/17261/trunk/csm_plugins/src/buckeye/BuckeyeSMPlugin.h
+END

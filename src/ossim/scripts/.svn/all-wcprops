@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/14860/trunk/ossim/scripts
+END
+change_report
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/8172/trunk/ossim/scripts/change_report
+END
+icp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/7891/trunk/ossim/scripts/icp.sh
+END
+convert_headers.pl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/9088/trunk/ossim/scripts/convert_headers.pl
+END
+convert_headers_readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9089/trunk/ossim/scripts/convert_headers_readme.txt
+END
+orthoigen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/8065/trunk/ossim/scripts/orthoigen.sh
+END
+movecc2cpp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/4635/trunk/ossim/scripts/movecc2cpp.sh
+END
+igen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/7891/trunk/ossim/scripts/igen.sh
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/2/trunk/ossim/scripts/.cvsignore
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/14860/trunk/ossim/scripts/Makefile
+END
+ossim_environment
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/8012/trunk/ossim/scripts/ossim_environment
+END
+whatsout
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/11781/trunk/ossim/scripts/whatsout
+END

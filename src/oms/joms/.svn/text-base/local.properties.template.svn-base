@@ -1,0 +1,31 @@
+<!-- $Id$ -->
+
+<!-- 
+ *  This is a template.  Copy to "local.properties" and fill these out 
+ *  appropriately... 
+-->
+
+<!-- Uncomment and set if needed. -->
+<!-- OSSIM_DEV_HOME = /some_path_to_your_workspace -->
+
+<!-- Your path to java. -->
+<!-- Uncomment and set if needed. -->
+jdk.home=${env.JAVA_HOME}
+
+<!-- The top level of this module. -->
+oms.home=${env.OSSIM_DEV_HOME}/oms
+
+<!-- The name of this module. -->
+module.name=joms
+
+<!-- Home of ossim. -->
+ossim.home=${env.OSSIM_DEV_HOME}/ossim
+
+ossim.install_prefix=${env.OSSIM_INSTALL_PREFIX}
+ossim.build=${env.OSSIM_BUILD_DIR}/${env.OSSIM_BUILD_TYPE}
+ossim.dependencies=${env.OSSIM_DEPENDENCIES}
+
+
+<!-- Home of ossimPredator. -->
+predator.home=${env.OSSIM_DEV_HOME}/ossimPredator
+

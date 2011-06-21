@@ -1,0 +1,1007 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>ossimQtHsiRemapperDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtHsiRemapperDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>478</width>
+            <height>391</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>HSI Remapper Property Editor</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QButtonGroup">
+            <property name="name">
+                <cstring>theColorRangeButtonGroup</cstring>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>500</width>
+                    <height>50</height>
+                </size>
+            </property>
+            <property name="title">
+                <string></string>
+            </property>
+            <property name="alignment">
+                <set>AlignTop</set>
+            </property>
+            <property name="exclusive">
+                <bool>true</bool>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout1</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>theRedButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>red</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>theYellowButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>yellow</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>theGreenButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>green</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>theCyanButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>cyan</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>theBlueButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>blue</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>theMagentaButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>magenta</string>
+                            </property>
+                        </widget>
+                        <widget class="QRadioButton">
+                            <property name="name">
+                                <cstring>theAllButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>all</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout20</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="spacing">
+                    <number>8</number>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout18</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueOffsetLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>hue offset:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignLeft</set>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theHueOffsetSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="minValue">
+                                <number>-180</number>
+                            </property>
+                            <property name="maxValue">
+                                <number>180</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>60</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueOffsetValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter</set>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout17</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueLowRangeLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>hue low range:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignLeft</set>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theHueLowRangeSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="minValue">
+                                <number>-30</number>
+                            </property>
+                            <property name="maxValue">
+                                <number>30</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>10</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueLowRangeValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter</set>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout16</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueHighRangeLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>hue high range:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignLeft</set>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theHueHighRangeSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="minValue">
+                                <number>-30</number>
+                            </property>
+                            <property name="maxValue">
+                                <number>30</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>10</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueHighRangeValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter</set>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout19</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueBlendRangeLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>hue blend range:</string>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theHueBlendRangeSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maxValue">
+                                <number>30</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="value">
+                                <number>15</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>5</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHueBlendRangeValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout15</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theSaturationOffsetLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>saturation offset:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignLeft</set>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theSaturationOffsetSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="minValue">
+                                <number>-200</number>
+                            </property>
+                            <property name="maxValue">
+                                <number>200</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>40</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theSaturationOffsetValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout14</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theIntensityOffsetLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>intensity offset</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignLeft</set>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theIntensityOffsetSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="minValue">
+                                <number>-200</number>
+                            </property>
+                            <property name="maxValue">
+                                <number>200</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>40</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theIntensityOffsetValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout13</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theLowIntensityClipLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>low intensity clip:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignLeft</set>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theLowIntensityClipSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maxValue">
+                                <number>400</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>40</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theLowIntensityClipValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout12</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHighIntensityClipLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>high intensity clip:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignLeft</set>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theHighIntensityClipSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maxValue">
+                                <number>400</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="value">
+                                <number>400</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>40</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theHighIntensityClipValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout11</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theWhiteObjectClipLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>110</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>white object clip</string>
+                            </property>
+                        </widget>
+                        <widget class="QSlider">
+                            <property name="name">
+                                <cstring>theWhiteObjectClipSlider</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>290</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="minValue">
+                                <number>320</number>
+                            </property>
+                            <property name="maxValue">
+                                <number>400</number>
+                            </property>
+                            <property name="pageStep">
+                                <number>1</number>
+                            </property>
+                            <property name="value">
+                                <number>400</number>
+                            </property>
+                            <property name="tracking">
+                                <bool>false</bool>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="tickmarks">
+                                <enum>Right</enum>
+                            </property>
+                            <property name="tickInterval">
+                                <number>8</number>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>theWhiteObjectClipValueLabel</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>40</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>0</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="Line">
+            <property name="name">
+                <cstring>line1</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout10</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QCheckBox">
+                    <property name="name">
+                        <cstring>theEnableButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>enable</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theResetGroupButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>reset group</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theResetAllGroup</cstring>
+                    </property>
+                    <property name="text">
+                        <string>reset all</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theRedButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>redButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theYellowButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>yellowButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theGreenButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>greenButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theCyanButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>cyanButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theBlueButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>blueButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMagentaButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>magentaButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAllButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>allButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theHueOffsetSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>hueOffsetValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theHueLowRangeSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>hueLowRangeValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theHueHighRangeSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>hueHighRangeValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theSaturationOffsetSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>saturationOffsetValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theIntensityOffsetSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>intensityOffsetValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theLowIntensityClipSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>lowIntensityClipValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theEnableButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>enableButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theResetGroupButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>resetGroupButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theResetAllGroup</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>resetAllButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>closeButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theHueBlendRangeSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>hueBlendRangeValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theWhiteObjectClipSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>whiteObjectClipValueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>theHighIntensityClipSlider</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>ossimQtHsiRemapperDialog</receiver>
+        <slot>highIntensityClipValueChanged(int)</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtHsiRemapperController.h</include>
+    <include location="local" impldecl="in implementation">ossim/imaging/ossimHsiRemapper.h</include>
+    <include location="local" impldecl="in implementation">ossimQtHsiRemapperDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtHsiRemapperController;</forward>
+    <forward>class ossimHsiRemapper;</forward>
+</forwards>
+<variables>
+    <variable access="private">ossimQtHsiRemapperController* theController;</variable>
+</variables>
+<slots>
+    <slot>redButtonClicked()</slot>
+    <slot>yellowButtonClicked()</slot>
+    <slot>greenButtonClicked()</slot>
+    <slot>cyanButtonClicked()</slot>
+    <slot>blueButtonClicked()</slot>
+    <slot>magentaButtonClicked()</slot>
+    <slot>allButtonClicked()</slot>
+    <slot>hueOffsetValueChanged( int value )</slot>
+    <slot>hueLowRangeValueChanged( int value )</slot>
+    <slot>hueHighRangeValueChanged( int value )</slot>
+    <slot>saturationOffsetValueChanged( int value )</slot>
+    <slot>intensityOffsetValueChanged( int value )</slot>
+    <slot>lowIntensityClipValueChanged( int value )</slot>
+    <slot>highIntensityClipValueChanged( int value )</slot>
+    <slot>enableButtonClicked()</slot>
+    <slot>resetGroupButtonClicked()</slot>
+    <slot>resetAllButtonClicked()</slot>
+    <slot>closeButtonClicked()</slot>
+    <slot>hueBlendRangeValueChanged( int )</slot>
+    <slot>whiteObjectClipValueChanged( int )</slot>
+</slots>
+<functions>
+    <function access="private">init()</function>
+    <function access="private">destroy()</function>
+    <function>setHsiRemapper( ossimHsiRemapper * remapper )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

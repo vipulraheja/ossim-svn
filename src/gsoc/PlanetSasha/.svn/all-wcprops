@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ossim/!svn/ver/19239/trunk/gsoc/PlanetSasha
+END
+spl.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/spl.png
+END
+epsg_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/epsg_ui.py
+END
+msgworn.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/msgworn.py
+END
+pref.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/18898/trunk/gsoc/PlanetSasha/pref.py
+END
+resources_rc.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/resources_rc.py
+END
+kmlsave_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/18898/trunk/gsoc/PlanetSasha/kmlsave_ui.py
+END
+model.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/model.py
+END
+planetsashaui.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/18935/trunk/gsoc/PlanetSasha/planetsashaui.py
+END
+PlanetSasha.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/19239/trunk/gsoc/PlanetSasha/PlanetSasha.py
+END
+Readme
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/18138/trunk/gsoc/PlanetSasha/Readme
+END
+psinit.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/18954/trunk/gsoc/PlanetSasha/psinit.py
+END
+geonames.sqlite
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/geonames.sqlite
+END
+episg.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/episg.py
+END
+transvector_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/transvector_ui.py
+END
+wifi_joy.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/18822/trunk/gsoc/PlanetSasha/wifi_joy.py
+END
+Gdata.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/18935/trunk/gsoc/PlanetSasha/Gdata.py
+END
+epijoy_joy.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/epijoy_joy.py
+END
+configure.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/configure.py
+END
+testlog.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/18935/trunk/gsoc/PlanetSasha/testlog.py
+END
+g2k.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/g2k.py
+END
+gui.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gui.py
+END
+tcp4ossim.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/18935/trunk/gsoc/PlanetSasha/tcp4ossim.py
+END
+ogrTovrt.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/18904/trunk/gsoc/PlanetSasha/ogrTovrt.py
+END
+Shp2Shp.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/Shp2Shp.py
+END
+gps.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps.py
+END
+epsg_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/epsg_list.py
+END
+OssimPython.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/18962/trunk/gsoc/PlanetSasha/OssimPython.py
+END
+LatLongUTMconversion.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/LatLongUTMconversion.py
+END
+model_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/18898/trunk/gsoc/PlanetSasha/model_ui.py
+END
+epsg.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/epsg.py
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/18138/trunk/gsoc/PlanetSasha/setup.py
+END
+VectorOp.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/VectorOp.py
+END
+Savekml.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/18898/trunk/gsoc/PlanetSasha/Savekml.py
+END
+GrassShell_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/GrassShell_ui.py
+END
+data_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/18898/trunk/gsoc/PlanetSasha/data_ui.py
+END
+epsg
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/epsg
+END
+GrassShell.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/GrassShell.py
+END
+resources.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/resources.qrc
+END
+preference_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/preference_ui.py
+END
+worning_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/worning_ui.py
+END
+log.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/18935/trunk/gsoc/PlanetSasha/log.py
+END
+drawer.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/18904/trunk/gsoc/PlanetSasha/drawer.py
+END

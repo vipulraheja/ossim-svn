@@ -1,0 +1,5 @@
+*.d
+adrg_header_dump
+*.exe
+*.o
+*.~*

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ndf
+END
+ossimNdfHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/18699/trunk/ossim_plugins/ndf/ossimNdfHeader.h
+END
+ossimNdfTileSource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/18348/trunk/ossim_plugins/ndf/ossimNdfTileSource.cpp
+END
+ossimNdfReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19446/trunk/ossim_plugins/ndf/ossimNdfReaderFactory.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/16676/trunk/ossim_plugins/ndf/makefile.vc
+END
+ossimNdfPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/18699/trunk/ossim_plugins/ndf/ossimNdfPluginInit.cpp
+END
+ndf_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/17935/trunk/ossim_plugins/ndf/ndf_test.cpp
+END
+ossimNdfTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/18699/trunk/ossim_plugins/ndf/ossimNdfTileSource.h
+END
+ossimNdfHeader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19683/trunk/ossim_plugins/ndf/ossimNdfHeader.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/17935/trunk/ossim_plugins/ndf/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12131/trunk/ossim_plugins/ndf/Makefile
+END
+ossimNdfReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19446/trunk/ossim_plugins/ndf/ossimNdfReaderFactory.cpp
+END

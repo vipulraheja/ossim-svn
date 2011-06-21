@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/windows
+END
+ossim-package-cmake-config-vs9-nmake-v1.bat
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/windows/ossim-package-cmake-config-vs9-nmake-v1.bat
+END
+ossim-package-cmake-config-vs9-studio.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/windows/ossim-package-cmake-config-vs9-studio.cmd
+END

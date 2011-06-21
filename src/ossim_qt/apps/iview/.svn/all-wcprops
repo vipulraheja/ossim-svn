@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/13702/trunk/ossim_qt/apps/iview
+END
+iview.pro
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/13702/trunk/ossim_qt/apps/iview/iview.pro
+END
+iview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/13138/trunk/ossim_qt/apps/iview/iview.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/6528/trunk/ossim_qt/apps/iview/.cvsignore
+END

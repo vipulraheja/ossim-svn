@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 35
+*.d
+*.o
+*.obj
+Makefile
+.shared_obj
+
+END

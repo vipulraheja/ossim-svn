@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vipul/ossim-svn/src/ossim/src/apps/ossim-deg2dms/ossim-deg2dms.cpp
+cstdlib
+-
+iostream
+-
+iomanip
+-
+cmath
+-
+string
+-
+sstream
+-
+

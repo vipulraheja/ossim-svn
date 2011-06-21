@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/7328/trunk/ossim/src/examples/elevation/srtm_test
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/7327/trunk/ossim/src/examples/elevation/srtm_test/Makefile
+END
+srtmSupportDataTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/7328/trunk/ossim/src/examples/elevation/srtm_test/srtmSupportDataTest.cpp
+END

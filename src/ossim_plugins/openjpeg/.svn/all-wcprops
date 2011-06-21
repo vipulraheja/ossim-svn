@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/19683/trunk/ossim_plugins/openjpeg
+END
+ossimOpenJpegCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/12204/trunk/ossim_plugins/openjpeg/ossimOpenJpegCommon.h
+END
+ossimOpenJpegReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19446/trunk/ossim_plugins/openjpeg/ossimOpenJpegReaderFactory.h
+END
+ossimOpenJpegReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19683/trunk/ossim_plugins/openjpeg/ossimOpenJpegReader.cpp
+END
+ossimOpenJpegWriterFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim_plugins/openjpeg/ossimOpenJpegWriterFactory.cpp
+END
+ossimOpenJpegDecoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19683/trunk/ossim_plugins/openjpeg/ossimOpenJpegDecoder.cpp
+END
+ossimOpenJpegReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/13835/trunk/ossim_plugins/openjpeg/ossimOpenJpegReader.h
+END
+ossimOpenJpegWriterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/12104/trunk/ossim_plugins/openjpeg/ossimOpenJpegWriterFactory.h
+END
+ossimOpenJpegDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19683/trunk/ossim_plugins/openjpeg/ossimOpenJpegDecoder.h
+END
+ossimOpenJpegWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/13835/trunk/ossim_plugins/openjpeg/ossimOpenJpegWriter.cpp
+END
+ossimOpenJpegWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/12104/trunk/ossim_plugins/openjpeg/ossimOpenJpegWriter.h
+END
+ossimOpenJpegPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/12104/trunk/ossim_plugins/openjpeg/ossimOpenJpegPluginInit.cpp
+END
+ossimOpenJpegNitfReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/19683/trunk/ossim_plugins/openjpeg/ossimOpenJpegNitfReader.cpp
+END
+ossimOpenJpegNitfReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/12220/trunk/ossim_plugins/openjpeg/ossimOpenJpegNitfReader.h
+END
+ossimOpenJpegCommon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19683/trunk/ossim_plugins/openjpeg/ossimOpenJpegCommon.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/12205/trunk/ossim_plugins/openjpeg/Makefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/18351/trunk/ossim_plugins/openjpeg/CMakeLists.txt
+END
+ossimOpenJpegReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19446/trunk/ossim_plugins/openjpeg/ossimOpenJpegReaderFactory.cpp
+END

@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 35
+*.d
+ossim-adrg-dump
+*.exe
+*.o
+*.~*
+
+END

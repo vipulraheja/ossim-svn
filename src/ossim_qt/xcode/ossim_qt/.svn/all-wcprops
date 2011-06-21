@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/16745/trunk/ossim_qt/xcode/ossim_qt
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9998/trunk/ossim_qt/xcode/ossim_qt/Info.plist
+END
+iview-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/10145/trunk/ossim_qt/xcode/ossim_qt/iview-Info.plist
+END
+imagelinker-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/10145/trunk/ossim_qt/xcode/ossim_qt/imagelinker-Info.plist
+END

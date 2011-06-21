@@ -1,0 +1,11 @@
+//*******************************************************************
+//
+// License:  See top level LICENSE.txt file.
+// 
+// Author: Garrett Potts (gpotts@imagelinks)
+// Description:
+//
+//*************************************************************************
+// $Id$
+#include <ossim/base/ossimCustomEditorWindowFactoryBase.h>
+RTTI_DEF1(ossimCustomEditorWindowFactoryBase, "ossimCustomEditorWindowFactoryBase", ossimObjectFactory);

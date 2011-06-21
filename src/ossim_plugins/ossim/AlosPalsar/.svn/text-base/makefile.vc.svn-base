@@ -1,0 +1,39 @@
+###
+# $Id: makefile.vc 12864 2008-05-15 13:13:28Z dburken $
+#
+# Windows nmake make file.  This code should compile with the Microsoft .NET
+# compiler.
+# 
+# Currently for a typical build on windows you would do the following.
+# - cd back to the ossim top and edit its nmake.opt file appropriately.
+# - nmake /f makefile
+#
+# NOTE:  If you make shared apps it's handy to copy the ossim.dll to the bin
+#        directory. 
+###
+
+!INCLUDE ..\..\nmake.opt
+
+INC = -I.. -I. $(INC)
+
+OBJ = \
+AlosPalsarData.obj \
+AlosPalsarDataFileDescriptor.obj \
+AlosPalsarDataSetSummary.obj \
+AlosPalsarFacilityData.obj \
+AlosPalsarFileDescriptor.obj \
+AlosPalsarLeader.obj \
+AlosPalsarLeaderFactory.obj \
+AlosPalsarMapProjectionData.obj \
+AlosPalsarPlatformPositionData.obj \
+AlosPalsarPositionVectorRecord.obj \
+AlosPalsarRecord.obj \
+AlosPalsarRecordFactory.obj \
+AlosPalsarRecordHeader.obj \
+AlosPalsarSignalData.obj
+
+
+default:	$(OBJ)
+
+clean:
+	$(RM) *.obj *~

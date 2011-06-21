@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/13750/trunk/planet_message/java
+END
+AbstractExpireTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/12647/trunk/planet_message/java/AbstractExpireTime.java
+END
+Placemark.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/12867/trunk/planet_message/java/Placemark.java
+END
+XMLEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12675/trunk/planet_message/java/XMLEncoder.java
+END
+BaseObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12673/trunk/planet_message/java/BaseObject.java
+END
+ExpireDuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/13079/trunk/planet_message/java/ExpireDuration.java
+END
+DOMSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/12807/trunk/planet_message/java/DOMSerializer.java
+END
+StringMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/13079/trunk/planet_message/java/StringMessage.java
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/13079/trunk/planet_message/java/Action.java
+END
+AbstractFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/13750/trunk/planet_message/java/AbstractFeature.java
+END
+Image.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/13079/trunk/planet_message/java/Image.java
+END
+GeoCoordinate.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/13079/trunk/planet_message/java/GeoCoordinate.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/13079/trunk/planet_message/java/Message.java
+END
+CommonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12807/trunk/planet_message/java/CommonUtil.java
+END
+XMLDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12655/trunk/planet_message/java/XMLDecoder.java
+END
+manifest
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12657/trunk/planet_message/java/manifest
+END
+Camera.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/13079/trunk/planet_message/java/Camera.java
+END
+LookAt.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/13079/trunk/planet_message/java/LookAt.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/13079/trunk/planet_message/java/Identity.java
+END
+BaseObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/13750/trunk/planet_message/java/BaseObjectFactory.java
+END
+Point.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/13079/trunk/planet_message/java/Point.java
+END
+AbstractObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/13079/trunk/planet_message/java/AbstractObject.java
+END
+Geometry.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/12647/trunk/planet_message/java/Geometry.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/13750/trunk/planet_message/java/Group.java
+END

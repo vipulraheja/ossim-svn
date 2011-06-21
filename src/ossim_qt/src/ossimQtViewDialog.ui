@@ -1,0 +1,418 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtViewDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtViewDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>433</width>
+            <height>351</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>View Geometry</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>true</bool>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QButtonGroup">
+            <property name="name">
+                <cstring>theTransformationGroup</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>5</hsizetype>
+                    <vsizetype>1</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="title">
+                <string>Transformation</string>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>theMapRadioButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Map</string>
+                    </property>
+                    <property name="checked">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>theIdentityButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Identity</string>
+                    </property>
+                </widget>
+
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>theStatePlaneRadioButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>State Plane</string>
+                    </property>
+                </widget>
+
+
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout17</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QComboBox" row="5" column="1">
+                    <item>
+                        <property name="text">
+                            <string>North</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>South</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>theHemisphereComboBox</cstring>
+                    </property>
+                    <property name="editable">
+                        <bool>false</bool>
+                    </property>
+                    <property name="autoCompletion">
+                        <bool>false</bool>
+                    </property>
+                    <property name="duplicatesEnabled">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="7" column="1">
+                    <property name="name">
+                        <cstring>theScaleFactorInput</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>true</bool>
+                    </property>
+                    <property name="frameShape">
+                        <enum>LineEditPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>Sunken</enum>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="2" column="1">
+                    <property name="name">
+                        <cstring>theGsdInput</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>theGsdLabel</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>5</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>Meters per pixel</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox" row="0" column="1">
+                    <property name="name">
+                        <cstring>theDatumComboBox</cstring>
+                    </property>
+                    <property name="editable">
+                        <bool>false</bool>
+                    </property>
+                    <property name="autoCompletion">
+                        <bool>false</bool>
+                    </property>
+                    <property name="duplicatesEnabled">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="4" column="0">
+                    <property name="name">
+                        <cstring>theZoneLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Zone:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="7" column="0">
+                    <property name="name">
+                        <cstring>theScaleFactorLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Scale factor:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="6" column="1">
+                    <property name="name">
+                        <cstring>theStandardParallelInput</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>theDatumLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Datum:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="5" column="0">
+                    <property name="name">
+                        <cstring>theHemisphereLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Hemisphere:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="4" column="1">
+                    <property name="name">
+                        <cstring>theZoneInput</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="6" column="0">
+                    <property name="name">
+                        <cstring>theStandardParallelLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Parallels 1 &amp; 2</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>theMapProjectionLabel</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>5</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>Projection:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox" row="1" column="1">
+                    <property name="name">
+                        <cstring>theProjectionComboBox</cstring>
+                    </property>
+                    <property name="editable">
+                        <bool>false</bool>
+                    </property>
+                    <property name="autoCompletion">
+                        <bool>false</bool>
+                    </property>
+                    <property name="duplicatesEnabled">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="3" column="0">
+                    <property name="name">
+                        <cstring>theOriginLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Origin Lat lon</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="3" column="1">
+                    <property name="name">
+                        <cstring>theOriginInput</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout16</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theHelpButton</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Help</string>
+                    </property>
+                    <property name="accel">
+                        <string>F1</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>Horizontal Spacing2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>140</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>thePropagateButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Propagate</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theApplyButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Apply</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+A</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Close</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+C</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtViewDialog</receiver>
+        <slot>theCloseButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theApplyButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtViewDialog</receiver>
+        <slot>theApplyButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>thePropagateButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtViewDialog</receiver>
+        <slot>thePropagateButton_clicked()</slot>
+    </connection>
+
+    <connection>
+        <sender>theMapRadioButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtViewDialog</receiver>
+        <slot>theMapRadioButton_clicked()</slot>
+    </connection>
+
+    <connection>
+        <sender>theIdentityButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtViewDialog</receiver>
+        <slot>theIdentityButton_clicked()</slot>
+    </connection>
+
+    <connection>
+        <sender>theStatePlaneRadioButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtViewDialog</receiver>
+        <slot>theStatePlaneRadioButton_clicked()</slot>
+    </connection>
+
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtViewDialogController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtViewDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtViewDialogController;</forward>
+</forwards>
+<variables>
+    <variable access="public">ossimQtViewDialogController* theController;</variable>
+</variables>
+<slots>
+    <slot>setDefaultView()</slot>
+    <slot>theCloseButton_clicked()</slot>
+    <slot>theApplyButton_clicked()</slot>
+    <slot>theStatePlaneRadioButton_clicked()</slot>
+    <slot>theMapRadioButton_clicked()</slot>
+    <slot>theIdentityButton_clicked()</slot>
+    <slot>theProjectionComboBox_textChanged( const QString &amp; value )</slot>
+    <slot>theProjectionComboBox_activated( const QString &amp; value )</slot>
+    <slot>thePropagateButton_clicked()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function returnType="ossimQtViewDialogController *">controller()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

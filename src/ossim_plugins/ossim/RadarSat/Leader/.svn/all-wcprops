@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Leader
+END
+DataHistogramProcessedData.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Leader/DataHistogramProcessedData.h
+END
+Leader.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Leader/Leader.h
+END
+PlatformPositionData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Leader/PlatformPositionData.cpp
+END
+LeaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Leader/LeaderFactory.cpp
+END
+PositionVectorRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Leader/PositionVectorRecord.cpp
+END
+PlatformPositionData.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Leader/PlatformPositionData.h
+END
+DataHistogramProcessedData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Leader/DataHistogramProcessedData.cpp
+END
+LeaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Leader/LeaderFactory.h
+END
+PositionVectorRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Leader/PositionVectorRecord.h
+END
+Leader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Leader/Leader.cpp
+END

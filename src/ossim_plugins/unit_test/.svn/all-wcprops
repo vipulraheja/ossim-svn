@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/9436/trunk/ossim_plugins/unit_test
+END
+unit_test.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9436/trunk/ossim_plugins/unit_test/unit_test.vcproj
+END
+ossimUnitTestPolyCutter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/9121/trunk/ossim_plugins/unit_test/ossimUnitTestPolyCutter.cpp
+END
+ossimUnitTestImageSourceFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/9121/trunk/ossim_plugins/unit_test/ossimUnitTestImageSourceFactory.cpp
+END
+ossimUnitTestPolyCutter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9121/trunk/ossim_plugins/unit_test/ossimUnitTestPolyCutter.h
+END
+ossimUnitTestImageSourceFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9121/trunk/ossim_plugins/unit_test/ossimUnitTestImageSourceFactory.h
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/8969/trunk/ossim_plugins/unit_test/.cvsignore
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/8968/trunk/ossim_plugins/unit_test/Makefile
+END
+ossimUnitTestPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/9121/trunk/ossim_plugins/unit_test/ossimUnitTestPluginInit.cpp
+END

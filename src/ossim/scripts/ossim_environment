@@ -1,0 +1,33 @@
+#-------------------------------------------------------------------
+# -*-Shell-script-*-
+#
+# This file is not a stand-alone shell script; it provides the 
+# environment for ossim application script wrappers that source it.
+#
+# License: LGPL
+#
+#-------------------------------------------------------------------
+# $Id: ossim_environment 8012 2005-09-01 19:56:50Z dburken $
+
+# Set up a default search path.
+PATH="/usr/local/ossim/bin"
+export PATH
+
+#---
+# Tell ossim where to find the ossim_preferences file:
+#---
+OSSIM_PREFS_FILE="/usr/local/ossim/bin/ossim_preferences"
+export OSSIM_PREFS_FILE
+
+#---
+# Set up a default ld library path.
+#
+# Note:
+#   
+# In this example all code that ossim relies upon was configured with
+# the --prefix=/usr/local/ossim to make a sandbox for ossim applications; 
+# hence, there is only one place to look for libraries.
+#
+#---
+LD_LIBRARY_PATH="/usr/local/ossim/lib"
+export LD_LIBRARY_PATH

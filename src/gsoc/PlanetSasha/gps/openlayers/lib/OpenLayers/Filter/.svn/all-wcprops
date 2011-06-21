@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Filter
+END
+FeatureId.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Filter/FeatureId.js
+END
+Comparison.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Filter/Comparison.js
+END
+Logical.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Filter/Logical.js
+END
+Spatial.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Filter/Spatial.js
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf
+END
+ossimGeoPdfReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfReaderFactory.h
+END
+ossimGeoPdfInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfInfo.h
+END
+ossimGeoPdfPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfPluginInit.cpp
+END
+ossimGeoPdfReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfReader.cpp
+END
+ossimGeoPdfInfoFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfInfoFactory.cpp
+END
+ossimGeoPdfReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfReader.h
+END
+ossimGeoPdfInfoFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfInfoFactory.h
+END
+ossimGeoPdfReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfReaderFactory.cpp
+END
+ossimGeoPdfInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/ossimGeoPdfInfo.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/17929/trunk/ossim_plugins/geopdf/CMakeLists.txt
+END

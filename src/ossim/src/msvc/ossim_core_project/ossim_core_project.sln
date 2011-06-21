@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ossim_core_project", "ossim_core_project.vcproj", "{B63B8485-00DC-4D37-B116-50B62DA92FF8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ossim_icp", "..\apps\ossim_icp\ossim_icp.vcproj", "{2BDA84EB-F0F1-422C-B47E-CF20D72B6267}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B63B8485-00DC-4D37-B116-50B62DA92FF8} = {B63B8485-00DC-4D37-B116-50B62DA92FF8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ossim_igen", "..\apps\ossim_igen\ossim_igen.vcproj", "{EF13AAC9-34DB-4CE1-8F5C-3F866CBCBFC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B63B8485-00DC-4D37-B116-50B62DA92FF8} = {B63B8485-00DC-4D37-B116-50B62DA92FF8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B63B8485-00DC-4D37-B116-50B62DA92FF8}.Debug.ActiveCfg = Debug|Win32
+		{B63B8485-00DC-4D37-B116-50B62DA92FF8}.Debug.Build.0 = Debug|Win32
+		{B63B8485-00DC-4D37-B116-50B62DA92FF8}.Release.ActiveCfg = Release|Win32
+		{B63B8485-00DC-4D37-B116-50B62DA92FF8}.Release.Build.0 = Release|Win32
+		{2BDA84EB-F0F1-422C-B47E-CF20D72B6267}.Debug.ActiveCfg = Debug|Win32
+		{2BDA84EB-F0F1-422C-B47E-CF20D72B6267}.Debug.Build.0 = Debug|Win32
+		{2BDA84EB-F0F1-422C-B47E-CF20D72B6267}.Release.ActiveCfg = Release|Win32
+		{2BDA84EB-F0F1-422C-B47E-CF20D72B6267}.Release.Build.0 = Release|Win32
+		{EF13AAC9-34DB-4CE1-8F5C-3F866CBCBFC5}.Debug.ActiveCfg = Debug|Win32
+		{EF13AAC9-34DB-4CE1-8F5C-3F866CBCBFC5}.Debug.Build.0 = Debug|Win32
+		{EF13AAC9-34DB-4CE1-8F5C-3F866CBCBFC5}.Release.ActiveCfg = Release|Win32
+		{EF13AAC9-34DB-4CE1-8F5C-3F866CBCBFC5}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

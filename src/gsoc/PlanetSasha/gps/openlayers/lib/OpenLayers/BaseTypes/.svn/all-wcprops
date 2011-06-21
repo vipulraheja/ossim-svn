@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/BaseTypes
+END
+Class.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/BaseTypes/Class.js
+END
+Element.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/BaseTypes/Element.js
+END
+LonLat.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/BaseTypes/LonLat.js
+END
+Bounds.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/BaseTypes/Bounds.js
+END
+Size.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/BaseTypes/Size.js
+END
+Pixel.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/BaseTypes/Pixel.js
+END

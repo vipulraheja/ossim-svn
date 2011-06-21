@@ -1,0 +1,1379 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/19732/trunk/ossim/include/ossim/base
+END
+ossimFpt3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimFpt3d.h
+END
+ossimGeoidManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/16139/trunk/ossim/include/ossim/base/ossimGeoidManager.h
+END
+ossimIoStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/11176/trunk/ossim/include/ossim/base/ossimIoStream.h
+END
+ossimThreeParamDatum.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/13560/trunk/ossim/include/ossim/base/ossimThreeParamDatum.h
+END
+ossimUnitConversionTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/10378/trunk/ossim/include/ossim/base/ossimUnitConversionTool.h
+END
+ossimVrect.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/11955/trunk/ossim/include/ossim/base/ossimVrect.h
+END
+ossimKeyword.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimKeyword.h
+END
+ossimEbcdicToAscii.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimEbcdicToAscii.h
+END
+ossimRectanglePartitioner.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimRectanglePartitioner.h
+END
+ossimContainerProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/18405/trunk/ossim/include/ossim/base/ossimContainerProperty.h
+END
+ossimDpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/17815/trunk/ossim/include/ossim/base/ossimDpt.h
+END
+ossimCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19008/trunk/ossim/include/ossim/base/ossimCommon.h
+END
+ossimQuadrilateralMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimQuadrilateralMap.h
+END
+ossimFpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimFpt.h
+END
+ossimTraceManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimTraceManager.h
+END
+ossimObjectEvents.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimObjectEvents.h
+END
+ossimROIEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimROIEvent.h
+END
+ossimPropertyInterfaceFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimPropertyInterfaceFactory.h
+END
+ossimRgbVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimRgbVector.h
+END
+ossimEndian.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/17051/trunk/ossim/include/ossim/base/ossimEndian.h
+END
+ossimAxes.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimAxes.h
+END
+ossimDataObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/15798/trunk/ossim/include/ossim/base/ossimDataObject.h
+END
+ossimConnectionEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimConnectionEvent.h
+END
+ossimHsiVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimHsiVector.h
+END
+ossimErrorCodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimErrorCodes.h
+END
+ossimWgs84Datum.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimWgs84Datum.h
+END
+ossimConnectableObjectListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimConnectableObjectListener.h
+END
+ossimCmyVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimCmyVector.h
+END
+ossimEllipsoidFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimEllipsoidFactory.h
+END
+ossimErrorStatusInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimErrorStatusInterface.h
+END
+ossimCallback1wRet.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19444/trunk/ossim/include/ossim/base/ossimCallback1wRet.h
+END
+ossimListenerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimListenerManager.h
+END
+ossimTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/16090/trunk/ossim/include/ossim/base/ossimTimer.h
+END
+ossimEpsgDatumFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimEpsgDatumFactory.h
+END
+ossimHsvVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimHsvVector.h
+END
+ossimLsrVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/12790/trunk/ossim/include/ossim/base/ossimLsrVector.h
+END
+ossimEllipsoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19640/trunk/ossim/include/ossim/base/ossimEllipsoid.h
+END
+ossimProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/18405/trunk/ossim/include/ossim/base/ossimProperty.h
+END
+ossimDuration.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/14618/trunk/ossim/include/ossim/base/ossimDuration.h
+END
+ossimDisplayInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimDisplayInterface.h
+END
+ossimIdManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9428/trunk/ossim/include/ossim/base/ossimIdManager.h
+END
+ossimApplicationUsage.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19692/trunk/ossim/include/ossim/base/ossimApplicationUsage.h
+END
+ossimEquTokenDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/7756/trunk/ossim/include/ossim/base/ossimEquTokenDefines.h
+END
+ossimCsvFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15959/trunk/ossim/include/ossim/base/ossimCsvFile.h
+END
+ossimTieGpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimTieGpt.h
+END
+ossimBilSplitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimBilSplitter.h
+END
+ossimFlexLexer.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/12264/trunk/ossim/include/ossim/base/ossimFlexLexer.h
+END
+datum.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/2/trunk/ossim/include/ossim/base/datum.h
+END
+ossimVisitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19616/trunk/ossim/include/ossim/base/ossimVisitor.h
+END
+ossimTileHash.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimTileHash.h
+END
+ossimCustomEditorWindowRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17108/trunk/ossim/include/ossim/base/ossimCustomEditorWindowRegistry.h
+END
+ossimPolyArea2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimPolyArea2d.h
+END
+ossimThinPlateSpline.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17665/trunk/ossim/include/ossim/base/ossimThinPlateSpline.h
+END
+ossimConnectableObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19632/trunk/ossim/include/ossim/base/ossimConnectableObject.h
+END
+ossimPropertyInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/12989/trunk/ossim/include/ossim/base/ossimPropertyInterface.h
+END
+ossimIrect.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19180/trunk/ossim/include/ossim/base/ossimIrect.h
+END
+ossimTempFilename.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimTempFilename.h
+END
+ossimWms.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/13563/trunk/ossim/include/ossim/base/ossimWms.h
+END
+ossim2dBilinearTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15926/trunk/ossim/include/ossim/base/ossim2dBilinearTransform.h
+END
+ossimStdOutProgress.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/10422/trunk/ossim/include/ossim/base/ossimStdOutProgress.h
+END
+ossimKeywordNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19180/trunk/ossim/include/ossim/base/ossimKeywordNames.h
+END
+ossimNadconGridFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimNadconGridFile.h
+END
+ossimStringProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimStringProperty.h
+END
+ossimTDpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/14799/trunk/ossim/include/ossim/base/ossimTDpt.h
+END
+ossimLsrSpace.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/12790/trunk/ossim/include/ossim/base/ossimLsrSpace.h
+END
+ossim2dTo2dTransformFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossim2dTo2dTransformFactoryBase.h
+END
+ossimHistogramSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/11721/trunk/ossim/include/ossim/base/ossimHistogramSource.h
+END
+ossimFilename.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimFilename.h
+END
+ossimConnectableContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19553/trunk/ossim/include/ossim/base/ossimConnectableContainer.h
+END
+ossimLookUpTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19448/trunk/ossim/include/ossim/base/ossimLookUpTable.h
+END
+ossimInterleaveTypeLut.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimInterleaveTypeLut.h
+END
+ossimLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimLine.h
+END
+ossimEnvironmentUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/16348/trunk/ossim/include/ossim/base/ossimEnvironmentUtility.h
+END
+ossimElevationManagerEventListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimElevationManagerEventListener.h
+END
+ossimTextProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimTextProperty.h
+END
+ossimImagePolygonEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/13016/trunk/ossim/include/ossim/base/ossimImagePolygonEvent.h
+END
+ossimCustomEditorWindowFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimCustomEditorWindowFactoryBase.h
+END
+ossimScalarTypeLut.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/11914/trunk/ossim/include/ossim/base/ossimScalarTypeLut.h
+END
+ossimFactoryBaseTemplate.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/14799/trunk/ossim/include/ossim/base/ossimFactoryBaseTemplate.h
+END
+ossimGeoTiffDatumLut.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimGeoTiffDatumLut.h
+END
+ossimMatrix4x4.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/11856/trunk/ossim/include/ossim/base/ossimMatrix4x4.h
+END
+ossimWgs72Datum.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimWgs72Datum.h
+END
+ossimImageGeometryEventListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimImageGeometryEventListener.h
+END
+ossimPackedBits.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimPackedBits.h
+END
+ossimDatum.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19640/trunk/ossim/include/ossim/base/ossimDatum.h
+END
+ossimLsrPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/12790/trunk/ossim/include/ossim/base/ossimLsrPoint.h
+END
+ossimImageAoiListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/base/ossimImageAoiListener.h
+END
+ossimElevationManagerEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimElevationManagerEvent.h
+END
+ossimDatumFactoryInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimDatumFactoryInterface.h
+END
+ossimGeocent.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/1165/trunk/ossim/include/ossim/base/ossimGeocent.h
+END
+ossimProcessListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/14799/trunk/ossim/include/ossim/base/ossimProcessListener.h
+END
+ossimEquTokenizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/12264/trunk/ossim/include/ossim/base/ossimEquTokenizer.h
+END
+ossimPropertyEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimPropertyEvent.h
+END
+ossim2dTo2dShiftTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossim2dTo2dShiftTransform.h
+END
+ossim2dTo2dTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossim2dTo2dTransform.h
+END
+ossimMouseEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimMouseEvent.h
+END
+ossimUsgsQuad.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimUsgsQuad.h
+END
+ossimPointHash.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimPointHash.h
+END
+ossimGeoidNgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/11496/trunk/ossim/include/ossim/base/ossimGeoidNgs.h
+END
+ossimImageGeometryEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimImageGeometryEvent.h
+END
+ossimRefreshEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19717/trunk/ossim/include/ossim/base/ossimRefreshEvent.h
+END
+ossim2dLinearRegression.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossim2dLinearRegression.h
+END
+ossimDrect.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19180/trunk/ossim/include/ossim/base/ossimDrect.h
+END
+ossimPreferences.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/16157/trunk/ossim/include/ossim/base/ossimPreferences.h
+END
+ossimProcessProgressEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimProcessProgressEvent.h
+END
+ossimXmlNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/12527/trunk/ossim/include/ossim/base/ossimXmlNode.h
+END
+ossimDblGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19441/trunk/ossim/include/ossim/base/ossimDblGrid.h
+END
+ossimNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/base/ossimNotify.h
+END
+ossimTiledImageHash.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimTiledImageHash.h
+END
+ossimDate.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19704/trunk/ossim/include/ossim/base/ossimDate.h
+END
+ossimNotifyContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9372/trunk/ossim/include/ossim/base/ossimNotifyContext.h
+END
+ossimGeoTiffCoordTransformsLut.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimGeoTiffCoordTransformsLut.h
+END
+ossimDpt3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/16347/trunk/ossim/include/ossim/base/ossimDpt3d.h
+END
+ossimStreamFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/11176/trunk/ossim/include/ossim/base/ossimStreamFactory.h
+END
+ossimFactoryListInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19184/trunk/ossim/include/ossim/base/ossimFactoryListInterface.h
+END
+ossimStreamBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/11176/trunk/ossim/include/ossim/base/ossimStreamBase.h
+END
+ossimNBandLutDataObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/19732/trunk/ossim/include/ossim/base/ossimNBandLutDataObject.h
+END
+ossimBaseObjectFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimBaseObjectFactory.h
+END
+ossimLeastSquaresBilin.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimLeastSquaresBilin.h
+END
+ossimGpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19071/trunk/ossim/include/ossim/base/ossimGpt.h
+END
+ossimViewInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimViewInterface.h
+END
+ossimIpt.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimIpt.h
+END
+ossimId.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/13014/trunk/ossim/include/ossim/base/ossimId.h
+END
+ossimException.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/11088/trunk/ossim/include/ossim/base/ossimException.h
+END
+ossimMouseListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/base/ossimMouseListener.h
+END
+ossimObjectFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimObjectFactory.h
+END
+ossimPropertyInterfaceRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimPropertyInterfaceRegistry.h
+END
+ossimPoolObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimPoolObject.h
+END
+ossimDatumFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimDatumFactory.h
+END
+ossimMatrix3x3.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimMatrix3x3.h
+END
+ossimRefPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimRefPtr.h
+END
+ossimDisplayListEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimDisplayListEvent.h
+END
+ossimDirectory.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/14776/trunk/ossim/include/ossim/base/ossimDirectory.h
+END
+ossimColumnVector3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9532/trunk/ossim/include/ossim/base/ossimColumnVector3d.h
+END
+ossimImageRectangleEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimImageRectangleEvent.h
+END
+ossimCplUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/13013/trunk/ossim/include/ossim/base/ossimCplUtil.h
+END
+ossimEcefPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/11860/trunk/ossim/include/ossim/base/ossimEcefPoint.h
+END
+ossimStreamFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/11176/trunk/ossim/include/ossim/base/ossimStreamFactoryBase.h
+END
+ossimViewListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/base/ossimViewListener.h
+END
+ossimEventIds.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimEventIds.h
+END
+ossimOutputSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimOutputSource.h
+END
+ossimGeoPolygon.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/12760/trunk/ossim/include/ossim/base/ossimGeoPolygon.h
+END
+ossim2dTo2dTransformFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossim2dTo2dTransformFactory.h
+END
+ossimRectilinearDataObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/16052/trunk/ossim/include/ossim/base/ossimRectilinearDataObject.h
+END
+ossimDms.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimDms.h
+END
+ossimAffineTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimAffineTransform.h
+END
+ossimContainerEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimContainerEvent.h
+END
+ossimListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimListener.h
+END
+ossimFilenameProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimFilenameProperty.h
+END
+ossimEcefVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/11398/trunk/ossim/include/ossim/base/ossimEcefVector.h
+END
+ossimDoubleGridProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimDoubleGridProperty.h
+END
+ossimQuaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/11856/trunk/ossim/include/ossim/base/ossimQuaternion.h
+END
+ossimDisplayRefreshEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimDisplayRefreshEvent.h
+END
+ossimPolygon.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19180/trunk/ossim/include/ossim/base/ossimPolygon.h
+END
+ossimRegExp.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/13762/trunk/ossim/include/ossim/base/ossimRegExp.h
+END
+ossimJpegYCbCrVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimJpegYCbCrVector.h
+END
+ossimPolyLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/15833/trunk/ossim/include/ossim/base/ossimPolyLine.h
+END
+ossimStateChangedEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimStateChangedEvent.h
+END
+ossimHistogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/11724/trunk/ossim/include/ossim/base/ossimHistogram.h
+END
+ossimMultiBandHistogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17205/trunk/ossim/include/ossim/base/ossimMultiBandHistogram.h
+END
+ossimErrorContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimErrorContext.h
+END
+ossimTrace.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/11650/trunk/ossim/include/ossim/base/ossimTrace.h
+END
+ossimGeoidEgm96.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/14799/trunk/ossim/include/ossim/base/ossimGeoidEgm96.h
+END
+ossimArgumentParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimArgumentParser.h
+END
+ossimNadconNasDatum.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimNadconNasDatum.h
+END
+ossimAdjustableParameterInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimAdjustableParameterInterface.h
+END
+ossimGrect.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19447/trunk/ossim/include/ossim/base/ossimGrect.h
+END
+ossim2dTo2dIdentityTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/base/ossim2dTo2dIdentityTransform.h
+END
+ossimQuadTreeWarp.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimQuadTreeWarp.h
+END
+ossimUnitTypeLut.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/11959/trunk/ossim/include/ossim/base/ossimUnitTypeLut.h
+END
+ossimGeoidNgsHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/11496/trunk/ossim/include/ossim/base/ossimGeoidNgsHeader.h
+END
+ossimActiveEdgeTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/14799/trunk/ossim/include/ossim/base/ossimActiveEdgeTable.h
+END
+ossimTieGptSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimTieGptSet.h
+END
+ossimImageTypeLut.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimImageTypeLut.h
+END
+ossimHexString.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/12952/trunk/ossim/include/ossim/base/ossimHexString.h
+END
+ossimFontProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimFontProperty.h
+END
+ossimViewEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimViewEvent.h
+END
+ossimDisplayEventListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimDisplayEventListener.h
+END
+ossimEcefRay.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/12769/trunk/ossim/include/ossim/base/ossimEcefRay.h
+END
+ossimRgbLutDataObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimRgbLutDataObject.h
+END
+ossimNadconGridHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimNadconGridHeader.h
+END
+ossimColorProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimColorProperty.h
+END
+ossim2dTo2dTransformRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossim2dTo2dTransformRegistry.h
+END
+ossimBooleanProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimBooleanProperty.h
+END
+ossimDirectoryTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimDirectoryTree.h
+END
+ossimGeoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/base/ossimGeoid.h
+END
+ossimXmlString.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimXmlString.h
+END
+ossimGzStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/13050/trunk/ossim/include/ossim/base/ossimGzStream.h
+END
+ossimDirectoryData.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimDirectoryData.h
+END
+ossimNadconNarDatum.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimNadconNarDatum.h
+END
+ossimProcessInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimProcessInterface.h
+END
+ossimSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15798/trunk/ossim/include/ossim/base/ossimSource.h
+END
+ossimConnectableContainerInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimConnectableContainerInterface.h
+END
+ossimReferenced.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/13472/trunk/ossim/include/ossim/base/ossimReferenced.h
+END
+ossimObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15798/trunk/ossim/include/ossim/base/ossimObject.h
+END
+ossimString.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19707/trunk/ossim/include/ossim/base/ossimString.h
+END
+ossimCustomEditorWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17108/trunk/ossim/include/ossim/base/ossimCustomEditorWindow.h
+END
+ossimMatrixProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17074/trunk/ossim/include/ossim/base/ossimMatrixProperty.h
+END
+ossimMultiResLevelHistogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimMultiResLevelHistogram.h
+END
+ossimStreamFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/11176/trunk/ossim/include/ossim/base/ossimStreamFactoryRegistry.h
+END
+ossimProtocolStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimProtocolStream.h
+END
+ossimViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimViewController.h
+END
+ossimKeywordlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19692/trunk/ossim/include/ossim/base/ossimKeywordlist.h
+END
+ossimCallback2wRet.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19444/trunk/ossim/include/ossim/base/ossimCallback2wRet.h
+END
+ossimEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/13362/trunk/ossim/include/ossim/base/ossimEvent.h
+END
+ossimDateProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimDateProperty.h
+END
+ossimRationalNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimRationalNumber.h
+END
+ossimRtti.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/base/ossimRtti.h
+END
+ossimObjectDestructingEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimObjectDestructingEvent.h
+END
+ossimXmlAttribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/12521/trunk/ossim/include/ossim/base/ossimXmlAttribute.h
+END
+ossimObjectFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/base/ossimObjectFactoryRegistry.h
+END
+ossimNormRgbVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimNormRgbVector.h
+END
+ossimAdjustmentInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimAdjustmentInfo.h
+END
+ossimAdjustableParameterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimAdjustableParameterInfo.h
+END
+ossimDatumFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/17815/trunk/ossim/include/ossim/base/ossimDatumFactoryRegistry.h
+END
+ossimSevenParamDatum.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/14789/trunk/ossim/include/ossim/base/ossimSevenParamDatum.h
+END
+ossimPolynom.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15833/trunk/ossim/include/ossim/base/ossimPolynom.h
+END
+ossimXmlDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/16817/trunk/ossim/include/ossim/base/ossimXmlDocument.h
+END
+ossimROIEventListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimROIEventListener.h
+END
+ossimNadconGridDatum.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimNadconGridDatum.h
+END
+ossimGeoref.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimGeoref.h
+END
+ossimNumericProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimNumericProperty.h
+END
+ossimStringListProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimStringListProperty.h
+END
+ossimColumnVector4d.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/11346/trunk/ossim/include/ossim/base/ossimColumnVector4d.h
+END
+ossimConnectableDisplayListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimConnectableDisplayListener.h
+END
+ossimPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/base/ossimPool.h
+END
+ossimFontInformation.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/base/ossimFontInformation.h
+END
+ossimConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19471/trunk/ossim/include/ossim/base/ossimConstants.h
+END
+ossimLsrRay.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/11428/trunk/ossim/include/ossim/base/ossimLsrRay.h
+END

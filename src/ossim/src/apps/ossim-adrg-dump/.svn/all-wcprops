@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-adrg-dump
+END
+ossim-adrg-dump.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15122/trunk/ossim/src/apps/ossim-adrg-dump/ossim-adrg-dump.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/15122/trunk/ossim/src/apps/ossim-adrg-dump/.cvsignore
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-adrg-dump/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15122/trunk/ossim/src/apps/ossim-adrg-dump/Makefile
+END

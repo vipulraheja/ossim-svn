@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools
+END
+exampleparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/exampleparser.py
+END
+toposort.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/toposort.py
+END
+jsmin.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/jsmin.c
+END
+mergejs.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/mergejs.py
+END
+shrinksafe.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/shrinksafe.py
+END
+jsmin.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/jsmin.py
+END
+update_dev_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/update_dev_dir.sh
+END
+minimize.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/minimize.py
+END
+oldot.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/oldot.py
+END
+release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/release.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/README.txt
+END
+BeautifulSoup.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/tools/BeautifulSoup.py
+END

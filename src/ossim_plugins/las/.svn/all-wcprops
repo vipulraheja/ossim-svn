@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las
+END
+ossimLasReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasReader.h
+END
+ossimLasPointRecord1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasPointRecord1.cpp
+END
+ossimLasReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasReaderFactory.cpp
+END
+ossimLasPointRecord1.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasPointRecord1.h
+END
+ossimLasPointRecordInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasPointRecordInterface.h
+END
+ossimLasReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasReaderFactory.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/CMakeLists.txt
+END
+ossimLasPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasPluginInit.cpp
+END
+ossimLasReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19721/trunk/ossim_plugins/las/ossimLasReader.cpp
+END

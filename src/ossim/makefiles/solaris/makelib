@@ -1,0 +1,247 @@
+###
+# $Id: makelib 12268 2008-01-07 16:01:58Z dburken $
+###
+CCSRCS=$(wildcard *.cc)
+CPPSRCS=$(wildcard *.cpp)
+CSRCS=$(wildcard *.c)
+SRCS=$(CCSRCS) $(CPPSRCS)
+COBJS=$(patsubst %.c,%.o,$(CSRCS))
+CCOBJS=$(patsubst %.cc,%.o,$(CCSRCS))
+CPPOBJS=$(patsubst %.cpp,%.o,$(CPPSRCS))
+OBJS=$(CCOBJS) $(CPPOBJS) $(COBJS) 
+
+DIRECTORIES=$(filter-out %.o %.d %.cc %.cc %.cpp %.c %.h %.inc %.lo %.libs Makefile cvs CVS bitmaps test_endian test generator .libs .obj test_suite include , $(wildcard *))
+DEPENDS_FILES=$(wildcard *.d)
+INCLUDES=$(BASE_INCLUDES)
+HEADERS=$(wildcard *.h)
+
+
+SHARED_LIB_VERSIONLESS=$(OSSIM_LIB).$(SO_VERSIONLESS_EXT)
+SHARED_LIB_SONAME=$(OSSIM_LIB).$(SO_SONAME_EXT)
+SHARED_LIB_REALNAME=$(OSSIM_LIB).$(SO_REALNAME_EXT)
+SHARED_LIB_TARGET=$(OSSIM_LIB_PATH)/$(SHARED_LIB_REALNAME)
+SHARED_OBJ_DIR_PATH=$(BASELIBPATH)/$(SHARED_OBJ_DIR)
+
+STATIC_LIB=$(OSSIM_LIB).a
+STATIC_LIB_TARGET=$(OSSIM_LIB_PATH)/$(STATIC_LIB)
+STATIC_OBJ_DIR_PATH=$(BASELIBPATH)/$(STATIC_OBJ_DIR)
+
+# ---
+# To handle "for d in $(VAR);" expanding to  "for d in ;"
+# if no directories present and producing an error on sun os.
+# Substitute empty string with bogus string.
+# ---
+ifeq ($(strip $(DIRECTORIES)),)
+DIRECTORIES=BOGUS_DIR
+endif
+
+# ---
+# all target:
+# 1) Make directories to hold objects.
+# 2) Make all objects.
+# 3) Make all subdirectories.
+# 4) If at top level of the core library directory make the libraries.
+# ---
+all:    destobjdir $(OBJS)
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) all) ; \
+		fi ; \
+	done ;
+	if [ -d $(SHARED_OBJ_DIR) ] ; then $(build_shared_lib) fi
+	if [ -d $(STATIC_OBJ_DIR) ] ; then $(build_static_lib) fi
+
+# ---
+# lib target:
+# 1) Make directories to hold objects.
+# 2) Make all objects.
+# 3) Make all subdirectories.
+# 4) Unlike all target always make the libraries even in not in top directory.
+# ---
+lib:	destobjdir $(OBJS)
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) all) ; \
+		fi ; \
+	done ;
+	$(build_shared_lib)
+	$(build_static_lib)
+
+depends: 	$(CCSRCS:.cc=.d)\
+		$(CSRCS:.c=.d)\
+		$(CPPSRCS:.cpp=.d)
+
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) depends) ; \
+		fi ; \
+	done ;
+
+destobjdir:
+	$(mkdir_shared)
+	$(mkdir_static)
+
+###
+# PLEASE KEEP:
+# This is how ossimEquTokenizer.cpp was generated.
+# Commented out on purpose so rule is not ran at compile time.
+# Explicit rule to make ossimEquTokenizer.cpp from ossimEquTokenizer files.
+# ossimEquTokenizer.cpp: ossimEquTokenizer.l ossimEquTokenDefines.h
+# 	flex -PossimEquTokenizer -+ ossimEquTokenizer.l
+# 	mv lex.ossimEquTokenizer.cc ossimEquTokenizer.cpp
+###
+
+clean_depends:
+	($(RM_NOPROMPT) *.d);
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) clean_depends) ; \
+		fi; \
+	done ;
+
+clean:
+	$(RM_CMD)
+	if [ -d ".obj" ]; then \
+		(cd .obj; $(RM_CMD); cd .libs; $(RM_CMD)) ; \
+	fi
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			(cd $$d; $(MAKE) clean) ; \
+		fi ; \
+	done ;
+	if [ -d $(SHARED_OBJ_DIR) ]; then $(RMDIR) $(SHARED_OBJ_DIR) ; fi
+	if [ -d $(STATIC_OBJ_DIR) ]; then $(RMDIR) $(STATIC_OBJ_DIR) ; fi
+
+###
+# Pattern rule for objects from .cpp files.
+###
+%.$(OBJEXT): %.cpp
+ifeq ($(BUILD_SHARED_OBJS),yes)
+	$(CXX) $(CXXFLAGS) $(PIC_FLAG) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@
+	cp $@ $(SHARED_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+ifeq ($(BUILD_STATIC_OBJS),yes)
+	$(CXX) $(CXXFLAGS) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@;
+	cp $@ $(STATIC_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+
+###
+# Pattern rule for objects from .cc files.
+###
+%.$(OBJEXT): %.cc
+ifeq ($(BUILD_SHARED_OBJS),yes)
+	$(CXX) $(CXXFLAGS) $(PIC_FLAG) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@
+	cp $@ $(SHARED_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+ifeq ($(BUILD_STATIC_OBJS),yes)
+	$(CXX) $(CXXFLAGS) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@;
+	cp $@ $(STATIC_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+
+###
+# Pattern rule for object from .c files.
+###
+%.$(OBJEXT): %.c
+ifeq ($(BUILD_SHARED_OBJS),yes)
+	$(CC) $(CFLAGS) $(PIC_FLAG) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@
+	cp  $*.$(OBJEXT) $(SHARED_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+ifeq ($(BUILD_STATIC_OBJS),yes)
+	$(CC) $(CFLAGS) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@
+	cp  $*.$(OBJEXT) $(STATIC_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+
+###
+# Explicit rule for ossimMapCompositionSource.cpp which cannot be built with
+# optimazation flags.
+###
+ossimMapCompositionSource.o: ossimMapCompositionSource.cpp
+ifeq ($(BUILD_SHARED_OBJS),yes)
+	$(CXX) $(CXXFLAGS) $(PIC_FLAG) $(NO_OPTIMIZATION_CXXFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@
+	cp $@ $(SHARED_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+ifeq ($(BUILD_STATIC_OBJS),yes)
+	$(CXX) $(CXXFLAGS) $(NO_OPTIMIZATION_CXXFLAGS) $(BASE_DEFINES) $(INCLUDES) -c $< -o $@
+	cp $@ $(STATIC_OBJ_DIR_PATH)/$*.$(OBJEXT)
+endif
+
+# Pattern rule for .d dependency file from .cc files.
+%.d: %.cc
+	$(SHELL) -ec '$(CXX) -MM $(CXXFLAGS) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) $< >> $@;'
+
+# Pattern rule for .d dependency file from .cpp files.
+%.d: %.cpp
+	$(SHELL) -ec '$(CXX) -MM $(CXXFLAGS) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) $< >> $@;'
+
+# Pattern rule for .d dependency file from .c files.
+%.d: %.c
+	$(SHELL) -ec '$(CC) -MM $(CFLAGS) $(CDEBUGFLAGS) $(BASE_DEFINES) $(INCLUDES) $< >> $@;'
+
+
+ifneq ( $(DEPENDS_FILES),)
+-include $(DEPENDS_FILES) 
+endif
+
+# ---
+# Define command sequences conditional upon "$(BUILD_S_LIBS) = yes"
+# --- 
+ifeq ($(BUILD_SHARED_LIBS),yes)
+
+define build_shared_lib
+g++ -shared -Wl,-soname,$(SHARED_LIB_SONAME) -o $(SHARED_LIB_TARGET) $(SHARED_OBJ_DIR_PATH)/*.$(OBJEXT) ; \
+(cd $(OSSIM_LIB_PATH) ; $(RM_NOPROMPT) $(SHARED_LIB_SONAME) ; $(RM_NOPROMPT) $(SHARED_LIB_VERSIONLESS) ; ln -s $(SHARED_LIB_REALNAME) $(SHARED_LIB_SONAME) ; ln -s $(SHARED_LIB_REALNAME) $(SHARED_LIB_VERSIONLESS) ; ) ;
+endef
+
+else
+
+define build_shared_lib
+echo "Shared library build disabled.";
+endef
+
+endif
+# End of "ifeq ($(BUILD_SHARED_LIBS),yes)"
+
+
+# ---
+# Define command sequences conditional upon "$(BUILD_STATIC_LIBS) = yes"
+# ---
+ifeq ($(BUILD_STATIC_LIBS),yes)
+
+define build_static_lib
+$(AR) $(AR_FLAGS) $(STATIC_LIB_TARGET) $(STATIC_OBJ_DIR_PATH)/*.$(OBJEXT) ; \
+$(RANLIB) $(STATIC_LIB_TARGET) ;
+endef
+
+else
+
+define build_static_lib
+echo "Static library build disabled.";
+endef
+
+endif
+# End of "ifeq ($(BUILD_STATIC_LIBS),yes)"
+
+
+# Define mkdir for shared objects...
+ifeq ($(BUILD_SHARED_OBJS),yes)
+define mkdir_shared
+if [ ! -d $(SHARED_OBJ_DIR_PATH) ] ; then mkdir $(SHARED_OBJ_DIR_PATH) ; fi
+endef
+else
+define mkdir_shared
+
+endef
+endif
+
+# Define mkdir for static objects...
+ifeq ($(BUILD_STATIC_OBJS),yes)
+define mkdir_static
+if [ ! -d $(STATIC_OBJ_DIR_PATH) ] ; then mkdir $(STATIC_OBJ_DIR_PATH) ; fi
+endef
+else
+define mkdir_static
+
+endef
+endif
+
+

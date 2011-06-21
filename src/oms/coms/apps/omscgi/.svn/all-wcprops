@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/13095/trunk/oms/coms/apps/omscgi
+END
+omscgi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/13095/trunk/oms/coms/apps/omscgi/omscgi.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/11662/trunk/oms/coms/apps/omscgi/Makefile
+END

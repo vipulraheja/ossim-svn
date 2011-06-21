@@ -1,0 +1,10 @@
+#
+# $Id: Jamfile 758 2007-09-18 01:55:01Z pben $
+#
+
+SubDir TOP apps geomatics ;
+
+SubInclude TOP apps geomatics cycleslips ;
+SubInclude TOP apps geomatics kalman ;
+SubInclude TOP apps geomatics relposition ;
+SubInclude TOP apps geomatics robust ;

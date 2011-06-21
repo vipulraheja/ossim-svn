@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/13758/trunk/ossim/makefiles/unx
+END
+makeroot
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12187/trunk/ossim/makefiles/unx/makeroot
+END
+makelibelevation.unx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibelevation.unx
+END
+makelibvpfutil.unx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibvpfutil.unx
+END
+makelibparallel.unx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibparallel.unx
+END
+makeroot.unx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/9354/trunk/ossim/makefiles/unx/makeroot.unx
+END
+makelibplugin.unx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibplugin.unx
+END
+makelibwx.unx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/4045/trunk/ossim/makefiles/unx/makelibwx.unx
+END
+makelibwxogl.unx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/4045/trunk/ossim/makefiles/unx/makelibwxogl.unx
+END
+makesrc.unx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/9353/trunk/ossim/makefiles/unx/makesrc.unx
+END
+makelibinit.unx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibinit.unx
+END
+makelibmatrix.unx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibmatrix.unx
+END
+makelibsupportdata.unx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibsupportdata.unx
+END
+makelibkbool.unx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/8971/trunk/ossim/makefiles/unx/makelibkbool.unx
+END
+makelibfont.unx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/9108/trunk/ossim/makefiles/unx/makelibfont.unx
+END
+makelib
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/12268/trunk/ossim/makefiles/unx/makelib
+END
+makeprog
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/9138/trunk/ossim/makefiles/unx/makeprog
+END
+makelibbase.unx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibbase.unx
+END
+makelibimaging.unx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibimaging.unx
+END
+makelibprojection.unx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9108/trunk/ossim/makefiles/unx/makelibprojection.unx
+END
+makeapps.unx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/7917/trunk/ossim/makefiles/unx/makeapps.unx
+END
+makelibvec.unx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/6994/trunk/ossim/makefiles/unx/makelibvec.unx
+END
+makelibcore
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/13758/trunk/ossim/makefiles/unx/makelibcore
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/4046/trunk/ossim/makefiles/unx/.cvsignore
+END

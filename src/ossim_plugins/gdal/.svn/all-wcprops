@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/19744/trunk/ossim_plugins/gdal
+END
+ossimOgrGdalTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimOgrGdalTileSource.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/13411/trunk/ossim_plugins/gdal/makefile.vc
+END
+ossimEsriShapeFileFilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19669/trunk/ossim_plugins/gdal/ossimEsriShapeFileFilter.cpp
+END
+ossimHdfReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimHdfReader.h
+END
+ossimShapeDatabase.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/13340/trunk/ossim_plugins/gdal/ossimShapeDatabase.h
+END
+ossimGdalObjectFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/13339/trunk/ossim_plugins/gdal/ossimGdalObjectFactory.h
+END
+ossimGdalProjectionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19683/trunk/ossim_plugins/gdal/ossimGdalProjectionFactory.cpp
+END
+ossimGdalOgrVectorAnnotation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19744/trunk/ossim_plugins/gdal/ossimGdalOgrVectorAnnotation.cpp
+END
+ossimGdalImageWriterFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/18003/trunk/ossim_plugins/gdal/ossimGdalImageWriterFactory.cpp
+END
+ossimGdalOverviewBuilderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/15833/trunk/ossim_plugins/gdal/ossimGdalOverviewBuilderFactory.h
+END
+ossimGdalTiledDataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/14589/trunk/ossim_plugins/gdal/ossimGdalTiledDataset.h
+END
+ossimGdalFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19446/trunk/ossim_plugins/gdal/ossimGdalFactory.h
+END
+ossimGdalOverviewBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim_plugins/gdal/ossimGdalOverviewBuilder.cpp
+END
+ossimShapeFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/13340/trunk/ossim_plugins/gdal/ossimShapeFile.h
+END
+ossimOgrInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimOgrInfo.h
+END
+ossimGdalWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimGdalWriter.h
+END
+ossimOgrVectorTileSource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17981/trunk/ossim_plugins/gdal/ossimOgrVectorTileSource.cpp
+END
+ossimGdalPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/18971/trunk/ossim_plugins/gdal/ossimGdalPluginInit.cpp
+END
+ossimGdalTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimGdalTileSource.h
+END
+ossimGdalInfoFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimGdalInfoFactory.cpp
+END
+ossimGdalDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15766/trunk/ossim_plugins/gdal/ossimGdalDataset.cpp
+END
+ossimOgcWktTranslator.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19683/trunk/ossim_plugins/gdal/ossimOgcWktTranslator.h
+END
+ossimGdalType.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/11440/trunk/ossim_plugins/gdal/ossimGdalType.h
+END
+ossimOgrGdalTileSource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimOgrGdalTileSource.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/8839/trunk/ossim_plugins/gdal/.cvsignore
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19432/trunk/ossim_plugins/gdal/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/10406/trunk/ossim_plugins/gdal/Makefile
+END
+ossimHdfInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimHdfInfo.h
+END
+ossimHdfReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimHdfReader.cpp
+END
+ossimShapeDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/13340/trunk/ossim_plugins/gdal/ossimShapeDatabase.cpp
+END
+shapefil.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/13338/trunk/ossim_plugins/gdal/shapefil.h
+END
+ossimGdalObjectFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/13339/trunk/ossim_plugins/gdal/ossimGdalObjectFactory.cpp
+END
+ossimGdalOverviewBuilderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/16273/trunk/ossim_plugins/gdal/ossimGdalOverviewBuilderFactory.cpp
+END
+ossimEsriShapeFileFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17934/trunk/ossim_plugins/gdal/ossimEsriShapeFileFilter.h
+END
+ossimGdalTiledDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19668/trunk/ossim_plugins/gdal/ossimGdalTiledDataset.cpp
+END
+ossimGdalFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19744/trunk/ossim_plugins/gdal/ossimGdalFactory.cpp
+END
+ossimShapeFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/13340/trunk/ossim_plugins/gdal/ossimShapeFile.cpp
+END
+ossimGdalProjectionFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim_plugins/gdal/ossimGdalProjectionFactory.h
+END
+ossimGdalOgrVectorAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimGdalOgrVectorAnnotation.h
+END
+ossimOgrInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimOgrInfo.cpp
+END
+ossimGdalImageWriterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/18003/trunk/ossim_plugins/gdal/ossimGdalImageWriterFactory.h
+END
+ossimGdalWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimGdalWriter.cpp
+END
+ossimGdalTileSource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimGdalTileSource.cpp
+END
+ossimOgcWktTranslator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19683/trunk/ossim_plugins/gdal/ossimOgcWktTranslator.cpp
+END
+ossimGdalType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/14786/trunk/ossim_plugins/gdal/ossimGdalType.cpp
+END
+ossimGdalOverviewBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15833/trunk/ossim_plugins/gdal/ossimGdalOverviewBuilder.h
+END
+gdal.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/16826/trunk/ossim_plugins/gdal/gdal.vcproj
+END
+ossimHdfInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19733/trunk/ossim_plugins/gdal/ossimHdfInfo.cpp
+END
+ossimOgrVectorTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17981/trunk/ossim_plugins/gdal/ossimOgrVectorTileSource.h
+END
+ossimGdalInfoFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/17935/trunk/ossim_plugins/gdal/ossimGdalInfoFactory.h
+END
+ossimGdalDataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15766/trunk/ossim_plugins/gdal/ossimGdalDataset.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/ossim/!svn/ver/19684/trunk/oms/coms
+END
+make.opt.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/11656/trunk/oms/coms/make.opt.in
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/13737/trunk/oms/coms/.project
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/13737/trunk/oms/coms/.cproject
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/9348/trunk/oms/coms/.cvsignore
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/19038/trunk/oms/coms/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/16352/trunk/oms/coms/Makefile
+END
+make.opt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/16826/trunk/oms/coms/make.opt
+END

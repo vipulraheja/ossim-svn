@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19739/trunk/ossim_package_support/cmake/CMakeModules
+END
+FindZLIB.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindZLIB.cmake
+END
+FindLIBLAS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/18892/trunk/ossim_package_support/cmake/CMakeModules/FindLIBLAS.cmake
+END
+FindOpenJPEG.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/18352/trunk/ossim_package_support/cmake/CMakeModules/FindOpenJPEG.cmake
+END
+FindcsmApi.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindcsmApi.cmake
+END
+cmake_uninstall.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/cmake_uninstall.cmake.in
+END
+FindMrSid.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/19739/trunk/ossim_package_support/cmake/CMakeModules/FindMrSid.cmake
+END
+OssimDetermineCompiler.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/17724/trunk/ossim_package_support/cmake/CMakeModules/OssimDetermineCompiler.cmake
+END
+FindFreetype.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindFreetype.cmake
+END
+OssimQt4Macros.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/OssimQt4Macros.cmake
+END
+FindGPSTK.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindGPSTK.cmake
+END
+FindOSG.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17734/trunk/ossim_package_support/cmake/CMakeModules/FindOSG.cmake
+END
+FindFFTW3.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindFFTW3.cmake
+END
+FindossimPredator.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/19428/trunk/ossim_package_support/cmake/CMakeModules/FindossimPredator.cmake
+END
+FindossimPlanet.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindossimPlanet.cmake
+END
+FindOMS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindOMS.cmake
+END
+OssimVersion.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/19247/trunk/ossim_package_support/cmake/CMakeModules/OssimVersion.cmake
+END
+FindFFmpeg.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/19205/trunk/ossim_package_support/cmake/CMakeModules/FindFFmpeg.cmake
+END
+FindWMS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindWMS.cmake
+END
+FindStlPort.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17506/trunk/ossim_package_support/cmake/CMakeModules/FindStlPort.cmake
+END
+FindMiniZip.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/18302/trunk/ossim_package_support/cmake/CMakeModules/FindMiniZip.cmake
+END
+FindCPPUNIT.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17801/trunk/ossim_package_support/cmake/CMakeModules/FindCPPUNIT.cmake
+END
+FindRapier.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/18567/trunk/ossim_package_support/cmake/CMakeModules/FindRapier.cmake
+END
+FindGEOTIFF.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17309/trunk/ossim_package_support/cmake/CMakeModules/FindGEOTIFF.cmake
+END
+OssimUtilities.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/18489/trunk/ossim_package_support/cmake/CMakeModules/OssimUtilities.cmake
+END
+FindHDF4.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19718/trunk/ossim_package_support/cmake/CMakeModules/FindHDF4.cmake
+END
+FindJPEG.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17280/trunk/ossim_package_support/cmake/CMakeModules/FindJPEG.cmake
+END
+OssimCPackConfig.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17176/trunk/ossim_package_support/cmake/CMakeModules/OssimCPackConfig.cmake.in
+END
+Findossim.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/19430/trunk/ossim_package_support/cmake/CMakeModules/Findossim.cmake
+END
+FindOpenCV.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/18292/trunk/ossim_package_support/cmake/CMakeModules/FindOpenCV.cmake
+END
+OssimCommonVariables.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/18344/trunk/ossim_package_support/cmake/CMakeModules/OssimCommonVariables.cmake
+END
+OssimCPack.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17176/trunk/ossim_package_support/cmake/CMakeModules/OssimCPack.cmake
+END

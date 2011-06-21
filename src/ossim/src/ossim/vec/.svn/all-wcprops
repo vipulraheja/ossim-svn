@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vec
+END
+ossimVpfExtent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/11955/trunk/ossim/src/ossim/vec/ossimVpfExtent.cpp
+END
+ossimVpfTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vec/ossimVpfTable.cpp
+END
+ossimVpfCoverage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/9963/trunk/ossim/src/ossim/vec/ossimVpfCoverage.cpp
+END
+ossimVpfDatabaseHeaderTableValidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/vec/ossimVpfDatabaseHeaderTableValidator.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/13289/trunk/ossim/src/ossim/vec/makefile.vc
+END
+ossimVpfBoundingRecordTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vec/ossimVpfBoundingRecordTable.cpp
+END
+ossimVpfDatabaseHeader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/vec/ossimVpfDatabaseHeader.cpp
+END
+ossimVpfFeatureClass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/vec/ossimVpfFeatureClass.cpp
+END
+ossimVpfFeatureClassSchema.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/vec/ossimVpfFeatureClassSchema.cpp
+END
+ossimVpfDatabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vec/ossimVpfDatabase.cpp
+END
+ossimVpfLibrary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15833/trunk/ossim/src/ossim/vec/ossimVpfLibrary.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/7257/trunk/ossim/src/ossim/vec/.cvsignore
+END
+ossimVpfLibraryAttributeTableValidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/vec/ossimVpfLibraryAttributeTableValidator.cpp
+END

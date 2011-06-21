@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/7518/trunk/ossim/src/examples/elevation/dted_test
+END
+dtedHandlerTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/7202/trunk/ossim/src/examples/elevation/dted_test/dtedHandlerTest.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/7518/trunk/ossim/src/examples/elevation/dted_test/Makefile
+END

@@ -1,0 +1,24 @@
+// Define a completely custom build setting with a made-up name.
+OSSIM_VERSION_NUMBER = 1.8.4
+OSSIM_VERSION_COMPATIBILITY_NUMBER = 1.8
+MY_EXTRA_INFO_STRING = "$(OSSIM_VERSION_NUMBER)"
+
+// Tell GCC to add a preprocessor macro that contains the value of the made-up custom build setting.  We use the "$(inherited)" notation to substitute in the inherited value at the beginning, so that we don't accidentally shadow any definitions of the same build setting at lower levels of precedence.
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) 
+EXTRA_INFO_STRING_FOR_MENU=\"Version\ $(MY_EXTRA_INFO_STRING)\"
+
+// Also, to make cross-project references work well, we define a common build folder for this project.  This causes all targets of all projects that are based on this .xcconfig file to have access to each other's built products.  It's also a good idea to set the build folder to a folder on the local hard disk, if the project sources live on a network-mounted file system.
+SYMROOT = $(HOME)/OssimBuilds/
+
+DEV_HOME_PATH=/Users/Shared/Development
+UNIV_DEP=$(DEV_HOME_PATH)/ossim_dependencies
+//QT4DIR=/usr/local/Trolltech/Qt-4.6.0
+QT4DIR=/usr
+QT3DIR=$(UNIV_DEP)/qt3
+UNIV_STATICLIB_DEP=$(UNIV_DEP)/lib
+UNIV_HEADER_DEP=$(UNIV_DEP)/include $(UNIV_DEP)/include/freetype2
+OSSIM_PACKAGE_SUPPORT=$(DEV_HOME_PATH)/ossim_package_support
+OSSIM_DIR=$(DEV_HOME_PATH)/ossim
+GCC_OPTIMIZATION_LEVEL=3
+ARCHS=i386 x86_64
+QT_BUNDLE_DMG_OPTION=-dmg

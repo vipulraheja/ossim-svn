@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/14677/trunk/ossimPlanet/schema
+END
+AnimationPath.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/14677/trunk/ossimPlanet/schema/AnimationPath.xsd
+END
+ossimPlanet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/14677/trunk/ossimPlanet/schema/ossimPlanet.xsd
+END

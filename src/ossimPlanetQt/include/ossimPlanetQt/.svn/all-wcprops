@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19745/trunk/ossimPlanetQt/include/ossimPlanetQt
+END
+ossimPlanetQtGlWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/15322/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtGlWidget.h
+END
+ossimPlanetQtActivityItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/12591/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtActivityItem.h
+END
+ossimPlanetQtMainWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/19745/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtMainWindow.h
+END
+ossimPlanetQtLegendItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/14908/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendItem.h
+END
+ossimPlanetQtActionAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/11892/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtActionAdapter.h
+END
+ossimPlanetQtEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/14908/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtEvent.h
+END
+ossimPlanetQtLegendNodeItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/12861/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendNodeItem.h
+END
+ossimPlanetQtVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/13751/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtVersion.h
+END
+ossimPlanetQtMessageLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/12632/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtMessageLog.h
+END
+ossimPlanetQtRuler.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/14060/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtRuler.h
+END
+ossimPlanetQtLegendAnimationPathItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ossim/!svn/ver/12591/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendAnimationPathItem.h
+END
+ossimPlanetQtOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/12654/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtOperation.h
+END
+ossimPlanetQtActivityWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/12606/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtActivityWidget.h
+END
+ossimPlanetQtPreferences.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/11042/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtPreferences.h
+END
+ossimPlanetQtLegendLocationInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/11042/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendLocationInfo.h
+END
+ossimPlanetQtLegendVideoItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/12860/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendVideoItem.h
+END
+ossimPlanetQtActivityThreadQueueItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ossim/!svn/ver/11042/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtActivityThreadQueueItem.h
+END
+ossimPlanetQtNewHttpConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/11557/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtNewHttpConnection.h
+END
+ossimPlanetQtVideoControlWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/12382/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtVideoControlWidget.h
+END
+ossimPlanetQtLegendKmlItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/12860/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendKmlItem.h
+END
+ossimPlanetQtExport.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/11041/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtExport.h
+END
+ossimPlanetQtImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/11042/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtImage.h
+END
+ossimPlanetQtActivityThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/10426/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtActivityThread.h
+END
+ossimPlanetQtActivityWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/11042/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtActivityWindow.h
+END
+ossimPlanetQtLegendLocatioInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/10432/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendLocatioInfo.h
+END
+ossimPlanetQtWmsDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17217/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtWmsDialog.h
+END
+ossimPlanetQtDropDownDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/12228/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtDropDownDelegate.h
+END
+ossimPlanetQtAboutDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/11048/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtAboutDialog.h
+END
+ossimPlanetQtLayerOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/14877/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLayerOperation.h
+END
+ossimPlanetQtLegendTextureItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/13086/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegendTextureItem.h
+END
+ossimPlanetQtLegend.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15460/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtLegend.h
+END
+ossimPlanetQtApplication.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/15552/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtApplication.h
+END
+ossimPlanetQtAlertLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/16580/trunk/ossimPlanetQt/include/ossimPlanetQt/ossimPlanetQtAlertLayer.h
+END

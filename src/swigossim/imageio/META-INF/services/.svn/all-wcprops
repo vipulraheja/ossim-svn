@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/12318/trunk/swigossim/imageio/META-INF/services
+END
+javax.imageio.spi.ImageReaderSpi
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/12318/trunk/swigossim/imageio/META-INF/services/javax.imageio.spi.ImageReaderSpi
+END

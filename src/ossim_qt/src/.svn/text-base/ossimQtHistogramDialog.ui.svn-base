@@ -1,0 +1,822 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>ossimQtHistogramDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtHistogramDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>463</width>
+            <height>314</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>histogram</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="0" column="1">
+            <property name="name">
+                <cstring>layout15</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theLowClipPercentLineEdit</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>60</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>60</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignAuto</set>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>low clip percent</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer11</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="0" column="0">
+            <property name="name">
+                <cstring>layout24</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer9</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>30</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>stretch mode:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <property name="name">
+                        <cstring>theStretchModeComboBox</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>130</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="sizeLimit">
+                        <number>32</number>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="1" column="1">
+            <property name="name">
+                <cstring>layout16</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theHighClipPercentLineEdit</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>60</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>60</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignAuto</set>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel5</cstring>
+                    </property>
+                    <property name="text">
+                        <string>high clip percent</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer12</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>layout25</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer10</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>60</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>theChannelTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>display channel:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>master</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>theBandComboBox</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>130</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="sizeLimit">
+                        <number>256</number>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="2" column="1">
+            <property name="name">
+                <cstring>layout19</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theLowClipValueLineEdit</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>60</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>60</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>low clip value</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer13</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="ossimQtHistogramWidget" row="2" column="0" rowspan="5" colspan="1">
+            <property name="name">
+                <cstring>theHistogramWidget</cstring>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>256</width>
+                    <height>128</height>
+                </size>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="3" column="1">
+            <property name="name">
+                <cstring>layout20</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theHighClipValueLineEdit</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>60</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>60</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel7</cstring>
+                    </property>
+                    <property name="text">
+                        <string>high clip value</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer14</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="4" column="1">
+            <property name="name">
+                <cstring>layout21</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theMidPointLineEdit</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>60</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>60</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignAuto</set>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel8</cstring>
+                    </property>
+                    <property name="text">
+                        <string>mid point</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer15</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="5" column="1">
+            <property name="name">
+                <cstring>layout22</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theOutputMinValue</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>60</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>60</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel9</cstring>
+                    </property>
+                    <property name="text">
+                        <string>output min value</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer16</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="6" column="1">
+            <property name="name">
+                <cstring>layout23</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theOutputMaxValue</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>60</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>60</width>
+                            <height>32767</height>
+                        </size>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel10</cstring>
+                    </property>
+                    <property name="text">
+                        <string>output max value</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer17</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="Line" row="7" column="0">
+            <property name="name">
+                <cstring>theClipPointLine</cstring>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>256</width>
+                    <height>0</height>
+                </size>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="lineWidth">
+                <number>2</number>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="8" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout12</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>theHistogramFileLabel</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>90</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="text">
+                        <string>histogram file:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>theHistogramFileLineEdit</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>220</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="text">
+                        <string></string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theHistogramFilePushButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>set histogram file</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="9" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout27</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer18</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>120</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QCheckBox">
+                    <property name="name">
+                        <cstring>theEnableCheckBox</cstring>
+                    </property>
+                    <property name="text">
+                        <string>enabled</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theApplyButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>apply</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theResetButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>reset</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </grid>
+</widget>
+<customwidgets>
+    <customwidget>
+        <class>ossimQtHistogramWidget</class>
+        <header location="local">ossimQtHistogramWidget.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>5</hordata>
+            <verdata>5</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image0</pixmap>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="41664">789cedd0314a03510000d17e4ff159bb458c2b98463c826029884588881669341622de5d27d7f04d37eddb2ce3e1fe6e2c9be9e3b83bbeedc7fe75f73e96e7cfc3e1ebf1e9f67b9aafaeb763dd5e8e75acf3f9345f8cfd387b3975da7f1e0306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500c18140306c580413160500cfe0c7e6ea65f49a91ee9</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>closeButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theApplyButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>applyButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theResetButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>resetButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theEnableCheckBox</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>enableCheckBoxClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theHighClipPercentLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>highClipPercentReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theLowClipPercentLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>lowClipPercentReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theLowClipValueLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>lowClipValueReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theHighClipValueLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>highClipValueReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theMidPointLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>midPointReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theOutputMinValue</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>outputMinValueReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theOutputMaxValue</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>outputMaxValueReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theStretchModeComboBox</sender>
+        <signal>activated(int)</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>stretchModeComboBoxActivated(int)</slot>
+    </connection>
+    <connection>
+        <sender>theBandComboBox</sender>
+        <signal>activated(int)</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>bandComboBoxActivated(int)</slot>
+    </connection>
+    <connection>
+        <sender>theHistogramFileLineEdit</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>histogramFileLineEditReturnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theHistogramFilePushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtHistogramDialog</receiver>
+        <slot>histogramFilePushButtonClicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtHistogramController.h</include>
+    <include location="local" impldecl="in implementation">ossim/base/ossimString.h</include>
+    <include location="global" impldecl="in implementation">qfiledialog.h</include>
+    <include location="local" impldecl="in implementation">ossim/imaging/ossimHistogramRemapper.h</include>
+    <include location="local" impldecl="in implementation">ossimQtHistogramDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtHistogramController;</forward>
+    <forward>class ossimHistogramRemapper;</forward>
+</forwards>
+<variables>
+    <variable access="private">ossimQtHistogramController* theController;</variable>
+</variables>
+<slots>
+    <slot>closeButtonClicked()</slot>
+    <slot>applyButtonClicked()</slot>
+    <slot>resetButtonClicked()</slot>
+    <slot>enableCheckBoxClicked()</slot>
+    <slot>lowClipPercentReturnPressed()</slot>
+    <slot>highClipPercentReturnPressed()</slot>
+    <slot>lowClipValueReturnPressed()</slot>
+    <slot>highClipValueReturnPressed()</slot>
+    <slot>midPointReturnPressed()</slot>
+    <slot>outputMinValueReturnPressed()</slot>
+    <slot>outputMaxValueReturnPressed()</slot>
+    <slot>stretchModeComboBoxActivated( int item )</slot>
+    <slot>bandComboBoxActivated( int item )</slot>
+    <slot>histogramFileLineEditReturnPressed()</slot>
+    <slot>histogramFilePushButtonClicked()</slot>
+</slots>
+<functions>
+    <function access="private">init()</function>
+    <function access="private">destroy()</function>
+    <function>setHistogramRemapper( ossimHistogramRemapper * remapper )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>ossimQtHistogramWidget.h</includehint>
+</includehints>
+</UI>

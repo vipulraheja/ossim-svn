@@ -1,0 +1,51 @@
+@INCLUDE_COMMON@
+
+all: apps
+
+apps: libs
+	(cd apps; $(MAKE) all; )
+
+ifeq (${WX_SETTING}, 1)
+
+libs:
+	(cd ossim; $(MAKE) all) ; 
+
+depends:
+	(cd ossim; $(MAKE) depends) ;
+	(cd apps; $(MAKE) depends) ;
+
+shared: libs
+	(cd ossim; $(MAKE) shared) ;
+
+else
+
+libs:
+	(cd ossim; $(MAKE) all ) ;
+
+
+depends:
+	(cd ossim; $(MAKE) depends) ;
+	(cd apps; $(MAKE) depends) ;
+
+shared: libs
+	(cd ossim; $(MAKE) shared) ;
+
+endif
+
+clean:	
+	(cd ossim; $(MAKE) clean) ;
+	(cd apps; $(MAKE) clean) ;
+
+clean_depends:
+	(cd ossim; $(MAKE) clean_depends) ;
+	(cd apps; $(MAKE) clean_depends) ;
+
+
+install:
+	(cd ossim;  $(MAKE) install) ; \
+	if [ "$(WX_SETTING)" = "1" ] ; then \
+	   for f in `find ./gui -name "*.h"` ; do \
+		$(INSTALL) -d  $(INST_INC)/`$(DIRNAME) $$f` ; \
+		$(INSTALL) $$f $(INST_INC)/`$(DIRNAME) $$f` ; \
+	   done ; \
+	fi ;

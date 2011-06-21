@@ -1,0 +1,64 @@
+10
+
+dir
+19757
+http://svn.osgeo.org/ossim/trunk/ossim/src/msvc/apps
+http://svn.osgeo.org/ossim
+
+
+
+2006-08-17T18:22:25.000000Z
+9436
+gpotts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b630af17-092b-0410-afba-a002956477a4
+
+ossim_applanix2ogeom
+dir
+
+ossim_correl
+dir
+
+ossim_rejout
+dir
+
+ossim_createhisto
+dir
+
+ossim_icp
+dir
+
+ossim_cmm
+dir
+
+ossim_image_info
+dir
+
+ossim_orthoigen
+dir
+
+ossim_ogeom2ogeom
+dir
+
+ossim_igen
+dir
+
+ossim_img2rr
+dir
+
+ossim_foo
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/mac
+END
+mac-universal.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/mac/mac-universal.sh
+END
+mac-basic.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/mac/mac-basic.sh
+END
+mac-64bit-kakadu.sh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/mac/mac-64bit-kakadu.sh
+END
+mac-universal-kakadu.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/mac/mac-universal-kakadu.sh
+END

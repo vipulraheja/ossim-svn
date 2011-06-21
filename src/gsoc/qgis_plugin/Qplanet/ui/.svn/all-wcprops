@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/16022/trunk/gsoc/qgis_plugin/Qplanet/ui
+END
+data_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/16022/trunk/gsoc/qgis_plugin/Qplanet/ui/data_ui.ui
+END
+transvector_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/ui/transvector_ui.ui
+END
+epsg_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/ui/epsg_ui.ui
+END
+preference_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/16017/trunk/gsoc/qgis_plugin/Qplanet/ui/preference_ui.ui
+END
+model_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/16017/trunk/gsoc/qgis_plugin/Qplanet/ui/model_ui.ui
+END
+kmlsave_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/16017/trunk/gsoc/qgis_plugin/Qplanet/ui/kmlsave_ui.ui
+END
+QPlanetSasha_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16022/trunk/gsoc/qgis_plugin/Qplanet/ui/QPlanetSasha_ui.ui
+END

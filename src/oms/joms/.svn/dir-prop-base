@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 89
+bin
+dist
+history.xml
+init.i
+lib
+util
+local.properties
+*.jnilib
+joms.dll
+gensrc
+
+END

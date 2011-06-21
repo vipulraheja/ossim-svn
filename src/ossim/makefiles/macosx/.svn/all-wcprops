@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/13758/trunk/ossim/makefiles/macosx
+END
+makeroot
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/9225/trunk/ossim/makefiles/macosx/makeroot
+END
+makelib
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12268/trunk/ossim/makefiles/macosx/makelib
+END
+makeprog
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/7817/trunk/ossim/makefiles/macosx/makeprog
+END
+libtiff_config.site
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/6029/trunk/ossim/makefiles/macosx/libtiff_config.site
+END
+makelibcore
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/13758/trunk/ossim/makefiles/macosx/makelibcore
+END

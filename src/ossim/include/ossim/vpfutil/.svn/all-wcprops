@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/19638/trunk/ossim/include/ossim/vpfutil
+END
+linklist.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/linklist.h
+END
+set.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/set.h
+END
+values.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/6234/trunk/ossim/include/ossim/vpfutil/values.h
+END
+mapgraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/3334/trunk/ossim/include/ossim/vpfutil/mapgraph.h
+END
+xmemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/13603/trunk/ossim/include/ossim/vpfutil/xmemory.h
+END
+vpftable.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19637/trunk/ossim/include/ossim/vpfutil/vpftable.h
+END
+protomas.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/protomas.h
+END
+machine.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/machine.h
+END
+vpfmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/vpfutil/vpfmisc.h
+END
+vpfselec.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/vpfselec.h
+END
+vpfdraw.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19637/trunk/ossim/include/ossim/vpfutil/vpfdraw.h
+END
+vpfdisp.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19637/trunk/ossim/include/ossim/vpfutil/vpfdisp.h
+END
+vpfinit.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/vpfinit.h
+END
+polygrf.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/vpfutil/polygrf.h
+END
+vpfprim.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19637/trunk/ossim/include/ossim/vpfutil/vpfprim.h
+END
+vpfio.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19637/trunk/ossim/include/ossim/vpfutil/vpfio.h
+END
+vpfrelat.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19637/trunk/ossim/include/ossim/vpfutil/vpfrelat.h
+END
+system.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/system.h
+END
+projectn.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/6223/trunk/ossim/include/ossim/vpfutil/projectn.h
+END
+vpftidx.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19638/trunk/ossim/include/ossim/vpfutil/vpftidx.h
+END
+vpfapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/13587/trunk/ossim/include/ossim/vpfutil/vpfapi.h
+END
+vpfview.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/11346/trunk/ossim/include/ossim/vpfutil/vpfview.h
+END

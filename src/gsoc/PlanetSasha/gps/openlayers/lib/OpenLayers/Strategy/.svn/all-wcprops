@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Strategy
+END
+Paging.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Strategy/Paging.js
+END
+BBOX.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Strategy/BBOX.js
+END
+Save.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Strategy/Save.js
+END
+Fixed.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Strategy/Fixed.js
+END
+Cluster.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Strategy/Cluster.js
+END

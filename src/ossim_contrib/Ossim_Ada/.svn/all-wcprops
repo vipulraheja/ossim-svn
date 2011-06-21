@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada
+END
+.DS_Store
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/.DS_Store
+END
+install_linux
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/install_linux
+END
+copy_ali.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/copy_ali.sh
+END
+test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/test.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Makefile
+END
+Readme
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/7277/trunk/ossim_contrib/Ossim_Ada/Readme
+END

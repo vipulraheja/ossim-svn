@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format
+END
+GeoJSON.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/GeoJSON.js
+END
+WMSDescribeLayer.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WMSDescribeLayer.js
+END
+WKT.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WKT.js
+END
+JSON.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/JSON.js
+END
+WFSCapabilities.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WFSCapabilities.js
+END
+WFSDescribeFeatureType.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WFSDescribeFeatureType.js
+END
+GML.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/GML.js
+END
+WMSCapabilities.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WMSCapabilities.js
+END
+SLD.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/SLD.js
+END
+WFST.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WFST.js
+END
+KML.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/KML.js
+END
+Text.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/Text.js
+END
+Filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/Filter.js
+END
+WMC.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WMC.js
+END
+ArcXML.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/ArcXML.js
+END
+OSM.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/OSM.js
+END
+GPX.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/GPX.js
+END
+WMSGetFeatureInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WMSGetFeatureInfo.js
+END
+WFS.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/WFS.js
+END
+XML.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/XML.js
+END
+GeoRSS.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Format/GeoRSS.js
+END

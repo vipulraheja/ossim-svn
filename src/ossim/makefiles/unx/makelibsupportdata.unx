@@ -1,0 +1,11 @@
+####
+# $Id: makelibsupportdata.unx 6994 2004-11-15 16:05:49Z dburken $
+####
+
+@INCLUDE_COMMON@
+
+OSSIM_LIB=$(LIB_SUPPORT_DATA)
+
+BASELIBPATH=$(SUPPORT_DATA_ROOT)
+
+include $(TOP)/makelib.mak

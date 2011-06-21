@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/19302/trunk/oms/joms/swig
+END
+DataManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/16439/trunk/oms/joms/swig/DataManager.cpp
+END
+oms.i
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/19302/trunk/oms/joms/swig/oms.i
+END
+RasterEngine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/14784/trunk/oms/joms/swig/RasterEngine.cpp
+END
+DataManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/14784/trunk/oms/joms/swig/DataManager.h
+END
+RasterEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/14784/trunk/oms/joms/swig/RasterEngine.h
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/10237/trunk/oms/joms/swig/.cvsignore
+END

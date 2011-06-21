@@ -1,0 +1,1433 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/19737/trunk/ossim/include/ossim/imaging
+END
+ossimGammaRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGammaRemapper.h
+END
+ossimAnnotationEllipseObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationEllipseObject.h
+END
+ossimImageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19723/trunk/ossim/include/ossim/imaging/ossimImageHandler.h
+END
+ossimAnnotationMultiPolyObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17815/trunk/ossim/include/ossim/imaging/ossimAnnotationMultiPolyObject.h
+END
+ossimHistogramEqualization.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimHistogramEqualization.h
+END
+ossimImageChain.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19553/trunk/ossim/include/ossim/imaging/ossimImageChain.h
+END
+ossimBrightnessMatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimBrightnessMatch.h
+END
+ossimLandsatTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimLandsatTileSource.h
+END
+ossimBitMaskWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19725/trunk/ossim/include/ossim/imaging/ossimBitMaskWriter.h
+END
+ossimSICDToDetectedImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17950/trunk/ossim/include/ossim/imaging/ossimSICDToDetectedImage.h
+END
+ossimGeneralRasterWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/16081/trunk/ossim/include/ossim/imaging/ossimGeneralRasterWriter.h
+END
+ossimAtCorrGridRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAtCorrGridRemapper.h
+END
+ossimClosestToCenterCombiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimClosestToCenterCombiner.h
+END
+ossimRLevelFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimRLevelFilter.h
+END
+ossimNormalizedRemapTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15742/trunk/ossim/include/ossim/imaging/ossimNormalizedRemapTable.h
+END
+ossimDiscreteNearestNeighbor.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/imaging/ossimDiscreteNearestNeighbor.h
+END
+ossimImageWriterFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/18011/trunk/ossim/include/ossim/imaging/ossimImageWriterFactoryBase.h
+END
+ossimRgbToHsiSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimRgbToHsiSource.h
+END
+ossimImageHandlerFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19443/trunk/ossim/include/ossim/imaging/ossimImageHandlerFactoryBase.h
+END
+ossimDoqqTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimDoqqTileSource.h
+END
+ossimImageSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19732/trunk/ossim/include/ossim/imaging/ossimImageSource.h
+END
+ossimGeoAnnotationGdBitmapFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationGdBitmapFont.h
+END
+ossimEsriShapeFileInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/18694/trunk/ossim/include/ossim/imaging/ossimEsriShapeFileInterface.h
+END
+ossimImageCacheTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19737/trunk/ossim/include/ossim/imaging/ossimImageCacheTileSource.h
+END
+ossimOverviewBuilderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15833/trunk/ossim/include/ossim/imaging/ossimOverviewBuilderFactory.h
+END
+ossimImageMetaDataWriterRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/13508/trunk/ossim/include/ossim/imaging/ossimImageMetaDataWriterRegistry.h
+END
+ossimFeatherMosaic.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimFeatherMosaic.h
+END
+ossimPolyCutter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimPolyCutter.h
+END
+ossimMetadataFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimMetadataFileWriter.h
+END
+ossimElevImageSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17108/trunk/ossim/include/ossim/imaging/ossimElevImageSource.h
+END
+ossimRgbToHsvSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimRgbToHsvSource.h
+END
+ossimMaxMosaic.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimMaxMosaic.h
+END
+ossimGeoAnnotationFontObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationFontObject.h
+END
+ossimAnnotationMultiLineObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimAnnotationMultiLineObject.h
+END
+ossimWorldFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimWorldFileWriter.h
+END
+ossimGeoAnnotationMultiEllipseObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationMultiEllipseObject.h
+END
+ossimRgbToJpegYCbCrSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimRgbToJpegYCbCrSource.h
+END
+ossimTiffTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/18373/trunk/ossim/include/ossim/imaging/ossimTiffTileSource.h
+END
+ossimHistogramThreshholdFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimHistogramThreshholdFilter.h
+END
+ossimGridRemapEngineFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimGridRemapEngineFactory.h
+END
+ossimImageSourceFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimImageSourceFactory.h
+END
+ossimFilterTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimFilterTable.h
+END
+ossimNitfWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/18674/trunk/ossim/include/ossim/imaging/ossimNitfWriter.h
+END
+ossimNormalizedU16RemapTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16034/trunk/ossim/include/ossim/imaging/ossimNormalizedU16RemapTable.h
+END
+ossimFilterResampler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9696/trunk/ossim/include/ossim/imaging/ossimFilterResampler.h
+END
+ossimOverviewBuilderFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/19187/trunk/ossim/include/ossim/imaging/ossimOverviewBuilderFactoryBase.h
+END
+ossimImageCombiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimImageCombiner.h
+END
+ossimDiscrete3x3HatFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/11418/trunk/ossim/include/ossim/imaging/ossimDiscrete3x3HatFilter.h
+END
+ossimGeoPolyCutter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/18423/trunk/ossim/include/ossim/imaging/ossimGeoPolyCutter.h
+END
+ossimBandMergeSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimBandMergeSource.h
+END
+ossimBrightnessContrastSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimBrightnessContrastSource.h
+END
+ossimImageMetaDataWriterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimImageMetaDataWriterFactory.h
+END
+ossimGeoAnnotationPolyLineObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationPolyLineObject.h
+END
+ossimVertexExtractor.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17207/trunk/ossim/include/ossim/imaging/ossimVertexExtractor.h
+END
+ossimRpfCacheTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/18052/trunk/ossim/include/ossim/imaging/ossimRpfCacheTileSource.h
+END
+ossimImageStatisticsSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageStatisticsSource.h
+END
+ossimVpfAnnotationFeatureInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/19636/trunk/ossim/include/ossim/imaging/ossimVpfAnnotationFeatureInfo.h
+END
+ossimImageGeometryFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageGeometryFactoryBase.h
+END
+ossimAtCorrKeywords.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimAtCorrKeywords.h
+END
+ossimMapCompositionSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimMapCompositionSource.h
+END
+ossimFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimFilter.h
+END
+ossimGeoAnnotationSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationSource.h
+END
+ossimImageSourceFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimImageSourceFactoryBase.h
+END
+ossimImageGeometryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageGeometryRegistry.h
+END
+ossimAnnotationFontObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationFontObject.h
+END
+ossimNitfWriterBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16081/trunk/ossim/include/ossim/imaging/ossimNitfWriterBase.h
+END
+ossimAnnotationObjectFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimAnnotationObjectFactory.h
+END
+ossimMonoGridRemapEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimMonoGridRemapEngine.h
+END
+ossimGdFontExterns.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimGdFontExterns.h
+END
+ossimAnnotationMultiEllipseObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationMultiEllipseObject.h
+END
+ossimGeoAnnotationObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationObject.h
+END
+ossimCibCadrgTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17954/trunk/ossim/include/ossim/imaging/ossimCibCadrgTileSource.h
+END
+ossimConvolutionSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimConvolutionSource.h
+END
+ossimImageWriterFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/18966/trunk/ossim/include/ossim/imaging/ossimImageWriterFactoryRegistry.h
+END
+ossimEquationCombiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimEquationCombiner.h
+END
+ossimMeanMedianFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimMeanMedianFilter.h
+END
+ossimUsgsDemTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19640/trunk/ossim/include/ossim/imaging/ossimUsgsDemTileSource.h
+END
+ossimEnviHeaderFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimEnviHeaderFileWriter.h
+END
+ossimOverviewBuilderBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/19724/trunk/ossim/include/ossim/imaging/ossimOverviewBuilderBase.h
+END
+ossimImageHandlerRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19551/trunk/ossim/include/ossim/imaging/ossimImageHandlerRegistry.h
+END
+ossimHsiRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19689/trunk/ossim/include/ossim/imaging/ossimHsiRemapper.h
+END
+ossimImageWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/15798/trunk/ossim/include/ossim/imaging/ossimImageWriter.h
+END
+ossimFusionCombiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimFusionCombiner.h
+END
+ossimSFIMFusion.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimSFIMFusion.h
+END
+ossimImageMetaData.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimImageMetaData.h
+END
+ossimNBandToIndexFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimNBandToIndexFilter.h
+END
+ossimSrtmTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimSrtmTileSource.h
+END
+ossimJpegYCbCrToRgbSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimJpegYCbCrToRgbSource.h
+END
+ossimCcfTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/16075/trunk/ossim/include/ossim/imaging/ossimCcfTileSource.h
+END
+ossimOrthoImageMosaic.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimOrthoImageMosaic.h
+END
+ossimReadmeFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimReadmeFileWriter.h
+END
+ossimQuickbirdNitfTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimQuickbirdNitfTileSource.h
+END
+ossimScaleFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimScaleFilter.h
+END
+ossimOverviewBuilderFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19184/trunk/ossim/include/ossim/imaging/ossimOverviewBuilderFactoryRegistry.h
+END
+gdfontg.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/4039/trunk/ossim/include/ossim/imaging/gdfontg.inc
+END
+ossimAnnotationMapGridSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimAnnotationMapGridSource.h
+END
+ossimCastTileSourceFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimCastTileSourceFilter.h
+END
+ossimIndexToRgbLutFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimIndexToRgbLutFilter.h
+END
+ossimFixedTileCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16276/trunk/ossim/include/ossim/imaging/ossimFixedTileCache.h
+END
+ossimCacheTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/16276/trunk/ossim/include/ossim/imaging/ossimCacheTileSource.h
+END
+ossimImageModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageModel.h
+END
+ossimMaskedImageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimMaskedImageHandler.h
+END
+ossimS16ImageData.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16052/trunk/ossim/include/ossim/imaging/ossimS16ImageData.h
+END
+ossimImageHandlerFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/19443/trunk/ossim/include/ossim/imaging/ossimImageHandlerFactory.h
+END
+ossimAnnotationGdBitmapFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationGdBitmapFont.h
+END
+ossimRgbToGreyFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimRgbToGreyFilter.h
+END
+gdfonts.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/4039/trunk/ossim/include/ossim/imaging/gdfonts.inc
+END
+ossimDtedElevationImageSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimDtedElevationImageSource.h
+END
+ossimHistogramMatchFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimHistogramMatchFilter.h
+END
+ossimHsvGridRemapEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimHsvGridRemapEngine.h
+END
+ossimTrimFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimTrimFilter.h
+END
+ossimAppTileCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAppTileCache.h
+END
+ossimJpegWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/16597/trunk/ossim/include/ossim/imaging/ossimJpegWriter.h
+END
+ossimImageSourceFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageSourceFactoryRegistry.h
+END
+ossimJpegTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16860/trunk/ossim/include/ossim/imaging/ossimJpegTileSource.h
+END
+ossimLandsatTopoCorrectionFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimLandsatTopoCorrectionFilter.h
+END
+ossimImageSourceHistogramFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageSourceHistogramFilter.h
+END
+ossimNullPixelFlip.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17603/trunk/ossim/include/ossim/imaging/ossimNullPixelFlip.h
+END
+ossimSingleImageChain.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19443/trunk/ossim/include/ossim/imaging/ossimSingleImageChain.h
+END
+ossimAnnotationMultiPolyLineObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationMultiPolyLineObject.h
+END
+ossimBitMaskTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19725/trunk/ossim/include/ossim/imaging/ossimBitMaskTileSource.h
+END
+ossimHistogramWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimHistogramWriter.h
+END
+ossimEastingNorthingCutter.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimEastingNorthingCutter.h
+END
+ossimMultiBandHistogramTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimMultiBandHistogramTileSource.h
+END
+ossimGeneralRasterTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16075/trunk/ossim/include/ossim/imaging/ossimGeneralRasterTileSource.h
+END
+ossimFgdcFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimFgdcFileWriter.h
+END
+ossimJpegStdIOSrc.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/18143/trunk/ossim/include/ossim/imaging/ossimJpegStdIOSrc.h
+END
+ossimImageCacheBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19737/trunk/ossim/include/ossim/imaging/ossimImageCacheBase.h
+END
+ossimBandAverageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimBandAverageFilter.h
+END
+ossimBandSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19716/trunk/ossim/include/ossim/imaging/ossimBandSelector.h
+END
+ossimImageSourceFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimImageSourceFilter.h
+END
+ossimGeneralRasterInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9852/trunk/ossim/include/ossim/imaging/ossimGeneralRasterInfo.h
+END
+ossimAtbController.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAtbController.h
+END
+ossimRgbToIndexFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimRgbToIndexFilter.h
+END
+ossimTileCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17207/trunk/ossim/include/ossim/imaging/ossimTileCache.h
+END
+ossimTiffWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/18047/trunk/ossim/include/ossim/imaging/ossimTiffWriter.h
+END
+ossimImageGeometryFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageGeometryFactory.h
+END
+ossimAdrgHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/10266/trunk/ossim/include/ossim/imaging/ossimAdrgHeader.h
+END
+ossimERSFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimERSFileWriter.h
+END
+ossimTiling.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/13135/trunk/ossim/include/ossim/imaging/ossimTiling.h
+END
+ossimERSTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimERSTileSource.h
+END
+ossimNormalizedU11RemapTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16034/trunk/ossim/include/ossim/imaging/ossimNormalizedU11RemapTable.h
+END
+ossimIgenGenerator.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15833/trunk/ossim/include/ossim/imaging/ossimIgenGenerator.h
+END
+ossimHistogramRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/18921/trunk/ossim/include/ossim/imaging/ossimHistogramRemapper.h
+END
+ossimVectorRenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimVectorRenderer.h
+END
+ossimMaskTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/18011/trunk/ossim/include/ossim/imaging/ossimMaskTileSource.h
+END
+ossimIntensityAdjustmentFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimIntensityAdjustmentFilter.h
+END
+ossimNormalizedS16RemapTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16257/trunk/ossim/include/ossim/imaging/ossimNormalizedS16RemapTable.h
+END
+ossimRgbGridRemapEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimRgbGridRemapEngine.h
+END
+ossimAtbMatchPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAtbMatchPoint.h
+END
+ossimHistoMatchRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimHistoMatchRemapper.h
+END
+ossimNitfTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimNitfTileSource.h
+END
+ossimGridRemapEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGridRemapEngine.h
+END
+ossimGeoAnnotationPolyObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19734/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationPolyObject.h
+END
+ossimAtbPointSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAtbPointSource.h
+END
+ossimQbTileFilesHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/18045/trunk/ossim/include/ossim/imaging/ossimQbTileFilesHandler.h
+END
+ossimScalarRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimScalarRemapper.h
+END
+ossimHsiToRgbSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimHsiToRgbSource.h
+END
+ossimGeoAnnotationBitmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationBitmap.h
+END
+ossimWatermarkFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/16276/trunk/ossim/include/ossim/imaging/ossimWatermarkFilter.h
+END
+ossimImageDisplayWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/imaging/ossimImageDisplayWriter.h
+END
+gdfontmb.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/4039/trunk/ossim/include/ossim/imaging/gdfontmb.inc
+END
+ossimVpfAnnotationSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimVpfAnnotationSource.h
+END
+ossimU16ImageData.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16052/trunk/ossim/include/ossim/imaging/ossimU16ImageData.h
+END
+ossimGeographicAnnotationGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeographicAnnotationGrid.h
+END
+ossimImageSharpenFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageSharpenFilter.h
+END
+ossimGeoAnnotationMultiPolyObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationMultiPolyObject.h
+END
+ossimAdrgTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimAdrgTileSource.h
+END
+ossimTopographicCorrectionFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimTopographicCorrectionFilter.h
+END
+ossimImageMosaic.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageMosaic.h
+END
+ossimImageSourceSequencer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19583/trunk/ossim/include/ossim/imaging/ossimImageSourceSequencer.h
+END
+ossimNormalizedU8RemapTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/16034/trunk/ossim/include/ossim/imaging/ossimNormalizedU8RemapTable.h
+END
+ossimVpfAnnotationCoverageInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimVpfAnnotationCoverageInfo.h
+END
+ossimDtedTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimDtedTileSource.h
+END
+ossimBlendMosaic.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimBlendMosaic.h
+END
+ossimLocalCorrelationFusion.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimLocalCorrelationFusion.h
+END
+ossimOverviewSequencer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19724/trunk/ossim/include/ossim/imaging/ossimOverviewSequencer.h
+END
+ossimBandClipFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimBandClipFilter.h
+END
+ossimImageReconstructionFilterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimImageReconstructionFilterFactory.h
+END
+ossimImageGaussianFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageGaussianFilter.h
+END
+ossimGeoAnnotationMultiPolyLineObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationMultiPolyLineObject.h
+END
+ossim3x3ConvolutionFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossim3x3ConvolutionFilter.h
+END
+ossimArcInfoGridWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/16081/trunk/ossim/include/ossim/imaging/ossimArcInfoGridWriter.h
+END
+ossimFftFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimFftFilter.h
+END
+ossimAtCorrRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAtCorrRemapper.h
+END
+ossimColorNormalizedFusion.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimColorNormalizedFusion.h
+END
+ossimVpfAnnotationLibraryInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimVpfAnnotationLibraryInfo.h
+END
+ossimU8ImageData.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/16052/trunk/ossim/include/ossim/imaging/ossimU8ImageData.h
+END
+ossimSubImageTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimSubImageTileSource.h
+END
+ossimNitf20Writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15612/trunk/ossim/include/ossim/imaging/ossimNitf20Writer.h
+END
+ossimMaskFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19736/trunk/ossim/include/ossim/imaging/ossimMaskFilter.h
+END
+ossimJpegDefaultTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/17933/trunk/ossim/include/ossim/imaging/ossimJpegDefaultTable.h
+END
+ossimAOD.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAOD.h
+END
+ossimDiscreteConvolutionKernel.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/imaging/ossimDiscreteConvolutionKernel.h
+END
+ossimImageMetaDataWriterFactoryBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimImageMetaDataWriterFactoryBase.h
+END
+ossimTwoColorView.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/13331/trunk/ossim/include/ossim/imaging/ossimTwoColorView.h
+END
+ossimU11ImageData.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16052/trunk/ossim/include/ossim/imaging/ossimU11ImageData.h
+END
+ossimGeoAnnotationLineObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationLineObject.h
+END
+ossimAnnotationPolyObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationPolyObject.h
+END
+ossimIso8211.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/7238/trunk/ossim/include/ossim/imaging/ossimIso8211.h
+END
+ossimBumpShadeTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimBumpShadeTileSource.h
+END
+ossimConvolutionFilter1D.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimConvolutionFilter1D.h
+END
+ossimCcfHead.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/10265/trunk/ossim/include/ossim/imaging/ossimCcfHead.h
+END
+ossimTilePatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimTilePatch.h
+END
+ossimImageFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/19180/trunk/ossim/include/ossim/imaging/ossimImageFileWriter.h
+END
+ossimHsvToRgbSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimHsvToRgbSource.h
+END
+ossimImageHistogramSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17194/trunk/ossim/include/ossim/imaging/ossimImageHistogramSource.h
+END
+ossimGdFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimGdFont.h
+END
+ossimImageReconstructionFilterRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimImageReconstructionFilterRegistry.h
+END
+ossimTableRemapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimTableRemapper.h
+END
+ossimGeomFileWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeomFileWriter.h
+END
+ossimImageToPlaneNormalFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/13382/trunk/ossim/include/ossim/imaging/ossimImageToPlaneNormalFilter.h
+END
+ossimQuickbirdTiffTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimQuickbirdTiffTileSource.h
+END
+ossimRectangleCutFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimRectangleCutFilter.h
+END
+ossimTiffOverviewBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/19735/trunk/ossim/include/ossim/imaging/ossimTiffOverviewBuilder.h
+END
+ossimResampler.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/imaging/ossimResampler.h
+END
+ossimVpfTileSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimVpfTileSource.h
+END
+ossimGridRemapSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGridRemapSource.h
+END
+ossimAnnotationSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationSource.h
+END
+ossimJpegMemSrc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/10885/trunk/ossim/include/ossim/imaging/ossimJpegMemSrc.h
+END
+ossimMemoryImageSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19005/trunk/ossim/include/ossim/imaging/ossimMemoryImageSource.h
+END
+ossimImageGeometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/18693/trunk/ossim/include/ossim/imaging/ossimImageGeometry.h
+END
+ossimAnnotationObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimAnnotationObject.h
+END
+ossimNitfTileSource_12.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/17931/trunk/ossim/include/ossim/imaging/ossimNitfTileSource_12.h
+END
+ossimAppFixedTileCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/18421/trunk/ossim/include/ossim/imaging/ossimAppFixedTileCache.h
+END
+ossimPixelFlipper.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19728/trunk/ossim/include/ossim/imaging/ossimPixelFlipper.h
+END
+ossimImageDataFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/13474/trunk/ossim/include/ossim/imaging/ossimImageDataFactory.h
+END
+gdfontl.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/4039/trunk/ossim/include/ossim/imaging/gdfontl.inc
+END
+ossimImageWriterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/18002/trunk/ossim/include/ossim/imaging/ossimImageWriterFactory.h
+END
+ossimAnnotationLineObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimAnnotationLineObject.h
+END
+ossimImageRenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17932/trunk/ossim/include/ossim/imaging/ossimImageRenderer.h
+END
+ossimGeoAnnotationEllipseObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimGeoAnnotationEllipseObject.h
+END
+ossimEdgeFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/imaging/ossimEdgeFilter.h
+END
+ossimValueAssignImageSourceFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimValueAssignImageSourceFilter.h
+END
+ossimImageDataHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/imaging/ossimImageDataHelper.h
+END
+ossimImageData.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/19722/trunk/ossim/include/ossim/imaging/ossimImageData.h
+END
+gdfontt.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/4039/trunk/ossim/include/ossim/imaging/gdfontt.inc
+END
+ossimRgbImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/imaging/ossimRgbImage.h
+END

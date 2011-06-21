@@ -1,0 +1,172 @@
+10
+
+dir
+19757
+http://svn.osgeo.org/ossim/trunk/ossim/include/ossim
+http://svn.osgeo.org/ossim
+
+
+
+2011-06-13T15:14:37.230561Z
+19752
+dburken
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b630af17-092b-0410-afba-a002956477a4
+
+elevation
+dir
+
+vpfutil
+dir
+
+parallel
+dir
+
+plugin
+dir
+
+init
+dir
+
+matrix
+dir
+
+support_data
+dir
+
+kbool
+dir
+
+font
+dir
+
+base
+dir
+
+ossimConfig.h.in
+file
+
+
+
+
+2011-06-18T16:54:46.000000Z
+97d7533b96c7509607aa1ab15afbfc68
+2008-09-25T19:39:45.749860Z
+13607
+gpotts
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+703
+
+imaging
+dir
+
+projection
+dir
+
+vec
+dir
+
+util
+dir
+
+ossimConfig.h.vc
+file
+
+
+
+
+2011-06-18T16:54:46.000000Z
+70a815ca257214df34dcd9c4d098c2c5
+2008-10-30T13:28:17.910107Z
+13809
+gpotts
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1376
+
+.cvsignore
+file
+
+
+
+
+2011-06-18T16:54:46.000000Z
+b2a9e602bdc9798544dcfde075922ef8
+2006-06-13T20:55:14.000000Z
+9095
+dburken
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15
+

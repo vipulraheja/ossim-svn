@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-modopt
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15178/trunk/ossim/src/apps/ossim-modopt/makefile.vc
+END
+ossim-modopt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15178/trunk/ossim/src/apps/ossim-modopt/ossim-modopt.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-modopt/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/15178/trunk/ossim/src/apps/ossim-modopt/Makefile
+END

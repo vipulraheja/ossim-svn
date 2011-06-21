@@ -1,0 +1,212 @@
+####
+# $Id: nmake.opt 18179 2010-09-29 18:09:47Z oscarkramer $
+#
+# Typical build with .net compiler using nmake:
+#
+# Edit this file as required.
+# cd to the top of ossim
+# nmake /f makefile.vc
+#
+# NOTE:  
+#
+# You should either set the environment variable "OSSIM_HOME" or uncomment and
+# set it in this file for include paths and linking.  Since external packages
+# such as ossim_qt looks for the environment variable, it is preferable to set
+# the environment variable to setting it in this file.
+#
+# See:  "Start->Control Panel->System->Advanced->Environment Variables" (XP)
+#       to set the environment variables.
+#####
+
+###
+# EMBED_MANIFEST:
+# For vs7 (Visual C++ 2003) set to empty string.
+# For vs8 (Visual C++ 2005) and vs9(Visual C++ 2008) set to 1.
+###
+EMBED_MANIFEST=1
+ 
+OSSIM_DEV_HOME  = C:\Dev\osgeo\trunk
+OSSIM_HOME 	= $(OSSIM_DEV_HOME)\ossim
+CORE_DIR 	= $(OSSIM_HOME)\src\ossim
+BINDIR 		= $(OSSIM_HOME)\bin
+BIN_DIR 	= $(OSSIM_HOME)\bin
+
+###
+# 3rd party stuff:
+###
+3RD_PARTY_HOME = D:\vs9\3rd-party
+3RD_PARTY_INC = -I$(3RD_PARTY_HOME)\include
+
+###
+# Library directories.
+###
+LIBDIR               	= $(OSSIM_HOME)\lib
+LIB_DIR              	= $(OSSIM_HOME)\lib
+LIB_BASE_DIR         	= $(CORE_DIR)\base
+LIB_ELEVATION_DIR    	= $(CORE_DIR)\elevation
+LIB_FONT_DIR         	= $(CORE_DIR)\font
+LIB_IMAGING_DIR      	= $(CORE_DIR)\imaging
+LIB_INIT_DIR      	= $(CORE_DIR)\init
+LIB_KBOOL_DIR     	= $(CORE_DIR)\kbool
+LIB_MATRIX_DIR       	= $(CORE_DIR)\matrix
+LIB_PARALLEL_DIR     	= $(CORE_DIR)\parallel
+LIB_PLUGIN_DIR       	= $(CORE_DIR)\plugin
+LIB_PROJECTION_DIR   	= $(CORE_DIR)\projection
+LIB_SUPPORT_DATA_DIR 	= $(CORE_DIR)\support_data
+LIB_VEC_DIR          	= $(CORE_DIR)\vec
+LIB_VPF_DIR          	= $(CORE_DIR)\vpfutil
+
+###
+# OSSIM libraries
+###
+BASE_LIB 		= ossim_base.lib
+ELEVATION_LIB 		= ossim_elevation.lib
+FONT_LIB 		= ossim_font.lib
+IMAGING_LIB 		= ossim_imaging.lib
+INIT_LIB		= ossim_init.lib
+KBOOL_LIB 		= ossim_kbool.lib
+MATRIX_LIB 		= ossim_matrix.lib
+PARALLEL_LIB 		= ossim_parallel.lib
+PLUGIN_LIB		= ossim_plugin.lib
+PROJECTION_LIB 		= ossim_projection.lib
+SUPPORT_DATA_LIB	= ossim_support_data.lib
+VEC_LIB 		= ossim_vec.lib
+VPF_LIB 		= ossim_vpf.lib
+OSSIM_LIB               = ossim.lib
+
+
+###
+# Convenience link lines in the correct link order.
+###
+LINK_MATRIX 		= $(MATRIX_LIB)
+LINK_KBOOL 		= $(KBOOL_LIB) $(LINK_MATRIX)
+LINK_BASE 		= $(BASE_LIB) $(LINK_POLYCLIP)
+LINK_FONT 		= $(FONT_LIB) $(LINK_BASE)
+LINK_VPF 		= $(VPF_LIB) $(LINK_FONT)
+LINK_VEC 		= $(VEC_LIB) $(LINK_VPF)
+LINK_SUPPORT_DATA 	= $(SUPPORT_DATA_LIB) $(LINK_VEC)
+LINK_ELEVATION 		= $(ELEVATION_LIB) $(LINK_SUPPORT_DATA)
+LINK_PROJECTION 	= $(PROJECTION_LIB) $(LINK_ELEVATION)
+LINK_IMAGING 		= $(IMAGING_LIB) $(LINK_PROJECTION)
+LINK_PARALLEL 		= $(PARALLEL_LIB) $(LINK_IMAGING)
+LINK_PLUGIN             = $(PLUGIN_LIB) $(LINK_PARALLEL)
+LINK_INIT		= $(INIT_LIB) $(LINK_PLUGIN)
+LINK_OSSIM		= $(LINK_INIT)
+
+###
+# JPEG support.  This can be from gdal or external but one or the other is
+# mandatory.
+###
+JPEG_DIR = $(3RD_PARTY_HOME)
+JPEG_INC =
+JPEG_LIB = $(JPEG_DIR)\lib\libjpeg.lib
+
+###
+# TIFF support.
+###
+TIFF_DIR = $(3RD_PARTY_HOME)
+TIFF_INC =
+TIFF_LIB = $(TIFF_DIR)\lib\libtiff_i.lib
+
+###
+# geotiff support.
+###
+GEOTIFF_DEFINE =
+GEOTIFF_DIR = $(3RD_PARTY_HOME)
+GEOTIFF_INC =
+GEOTIFF_LIB = $(GEOTIFF_DIR)\lib\geotiff_i.lib
+
+###
+# Optional freetype support.
+###
+FREETYPE_DEFINE =/DFREETYPE_SETTING=1
+FREETYPE_DIR = $(3RD_PARTY_HOME)
+FREETYPE_INC = -I$(FREETYPE_DIR)\include\freetype2
+FREETYPE_LIB = $(FREETYPE_DIR)\lib\freetype.lib
+# FREETYPE_DEFINE =
+# FREETYPE_DIR =
+# FREETYPE_INC =
+# FREETYPE_LIB =
+
+###
+# openthreads support.
+###
+OPENTHREADS_DEFINE =
+OPENTHREADS_DIR = $(3RD_PARTY_HOME)
+OPENTHREADS_INC = -I$(OPENTHREADS_DIR)\include
+OPENTHREADS_LIB = $(OPENTHREADS_DIR)\lib\OpenThreads.lib
+
+ZLIB_INC =
+ZLIB_LIB = $(3RD_PARTY_HOME)\lib\zdll.lib
+
+INC = -I$(OSSIM_HOME)\include $(3RD_PARTY_INC) $(FWTOOLS_INC) $(OPENTHREADS_INC) $(GEOTIFF_INC) $(TIFF_INC) $(JPEG_INC) $(FREETYPE_INC) $(ZLIB_INC)
+
+###
+# Uncomment the first for an optimized build or the second for a debug build.
+###
+OPTIONAL_DEFINES = /W3 /DWIN32 /DNDEBUG /D_WINDOWS /DNOMINMAX /DMPI_SETTING=0 $(OPENTHREADS_DEFINE) $(GEOTIFF_DEFINE) $(FREETYPE_DEFINE)
+
+CDEBUGFLAGS     	=	/Ox
+OPTFLAGS		=	/nologo /MD /EHsc $(CDEBUGFLAGS) $(OPTIONAL_DEFINES) /D_CRT_SECURE_NO_WARNINGS
+OBJ_OPT_FLAGS		=	$(OPTFLAGS) /DOSSIMMAKINGDLL
+SHARED_APP_OPT_FLAGS	=	$(OPTFLAGS) /DOSSIMUSINGDLL
+STATIC_APP_OPT_FLAGS	=	$(OPTFLAGS)
+
+MAKE			=	nmake
+CC			=	cl
+
+###
+# External stuff ossim links with.
+###
+LINK_EXTERNALS = $(GEOTIFF_LIB) $(TIFF_LIB) $(JPEG_LIB) $(FREETYPE_LIB) $(OPENTHREADS_LIB) $(ZLIB_LIB)
+
+###
+# Link line for making single ossim library.
+###
+# OSSIM_LIB_LINK = /NODEFAULTLIB:LIBCMTD $(LINK_EXTERNALS)
+OSSIM_LIB_LINK = $(LINK_EXTERNALS)
+
+###
+# Static link line for apps.
+###
+STATIC_OSSIM_LINK = /link /LIBPATH:$(LIB_DIR) $(LINK_OSSIM) $(GEOTIFF_LIB) $(TIFF_LIB) $(JPEG_LIB) $(FREETYPE_LIB) $(OPENTHREADS_LIB)
+
+###
+# Shared link.
+###
+SHARED_OSSIM_LINK = $(LIB_DIR)\ossim.lib 
+
+###
+# Use this to link apps static or shared.
+###
+# OSSIM_LINK 	=	$(STATIC_OSSIM_LINK)
+# APP_CFLAGS	=	$(STATIC_APP_OPT_FLAGS) $(INC) $(EXTRAFLAGS)
+OSSIM_LINK 	= 	$(SHARED_OSSIM_LINK)
+APP_CFLAGS	=	$(SHARED_APP_OPT_FLAGS) $(INC) $(EXTRAFLAGS)
+
+###
+# CFLAGS usually left alone.
+###
+CFLAGS		=	$(OBJ_OPT_FLAGS) $(INC) $(EXTRAFLAGS)
+
+####
+# Some rules...  These are what the ossim_core is built with by default.
+###
+.c.obj:	
+	$(CC) $(CFLAGS) /c $*.c
+
+.cpp.obj:	
+	$(CC) $(CFLAGS) /c $*.cpp
+
+###
+# Some commands:
+###
+MKDIR = -mkdir
+RMDIR = rmdir /S /Q
+RM    = del /F /Q
+CP    = copy
+
+###
+# Version:
+###
+VERSION_STRING=1.8.4

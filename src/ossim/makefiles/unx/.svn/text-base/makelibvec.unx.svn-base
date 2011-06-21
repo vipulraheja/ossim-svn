@@ -1,0 +1,11 @@
+####
+# $Id$
+####
+
+@INCLUDE_COMMON@
+
+OSSIM_LIB=$(LIB_VEC)
+
+BASELIBPATH=$(VEC_ROOT)
+
+include $(TOP)/makelib.mak

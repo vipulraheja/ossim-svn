@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/conf
+END
+db.conf
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/conf/db.conf
+END
+tcp.conf
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/conf/tcp.conf
+END

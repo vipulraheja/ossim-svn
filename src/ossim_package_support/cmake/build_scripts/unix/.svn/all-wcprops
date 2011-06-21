@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix
+END
+ossim-cmake-config-fc12-v1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix/ossim-cmake-config-fc12-v1.sh
+END
+ossim_plugins-cmake-config-fc12-v1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix/ossim_plugins-cmake-config-fc12-v1.sh
+END
+ossim-cleanup-cmake-files.sh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix/ossim-cleanup-cmake-files.sh
+END
+ossim-package-cmake-config-fc12-v1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix/ossim-package-cmake-config-fc12-v1.sh
+END
+ossim-package-cmake-config-fc12-v2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix/ossim-package-cmake-config-fc12-v2.sh
+END
+ossim-package-cmake-config-fc13-v1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix/ossim-package-cmake-config-fc13-v1.sh
+END
+ossim-package-cmake-config-fc14-v1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/ossim/!svn/ver/19754/trunk/ossim_package_support/cmake/build_scripts/unix/ossim-package-cmake-config-fc14-v1.sh
+END

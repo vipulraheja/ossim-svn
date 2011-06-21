@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ossim/!svn/ver/16826/trunk/ossimPlanet/Make
+END
+makerpms
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/makerpms
+END
+makepkg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/makepkg
+END
+makedefs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/16826/trunk/ossimPlanet/Make/makedefs
+END
+makeinnosetup
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/makeinnosetup
+END
+dependencies
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/dependencies
+END
+makedirrules
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/makedirrules
+END
+makerules
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/15701/trunk/ossimPlanet/Make/makerules
+END
+instrules
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/9367/trunk/ossimPlanet/Make/instrules
+END
+maketoprule
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/maketoprule
+END
+dolink.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/dolink.sh
+END
+cygwin_plugin_def
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/cygwin_plugin_def
+END
+makeirixdist
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/makeirixdist
+END
+versionrules
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/versionrules
+END
+instexamplesrc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/instexamplesrc
+END
+help.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/help.sh
+END
+helprules
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/helprules
+END
+makedirdefs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/15334/trunk/ossimPlanet/Make/makedirdefs
+END
+distrules
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/9334/trunk/ossimPlanet/Make/distrules
+END

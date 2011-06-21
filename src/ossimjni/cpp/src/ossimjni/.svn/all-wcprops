@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/19750/trunk/ossimjni/cpp/src/ossimjni
+END
+Init.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19748/trunk/ossimjni/cpp/src/ossimjni/Init.cpp
+END
+SingleImageChain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19748/trunk/ossimjni/cpp/src/ossimjni/SingleImageChain.cpp
+END
+Info.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19750/trunk/ossimjni/cpp/src/ossimjni/Info.cpp
+END

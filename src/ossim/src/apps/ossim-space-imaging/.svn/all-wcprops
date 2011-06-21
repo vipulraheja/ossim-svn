@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-space-imaging
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/15200/trunk/ossim/src/apps/ossim-space-imaging/makefile.vc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-space-imaging/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/15200/trunk/ossim/src/apps/ossim-space-imaging/Makefile
+END
+ossim-space-imaging.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/15200/trunk/ossim/src/apps/ossim-space-imaging/ossim-space-imaging.cpp
+END

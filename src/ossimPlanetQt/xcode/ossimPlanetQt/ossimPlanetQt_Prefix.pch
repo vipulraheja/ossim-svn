@@ -1,0 +1,5 @@
+//
+// Prefix header for all source files of the 'ossimPlanetQt' target in the 'ossimPlanetQt' project.
+//
+
+#include <Carbon/Carbon.h>

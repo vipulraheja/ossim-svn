@@ -1,0 +1,18 @@
+###
+# $Id$
+#
+# Windows nmake make file.
+###
+OSSIM_ROOT	=	..\..\..
+!INCLUDE $(OSSIM_ROOT)\nmake.opt
+
+OBJ = \
+ossimDynamicLibrary.obj \
+ossimPluginLibrary.obj \
+ossimSharedObjectBridge.obj \
+ossimSharedPluginRegistry.obj
+
+default:	$(OBJ)
+
+clean:
+	$(RM) *.obj

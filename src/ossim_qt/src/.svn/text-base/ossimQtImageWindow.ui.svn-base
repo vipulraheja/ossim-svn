@@ -1,0 +1,1037 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtImageWindow</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>ossimQtImageWindow</cstring>
+    </property>
+    <property name="enabled">
+        <bool>true</bool>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>597</width>
+            <height>545</height>
+        </rect>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>21</width>
+            <height>290</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>OSSIM Image</string>
+    </property>
+    <property name="focusPolicy">
+        <enum>StrongFocus</enum>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="ossimQtSwipeScrollingImageWidget">
+            <property name="name">
+                <cstring>theImageWidget</cstring>
+            </property>
+            <property name="mouseTracking">
+                <bool>true</bool>
+            </property>
+        </widget>
+    </vbox>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>menubar</cstring>
+    </property>
+    <property name="enabled">
+        <bool>true</bool>
+    </property>
+    <property name="focusPolicy">
+        <enum>NoFocus</enum>
+    </property>
+    <property name="lineWidth">
+        <number>0</number>
+    </property>
+    <item text="&amp;File" name="fileMenu">
+        <action name="fileSaveAsAction"/>
+        <action name="fileSaveTiePointsAction"/>
+        <separator/>
+        <action name="filePrintAction"/>
+        <separator/>
+        <action name="fileExitAction"/>
+    </item>
+    <item text="&amp;Edit" name="editMenu">
+        <action name="editUndoAction"/>
+        <action name="editRedoAction"/>
+        <separator/>
+        <separator/>
+        <action name="editViewToolAction"/>
+        <action name="editParameterAdjustmentAction"/>
+        <separator/>
+        <action name="editImageChainAction"/>
+        <action name="editImageInfoAction"/>
+        <action name="editLayersAction"/>
+        <action name="editVectorSourceAction"/>
+        <separator/>
+        <action name="editPositionInformationAction"/>
+        <action name="editPositionQualityAction"/>
+    </item>
+    <item text="&amp;Swipe" name="PopupMenu_3">
+        <action name="swipeAddLayerAction"/>
+        <action name="swipeRemoveLayerAction"/>
+        <action name="swipeHorizontalAction"/>
+        <action name="swipeVerticalAction"/>
+        <action name="swipeBoxAction"/>
+        <action name="swipeCircleAction"/>
+    </item>
+    <item text="E&amp;nhancements" name="PopupMenu">
+        <action name="enhancementsBandSelectorAction"/>
+        <action name="enhancementsBrightnessContrastAction"/>
+        <action name="enhancementTopographicCorrection"/>
+        <action name="enhancementsHistogramOperationsAction"/>
+        <action name="enhancementsHsiAction"/>
+        <action name="enhancementsFusionAction"/>
+        <action name="resamplerPropagateAction"/>
+    </item>
+    <item text="&amp;Help" name="helpMenu">
+        <action name="helpContentsAction"/>
+        <action name="helpIndexAction"/>
+        <separator/>
+        <action name="helpAboutAction"/>
+    </item>
+</menubar>
+<toolbars>
+    <toolbar dock="2">
+        <property name="name">
+            <cstring>Toolbar</cstring>
+        </property>
+        <property name="lineWidth">
+            <number>1</number>
+        </property>
+        <property name="margin">
+            <number>0</number>
+        </property>
+        <property name="label">
+            <string>Toolbar</string>
+        </property>
+        <widget class="QToolButton">
+            <property name="name">
+                <cstring>theZoomToolButton</cstring>
+            </property>
+            <property name="text">
+                <string>Zoom</string>
+            </property>
+            <property name="toggleButton">
+                <bool>true</bool>
+            </property>
+            <property name="on">
+                <bool>false</bool>
+            </property>
+            <property name="iconSet">
+                <iconset></iconset>
+            </property>
+            <property name="usesBigPixmap">
+                <bool>false</bool>
+            </property>
+            <property name="usesTextLabel">
+                <bool>false</bool>
+            </property>
+            <property name="textLabel">
+                <string>Zoom in</string>
+            </property>
+            <property name="autoRaise">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <separator/>
+        <widget class="QToolButton">
+            <property name="name">
+                <cstring>thePanToToolButton</cstring>
+            </property>
+            <property name="text">
+                <string>Pan</string>
+            </property>
+            <property name="toggleButton">
+                <bool>true</bool>
+            </property>
+        </widget>
+    </toolbar>
+    <toolbar dock="2">
+        <property name="name">
+            <cstring>Toolbar_2</cstring>
+        </property>
+        <property name="lineWidth">
+            <number>1</number>
+        </property>
+        <property name="margin">
+            <number>0</number>
+        </property>
+        <property name="label">
+            <string>Toolbar_2</string>
+        </property>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>theFitToWindowButton</cstring>
+            </property>
+            <property name="text">
+                <string>Fit</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>theFullResButton</cstring>
+            </property>
+            <property name="text">
+                <string>Full res</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>thePropagateButton</cstring>
+            </property>
+            <property name="text">
+                <string>Propagate</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>theRefreshButton</cstring>
+            </property>
+            <property name="text">
+                <string>Refresh</string>
+            </property>
+        </widget>
+        <separator/>
+        <widget class="QComboBox">
+            <item>
+                <property name="text">
+                    <string>Nearest neighbor</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Bilinear</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Cubic</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Bell</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Bessel</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Blackman</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Box</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Bspline</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Catrom</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Gaussian</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Hanning</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Hamming</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Hermite</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Lanczos</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Mitchell</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Quadtratic</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>Sinc</string>
+                </property>
+            </item>
+            <property name="name">
+                <cstring>theResamplerSelection</cstring>
+            </property>
+        </widget>
+    </toolbar>
+</toolbars>
+<customwidgets>
+    <customwidget>
+        <class>ossimQtSwipeScrollingImageWidget</class>
+        <header location="local">ossimQtSwipeScrollingImageWidget.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>5</hordata>
+            <verdata>5</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image0</pixmap>
+        <property type="Int">swipeType</property>
+    </customwidget>
+</customwidgets>
+<actions>
+    <action>
+        <property name="name">
+            <cstring>fileSaveAsAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Save As</string>
+        </property>
+        <property name="menuText">
+            <string>Save &amp;As...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileSaveTiePointsAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Generate and Save Tie Points</string>
+        </property>
+        <property name="menuText">
+            <string>Generate and Save Tie Points ...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>filePrintAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Print</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Print...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+P</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileExitAction</cstring>
+        </property>
+        <property name="text">
+            <string>Exit</string>
+        </property>
+        <property name="menuText">
+            <string>E&amp;xit</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editUndoAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Undo</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Undo</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Z</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editRedoAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="iconSet">
+            <iconset></iconset>
+        </property>
+        <property name="text">
+            <string>Redo</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Redo</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Y</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpContentsAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Contents</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Contents...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpIndexAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Index</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Index...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpAboutAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>About</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;About</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editViewToolAction</cstring>
+        </property>
+        <property name="text">
+            <string>View</string>
+        </property>
+        <property name="menuText">
+            <string>View</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>enhancementsHistogramOperationsAction</cstring>
+        </property>
+        <property name="text">
+            <string>Histogram operations</string>
+        </property>
+        <property name="menuText">
+            <string>Histogram operations</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>enhancementsHsiAction</cstring>
+        </property>
+        <property name="text">
+            <string>Hsi adjustments</string>
+        </property>
+        <property name="menuText">
+            <string>Hsi adjustments</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>enhancementsBrightnessContrastAction</cstring>
+        </property>
+        <property name="text">
+            <string>Brightness contrast</string>
+        </property>
+        <property name="menuText">
+            <string>Brightness contrast</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>igenExportAction</cstring>
+        </property>
+        <property name="text">
+            <string>Image Generator</string>
+        </property>
+        <property name="menuText">
+            <string>Image Generator</string>
+        </property>
+        <property name="toolTip">
+            <string>Export using external igen application</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>enhancementsBandSelectorAction</cstring>
+        </property>
+        <property name="text">
+            <string>Band selection</string>
+        </property>
+        <property name="menuText">
+            <string>Band selection</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>swipeAddLayerAction</cstring>
+        </property>
+        <property name="text">
+            <string>Add layer</string>
+        </property>
+        <property name="menuText">
+            <string>Add layer</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>swipeRemoveLayerAction</cstring>
+        </property>
+        <property name="toggleAction">
+            <bool>false</bool>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Remove layer</string>
+        </property>
+        <property name="menuText">
+            <string>Remove layer</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>swipeHorizontalAction</cstring>
+        </property>
+        <property name="toggleAction">
+            <bool>true</bool>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Horizontal</string>
+        </property>
+        <property name="menuText">
+            <string>Horizontal</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>swipeVerticalAction</cstring>
+        </property>
+        <property name="toggleAction">
+            <bool>true</bool>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Vertical</string>
+        </property>
+        <property name="menuText">
+            <string>Vertical</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>swipeBoxAction</cstring>
+        </property>
+        <property name="toggleAction">
+            <bool>true</bool>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Box</string>
+        </property>
+        <property name="menuText">
+            <string>Box</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>swipeCircleAction</cstring>
+        </property>
+        <property name="toggleAction">
+            <bool>true</bool>
+        </property>
+        <property name="enabled">
+            <bool>false</bool>
+        </property>
+        <property name="text">
+            <string>Circle</string>
+        </property>
+        <property name="menuText">
+            <string>Circle</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editImageChainAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>Image Chain</string>
+        </property>
+        <property name="menuText">
+            <string>Image Chain</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editImageInfoAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>Image Info</string>
+        </property>
+        <property name="menuText">
+            <string>Image Info</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editLayersAction</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="text">
+            <string>Layers</string>
+        </property>
+        <property name="menuText">
+            <string>Layers</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editParameterAdjustmentAction</cstring>
+        </property>
+        <property name="text">
+            <string>Geometry adjustment</string>
+        </property>
+        <property name="menuText">
+            <string>Geometry adjustment</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editVectorSourceAction</cstring>
+        </property>
+        <property name="text">
+            <string>Vector</string>
+        </property>
+        <property name="menuText">
+            <string>Vector</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>enhancementsFusionAction</cstring>
+        </property>
+        <property name="text">
+            <string>Fusion</string>
+        </property>
+        <property name="menuText">
+            <string>Fusion</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editPositionInformationAction</cstring>
+        </property>
+        <property name="text">
+            <string>Position Information</string>
+        </property>
+        <property name="menuText">
+            <string>Position Information</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editPositionQualityAction</cstring>
+        </property>
+        <property name="text">
+            <string>Position Quality</string>
+        </property>
+        <property name="menuText">
+            <string>Position Quality</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>enhancementTopographicCorrection</cstring>
+        </property>
+        <property name="text">
+            <string>Topographic correction</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>resamplerPropagateAction</cstring>
+        </property>
+        <property name="text">
+            <string>Propagate resampler</string>
+        </property>
+    </action>
+</actions>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="45">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade6523250004143a55a6b2e0026630c4f</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>editRedoAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editRedoAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editUndoAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editUndoAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editViewToolAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editViewToolAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>enhancementsBandSelectorAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>enhancementsBandSelectorAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>enhancementsHistogramOperationsAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>enhancementsHistogramOperationsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>enhancementsHsiAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>enhancementsHsiAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>fileExitAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>fileExitAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>fileSaveAsAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>fileSaveAsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender> fileSaveTiePointsAction </sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>fileSaveTiePointsAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>enhancementsBrightnessContrastAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>enhancementsBrightnessContrastAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>theZoomToolButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>theZoomToolButton_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>thePropagateButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>thePropagateButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theFullResButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>theFullResButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theFitToWindowButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>theFitToWindowButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>thePanToToolButton</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>thePanToTool_toggled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>swipeAddLayerAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>swipeAddLayerAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>swipeRemoveLayerAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>swipeRemoveLayerAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>swipeBoxAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>swipeBoxAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>swipeCircleAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>swipeCircleAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>swipeVerticalAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>swipeVerticalAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>swipeHorizontalAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>swipeHorizontalAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editImageChainAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editImageChainAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editImageInfoAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editImageInfoAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editLayersAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editLayersAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editParameterAdjustmentAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editParameterAdjustmentAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>editVectorSourceAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editVectorSourceAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>enhancementsFusionAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>enhancementsFusionAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>theResamplerSelection</sender>
+        <signal>activated(const QString&amp;)</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>theResamplerSelection_activated(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>editPositionInformationAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editPositionInformationActionActivated()</slot>
+    </connection>
+    <connection>
+        <sender>editPositionQualityAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>editPositionQualityActionActivated()</slot>
+    </connection>
+    <connection>
+        <sender>theRefreshButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>refreshButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>resamplerPropagateAction</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>resamplerPropagateAction_activated()</slot>
+    </connection>
+    <connection>
+        <sender>enhancementTopographicCorrection</sender>
+        <signal>activated()</signal>
+        <receiver>ossimQtImageWindow</receiver>
+        <slot>enhancementTopographicCorrection_activated()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="global" impldecl="in implementation">qapplication.h</include>
+    <include location="local" impldecl="in implementation">ossimQtScrollingImageWidget.h</include>
+    <include location="local" impldecl="in implementation">ossim/base/ossimConnectableObject.h</include>
+    <include location="local" impldecl="in implementation">ossimQtImageWindowController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtImageWindow.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimConnectableObject;</forward>
+    <forward>class ossimObject;</forward>
+    <forward>class ossimQtImageWindowController;</forward>
+    <forward>class ossimQtSwipeScrollingImageWidget;</forward>
+</forwards>
+<variables>
+    <variable>ossimQtImageWindowController* theController;</variable>
+</variables>
+<slots>
+    <slot>enterEvent( QEvent * evt )</slot>
+    <slot>leaveEvent( QEvent * evt )</slot>
+    <slot>addInputSource( ossimConnectableObject * obj )</slot>
+    <slot>editImageGeometryAction_activated()</slot>
+    <slot>editRedoAction_activated()</slot>
+    <slot>editUndoAction_activated()</slot>
+    <slot>editViewToolAction_activated()</slot>
+    <slot>enhancementsBandSelectorAction_activated()</slot>
+    <slot>enhancementsBrightnessContrastAction_activated()</slot>
+    <slot>enhancementsHistogramOperationsAction_activated()</slot>
+    <slot>enhancementsHsiAction_activated()</slot>
+    <slot>fileExitAction_activated()</slot>
+    <slot>fileSaveAsAction_activated()</slot>
+    <slot>fileSaveTiePointsAction_activated()</slot>
+    <slot>customEvent( QCustomEvent * event )</slot>
+    <slot>closeEvent( QCloseEvent * event )</slot>
+    <slot>resamplerActionGroup_selected( QAction * action )</slot>
+    <slot>thePropagateButton_clicked()</slot>
+    <slot>theFullResButton_clicked()</slot>
+    <slot>theFitToWindowButton_clicked()</slot>
+    <slot>thePanToTool_toggled( bool value )</slot>
+    <slot>theZoomToolButton_toggled( bool value )</slot>
+    <slot>resamplerPropagateAction_activated()</slot>
+    <slot>swipeAddLayerAction_activated()</slot>
+    <slot>swipeRemoveLayerAction_activated()</slot>
+    <slot>swipeBoxAction_activated()</slot>
+    <slot>swipeCircleAction_activated()</slot>
+    <slot>swipeVerticalAction_activated()</slot>
+    <slot>swipeHorizontalAction_activated()</slot>
+    <slot>editImageChainAction_activated()</slot>
+    <slot>editImageInfoAction_activated()</slot>
+    <slot>editLayersAction_activated()</slot>
+    <slot>editParameterAdjustmentAction_activated()</slot>
+    <slot>editVectorSourceAction_activated()</slot>
+    <slot>enhancementsFusionAction_activated()</slot>
+    <slot>theResamplerSelection_activated( const QString &amp; value )</slot>
+    <slot>editPositionInformationActionActivated()</slot>
+    <slot>editPositionQualityActionActivated()</slot>
+    <slot>refreshButtonClicked()</slot>
+    <slot>enhancementTopographicCorrection_activated()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function returnType="ossimQtSwipeScrollingImageWidget *">getImageWidget()</function>
+    <function returnType="ossimQtImageWindowController *">controller()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="0" margin="0"/>
+<includehints>
+    <includehint>ossimQtSwipeScrollingImageWidget.h</includehint>
+</includehints>
+</UI>

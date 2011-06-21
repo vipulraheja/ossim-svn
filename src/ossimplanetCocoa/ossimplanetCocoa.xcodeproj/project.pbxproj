@@ -1,0 +1,1340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001C6B000BC9B060006D4592 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AF70BC9B060006D4592 /* OpenGL.framework */; };
+		001C6B010BC9B060006D4592 /* Openthreads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AF80BC9B060006D4592 /* Openthreads.framework */; };
+		001C6B020BC9B060006D4592 /* osgSim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AF90BC9B060006D4592 /* osgSim.framework */; };
+		001C6B030BC9B060006D4592 /* osgGA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AFA0BC9B060006D4592 /* osgGA.framework */; };
+		001C6B040BC9B060006D4592 /* osgText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AFB0BC9B060006D4592 /* osgText.framework */; };
+		001C6B050BC9B060006D4592 /* osgDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AFC0BC9B060006D4592 /* osgDB.framework */; };
+		001C6B060BC9B060006D4592 /* osg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AFD0BC9B060006D4592 /* osg.framework */; };
+		001C6B080BC9B060006D4592 /* osgUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6AFF0BC9B060006D4592 /* osgUtil.framework */; };
+		001C6BA70BC9B081006D4592 /* ossim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6B440BC9B07B006D4592 /* ossim.framework */; };
+		001C6BB00BC9B130006D4592 /* ossimPlanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C6BAF0BC9B129006D4592 /* ossimPlanet.framework */; };
+		005245120BF5D40000F6F356 /* ossimPlanetCocoaConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 005245110BF5D40000F6F356 /* ossimPlanetCocoaConstants.m */; };
+		00917DB00BC8A5AE000E3849 /* ossimPlanetView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00917DAF0BC8A5AE000E3849 /* ossimPlanetView.mm */; };
+		00EFB28C0BDC4F4A0037E6D4 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00EFB28B0BDC4F4A0037E6D4 /* AppController.mm */; };
+		189C1BB40BE23A2D0097CA72 /* ossimPlanet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 189C1BB30BE23A2D0097CA72 /* ossimPlanet.icns */; };
+		18CF1F230BDEED45007B7615 /* wms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CF1F220BDEED45007B7615 /* wms.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001C6B430BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = ossim;
+		};
+		001C6B450BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AB4B08CB8EE4002B3E06;
+			remoteInfo = adrg_header_dump;
+		};
+		001C6B470BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AB5A08CB9151002B3E06;
+			remoteInfo = applanix2ogeom;
+		};
+		001C6B490BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AB6A08CB91A2002B3E06;
+			remoteInfo = band_merge;
+		};
+		001C6B4B0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AB7A08CB91E7002B3E06;
+			remoteInfo = bilsplitter;
+		};
+		001C6B4D0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AB8908CB9236002B3E06;
+			remoteInfo = bmvstager;
+		};
+		001C6B4F0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ABA008CB92CF002B3E06;
+			remoteInfo = btoa;
+		};
+		001C6B510BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ABAF08CB9319002B3E06;
+			remoteInfo = ccfinfo;
+		};
+		001C6B530BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ABBE08CB935F002B3E06;
+			remoteInfo = chgkwval;
+		};
+		001C6B550BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ABCD08CB939F002B3E06;
+			remoteInfo = cibcadrg;
+		};
+		001C6B570BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ABDC08CB93ED002B3E06;
+			remoteInfo = cibcadrg_ovr;
+		};
+		001C6B590BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ABEB08CB9433002B3E06;
+			remoteInfo = cibcadrg_split;
+		};
+		001C6B5B0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ABFA08CB947B002B3E06;
+			remoteInfo = cmm;
+		};
+		001C6B5D0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC0908CB94CC002B3E06;
+			remoteInfo = create_cg;
+		};
+		001C6B5F0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC1B08CB9957002B3E06;
+			remoteInfo = create_histo;
+		};
+		001C6B610BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC2B08CB99B9002B3E06;
+			remoteInfo = datums;
+		};
+		001C6B630BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC3A08CB9A10002B3E06;
+			remoteInfo = deg2rad;
+		};
+		001C6B650BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC4908CB9A6F002B3E06;
+			remoteInfo = deminfo;
+		};
+		001C6B670BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC5808CB9AF9002B3E06;
+			remoteInfo = dtedInfo;
+		};
+		001C6B690BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43CD6CB30A518107007A4FB1;
+			remoteInfo = dumpnitf;
+		};
+		001C6B6B0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC6708CB9B5C002B3E06;
+			remoteInfo = dtedList;
+		};
+		001C6B6D0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC7608CB9BB6002B3E06;
+			remoteInfo = ecg2ocg;
+		};
+		001C6B6F0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC8508CB9C03002B3E06;
+			remoteInfo = extract_vertices;
+		};
+		001C6B710BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AC9508CB9C72002B3E06;
+			remoteInfo = factory_dump;
+		};
+		001C6B730BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ACA408CB9CBB002B3E06;
+			remoteInfo = ft2mtrs;
+		};
+		001C6B750BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ACB308CB9D1F002B3E06;
+			remoteInfo = icp;
+		};
+		001C6B770BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ACC308CB9D7F002B3E06;
+			remoteInfo = igen;
+		};
+		001C6B790BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ACDA08CB9F54002B3E06;
+			remoteInfo = image_info;
+		};
+		001C6B7B0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ACEB08CB9FAC002B3E06;
+			remoteInfo = imagebounds;
+		};
+		001C6B7D0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ACFA08CBA00E002B3E06;
+			remoteInfo = img2md;
+		};
+		001C6B7F0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD0D08CBA094002B3E06;
+			remoteInfo = img2rr;
+		};
+		001C6B810BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD1D08CBA0E2002B3E06;
+			remoteInfo = mosaic;
+		};
+		001C6B830BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD2E08CBA15A002B3E06;
+			remoteInfo = mtrs2ft;
+		};
+		001C6B850BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD3E08CBA1F0002B3E06;
+			remoteInfo = mtrsPerDeg;
+		};
+		001C6B870BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD5108CBA26A002B3E06;
+			remoteInfo = orthoigen;
+		};
+		001C6B890BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD6008CBA2CE002B3E06;
+			remoteInfo = ossim_height;
+		};
+		001C6B8B0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD6F08CBA32F002B3E06;
+			remoteInfo = pixelflip;
+		};
+		001C6B8D0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD7E08CBA37D002B3E06;
+			remoteInfo = rad2deg;
+		};
+		001C6B8F0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD8E08CBA3E7002B3E06;
+			remoteInfo = rpc2ogeom;
+		};
+		001C6B910BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AD9F08CBA468002B3E06;
+			remoteInfo = shpbuilder;
+		};
+		001C6B930BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ADAF08CBA4D5002B3E06;
+			remoteInfo = shpcutter;
+		};
+		001C6B950BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ADBF08CBA5B7002B3E06;
+			remoteInfo = shpdump;
+		};
+		001C6B970BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ADCF08CBA670002B3E06;
+			remoteInfo = space_imaging;
+		};
+		001C6B990BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ADDF08CBA716002B3E06;
+			remoteInfo = swapbytes;
+		};
+		001C6B9B0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5ADEF08CBA786002B3E06;
+			remoteInfo = tfw2ogeom;
+		};
+		001C6B9D0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AE0108CBA7E3002B3E06;
+			remoteInfo = toc_dump;
+		};
+		001C6B9F0BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AE1008CBA835002B3E06;
+			remoteInfo = vec2ras;
+		};
+		001C6BA10BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FC5AE1F08CBA8A8002B3E06;
+			remoteInfo = vector2kwl;
+		};
+		001C6BA30BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 436B0D560A80C8790052AA54;
+			remoteInfo = ossimplanetviewer;
+		};
+		001C6BA50BC9B07B006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43954AE10AA8EDB200250B23;
+			remoteInfo = ossimplanet;
+		};
+		001C6BAE0BC9B129006D4592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6BAA0BC9B129006D4592 /* ossimPlanet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = ossimPlanet;
+		};
+		438FAA0E0C0283C900577D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EED846C80BFDDE6200378755;
+			remoteInfo = foo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001C6AF70BC9B060006D4592 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		001C6AF80BC9B060006D4592 /* Openthreads.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Openthreads.framework; path = /Users/Shared/Development/ossim_dependencies/Frameworks/Openthreads.framework; sourceTree = "<absolute>"; };
+		001C6AF90BC9B060006D4592 /* osgSim.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgSim.framework; path = /Users/Shared/Development/ossim_dependencies/Frameworks/osgSim.framework; sourceTree = "<absolute>"; };
+		001C6AFA0BC9B060006D4592 /* osgGA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgGA.framework; path = /Users/Shared/Development/ossim_dependencies/Frameworks/osgGA.framework; sourceTree = "<absolute>"; };
+		001C6AFB0BC9B060006D4592 /* osgText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgText.framework; path = /Users/Shared/Development/ossim_dependencies/Frameworks/osgText.framework; sourceTree = "<absolute>"; };
+		001C6AFC0BC9B060006D4592 /* osgDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgDB.framework; path = /Users/Shared/Development/ossim_dependencies/Frameworks/osgDB.framework; sourceTree = "<absolute>"; };
+		001C6AFD0BC9B060006D4592 /* osg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osg.framework; path = /Users/Shared/Development/ossim_dependencies/Frameworks/osg.framework; sourceTree = "<absolute>"; };
+		001C6AFF0BC9B060006D4592 /* osgUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgUtil.framework; path = /Users/Shared/Development/ossim_dependencies/Frameworks/osgUtil.framework; sourceTree = "<absolute>"; };
+		001C6B090BC9B07B006D4592 /* ossim.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ossim.xcodeproj; path = ../ossim/xcode/ossim/ossim.xcodeproj; sourceTree = SOURCE_ROOT; };
+		001C6BAA0BC9B129006D4592 /* ossimPlanet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ossimPlanet.xcodeproj; path = ../ossimPlanet/xcode/ossimPlanet/ossimPlanet.xcodeproj; sourceTree = SOURCE_ROOT; };
+		001C6BB30BC9B15B006D4592 /* common_settings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; name = common_settings.xcconfig; path = ../ossim/xcode/ossim/common_settings.xcconfig; sourceTree = "<group>"; };
+		005245100BF5D40000F6F356 /* ossimPlanetCocoaConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossimPlanetCocoaConstants.h; sourceTree = "<group>"; };
+		005245110BF5D40000F6F356 /* ossimPlanetCocoaConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ossimPlanetCocoaConstants.m; sourceTree = "<group>"; };
+		00917DAE0BC8A5AE000E3849 /* ossimPlanetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossimPlanetView.h; sourceTree = "<group>"; };
+		00917DAF0BC8A5AE000E3849 /* ossimPlanetView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ossimPlanetView.mm; sourceTree = "<group>"; };
+		00B0A7790BDCBC2600612278 /* ossimPlanetCocoaActionAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossimPlanetCocoaActionAdapter.h; sourceTree = "<group>"; };
+		00EFB28A0BDC4F4A0037E6D4 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		00EFB28B0BDC4F4A0037E6D4 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		189C1BB30BE23A2D0097CA72 /* ossimPlanet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = ossimPlanet.icns; path = ../ossim/xcode/ossim/Resources/icons/ossimPlanet.icns; sourceTree = SOURCE_ROOT; };
+		18CF1F220BDEED45007B7615 /* wms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = wms.framework; path = /var/tmp/XcodeBuilds/Release/wms.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ossimplanetCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ossimplanetCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				001C6B000BC9B060006D4592 /* OpenGL.framework in Frameworks */,
+				001C6B010BC9B060006D4592 /* Openthreads.framework in Frameworks */,
+				001C6B020BC9B060006D4592 /* osgSim.framework in Frameworks */,
+				001C6B030BC9B060006D4592 /* osgGA.framework in Frameworks */,
+				001C6B040BC9B060006D4592 /* osgText.framework in Frameworks */,
+				001C6B050BC9B060006D4592 /* osgDB.framework in Frameworks */,
+				001C6B060BC9B060006D4592 /* osg.framework in Frameworks */,
+				001C6B080BC9B060006D4592 /* osgUtil.framework in Frameworks */,
+				001C6BA70BC9B081006D4592 /* ossim.framework in Frameworks */,
+				001C6BB00BC9B130006D4592 /* ossimPlanet.framework in Frameworks */,
+				18CF1F230BDEED45007B7615 /* wms.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001C6B0A0BC9B07B006D4592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001C6B440BC9B07B006D4592 /* ossim.framework */,
+				001C6B460BC9B07B006D4592 /* adrg_header_dump */,
+				001C6B480BC9B07B006D4592 /* applanix2ogeom */,
+				001C6B4A0BC9B07B006D4592 /* band_merge */,
+				001C6B4C0BC9B07B006D4592 /* bilsplitter */,
+				001C6B4E0BC9B07B006D4592 /* bmvstager */,
+				001C6B500BC9B07B006D4592 /* btoa */,
+				001C6B520BC9B07B006D4592 /* ccfinfo */,
+				001C6B540BC9B07B006D4592 /* chgkwval */,
+				001C6B560BC9B07B006D4592 /* cibcadrg */,
+				001C6B580BC9B07B006D4592 /* cibcadrg_ovr */,
+				001C6B5A0BC9B07B006D4592 /* cibcadrg_split */,
+				001C6B5C0BC9B07B006D4592 /* cmm */,
+				001C6B5E0BC9B07B006D4592 /* create_cg */,
+				001C6B600BC9B07B006D4592 /* create_histo */,
+				001C6B620BC9B07B006D4592 /* datums */,
+				001C6B640BC9B07B006D4592 /* deg2rad */,
+				001C6B660BC9B07B006D4592 /* deminfo */,
+				001C6B680BC9B07B006D4592 /* dtedInfo */,
+				001C6B6A0BC9B07B006D4592 /* dumpnitf */,
+				001C6B6C0BC9B07B006D4592 /* dtedList */,
+				001C6B6E0BC9B07B006D4592 /* ecg2ocg */,
+				001C6B700BC9B07B006D4592 /* extract_vertices */,
+				001C6B720BC9B07B006D4592 /* factory_dump */,
+				001C6B740BC9B07B006D4592 /* ft2mtrs */,
+				001C6B760BC9B07B006D4592 /* icp */,
+				001C6B780BC9B07B006D4592 /* igen */,
+				001C6B7A0BC9B07B006D4592 /* image_info */,
+				001C6B7C0BC9B07B006D4592 /* imagebounds */,
+				001C6B7E0BC9B07B006D4592 /* img2md */,
+				001C6B800BC9B07B006D4592 /* img2rr */,
+				001C6B820BC9B07B006D4592 /* mosaic */,
+				001C6B840BC9B07B006D4592 /* mtrs2ft */,
+				001C6B860BC9B07B006D4592 /* mtrsPerDeg */,
+				001C6B880BC9B07B006D4592 /* orthoigen */,
+				001C6B8A0BC9B07B006D4592 /* ossim_height */,
+				001C6B8C0BC9B07B006D4592 /* pixelflip */,
+				001C6B8E0BC9B07B006D4592 /* rad2deg */,
+				001C6B900BC9B07B006D4592 /* rpc2ogeom */,
+				001C6B920BC9B07B006D4592 /* shpbuilder */,
+				001C6B940BC9B07B006D4592 /* shpcutter */,
+				001C6B960BC9B07B006D4592 /* shpdump */,
+				001C6B980BC9B07B006D4592 /* space_imaging */,
+				001C6B9A0BC9B07B006D4592 /* swapbytes */,
+				001C6B9C0BC9B07B006D4592 /* tfw2ogeom */,
+				001C6B9E0BC9B07B006D4592 /* toc_dump */,
+				001C6BA00BC9B07B006D4592 /* vec2ras */,
+				001C6BA20BC9B07B006D4592 /* vector2kwl */,
+				001C6BA40BC9B07B006D4592 /* ossimplanetviewer */,
+				001C6BA60BC9B07B006D4592 /* ossimplanet.app */,
+				438FAA0F0C0283C900577D9A /* foo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001C6BAB0BC9B129006D4592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001C6BAF0BC9B129006D4592 /* ossimPlanet.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				00917DAE0BC8A5AE000E3849 /* ossimPlanetView.h */,
+				00917DAF0BC8A5AE000E3849 /* ossimPlanetView.mm */,
+				00EFB28A0BDC4F4A0037E6D4 /* AppController.h */,
+				00EFB28B0BDC4F4A0037E6D4 /* AppController.mm */,
+				00B0A7790BDCBC2600612278 /* ossimPlanetCocoaActionAdapter.h */,
+				005245100BF5D40000F6F356 /* ossimPlanetCocoaConstants.h */,
+				005245110BF5D40000F6F356 /* ossimPlanetCocoaConstants.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001C6AF70BC9B060006D4592 /* OpenGL.framework */,
+				001C6AF80BC9B060006D4592 /* Openthreads.framework */,
+				001C6AF90BC9B060006D4592 /* osgSim.framework */,
+				001C6AFA0BC9B060006D4592 /* osgGA.framework */,
+				001C6AFB0BC9B060006D4592 /* osgText.framework */,
+				001C6AFC0BC9B060006D4592 /* osgDB.framework */,
+				001C6AFD0BC9B060006D4592 /* osg.framework */,
+				001C6AFF0BC9B060006D4592 /* osgUtil.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		18CF1EF40BDEE4DF007B7615 /* External Projects */ = {
+			isa = PBXGroup;
+			children = (
+				001C6BAA0BC9B129006D4592 /* ossimPlanet.xcodeproj */,
+				001C6B090BC9B07B006D4592 /* ossim.xcodeproj */,
+			);
+			name = "External Projects";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ossimplanetCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ossimplanetCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				001C6BB30BC9B15B006D4592 /* common_settings.xcconfig */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				18CF1EF40BDEE4DF007B7615 /* External Projects */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ossimplanetCocoa;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				189C1BB30BE23A2D0097CA72 /* ossimPlanet.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CF1F220BDEED45007B7615 /* wms.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ossimplanetCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ossimplanetCocoa" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ossimplanetCocoa;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ossimplanetCocoa;
+			productReference = 8D1107320486CEB800E47090 /* ossimplanetCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ossimplanetCocoa" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ossimplanetCocoa */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 001C6B0A0BC9B07B006D4592 /* Products */;
+					ProjectRef = 001C6B090BC9B07B006D4592 /* ossim.xcodeproj */;
+				},
+				{
+					ProductGroup = 001C6BAB0BC9B129006D4592 /* Products */;
+					ProjectRef = 001C6BAA0BC9B129006D4592 /* ossimPlanet.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ossimplanetCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		001C6B440BC9B07B006D4592 /* ossim.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ossim.framework;
+			remoteRef = 001C6B430BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B460BC9B07B006D4592 /* adrg_header_dump */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = adrg_header_dump;
+			remoteRef = 001C6B450BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B480BC9B07B006D4592 /* applanix2ogeom */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = applanix2ogeom;
+			remoteRef = 001C6B470BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B4A0BC9B07B006D4592 /* band_merge */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = band_merge;
+			remoteRef = 001C6B490BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B4C0BC9B07B006D4592 /* bilsplitter */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = bilsplitter;
+			remoteRef = 001C6B4B0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B4E0BC9B07B006D4592 /* bmvstager */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = bmvstager;
+			remoteRef = 001C6B4D0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B500BC9B07B006D4592 /* btoa */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = btoa;
+			remoteRef = 001C6B4F0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B520BC9B07B006D4592 /* ccfinfo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ccfinfo;
+			remoteRef = 001C6B510BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B540BC9B07B006D4592 /* chgkwval */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = chgkwval;
+			remoteRef = 001C6B530BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B560BC9B07B006D4592 /* cibcadrg */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = cibcadrg;
+			remoteRef = 001C6B550BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B580BC9B07B006D4592 /* cibcadrg_ovr */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = cibcadrg_ovr;
+			remoteRef = 001C6B570BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B5A0BC9B07B006D4592 /* cibcadrg_split */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = cibcadrg_split;
+			remoteRef = 001C6B590BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B5C0BC9B07B006D4592 /* cmm */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = cmm;
+			remoteRef = 001C6B5B0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B5E0BC9B07B006D4592 /* create_cg */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = create_cg;
+			remoteRef = 001C6B5D0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B600BC9B07B006D4592 /* create_histo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = create_histo;
+			remoteRef = 001C6B5F0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B620BC9B07B006D4592 /* datums */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = datums;
+			remoteRef = 001C6B610BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B640BC9B07B006D4592 /* deg2rad */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = deg2rad;
+			remoteRef = 001C6B630BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B660BC9B07B006D4592 /* deminfo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = deminfo;
+			remoteRef = 001C6B650BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B680BC9B07B006D4592 /* dtedInfo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dtedInfo;
+			remoteRef = 001C6B670BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B6A0BC9B07B006D4592 /* dumpnitf */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dumpnitf;
+			remoteRef = 001C6B690BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B6C0BC9B07B006D4592 /* dtedList */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dtedList;
+			remoteRef = 001C6B6B0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B6E0BC9B07B006D4592 /* ecg2ocg */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ecg2ocg;
+			remoteRef = 001C6B6D0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B700BC9B07B006D4592 /* extract_vertices */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = extract_vertices;
+			remoteRef = 001C6B6F0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B720BC9B07B006D4592 /* factory_dump */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = factory_dump;
+			remoteRef = 001C6B710BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B740BC9B07B006D4592 /* ft2mtrs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ft2mtrs;
+			remoteRef = 001C6B730BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B760BC9B07B006D4592 /* icp */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = icp;
+			remoteRef = 001C6B750BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B780BC9B07B006D4592 /* igen */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = igen;
+			remoteRef = 001C6B770BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B7A0BC9B07B006D4592 /* image_info */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = image_info;
+			remoteRef = 001C6B790BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B7C0BC9B07B006D4592 /* imagebounds */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = imagebounds;
+			remoteRef = 001C6B7B0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B7E0BC9B07B006D4592 /* img2md */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = img2md;
+			remoteRef = 001C6B7D0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B800BC9B07B006D4592 /* img2rr */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = img2rr;
+			remoteRef = 001C6B7F0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B820BC9B07B006D4592 /* mosaic */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = mosaic;
+			remoteRef = 001C6B810BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B840BC9B07B006D4592 /* mtrs2ft */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = mtrs2ft;
+			remoteRef = 001C6B830BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B860BC9B07B006D4592 /* mtrsPerDeg */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = mtrsPerDeg;
+			remoteRef = 001C6B850BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B880BC9B07B006D4592 /* orthoigen */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = orthoigen;
+			remoteRef = 001C6B870BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B8A0BC9B07B006D4592 /* ossim_height */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ossim_height;
+			remoteRef = 001C6B890BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B8C0BC9B07B006D4592 /* pixelflip */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = pixelflip;
+			remoteRef = 001C6B8B0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B8E0BC9B07B006D4592 /* rad2deg */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = rad2deg;
+			remoteRef = 001C6B8D0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B900BC9B07B006D4592 /* rpc2ogeom */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = rpc2ogeom;
+			remoteRef = 001C6B8F0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B920BC9B07B006D4592 /* shpbuilder */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = shpbuilder;
+			remoteRef = 001C6B910BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B940BC9B07B006D4592 /* shpcutter */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = shpcutter;
+			remoteRef = 001C6B930BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B960BC9B07B006D4592 /* shpdump */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = shpdump;
+			remoteRef = 001C6B950BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B980BC9B07B006D4592 /* space_imaging */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = space_imaging;
+			remoteRef = 001C6B970BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B9A0BC9B07B006D4592 /* swapbytes */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = swapbytes;
+			remoteRef = 001C6B990BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B9C0BC9B07B006D4592 /* tfw2ogeom */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tfw2ogeom;
+			remoteRef = 001C6B9B0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6B9E0BC9B07B006D4592 /* toc_dump */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = toc_dump;
+			remoteRef = 001C6B9D0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6BA00BC9B07B006D4592 /* vec2ras */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = vec2ras;
+			remoteRef = 001C6B9F0BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6BA20BC9B07B006D4592 /* vector2kwl */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = vector2kwl;
+			remoteRef = 001C6BA10BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6BA40BC9B07B006D4592 /* ossimplanetviewer */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ossimplanetviewer;
+			remoteRef = 001C6BA30BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6BA60BC9B07B006D4592 /* ossimplanet.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ossimplanet.app;
+			remoteRef = 001C6BA50BC9B07B006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		001C6BAF0BC9B129006D4592 /* ossimPlanet.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ossimPlanet.framework;
+			remoteRef = 001C6BAE0BC9B129006D4592 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		438FAA0F0C0283C900577D9A /* foo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = foo;
+			remoteRef = 438FAA0E0C0283C900577D9A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				189C1BB40BE23A2D0097CA72 /* ossimPlanet.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				00917DB00BC8A5AE000E3849 /* ossimPlanetView.mm in Sources */,
+				00EFB28C0BDC4F4A0037E6D4 /* AppController.mm in Sources */,
+				005245120BF5D40000F6F356 /* ossimPlanetCocoaConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A9BC220CDA146900F4581A /* DebugNativeLeopard */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001C6BB30BC9B15B006D4592 /* common_settings.xcconfig */;
+			buildSettings = {
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(QT4_PATH)/include",
+					"$(DEV_HOME_PATH)/ossim/include",
+					"$(DEV_HOME_PATH)/libwms/include",
+					"$(DEV_HOME_PATH)/ossimPlanet/include",
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(UNIV_HEADER_DEP)",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SHARED_PRECOMPS_DIR = "";
+				USER_HEADER_SEARCH_PATHS = "$(UNIV_HEADER_DEP)";
+			};
+			name = DebugNativeLeopard;
+		};
+		18A9BC230CDA146900F4581A /* DebugNativeLeopard */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					/var/tmp/XcodeBuilds/Release,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ossimplanetCocoa_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ossimplanetCocoa;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = DebugNativeLeopard;
+		};
+		18A9BC240CDA147300F4581A /* ReleaseLeopard */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001C6BB30BC9B15B006D4592 /* common_settings.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(QT4_PATH)/include",
+					"$(DEV_HOME_PATH)/ossim/include",
+					"$(DEV_HOME_PATH)/libwms/include",
+					"$(DEV_HOME_PATH)/ossimPlanet/include",
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(UNIV_HEADER_DEP)",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SHARED_PRECOMPS_DIR = "";
+				USER_HEADER_SEARCH_PATHS = "$(UNIV_HEADER_DEP)";
+			};
+			name = ReleaseLeopard;
+		};
+		18A9BC250CDA147300F4581A /* ReleaseLeopard */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					/var/tmp/XcodeBuilds/Release,
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ossimplanetCocoa_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ossimplanetCocoa;
+				WRAPPER_EXTENSION = app;
+			};
+			name = ReleaseLeopard;
+		};
+		18E4E5FE0BE7810100C8442B /* DebugNative */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					/var/tmp/XcodeBuilds/Release,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ossimplanetCocoa_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ossimplanetCocoa;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = DebugNative;
+		};
+		18E4E5FF0BE7810100C8442B /* DebugNative */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001C6BB30BC9B15B006D4592 /* common_settings.xcconfig */;
+			buildSettings = {
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(QT4_PATH)/include",
+					"$(DEV_HOME_PATH)/ossim/include",
+					"$(DEV_HOME_PATH)/libwms/include",
+					"$(DEV_HOME_PATH)/ossimPlanet/include",
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(UNIV_HEADER_DEP)",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SHARED_PRECOMPS_DIR = "";
+				USER_HEADER_SEARCH_PATHS = "$(UNIV_HEADER_DEP)";
+			};
+			name = DebugNative;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					/var/tmp/XcodeBuilds/Release,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ossimplanetCocoa_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ossimplanetCocoa;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					/var/tmp/XcodeBuilds/Release,
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ossimplanetCocoa_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ossimplanetCocoa;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001C6BB30BC9B15B006D4592 /* common_settings.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(QT4_PATH)/include",
+					"$(DEV_HOME_PATH)/ossim/include",
+					"$(DEV_HOME_PATH)/libwms/include",
+					"$(DEV_HOME_PATH)/ossimPlanet/include",
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(UNIV_HEADER_DEP)",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SHARED_PRECOMPS_DIR = "";
+				USER_HEADER_SEARCH_PATHS = "$(UNIV_HEADER_DEP)";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001C6BB30BC9B15B006D4592 /* common_settings.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(QT4_PATH)/include",
+					"$(DEV_HOME_PATH)/ossim/include",
+					"$(DEV_HOME_PATH)/libwms/include",
+					"$(DEV_HOME_PATH)/ossimPlanet/include",
+					"$(DEV_HOME_PATH)/ossimPlanetQt/include",
+					"$(UNIV_HEADER_DEP)",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SHARED_PRECOMPS_DIR = "";
+				USER_HEADER_SEARCH_PATHS = "$(UNIV_HEADER_DEP)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ossimplanetCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				18E4E5FE0BE7810100C8442B /* DebugNative */,
+				18A9BC230CDA146900F4581A /* DebugNativeLeopard */,
+				C01FCF4C08A954540054247B /* Release */,
+				18A9BC250CDA147300F4581A /* ReleaseLeopard */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ossimplanetCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				18E4E5FF0BE7810100C8442B /* DebugNative */,
+				18A9BC220CDA146900F4581A /* DebugNativeLeopard */,
+				C01FCF5008A954540054247B /* Release */,
+				18A9BC240CDA147300F4581A /* ReleaseLeopard */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/12095/trunk/ossim/src/examples/data_types/dms
+END
+dms_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/12095/trunk/ossim/src/examples/data_types/dms/dms_test.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/7525/trunk/ossim/src/examples/data_types/dms/Makefile
+END

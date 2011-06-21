@@ -1,0 +1,182 @@
+SOURCES	+= src/ossimQtScrollingImageWidget.cpp \
+	src/ossimQtElevationManagerController.cpp \
+	main.cpp \
+	src/ossimDataManager.cpp \
+	src/ossimQtDataManagerListBox.cpp \
+	src/ossimQtMainWindowController.cpp \
+	src/ossimQtImageWindowController.cpp \
+	src/ossimQtBandSelectorController.cpp \
+	src/ossimQtViewDialogController.cpp \
+	src/ossimQtEvent.cpp \
+	src/ossimQtMainWindowWorkspace.cpp \
+	src/ossimQtApplicationUtility.cpp \
+	src/ossimQtImageWindowControllerEventFilter.cpp \
+	src/ossimQtDisplayUtility.cpp \
+	src/ossimQtHsiRemapperController.cpp \
+	src/ossimQtSwipeScrollingImageWidget.cpp \
+	src/ossimQtHistogramWidget.cpp \
+	src/ossimQListBox.cpp \
+	src/ossimQtCombinerEditorDialogController.cpp \
+	src/ossimQtProject.cpp \
+	src/ossimQtHistogramController.cpp \
+	src/ossimQtLayerEditorController.cpp \
+	src/ossimQtTopographicCorrectionDialogController.cpp \
+	src/ossimQtAdjustableParameterDialogController.cpp \
+	src/ossimQtSliderTableItem.cpp \
+	src/ossimQtIgenController.cpp \
+	src/ossimQtVectorEditorDialogController.cpp \
+	src/ossimQtImageChainEditorController.cpp \
+	src/ossimQWidgetFactoryInterface.cpp \
+	src/ossimQWidgetEditorFactory.cpp \
+	src/ossimQWidgetFactoryRegistry.cpp \
+	src/vce/ossimQtVceWindowController.cpp \
+	src/vce/ossimQtVceComponentView.cpp \
+	src/vce/ossimQtVceComponentDialogController.cpp \
+	src/vce/ossimQtVceCanvasWidget.cpp \
+	src/vce/ossimQtVceConnectableObject.cpp \
+	src/vce/ossimQtVceConnectionObject.cpp \
+	src/vce/ossimQtVceImageDisplayObject.cpp \
+	src/vce/ossimQtVceImageSourceObject.cpp \
+	src/vce/ossimQtVceShape.cpp \
+	src/vce/ossimQtVceShapeRect.cpp \
+	src/vce/ossimQtVceImageHandlerObject.cpp \
+	src/vce/ossimQtVceCanvasContainerUtility.cpp \
+	src/property/ossimQtPropertyDialogController.cpp \
+	src/property/ossimQtPropertyTextItem.cpp \
+	src/property/ossimQtPropertyListView.cpp \
+	src/property/ossimQtPropertyBooleanItem.cpp \
+	src/property/ossimQtPropertyFactory.cpp \
+	src/property/ossimQtPropertyContainerItem.cpp \
+	src/property/ossimQtPropertyItem.cpp \
+	src/property/ossimQtPropertyStringItem.cpp \
+	src/property/ossimQtPropertyNumericItem.cpp \
+	src/property/ossimQtPropertyColorItem.cpp \
+	src/property/ossimQtPropertyFontItem.cpp \
+	src/property/ossimQtPropertyFilenameItem.cpp \
+	src/property/ossimQtMatrixPropertyController.cpp \
+	src/property/ossimQtPropertyMatrixItem.cpp \
+	src/property/ossimQtStringListPropertyController.cpp \
+	src/property/ossimQtPropertyStringListItem.cpp \
+	src/ossimQtPreferencesDialogController.cpp \
+	src/ossimQtStaticTileImageCache.cpp
+HEADERS	+= src/ossimQtScrollingImageWidget.h \
+	src/ossimQtElevationManagerController.h \
+	src/ossimDataManager.h \
+	src/ossimQtDataManagerListBox.h \
+	src/ossimQtMainWindowController.h \
+	src/ossimQtImageWindowController.h \
+	src/ossimQtBandSelectorController.h \
+	src/ossimQtViewDialogController.h \
+	src/ossimQtMainWindowWorkspace.h \
+	src/ossimQtEvent.h \
+	src/ossimQtImageWindowControllerEventFilter.h \
+	src/ossimQtDisplayUtility.h \
+	src/ossimQtHsiRemapperController.h \
+	src/ossimQtSwipeScrollingImageWidget.h \
+	src/ossimQtHistogramWidget.h \
+	src/ossimQListBox.h \
+	src/ossimQtCombinerEditorDialogController.h \
+	src/ossimQtProject.h \
+	src/ossimQtHistogramController.h \
+	src/ossimQtLayerEditorController.h \
+	src/ossimQtTopographicCorrectionDialogController.h \
+	src/ossimQtAdjustableParameterDialogController.h \
+	src/ossimQtSliderTableItem.h \
+	src/ossimQtIgenController.h \
+	src/ossimQtVectorEditorDialogController.h \
+	src/ossimQtImageChainEditorController.h \
+	src/ossimQWidgetFactoryInterface.h \
+	src/ossimQWidgetEditorFactory.h \
+	src/ossimQWidgetFactoryRegistry.h \
+	src/vce/ossimQtVceWindowController.h \
+	src/vce/ossimQtVceComponentView.h \
+	src/vce/ossimQtVceComponentDialogController.h \
+	src/vce/ossimQtVceCanvasWidget.h \
+	src/vce/ossimQtVceConnectableObject.h \
+	src/vce/ossimQtVceConnectionObject.h \
+	src/vce/ossimQtVceImageDisplayObject.h \
+	src/vce/ossimQtVceImageSourceObject.h \
+	src/vce/ossimQtVceShape.h \
+	src/vce/ossimQtVceShapeRect.h \
+	src/vce/ossimQtVceImageHandlerObject.h \
+	src/vce/ossimQtVceCanvasContainerUtility.h \
+	src/property/ossimQtPropertyDialogController.h \
+	src/property/ossimQtPropertyTextItem.h \
+	src/property/ossimQtPropertyListView.h \
+	src/property/ossimQtPropertyBooleanItem.h \
+	src/property/ossimQtPropertyFactory.h \
+	src/property/ossimQtPropertyContainerItem.h \
+	src/property/ossimQtPropertyItem.h \
+	src/property/ossimQtPropertyStringItem.h \
+	src/property/ossimQtPropertyNumericItem.h \
+	src/property/ossimQtPropertyColorItem.h \
+	src/property/ossimQtPropertyFontItem.h \
+	src/property/ossimQtPropertyFilenameItem.h \
+	src/property/ossimQtMatrixPropertyController.h \
+	src/property/ossimQtPropertyMatrixItem.h \
+	src/property/ossimQtStringListPropertyController.h \
+	src/property/ossimQtPropertyStringListItem.h \
+	src/ossimQtPreferencesDialogController.h \
+	src/ossimQtStaticTileImageCache.h \
+	src/
+
+unix {
+  UI_DIR = .ui
+  MOC_DIR = .moc
+  OBJECTS_DIR = .obj
+}
+
+
+
+
+FORMS	= src/ossimQtMainWindow.ui \
+	src/ossimQtImageWindow.ui \
+	src/ossimQtElevationManagerDialog.ui \
+	src/ossimQtDatumConverterDialog.ui \
+	src/ossimQtUnitConverterDialog.ui \
+	src/ossimQtDataManagerDialog.ui \
+	src/ossimQtBandSelectorDialog.ui \
+	src/ossimQtViewDialog.ui \
+	src/ossimQtHsiRemapperDialog.ui \
+	src/ossimQtLayerChooser.ui \
+	src/ossimQtHistogramDialog.ui \
+	src/ossimQtLayerEditor.ui \
+	src/ossimQtCombinerEditorDialog.ui \
+	src/ossimQtTopographicCorrectionDialog.ui \
+	src/ossimQtAdjustableParameterDialog.ui \
+	src/ossimQtIgenDialog.ui \
+	src/ossimQtVectorEditorDialog.ui \
+	src/vce/ossimQtVceWindow.ui \
+	src/vce/ossimQtVceComponentDialog.ui \
+	src/property/ossimQtPropertyDialog.ui \
+	src/property/ossimQtMatrixPropertyDialog.ui \
+	src/property/ossimQtStringListPropertyDialog.ui \
+	src/ossimQtPreferencesDialog.ui \
+	src/ossimQtImageChainEditorDialog.ui
+IMAGES	= images/filenew \
+	images/fileopen \
+	images/filesave \
+	images/print \
+	images/undo \
+	images/redo \
+	images/editcut \
+	images/editcopy \
+	images/editpaste \
+	images/searchfind \
+	images/display \
+	images/datastore \
+	images/fingerup \
+	images/dataextract \
+	images/alignbottom \
+	images/alignleft \
+	images/alignright \
+	images/aligntop \
+	images/tilecascade \
+	images/connection \
+	images/resetproperty
+TEMPLATE	=app
+CONFIG	+= qt warn_on release
+DEFINES	+= MACOSX _FILE_OFFSET_BITS=64 _LARGE_FILES HAVE_CONFIG_H MPI_SETTING=0 GDAL_SETTING=1 GEOTIFF_ENABLED FREETYPE_SETTING=1
+INCLUDEPATH	+= $(OSSIM_HOME)/src/packages/gdal/port $(OSSIM_HOME)/src/packages/gdal/frmts/iso8211 $(OSSIM_HOME)/src/packages/gdal/frmts/gtiff/libtiff $(OSSIM_HOME)/src/packages/gdal/frmts/gtiff/libgeotiff $(OSSIM_HOME)/src/packages/gdal/ogr $(OSSIM_HOME)/src/packages/gdal/ogr/ogrsf_frmts $(OSSIM_HOME)/src/packages/gdal/ogr/ogrsf_frmts/shape $(OSSIM_HOME)/src/packages/gdal/gcore $(OSSIM_HOME)/include/ossim $(OSSIM_HOME)/include /usr/include/freetype2  $(OSSIM_HOME)/src/ossim_core $(OSSIM_HOME)/src
+LIBS	+= -L$(OSSIM_HOME)/src/packages/gdal/.libs -L$(OSSIM_HOME)/src/packages/gdal -L$(OSSIM_HOME)/lib/.libs  -L$(OSSIM_HOME)/lib -lossim_init -lossim_plugin -lossim_visualsim -lossim_parallel -lossim_vec -lossim_imaging -lossim_projections -lossim_elevation -lossim_vec -lossim_support_data -lossim_font -lossim_base -lossim_polyclip -lossim_matrix -lossim_vpfutil -lfreetype -L$(OSSIM_HOME)/src/packages/gdal -lgdal -L$(OSSIM_HOME)/src/packages/package_install/lib 
+LANGUAGE	= C++

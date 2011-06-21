@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/9966/trunk/ossim/src/examples/vpf
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/7525/trunk/ossim/src/examples/vpf/Makefile
+END
+dump_table.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9966/trunk/ossim/src/examples/vpf/dump_table.cpp
+END

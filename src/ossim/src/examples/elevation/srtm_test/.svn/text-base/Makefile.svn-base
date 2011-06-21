@@ -1,0 +1,5 @@
+###
+# $Id$
+###
+PROGRAM=srtmSupportDataTest
+include ../../../../makeprog.mak

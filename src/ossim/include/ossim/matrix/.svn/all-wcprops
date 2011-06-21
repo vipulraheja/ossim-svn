@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/17275/trunk/ossim/include/ossim/matrix
+END
+newmatrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/5680/trunk/ossim/include/ossim/matrix/newmatrm.h
+END
+newmat.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/17275/trunk/ossim/include/ossim/matrix/newmat.h
+END
+newmatap.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/matrix/newmatap.h
+END
+solution.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/12759/trunk/ossim/include/ossim/matrix/solution.h
+END
+precisio.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/12765/trunk/ossim/include/ossim/matrix/precisio.h
+END
+myexcept.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/5680/trunk/ossim/include/ossim/matrix/myexcept.h
+END
+newmatrc.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/matrix/newmatrc.h
+END
+include.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/13457/trunk/ossim/include/ossim/matrix/include.h
+END
+newmatio.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9105/trunk/ossim/include/ossim/matrix/newmatio.h
+END
+newmatnl.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/matrix/newmatnl.h
+END
+controlw.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/5680/trunk/ossim/include/ossim/matrix/controlw.h
+END

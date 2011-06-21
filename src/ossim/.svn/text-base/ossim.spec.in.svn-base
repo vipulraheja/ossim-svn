@@ -1,0 +1,131 @@
+%define pref /usr
+%define ver @OSSIM_MAJOR_VERSION_NUMBER@.@OSSIM_MINOR_VERSION_NUMBER@.@OSSIM_RELEASE_NUMBER@
+%define ver2 @OSSIM_MAJOR_VERSION_NUMBER@.@OSSIM_MINOR_VERSION_NUMBER@
+%define rel @OSSIM_MAJOR_VERSION_NUMBER@
+%define name ossim
+# Preamble
+Summary: Open Source Software Image Map
+Name: ossim
+Version: %{ver}
+Release: %{rel}
+Copyright: GPL LGPL
+Group: Applications/Image
+Source: %{name}-%{ver}.tgz
+URL: http://www.ossim.org
+Distribution: na
+Vendor: imagelinks.com
+Packager: Garrett Potts <gpotts@remotesensing.org>
+BuildRoot: %{_tmppath}/%{name}-%{ver}-buildroot
+
+%description
+Pronounced "awesome", the OSSIM project leverages existing open 
+source algorithms, tools, and packages to construct an integrated 
+library for remote sensing, image-processing, and Geographical 
+Information Sciences (GIS) analysis.
+
+
+%package devel
+Summary: OSSIM libraries
+Group: Development/Libraries
+Requires: ossim = %{ver}
+
+%description devel
+Headers and templates for OSSIM
+
+%prep
+%setup
+
+%build
+./configure \
+    --prefix=%{pref} \
+    --disable-appstatic\
+    --disable-debug \
+    --enable-optimization
+make
+
+%install
+make \
+  version=%{version} \
+  prefix=$RPM_BUILD_ROOT%{pref} \
+  sysconfdir=$RPM_BUILD_ROOT%{_sysconfdir} \
+  docdir=$RPM_BUILD_ROOT%{_defaultdocdir} \
+  install
+
+%post
+/sbin/ldconfig
+
+%postun
+/sbin/ldconfig
+
+%preun devel
+# Remove ossim-config if it points to this package
+if test -f %{_bindir}/ossim-config -a -f /usr/bin/md5sum ; then
+  SUM2=`md5sum %{_bindir}/ossim-config | cut -c 0-32`
+  if test "x$SUM1" = "x$SUM2" ; then
+    rm -f %{_bindir}/ossim-config
+  fi
+fi
+
+%changelog
+* Mon Jan 28 2002  Kenneth Melero <kmelero@remotesensing.org>
+-New Visual Chain Editor, redo of RPM, several minor bug fixes
+* Thu Jan 03 2002  Kenneth Melero <kmelero@remotesensing.org>
+-Redesign of connectable object pipeline, Save State updates,
+ getTile updates, progress interfaces, added New Tile Caching schemes, 
+ MPI updates, several minor bug fixes
+* Mon Oct 29 2001  Kenneth Melero <kmelero@remotesensing.org>
+-Upgraded Geotrans, Fixed CIB/CADRG/ADRG support, Display remapper
+support for 11/16-bit, new configuration options, MacOS Carbon support,
+igen fixes, new discrete convolutions, NaN support, several minor bug fixes
+* Mon Sep 17 2001  Kenneth Melero <kmelero@remotesensing.org>
+-Libtiff Memory leak fix, CCF Head fix, MySQL support, Shapefile
+ support, dbossim-stager app, several minor bug fixes
+* Wed Sep 12 2001  Kenneth Melero <kmelero@remotesensing.org>
+-Elevation Intersection and autoload DTED/DEM support, Bug fixes for
+ sensor modeling, RecceVue with sensor model support, CIB/CADRG
+ splitter application, IGEN (Image Generator) application,
+ MPI support for IGEN, Full reading/writing GeoTIFF support,
+ several minor bug fixes
+* Thu Aug 30 2001  Kenneth Melero <kmelero@remotesensing.org>
+-OSSIM Sensor Modeling, RecceVue, Histogram manipulation,
+ Elevation support, Minor bug fixes
+* Mon Jul 16 2001  Kenneth Melero <kmelero@remotesensing.org>
+-First official release.
+* Sun Mar 04 2001  Derald Metzger <dmetz@remotesensing.org>
+-UPDATE pkg to 0.999.8-1.  New rpm snapshot.
+  Compiles under both redhat-6.2 and 7.0.
+  Rpm builds by default withgrass=no but will build with it.
+  Did not test python.
+* Wed Feb 08 2001  Derald Metzger <dmetz@remotesensing.org>
+-UPDATE pkg to 0.999.7-1
+  The ossim dir tree has been extensively reconfigured.
+* Thu Dec 28 2000  Derald Metzger <dmetz@remotesensing.org>
+-UPDATE pkg to 0.999.3-1
+  The 0.999 is meant to imply preliminary code (alpha or beta).
+  The .3-1 is the 3rd preliminary version and first rpm release of it. 
+- Remove $BR build root stuff from Makefile. Use make var defs on cmdline.
+- Macroized and updated the files manifest
+- Added config dir etc/ossim
+- Added doc dir
+- Removed lib/ossim - linking statically
+* Thu Aug 31 2000  Derald Metzger <dmetz@remotesensing.org>
+-pkg 0.2.0a-2  Rebuild with wxGTK-2.2.1-0.
+* Sat Aug 26 2000  Derald Metzger <dmetz@remotesensing.org>
+-pkg 0.2.0a-1  Snapshot of current alpha code
+* Thu May 23 2000  Derald Metzger <dmetz@remotesensing.org>
+-PACKGED 0.0.0-1
+- rpm'd ossim. Started version at 0.0.0
+
+%files
+%defattr(-,root,root)
+%doc %{_docdir}/%{name}-%{version}/
+%{_bindir}/*
+%{pref}/etc/ossim/templates/*
+%{pref}/man/*
+%{_libdir}/lib*
+%{pref}/share
+
+%files devel
+%defattr(-,root,root)
+%{_includedir}
+%{_libdir}/*

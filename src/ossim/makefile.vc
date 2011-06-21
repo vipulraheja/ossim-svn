@@ -1,0 +1,38 @@
+###
+# $Id: makefile.vc 16136 2009-12-18 15:09:14Z dburken $
+#
+# Windows nmake make file.  This code should compile with the Microsoft .NET
+# compiler.
+# 
+# Currently for a typical build on windows you would do the following:
+#
+# - cd to the ossim top and edit its nmake.opt file appropriately.
+# - nmake /f makefile
+# - nmake /f makefile install (if you want the apps in the bin directory.
+#
+# NOTE:  If you make shared apps it's handy to copy the ossim.dll to the bin
+#        directory. 
+###
+
+!INCLUDE nmake.opt
+
+default:
+	cd src
+	$(MAKE) /f makefile.vc
+	cd ..
+
+install:
+	cd src
+	$(MAKE) /f makefile.vc install
+	cd ..
+	$(CP) $(LIBDIR)\ossim.dll $(BINDIR)
+	$(CP) $(LIBDIR)\ossim.dll.manifest $(BINDIR)
+
+clean:
+	cd src
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	$(RM) lib\*.*
+
+clobber:	clean
+	$(RM) bin\*.*

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/16398/trunk/ossim_qt4/xcode/ossim_qt4
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/15427/trunk/ossim_qt4/xcode/ossim_qt4/Info.plist
+END
+iView-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/15427/trunk/ossim_qt4/xcode/ossim_qt4/iView-Info.plist
+END
+ossim_qt4_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/15427/trunk/ossim_qt4/xcode/ossim_qt4/ossim_qt4_Prefix.pch
+END
+ImageLinker-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15427/trunk/ossim_qt4/xcode/ossim_qt4/ImageLinker-Info.plist
+END

@@ -1,0 +1,439 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>ossimQtBandSelectorDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtBandSelectorDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>351</width>
+            <height>375</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Band Selector</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QButtonGroup">
+            <property name="name">
+                <cstring>theImageTypeButtonGroup</cstring>
+            </property>
+            <property name="title">
+                <string></string>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>theGreyButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Grey</string>
+                    </property>
+                </widget>
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>theTrueButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>True</string>
+                    </property>
+                </widget>
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>theNBandButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>N-Band</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout7</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>theAvailableBandLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>available bands:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignLeft</set>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer4</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Fixed</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>120</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>theSelectedBandsLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>selected bands:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignLeft</set>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout6</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="ossimQListBox">
+                    <item>
+                        <property name="text">
+                            <string>New Item</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>theAvailableBandsListBox</cstring>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string>"available bands:"</string>
+                    </property>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout57</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>0</number>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theClearButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Clear</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theAllButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>All</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theRightButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>---------&gt;</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theLeftButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>&lt;---------</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theUpButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Up</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theDownButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Down</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theMoveToTopButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Move to top</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theMoveToBottomButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Move To Bottom</string>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="ossimQListBox">
+                    <item>
+                        <property name="text">
+                            <string>New Item</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>theSelectedBandsListBox</cstring>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="Line">
+            <property name="name">
+                <cstring>theLine1</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>theHBox2</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>theSpacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>30</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theApplyButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Apply</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>theSpace2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>theSpacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>30</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theClearButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>clearButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAllButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>allButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theRightButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>rightButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theLeftButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>leftButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theUpButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>upButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theDownButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>downButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMoveToTopButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>moveToTopButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMoveToBottomButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>moveToBottomButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theApplyButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>applyButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>closeButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theGreyButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>greyButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theTrueButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>trueButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theNBandButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>nBandButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAvailableBandsListBox</sender>
+        <signal>clicked(QListBoxItem*)</signal>
+        <receiver>ossimQtBandSelectorDialog</receiver>
+        <slot>availableBandClicked(QListBoxItem*)</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtBandSelectorController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtBandSelectorDialog.h</include>
+    <include location="local" impldecl="in implementation">ossimQListBox.h</include>
+    <include location="local" impldecl="in implementation">ossim/imaging/ossimBandSelector.h</include>
+    <include location="local" impldecl="in implementation">ossimQtBandSelectorDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtBandSelectorController;</forward>
+    <forward>class ossimBandSelector;</forward>
+    <forward>class QListBoxItem;</forward>
+</forwards>
+<variables>
+    <variable access="private">ossimQtBandSelectorController* theController;</variable>
+</variables>
+<slots>
+    <slot>greyButtonClicked()</slot>
+    <slot>trueButtonClicked()</slot>
+    <slot>nBandButtonClicked()</slot>
+    <slot>clearButtonClicked()</slot>
+    <slot>downButtonClicked()</slot>
+    <slot>moveToTopButtonClicked()</slot>
+    <slot>moveToBottomButtonClicked()</slot>
+    <slot>applyButtonClicked()</slot>
+    <slot>closeButtonClicked()</slot>
+    <slot>updateDisplay()</slot>
+    <slot>allButtonClicked()</slot>
+    <slot>rightButtonClicked()</slot>
+    <slot>leftButtonClicked()</slot>
+    <slot>upButtonClicked()</slot>
+    <slot>availableBandClicked(QListBoxItem * )</slot>
+</slots>
+<functions>
+    <function access="private">init()</function>
+    <function access="private">destroy()</function>
+    <function>setBandSelector( ossimBandSelector * bandSelector )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

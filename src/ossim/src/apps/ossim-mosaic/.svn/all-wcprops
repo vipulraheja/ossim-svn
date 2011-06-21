@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/17354/trunk/ossim/src/apps/ossim-mosaic
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15183/trunk/ossim/src/apps/ossim-mosaic/makefile.vc
+END
+ossim-mosaic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17354/trunk/ossim/src/apps/ossim-mosaic/ossim-mosaic.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-mosaic/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/15183/trunk/ossim/src/apps/ossim-mosaic/Makefile
+END
+mosaic_usage.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15183/trunk/ossim/src/apps/ossim-mosaic/mosaic_usage.txt
+END

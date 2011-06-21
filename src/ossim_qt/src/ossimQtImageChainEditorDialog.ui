@@ -1,0 +1,297 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtImageChainEditorDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtImageChainEditorDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>529</width>
+            <height>282</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Image Chain Editor</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout5</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer5</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>156</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>theLayerTextLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Image Layer:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <property name="name">
+                        <cstring>theLayerComboBox</cstring>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer6</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>155</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="Line">
+            <property name="name">
+                <cstring>line1</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout4</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>theAvailableGroupBox</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Available Filters</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QListBox" row="0" column="0">
+                            <item>
+                                <property name="text">
+                                    <string>New Item</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>theAvailableFiltersListBox</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>160</width>
+                                    <height>160</height>
+                                </size>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QButtonGroup">
+                    <property name="name">
+                        <cstring>theFilterActionButtonGroup</cstring>
+                    </property>
+                    <property name="title">
+                        <string>Filter Action</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theInsertBeforeButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Insert Before</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theInsertAfterPushButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Insert After</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theDeletePushButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Delete</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theEditPropertiesPushButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Edit Properties</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theClosePushButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>close</string>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>theImageChainGroupBox</cstring>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>Sunken</enum>
+                    </property>
+                    <property name="title">
+                        <string>Image Chain</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignHCenter</set>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QListBox" row="0" column="0">
+                            <item>
+                                <property name="text">
+                                    <string>New Item</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>theChainListBox</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>160</width>
+                                    <height>160</height>
+                                </size>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theClosePushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageChainEditorDialog</receiver>
+        <slot>closePushButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theInsertBeforeButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageChainEditorDialog</receiver>
+        <slot>insertBeforeButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theLayerComboBox</sender>
+        <signal>activated(int)</signal>
+        <receiver>ossimQtImageChainEditorDialog</receiver>
+        <slot>layerComboBox_activated(int)</slot>
+    </connection>
+    <connection>
+        <sender>theEditPropertiesPushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageChainEditorDialog</receiver>
+        <slot>editPropertiesPushButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theDeletePushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageChainEditorDialog</receiver>
+        <slot>deletePushButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theInsertAfterPushButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtImageChainEditorDialog</receiver>
+        <slot>insertAfterPushButton_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtImageChainEditorController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtScrollingImageWidget.h</include>
+    <include location="global" impldecl="in declaration">vector</include>
+    <include location="global" impldecl="in declaration">ossim/base/ossimString.h</include>
+    <include location="local" impldecl="in implementation">ossimQtImageChainEditorDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtImageChainEditorController;</forward>
+    <forward>class ossimQtScrollingImageWidget;</forward>
+    <forward>class ossimQtDialog;</forward>
+</forwards>
+<variables>
+    <variable access="private">ossimQtImageChainEditorController* theController;</variable>
+</variables>
+<slots>
+    <slot>closePushButton_clicked()</slot>
+    <slot>insertBeforeButton_clicked()</slot>
+    <slot>insertAfterPushButton_clicked()</slot>
+    <slot>layerComboBox_activated( int )</slot>
+    <slot>editPropertiesPushButton_clicked()</slot>
+    <slot>deletePushButton_clicked()</slot>
+</slots>
+<functions>
+    <function>setImageWidget( ossimQtScrollingImageWidget * widget )</function>
+    <function>setAvailableFilterList( const std::vector&lt;ossimString&gt; &amp; list )</function>
+    <function access="private">init()</function>
+    <function access="private">destroy()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

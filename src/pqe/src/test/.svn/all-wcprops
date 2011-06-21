@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/ossim/!svn/ver/13414/trunk/pqe/src/test
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/src/test/makefile.vc
+END
+pqe-test1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/src/test/pqe-test1.cpp
+END
+pqe-test2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/src/test/pqe-test2.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/13414/trunk/pqe/src/test/Makefile
+END

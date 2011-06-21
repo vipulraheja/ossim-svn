@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/12318/trunk/swigossim/swig
+END
+base.i
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/9134/trunk/swigossim/swig/base.i
+END
+imaging.i
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12318/trunk/swigossim/swig/imaging.i
+END
+projection.i
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/10460/trunk/swigossim/swig/projection.i
+END
+init.i
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/9134/trunk/swigossim/swig/init.i
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/8030/trunk/swigossim/swig/.cvsignore
+END

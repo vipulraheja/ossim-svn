@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/15847/trunk/ossim/src/ossim/dll_main
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/9230/trunk/ossim/src/ossim/dll_main/makefile.vc
+END
+ossimDllMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/9241/trunk/ossim/src/ossim/dll_main/ossimDllMain.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/7866/trunk/ossim/src/ossim/dll_main/Makefile
+END

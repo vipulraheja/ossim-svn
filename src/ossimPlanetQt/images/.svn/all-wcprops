@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/12625/trunk/ossimPlanetQt/images
+END
+warning.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/12625/trunk/ossimPlanetQt/images/warning.png
+END
+error.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12625/trunk/ossimPlanetQt/images/error.png
+END
+ossimPlanetSplash.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/11457/trunk/ossimPlanetQt/images/ossimPlanetSplash.png
+END
+info.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/12625/trunk/ossimPlanetQt/images/info.png
+END

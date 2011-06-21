@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/14732/trunk/ossim/projects/vs/updatesolution/templates
+END
+pluginPNGTemplate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/14732/trunk/ossim/projects/vs/updatesolution/templates/pluginPNGTemplate.vcproj
+END
+pluginGdalTemplate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/14732/trunk/ossim/projects/vs/updatesolution/templates/pluginGdalTemplate.vcproj
+END
+staticTemplate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/14732/trunk/ossim/projects/vs/updatesolution/templates/staticTemplate.vcproj
+END
+dllTemplate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/14732/trunk/ossim/projects/vs/updatesolution/templates/dllTemplate.vcproj
+END
+appTemplate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/14732/trunk/ossim/projects/vs/updatesolution/templates/appTemplate.vcproj
+END

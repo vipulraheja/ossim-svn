@@ -1,0 +1,8 @@
+autom4te.cache
+Makefile
+Makefile.common
+config.log
+config.cache
+config.status
+*.mak
+.emacs*

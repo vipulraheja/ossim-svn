@@ -1,0 +1,272 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtAdjustableParameterDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtAdjustableParameterDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>716</width>
+            <height>391</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Parameter Adjustments</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout2</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QComboBox" row="0" column="1">
+                    <property name="name">
+                        <cstring>theAdjustmentSelectionBox</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>theAdjustmentDescriptionLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Adjustment description:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>theAdjustmentSelectionLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Adjustment Selection:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="1" column="1">
+                    <property name="name">
+                        <cstring>theAdjustmentDescriptionInput</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QTable">
+            <column>
+                <property name="text">
+                    <string>Name</string>
+                </property>
+                <property name="pixmap">
+                    <pixmap></pixmap>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Sigma</string>
+                </property>
+                <property name="pixmap">
+                    <pixmap></pixmap>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Param</string>
+                </property>
+                <property name="pixmap">
+                    <pixmap></pixmap>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Param adjust</string>
+                </property>
+                <property name="pixmap">
+                    <pixmap></pixmap>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Value</string>
+                </property>
+                <property name="pixmap">
+                    <pixmap></pixmap>
+                </property>
+            </column>
+            <property name="name">
+                <cstring>theAdjustableParameterTable</cstring>
+            </property>
+            <property name="numRows">
+                <number>0</number>
+            </property>
+            <property name="numCols">
+                <number>5</number>
+            </property>
+        </widget>
+        <widget class="Line">
+            <property name="name">
+                <cstring>line1</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout3</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QCheckBox">
+                    <property name="name">
+                        <cstring>theAutoApplyCheckBox</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Auto apply</string>
+                    </property>
+                    <property name="checked">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theApplyButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Apply</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theKeepAdjustmentButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Keep</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCopyAdjustmentButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Copy</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theDeleteAdjustmentButto</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Delete</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theResetButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Reset</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theSaveButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Save...</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtAdjustableParameterDialog</receiver>
+        <slot>theCloseButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theKeepAdjustmentButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtAdjustableParameterDialog</receiver>
+        <slot>theKeepAdjustmentButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAdjustmentSelectionBox</sender>
+        <signal>activated(const QString&amp;)</signal>
+        <receiver>ossimQtAdjustableParameterDialog</receiver>
+        <slot>theAdjustmentSelectionBox_activated(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>theDeleteAdjustmentButto</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtAdjustableParameterDialog</receiver>
+        <slot>theDeleteAdjustmentButto_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theCopyAdjustmentButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtAdjustableParameterDialog</receiver>
+        <slot>theCopyAdjustmentButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAdjustmentDescriptionInput</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>ossimQtAdjustableParameterDialog</receiver>
+        <slot>theAdjustmentDescriptionInput_textChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>theSaveButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtAdjustableParameterDialog</receiver>
+        <slot>theSaveButton_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtAdjustableParameterDialogController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtAdjustableParameterDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtAdjustableParameterDialogController;</forward>
+</forwards>
+<variables>
+    <variable>ossimQtAdjustableParameterDialogController* theController;</variable>
+</variables>
+<slots>
+    <slot>theCloseButton_clicked()</slot>
+    <slot>theKeepAdjustmentButton_clicked()</slot>
+    <slot>theAdjustmentSelectionBox_activated( const QString &amp; )</slot>
+    <slot>theDeleteAdjustmentButto_clicked()</slot>
+    <slot>theCopyAdjustmentButton_clicked()</slot>
+    <slot>theAdjustmentDescriptionInput_textChanged( const QString &amp; )</slot>
+    <slot>theSaveButton_clicked()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function returnType="ossimQtAdjustableParameterDialogController *">controller()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

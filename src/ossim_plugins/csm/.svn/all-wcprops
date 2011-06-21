@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/18968/trunk/ossim_plugins/csm
+END
+ossimCsmSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/16061/trunk/ossim_plugins/csm/ossimCsmSupport.h
+END
+ossimCsmPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/18968/trunk/ossim_plugins/csm/ossimCsmPluginInit.cpp
+END
+ossimCsmProjectionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16059/trunk/ossim_plugins/csm/ossimCsmProjectionFactory.cpp
+END
+ossimCsmProjectionFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/16060/trunk/ossim_plugins/csm/ossimCsmProjectionFactory.h
+END
+ossimCsmSensorModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/17423/trunk/ossim_plugins/csm/ossimCsmSensorModel.cpp
+END
+ossimCsmSupport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/17517/trunk/ossim_plugins/csm/ossimCsmSupport.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/17258/trunk/ossim_plugins/csm/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/16051/trunk/ossim_plugins/csm/Makefile
+END
+ossimCsmSensorModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/17423/trunk/ossim_plugins/csm/ossimCsmSensorModel.h
+END

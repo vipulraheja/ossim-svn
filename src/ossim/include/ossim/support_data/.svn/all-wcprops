@@ -1,0 +1,869 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/19742/trunk/ossim/include/ossim/support_data
+END
+ossimRpfFrameEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/18052/trunk/ossim/include/ossim/support_data/ossimRpfFrameEntry.h
+END
+ossimSrtmFilename.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimSrtmFilename.h
+END
+ossimDtedAcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16104/trunk/ossim/include/ossim/support_data/ossimDtedAcc.h
+END
+ossimNitfLocalGeographicTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfLocalGeographicTag.h
+END
+ossimNitfRpcATag.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfRpcATag.h
+END
+ossimNitfNameConversionTables.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfNameConversionTables.h
+END
+ossimRpfImageDisplayParameterSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/9967/trunk/ossim/include/ossim/support_data/ossimRpfImageDisplayParameterSubheader.h
+END
+ossimNitfCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/15410/trunk/ossim/include/ossim/support_data/ossimNitfCommon.h
+END
+ossimNitfUnknownTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfUnknownTag.h
+END
+ossimNitfTagFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/10291/trunk/ossim/include/ossim/support_data/ossimNitfTagFactoryRegistry.h
+END
+ossimDtedRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/14248/trunk/ossim/include/ossim/support_data/ossimDtedRecord.h
+END
+ossimNitfImageBandV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15416/trunk/ossim/include/ossim/support_data/ossimNitfImageBandV2_0.h
+END
+ossimNitfImageLutV2_1.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfImageLutV2_1.h
+END
+ossimDtedDsi.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16104/trunk/ossim/include/ossim/support_data/ossimDtedDsi.h
+END
+ossimNitfSymbolHeaderV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfSymbolHeaderV2_0.h
+END
+ossimNitfCscrnaTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfCscrnaTag.h
+END
+ossimRpfColorGrayscaleOffsetRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfColorGrayscaleOffsetRecord.h
+END
+ossimNitfStdidcTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfStdidcTag.h
+END
+ossimNitfCompressionHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/18415/trunk/ossim/include/ossim/support_data/ossimNitfCompressionHeader.h
+END
+ossimRpfToc.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/18044/trunk/ossim/include/ossim/support_data/ossimRpfToc.h
+END
+ossimNitfLocalCartographicTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfLocalCartographicTag.h
+END
+ossimNitfSymbolHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfSymbolHeader.h
+END
+ossimTiffWorld.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/18693/trunk/ossim/include/ossim/support_data/ossimTiffWorld.h
+END
+ossimRpfFrameFileIndexSectionSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfFrameFileIndexSectionSubheader.h
+END
+ossimRpfInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17931/trunk/ossim/include/ossim/support_data/ossimRpfInfo.h
+END
+ossimNitfTextHeaderV2_1.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/18675/trunk/ossim/include/ossim/support_data/ossimNitfTextHeaderV2_1.h
+END
+ossimEnviHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimEnviHeader.h
+END
+ossimJ2kCodRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/14936/trunk/ossim/include/ossim/support_data/ossimJ2kCodRecord.h
+END
+ossimNitfInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfInfo.h
+END
+ossimSrtmSupportData.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17602/trunk/ossim/include/ossim/support_data/ossimSrtmSupportData.h
+END
+ossimRpfImageDescriptionSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/14241/trunk/ossim/include/ossim/support_data/ossimRpfImageDescriptionSubheader.h
+END
+ossimRpfBoundaryRectTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfBoundaryRectTable.h
+END
+ossimRpfAttributeOffsetRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfAttributeOffsetRecord.h
+END
+ossimRpfAttributeSectionSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/9967/trunk/ossim/include/ossim/support_data/ossimRpfAttributeSectionSubheader.h
+END
+ossimDemStats.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/7174/trunk/ossim/include/ossim/support_data/ossimDemStats.h
+END
+ossimSrcRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19448/trunk/ossim/include/ossim/support_data/ossimSrcRecord.h
+END
+ossimSpotDimapSupportData.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17814/trunk/ossim/include/ossim/support_data/ossimSpotDimapSupportData.h
+END
+ossimRpfFrameFileIndexSubsection.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfFrameFileIndexSubsection.h
+END
+ossimDtedUhl.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16104/trunk/ossim/include/ossim/support_data/ossimDtedUhl.h
+END
+ossimNitfProjectionParameterTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfProjectionParameterTag.h
+END
+ossimAuxFileHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/19734/trunk/ossim/include/ossim/support_data/ossimAuxFileHandler.h
+END
+ossimDtedInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/14134/trunk/ossim/include/ossim/support_data/ossimDtedInfo.h
+END
+ossimSpaceImagingGeom.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/10251/trunk/ossim/include/ossim/support_data/ossimSpaceImagingGeom.h
+END
+ossimNitfVqCompressionHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfVqCompressionHeader.h
+END
+ossimNitfJ2klraTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfJ2klraTag.h
+END
+ossimRpfMaskSubsection.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/11691/trunk/ossim/include/ossim/support_data/ossimRpfMaskSubsection.h
+END
+ossimRpfPathnameRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfPathnameRecord.h
+END
+ossimNitfSensraTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfSensraTag.h
+END
+ossimRpfCompressionLookupOffsetRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfCompressionLookupOffsetRecord.h
+END
+ossimFgdcXmlDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/18821/trunk/ossim/include/ossim/support_data/ossimFgdcXmlDoc.h
+END
+ossimNitfDataExtensionSegment.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/support_data/ossimNitfDataExtensionSegment.h
+END
+ossimAigBounds.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/support_data/ossimAigBounds.h
+END
+ossimJ2kSotRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/14935/trunk/ossim/include/ossim/support_data/ossimJ2kSotRecord.h
+END
+ossimRpfColorConverterSubsection.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfColorConverterSubsection.h
+END
+ossimLasHdr.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19196/trunk/ossim/include/ossim/support_data/ossimLasHdr.h
+END
+ossimRpfTocEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/18362/trunk/ossim/include/ossim/support_data/ossimRpfTocEntry.h
+END
+ossimNitfImageBandV2_1.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/15416/trunk/ossim/include/ossim/support_data/ossimNitfImageBandV2_1.h
+END
+ossimGeoTiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17815/trunk/ossim/include/ossim/support_data/ossimGeoTiff.h
+END
+ossimRpfCoverageSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfCoverageSection.h
+END
+ossimNitfImageLut.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfImageLut.h
+END
+ossimRpfAttributes.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/14241/trunk/ossim/include/ossim/support_data/ossimRpfAttributes.h
+END
+ossimFfL7.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/support_data/ossimFfL7.h
+END
+ossimDtedVol.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16104/trunk/ossim/include/ossim/support_data/ossimDtedVol.h
+END
+ossimJ2kInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/14936/trunk/ossim/include/ossim/support_data/ossimJ2kInfo.h
+END
+ossimNitfCsexraTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfCsexraTag.h
+END
+ossimNitfImageHeaderV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfImageHeaderV2_0.h
+END
+ossimDoqq.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimDoqq.h
+END
+ossimInfoFactoryInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/14134/trunk/ossim/include/ossim/support_data/ossimInfoFactoryInterface.h
+END
+ossimFfRevb.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/10384/trunk/ossim/include/ossim/support_data/ossimFfRevb.h
+END
+ossimNitfEngrdaTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfEngrdaTag.h
+END
+ossimNitfTextHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfTextHeader.h
+END
+ossimNitfEmbeddedRpfDes.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfEmbeddedRpfDes.h
+END
+ossimInfoFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19742/trunk/ossim/include/ossim/support_data/ossimInfoFactory.h
+END
+ossimRpfFrameFileReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfFrameFileReader.h
+END
+ossimInfoBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimInfoBase.h
+END
+ossimNitfRpcBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/14576/trunk/ossim/include/ossim/support_data/ossimNitfRpcBase.h
+END
+ossimNitfFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19583/trunk/ossim/include/ossim/support_data/ossimNitfFile.h
+END
+ossimNitfFileHeaderV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfFileHeaderV2_0.h
+END
+ossimNitfAimidbTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfAimidbTag.h
+END
+ossimRpfColorGrayscaleSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfColorGrayscaleSubheader.h
+END
+ossimRpfBoundaryRectRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfBoundaryRectRecord.h
+END
+ossimNitfBlockaTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfBlockaTag.h
+END
+ossimAigHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/support_data/ossimAigHeader.h
+END
+ossimNitfFileHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfFileHeader.h
+END
+ossimNitfRegisteredTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfRegisteredTag.h
+END
+ossimNitfImageHeaderV2_X.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfImageHeaderV2_X.h
+END
+ossimJ2kSizRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/14962/trunk/ossim/include/ossim/support_data/ossimJ2kSizRecord.h
+END
+ossimNitfMstgtaTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfMstgtaTag.h
+END
+ossimQuickbirdMetaData.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/18141/trunk/ossim/include/ossim/support_data/ossimQuickbirdMetaData.h
+END
+ossimRpfCompressionSectionSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfCompressionSectionSubheader.h
+END
+ossimRpfMaskSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/11689/trunk/ossim/include/ossim/support_data/ossimRpfMaskSubheader.h
+END
+ossimNitfImageBand.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/14244/trunk/ossim/include/ossim/support_data/ossimNitfImageBand.h
+END
+ossimRpfColorGrayscaleTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfColorGrayscaleTable.h
+END
+ossimRpfCompressionSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfCompressionSection.h
+END
+ossimRpfFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfFrame.h
+END
+ossimNitfTagInformation.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimNitfTagInformation.h
+END
+ossimNitfRpcBTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfRpcBTag.h
+END
+ossimDemUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15307/trunk/ossim/include/ossim/support_data/ossimDemUtil.h
+END
+ossimNitfImageHeaderV2_1.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfImageHeaderV2_1.h
+END
+ossimNitfCsdidaTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfCsdidaTag.h
+END
+ossimTiffInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19727/trunk/ossim/include/ossim/support_data/ossimTiffInfo.h
+END
+ossimCcfInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/14134/trunk/ossim/include/ossim/support_data/ossimCcfInfo.h
+END
+ossimNitfFileHeaderV2_X.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfFileHeaderV2_X.h
+END
+ossimFfRevc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/9967/trunk/ossim/include/ossim/support_data/ossimFfRevc.h
+END
+ossimDtedHdr.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16104/trunk/ossim/include/ossim/support_data/ossimDtedHdr.h
+END
+ossimNitfPiaimcTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfPiaimcTag.h
+END
+ossimRpfBoundaryRectSectionSubheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfBoundaryRectSectionSubheader.h
+END
+ossimDemInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/15310/trunk/ossim/include/ossim/support_data/ossimDemInfo.h
+END
+ossimRpfConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/9967/trunk/ossim/include/ossim/support_data/ossimRpfConstants.h
+END
+ossimRpfColorConverterOffsetRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfColorConverterOffsetRecord.h
+END
+ossimNitfTagFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17207/trunk/ossim/include/ossim/support_data/ossimNitfTagFactory.h
+END
+ossimDemProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimDemProfile.h
+END
+ossimRpfFrameFileIndexRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfFrameFileIndexRecord.h
+END
+ossimERS.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/13216/trunk/ossim/include/ossim/support_data/ossimERS.h
+END
+ossimQuickbirdTile.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimQuickbirdTile.h
+END
+ossimQuickbirdRpcHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimQuickbirdRpcHeader.h
+END
+ossimLasInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/18832/trunk/ossim/include/ossim/support_data/ossimLasInfo.h
+END
+ossimNitfAcftbTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfAcftbTag.h
+END
+ossimRpfHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimRpfHeader.h
+END
+ossimApplanixEOFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimApplanixEOFile.h
+END
+ossimNitfDataExtensionSegmentV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/support_data/ossimNitfDataExtensionSegmentV2_0.h
+END
+ossimNitfFileHeaderV2_1.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/18674/trunk/ossim/include/ossim/support_data/ossimNitfFileHeaderV2_1.h
+END
+ossimNitfRegisteredTagFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfRegisteredTagFactory.h
+END
+ossimAigDataFileHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/support_data/ossimAigDataFileHeader.h
+END
+ossimRpfLocationSection.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/16997/trunk/ossim/include/ossim/support_data/ossimRpfLocationSection.h
+END
+ossimNitfGeoPositioningTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfGeoPositioningTag.h
+END
+ossimDemGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/9305/trunk/ossim/include/ossim/support_data/ossimDemGrid.h
+END
+ossimNitfIchipbTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfIchipbTag.h
+END
+ossimInfoFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/15063/trunk/ossim/include/ossim/support_data/ossimInfoFactoryRegistry.h
+END
+ossimDemHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15309/trunk/ossim/include/ossim/support_data/ossimDemHeader.h
+END
+ossimNitfImageLutV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfImageLutV2_0.h
+END
+ossimDemPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/17195/trunk/ossim/include/ossim/support_data/ossimDemPoint.h
+END
+ossimRpfColorConverterTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimRpfColorConverterTable.h
+END
+ossimSupportFilesList.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/17816/trunk/ossim/include/ossim/support_data/ossimSupportFilesList.h
+END
+ossimNitfRpfTagFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17207/trunk/ossim/include/ossim/support_data/ossimNitfRpfTagFactory.h
+END
+ossimFfL5.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/15766/trunk/ossim/include/ossim/support_data/ossimFfL5.h
+END
+ossimNitfLabelHeaderV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfLabelHeaderV2_0.h
+END
+ossimAigIndexFileHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/support_data/ossimAigIndexFileHeader.h
+END
+ossimIkonosMetaData.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/15828/trunk/ossim/include/ossim/support_data/ossimIkonosMetaData.h
+END
+ossimNitfTextHeaderV2_0.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfTextHeaderV2_0.h
+END
+ossimNitfLabelHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/9094/trunk/ossim/include/ossim/support_data/ossimNitfLabelHeader.h
+END
+ossimNitfUse00aTag.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19682/trunk/ossim/include/ossim/support_data/ossimNitfUse00aTag.h
+END
+ossimAigStatistics.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/9968/trunk/ossim/include/ossim/support_data/ossimAigStatistics.h
+END
+ossimNitfImageHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/18413/trunk/ossim/include/ossim/support_data/ossimNitfImageHeader.h
+END

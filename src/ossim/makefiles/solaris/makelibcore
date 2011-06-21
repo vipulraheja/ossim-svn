@@ -1,0 +1,193 @@
+###
+# $Id: makelibcore 13689 2008-10-07 12:26:45Z dburken $
+###
+
+@INCLUDE_COMMON@
+
+DIRECTORIES=$(wildcard *)
+
+OSSIM_LIB=libossim
+SHARED_LIB_VERSIONLESS=$(OSSIM_LIB).$(SO_VERSIONLESS_EXT)
+SHARED_LIB_SONAME=$(OSSIM_LIB).$(SO_SONAME_EXT)
+SHARED_LIB_REALNAME=$(OSSIM_LIB).$(SO_REALNAME_EXT)
+SHARED_LIB_TARGET=$(OSSIM_LIB_PATH)/$(SHARED_LIB_REALNAME)
+SHARED_OBJ_DIR_PATH=$(BASELIBPATH)/$(SHARED_OBJ_DIR)
+
+STATIC_LIB=$(OSSIM_LIB).a
+STATIC_LIB_TARGET=$(OSSIM_LIB_PATH)/$(STATIC_LIB)
+STATIC_OBJ_DIR_PATH=$(BASELIBPATH)/$(STATIC_OBJ_DIR)
+
+# Path to ossimVersion.h
+VERSION_FILE=$(OSSIM_TOP)/include/ossim/ossimVersion.h
+
+ifeq ($(BUILD_SINGLE_SHARED_LIBS),yes)
+LINK_SHARED_OBJECT_FILES=	$(MATRIX_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+	  			$(KBOOL_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(BASE_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(FONT_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(VPFUTIL_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(VEC_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(SUPPORT_DATA_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(ELEVATION_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(PROJECTION_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(IMAGING_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(PARALLEL_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(PLUGIN_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+				$(INIT_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT)
+endif
+ifeq ($(BUILD_SINGLE_STATIC_LIBS),yes)
+
+LINK_STATIC_OBJECT_FILES=	$(MATRIX_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(KBOOL_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(BASE_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(FONT_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(VPFUTIL_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(VEC_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(SUPPORT_DATA_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(ELEVATION_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(PROJECTION_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(IMAGING_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(PARALLEL_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(PLUGIN_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+				$(INIT_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT)
+endif
+
+# ---
+# To handle "for d in $(VAR);" expanding to  "for d in ;"
+# if no directories present and producing an error on sun os.
+# Substitute empty string with bogus string.
+# ---
+ifeq ($(strip $(DIRECTORIES)),)
+DIRECTORIES=BOGUS_DIR
+endif
+
+all:	version-config
+	./version-config $(VERSION_FILE) $(OSSIM_VERSION)
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			if [ "$$d" != "CVS" -a "$$d" != "."  -a "$$d" != "test_endian"  -a "$$d" != "test" -a "$$d" != "generator" -a "$$d" != ".obj" ]; then \
+				(cd $$d; $(MAKE) all) ; \
+			fi ; \
+		fi ; \
+	done ;
+	$(build_single_shared_lib)
+	$(build_single_static_lib)
+
+version-config:
+	if test ! -f "$(OSSIM_TOP)/src/ossim/version-config" ; then \
+		$(CXX) -I$(OSSIM_TOP)/include -o version-config version-config.cpp ; \
+	fi
+
+clean:	clean-version
+	$(RM_CMD)
+	if [ -d ".obj" ]; then \
+		cd .obj ; \
+		rm -f *; \
+	fi
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			if [ "$$d" != "CVS" -a "$$d" != "."  -a "$$d" != "test_endian"  -a "$$d" != "test" -a "$$d" != ".obj" -a "$$d" != "generator" ]; then \
+			(cd $$d; $(MAKE) clean) ; \
+			fi ; \
+		fi ; \
+	done ;
+
+clean-version:
+	$(RM_NOPROMPT) version-config
+	$(RM_NOPROMPT) $(VERSION_FILE)
+
+depends: 
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			if [ "$$d" != "CVS" -a "$$d" != "."  -a "$$d" != "test_endian"  -a "$$d" != "test" -a "$$d" != ".obj" -a "$$d" != "generator" ]; then \
+				(cd $$d; $(MAKE) depends) ; \
+			fi ; \
+		fi ; \
+	done ;
+
+clean_depends:
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			if [ "$$d" != "CVS" -a "$$d" != "."  -a "$$d" != "test_endian"  -a "$$d" != "test" -a "$$d" != ".obj" -a "$$d" != "generator" ]; then \
+				(cd $$d; $(MAKE) clean_depends) ; \
+			fi ; \
+		fi ; \
+	done ;
+
+
+shared: 
+	for d in $(DIRECTORIES); do \
+		if [ -d $$d ]; then \
+			if [ "$$d" != "CVS" -a "$$d" != "."  -a "$$d" != "test_endian"  -a "$$d" != "test" -a "$$d" != ".obj" -a "$$d" != "generator" ]; then \
+				(cd $$d; $(MAKE) shared) ; \
+			fi ; \
+		fi ; \
+	done ;
+
+install:
+	for f in `find . -name "*.h"` ; do \
+		$(INSTALL) -d  $(INST_INC)/`$(DIRNAME) $$f`; \
+		$(INSTALL) $$f $(INST_INC)/`$(DIRNAME) $$f`; \
+	done
+
+ifeq ($(BUILD_SINGLE_SHARED_LIBS),yes)
+
+define build_single_shared_lib
+@LD_SHARED@ -h $(SHARED_LIB_SONAME) -o $(SHARED_LIB_TARGET) \
+   $(MATRIX_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(KBOOL_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(BASE_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(FONT_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(VPFUTIL_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(VEC_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(SUPPORT_DATA_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(ELEVATION_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(PROJECTION_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(IMAGING_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(PARALLEL_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(PLUGIN_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) \
+   $(INIT_ROOT)/$(SHARED_OBJ_DIR)/*.$(OBJEXT) ; \
+(cd $(OSSIM_LIB_PATH) ; $(RM_NOPROMPT) $(SHARED_LIB_SONAME) ; $(RM_NOPROMPT) $(SHARED_LIB_VERSIONLESS) ; ln -s $(SHARED_LIB_REALNAME) $(SHARED_LIB_SONAME) ; ln -s $(SHARED_LIB_REALNAME) $(SHARED_LIB_VERSIONLESS) ; ) ;
+endef
+
+else
+
+define build_single_shared_lib
+echo "Single shared library build disabled.";
+endef
+
+endif
+# End of "ifeq ($(BUILD_SINGLE_SHARED_LIBS),yes)"
+
+
+# ---
+# Define command sequences conditional upon "$(BUILD_STATIC_LIBS) = yes"
+# ---
+ifeq ($(BUILD_SINGLE_STATIC_LIBS),yes)
+
+define build_single_static_lib
+$(AR) $(AR_FLAGS) $(STATIC_LIB_TARGET) \
+   $(MATRIX_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(KBOOL_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(BASE_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(FONT_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(VPFUTIL_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(VEC_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(SUPPORT_DATA_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(ELEVATION_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(PROJECTION_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(IMAGING_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(PARALLEL_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(PLUGIN_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) \
+   $(INIT_ROOT)/$(STATIC_OBJ_DIR)/*.$(OBJEXT) ; \
+$(RANLIB) $(STATIC_LIB_TARGET) ;
+endef
+
+else
+
+define build_single_static_lib
+echo "Single static library build disabled.";
+endef
+
+endif
+# End of "ifeq ($(BUILD_SINGLE_STATIC_LIBS),yes)"

@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/11108/trunk/omarStager/src
+END
+omarStagerUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/11076/trunk/omarStager/src/omarStagerUtil.cpp
+END
+omarstager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/11078/trunk/omarStager/src/omarstager.cpp
+END
+omarUnitType.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarUnitType.h
+END
+omarProductType.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarProductType.h
+END
+omarGeometryObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarGeometryObject.h
+END
+omarSecurityClassificationType.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarSecurityClassificationType.h
+END
+omarArrayOfFileObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/11077/trunk/omarStager/src/omarArrayOfFileObject.cpp
+END
+omarArrayOfRasterEntryObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfRasterEntryObject.cpp
+END
+omarGeospatialType.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarGeospatialType.h
+END
+omarArrayOfSensorType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfSensorType.cpp
+END
+omarRasterDataSetObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarRasterDataSetObject.h
+END
+omarFileObject.d
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarFileObject.d
+END
+omarFileObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarFileObject.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/11108/trunk/omarStager/src/Makefile
+END
+omarRasterEntryObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarRasterEntryObject.h
+END
+omarSensorType.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarSensorType.h
+END
+omarUnitType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarUnitType.cpp
+END
+omarProductType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarProductType.cpp
+END
+omarGeometryObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarGeometryObject.cpp
+END
+omarArrayOfGeospatialType.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfGeospatialType.h
+END
+omarSecurityClassificationType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarSecurityClassificationType.cpp
+END
+typemap.dat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/10948/trunk/omarStager/src/typemap.dat
+END
+omarStagerUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/11076/trunk/omarStager/src/omarStagerUtil.h
+END
+omarGeospatialType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarGeospatialType.cpp
+END
+omarArrayOfFileObject.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfFileObject.d
+END
+omarRasterDataSetObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarRasterDataSetObject.cpp
+END
+omarArrayOfFileObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfFileObject.h
+END
+omarArrayOfSensorType.d
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfSensorType.d
+END
+omarArrayOfRasterEntryObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfRasterEntryObject.h
+END
+omarArrayOfSensorType.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfSensorType.h
+END
+omarFileObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarFileObject.cpp
+END
+omarRasterEntryObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarRasterEntryObject.cpp
+END
+omarSensorType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarSensorType.cpp
+END
+omarArrayOfGeospatialType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/10948/trunk/omarStager/src/omarArrayOfGeospatialType.cpp
+END

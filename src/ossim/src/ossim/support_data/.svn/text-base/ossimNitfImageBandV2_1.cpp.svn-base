@@ -1,0 +1,20 @@
+//*******************************************************************
+//
+// License:  See top level LICENSE.txt file.
+//
+// Author:  David Burken
+//
+// Description: Nitf support class.  Copied from ossimNitfImageBandV2_0.
+// 
+//********************************************************************
+// $Id$
+
+#include <ossim/support_data/ossimNitfImageBandV2_1.h>
+
+ossimNitfImageBandV2_1::ossimNitfImageBandV2_1()
+{
+}
+
+ossimNitfImageBandV2_1::~ossimNitfImageBandV2_1()
+{
+}

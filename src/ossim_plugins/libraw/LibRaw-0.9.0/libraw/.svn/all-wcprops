@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw
+END
+libraw_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw/libraw_alloc.h
+END
+libraw_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw/libraw_internal.h
+END
+libraw.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw/libraw.h
+END
+libraw_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw/libraw_types.h
+END
+libraw_datastream.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw/libraw_datastream.h
+END
+libraw_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw/libraw_version.h
+END
+libraw_const.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/17225/trunk/ossim_plugins/libraw/LibRaw-0.9.0/libraw/libraw_const.h
+END

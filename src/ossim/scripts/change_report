@@ -1,0 +1,23 @@
+#!/bin/sh
+
+if test $# != 2 -a $# != 1 ; then
+    echo "Need to supply a date string"
+    echo "change_report <date format> <verbose_flag>"
+    echo "where <data format> is of the form support by cvs"
+    echo "one example might be <year>-<month>-<day>"
+    echo "<verbose_flag> is set to true then a log is printed for each file"
+    exit 0
+fi
+
+cvs diff -D $1 2> change_report_temp_error |grep "Index:" > change_report_temp.txt 
+
+if test "$2" = "true" ; then
+  sed /Index:\ /s/// change_report_temp.txt | cvs log -d $1 2> change_report_temp_error
+else
+  sed /Index:\ /s/// change_report_temp.txt > change_report_temp2.txt
+  cat change_report_temp2.txt
+fi
+
+
+
+rm -f change_report_temp2.txt change_report_temp.txt change_report_temp_error

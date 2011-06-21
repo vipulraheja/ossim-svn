@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/19448/trunk/ossim/src/ossim/init
+END
+ossimInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19448/trunk/ossim/src/ossim/init/ossimInit.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/16741/trunk/ossim/src/ossim/init/makefile.vc
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/4081/trunk/ossim/src/ossim/init/.cvsignore
+END

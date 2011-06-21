@@ -1,0 +1,212 @@
+<!-- 
+ * File: ossimjni/java/build.xml
+ *
+ * Description: ant build script
+ *
+ * $Id$
+-->
+
+<project name="ossimjni" basedir="." default="build">
+
+    <!-- Using conditionals from ant-contrib package. -->
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
+    <taskdef resource="cpptasks.tasks"/>
+
+
+
+    <description>
+This buildfile is used to build the swig and java portion of the ossimjni module.
+    </description>
+
+    <!-- Pick up local environment -->
+    <property environment="env" />
+    <property file="${basedir}/local.properties" />
+
+    <echo message="module.name = ${module.name}" />
+    <echo message="use ant -projecthelp to see targets." />
+    <echo message="jdk.home        = ${jdk.home}" />
+    <echo message="os.name         = ${os.name}" />
+    <echo message="ossim.home      = ${ossim.home}" />
+    <echo message="ossimjni.home   = ${ossimjni.home}" />
+    <echo message="basedir         = ${basedir}" />
+
+
+    <!-- Default target: build -->
+    <target name="build" 
+        depends="initialize-environment, 
+                 generate-wrappers,
+                 compile-cpp-wrappers,
+                 compile-java-wrappers,
+                 compile-java,
+                 create-jar" />
+
+    <target name="check-reqired-properties">
+        <if>
+            <not>
+                <or>
+                    <isset property="jdk.home" />
+                    <isset property="ossim.home" />
+                    <isset property="ossimjni.home" />
+                </or>
+            </not>
+            <then>
+                <antcall target="missing-required-properties" />
+            </then>
+        </if> 
+    </target> <!-- end check-reqired-properties target -->
+
+    <target name="clean">
+        <delete dir="build"/>
+        <delete>
+            <fileset dir="${ossimjni.home}/swig" includes="*_wrap.*, *~" />
+        </delete>
+    </target> <!-- end clean target -->
+
+    <target name="compile-cpp-wrappers" depends="initialize-environment">
+        <if>
+            <equals arg1="${os.name}" arg2="Linux" />
+            <then>
+                <!-- ${ossim.install_prefix}/lib/ -->
+                <mkdir dir="build/lib" />
+                <mkdir dir="build/obj" />
+                <cc outtype="shared" objdir="build/obj" outfile="build/lib/${library.name}">
+                    <compilerarg value="-D__STDC_CONSTANT_MACROS"/>
+                    <includepath>
+                        <path location="${ossimjni.home}/swig" />
+                        <path location="${jdk.home}/include" />
+                        <path location="${jdk.home}/include/linux" />
+                        <path location="${ossimjni.home}/cpp/include" />
+                    </includepath>
+                    <fileset dir="${ossimjni.home}/swig" id="id">
+                        <include name="*.cxx" />
+                    </fileset>
+                    <linkerarg value="-Wall" />
+                    <libset dir="${ossim.build}/lib" libs="ossimjni" />
+                    <libset dir="${ossim.build}/lib" libs="ossim" />    
+                </cc>
+                <!-- Not sure how to get the whole file name, 
+                 *    i.e.build/lib/libossimjni-swig.so 
+                -->  
+                <echo message="swig wrapper shared lib written to: ${ossim.build}/lib" />
+            </then>
+        <elseif>
+            <equals arg1="${os.name}" arg2="Windows XP" />
+            <then>
+                <cc outtype="shared" objdir="${ossimjni.home}/swig" name="msvc" outfile="build/${library.name}">
+                    <compilerarg value="-D__STDC_CONSTANT_MACROS"/>
+                    <includepath>
+                        <path location="${ossimjni.home}/swig" />
+                        <path location="${jdk.home}/include" />
+                        <path location="${jdk.home}/include/win32" />
+                        <path location="${oms.home}/coms/include" />
+                        <path location="${ossim.install_prefix}/include" />
+                        <path location="${ossim.dependencies}/include" />
+                        <path location="${osg.home}/include" />
+                    </includepath>
+                    <fileset dir="${ossimjni.home}/swig" id="id">
+                        <include name="*.cxx" />
+                    </fileset>
+                    <linkerarg value="-Wall" />
+                    <linkerarg value="-Wl,--kill-at" />
+                    <libset dir="${ossim.install_prefix}/lib" libs="ossim,oms" />
+                </cc>
+            </then>
+        </elseif>
+        </if>
+    </target> <!-- end compile-cpp-wrappers target -->
+
+    <target name="compile-java">
+        <mkdir dir="build/classes" />
+        <javac classpath="build/classes" srcdir="src" destdir="build/classes"/>
+    </target> <!-- end compile-java target -->
+
+    <target name="compile-java-wrappers">
+        <mkdir dir="build/classes" />
+        <javac srcdir="build/generated_src" destdir="build/classes"/>
+    </target> <!-- end compile-java-wrappers target -->
+
+    <target name="create-jar" depends="initialize-environment, compile-java-wrappers, compile-java">
+        <mkdir dir="build/lib" />
+        <jar destfile="build/lib/${jar.name}" basedir="build/classes" />
+    </target> <!-- end jar target --> 
+
+    <target name="generate-wrapper">
+        <mkdir dir="build/generated_src" />
+        <basename file="${swig.file}" property="package.name" suffix=".i" />
+        <echo message="package name = ${package.name}" />
+        <echo message="swig file    = ${swig.file}" />
+        <exec executable="swig">
+            <arg value="-Wall" />
+            <arg value="-java" />
+            <arg value="-c++" />
+            <arg value="-outdir" />
+            <arg value="build/generated_src" />
+            <arg value="-package" />
+            <arg value="org.ossim.jni" />
+            <arg value="-I${ossimjni.home}/cpp/include" />
+            <arg value="-I${ossim.home}/include" />
+            <arg value="${swig.file}" />
+        </exec>
+    </target> <!-- end generate-wrappers target -->
+
+    <target name="generate-wrappers" depends="initialize-environment">
+        <foreach target="generate-wrapper" param="swig.file">
+            <path>
+                <fileset dir="${ossimjni.home}/swig" includes="*.i" />
+            </path>
+        </foreach>
+    </target> <!-- end generate-wrapper target -->
+
+    <target name="initialize-environment" depends="check-reqired-properties">
+        <if>
+            <equals arg1="${os.name}" arg2="Mac OS X" />
+            <then>
+                <property name="library.name" value="${module.name}-swig" />
+                <property name="jar.name" value="{module.name}.jar" />
+
+            </then>
+            <elseif>
+                <equals arg1="${os.name}" arg2="Windows XP" />
+                <then>
+                    <property name="library.name" value="${module.name}-swig.dll" />
+                    <property name="jar.name" value="{module.name}.jar" />
+                </then>
+            </elseif>
+            <elseif>
+                <equals arg1="${os.name}" arg2="Linux" />
+                <then>
+                    <property name="library.name" value="${module.name}-swig" />
+                    <property name="jar.name" value="${module.name}.jar" />
+                </then>
+            </elseif>
+        </if>
+        <echo message="swig library    = ${library.name}" />
+        <echo message="java jar file   = ${jar.name}" />
+    </target> <!-- end initialize-environment target -->
+
+    <target name="jar" depends="compile-java">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+        </jar>
+    </target> <!-- end jar target --> 
+
+    <target name="missing-required-properties" unless="properties.set">
+        <echo message="Check to see if all variables are set!" />
+        <echo message="JAVA_HOME=${jdk.home}" />
+        <echo message="OSSIM_HOME=${ossim.home}" />
+        <echo message="OSSIMJNI_HOME=${ossimjni.home}" />
+        <fail />
+    </target>
+
+    <target name="run">
+        <echo message="target run..." />
+        <!-- <java jar="build/jar/HelloWorld.jar" fork="true"/> -->
+        <echo message="target run exited..." />
+    </target> <!-- end run target --> 
+
+
+</project> <!-- end ossimjni -->

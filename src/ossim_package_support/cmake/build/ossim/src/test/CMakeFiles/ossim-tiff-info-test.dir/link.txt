@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ossim-tiff-info-test.dir/ossim-tiff-info-test.cpp.o  -o ../../../bin/ossim-tiff-info-test -rdynamic -L/usr/lib64/openmpi/lib ../../../lib/libossim.so.1.8.12 -lOpenThreads -ljpeg -ltiff -lgeotiff -lOpenThreads -lfreetype -lmpi -lz -ldl -Wl,-rpath,/home/vipul/ossim-svn/src/ossim_package_support/cmake/build/lib:/usr/lib64/openmpi/lib 

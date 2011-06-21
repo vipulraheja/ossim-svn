@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/7523/trunk/ossim/src/examples/tutorial
+END
+band_average.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/4347/trunk/ossim/src/examples/tutorial/band_average.cpp
+END
+image_copy_b1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/4797/trunk/ossim/src/examples/tutorial/image_copy_b1.cpp
+END
+image_open.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/7523/trunk/ossim/src/examples/tutorial/image_open.cpp
+END
+writing_your_own_image_processing_filter.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/4352/trunk/ossim/src/examples/tutorial/writing_your_own_image_processing_filter.html
+END
+ossim_preferences
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/4349/trunk/ossim/src/examples/tutorial/ossim_preferences
+END
+image_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/7523/trunk/ossim/src/examples/tutorial/image_data.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/7523/trunk/ossim/src/examples/tutorial/Makefile
+END
+image_copy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/4327/trunk/ossim/src/examples/tutorial/image_copy.cpp
+END
+kwl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/4300/trunk/ossim/src/examples/tutorial/kwl.cpp
+END
+reproject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/4327/trunk/ossim/src/examples/tutorial/reproject.cpp
+END

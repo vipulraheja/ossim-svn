@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/17108/trunk/ossim/src/ossim/font
+END
+ossimFont.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9963/trunk/ossim/src/ossim/font/ossimFont.cpp
+END
+ossimFontFactoryRegistry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/font/ossimFontFactoryRegistry.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/9232/trunk/ossim/src/ossim/font/makefile.vc
+END
+ossimFreeTypeFont.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/17108/trunk/ossim/src/ossim/font/ossimFreeTypeFont.cpp
+END
+ossimGdBitmapFont.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/15833/trunk/ossim/src/ossim/font/ossimGdBitmapFont.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/2536/trunk/ossim/src/ossim/font/.cvsignore
+END
+ossimFreeTypeFontFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/15766/trunk/ossim/src/ossim/font/ossimFreeTypeFontFactory.cpp
+END

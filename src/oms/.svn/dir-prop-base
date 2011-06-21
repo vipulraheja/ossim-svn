@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 3
+*~
+
+K 13
+svn:mergeinfo
+V 177
+/branches/ossim-1_8_4/gsoc/oms:16755-16825
+/branches/ossim-1_8_4/libwms/oms:16755-16825
+/branches/ossim-1_8_4/oms:16755-16825
+/branches/ossim-1_8_4/ossim_plugins/oms:16755-16825
+END

@@ -1,0 +1,11 @@
+####
+# $Id: makelibplugin.unx 6994 2004-11-15 16:05:49Z dburken $
+####
+
+@INCLUDE_COMMON@
+
+OSSIM_LIB=$(LIB_PLUGIN)
+
+BASELIBPATH=$(PLUGIN_ROOT)
+
+include $(TOP)/makelib.mak

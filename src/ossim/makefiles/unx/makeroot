@@ -1,0 +1,199 @@
+#---
+# $Id: makeroot 12187 2007-12-13 21:14:14Z dburken $
+# unix makeroot
+#---
+include ./Makefile.common
+
+name = ossim
+#bindir = $(prefix)/bin
+#datadir = $(prefix)
+#docdir = $(datadir)/doc
+version = $(OSSIM_VERSION)
+OSSIM_ROOT	=	.
+
+default: 
+	(cd src; $(MAKE))
+	(cd scripts; $(MAKE))
+
+# ---
+# Rule for installing to remote directory (prefix).
+# Do not allow install to workspace!
+# ---
+install: ossim-config-inst
+	if test "$(prefix)" = "$(TOP)"; then \
+		echo "Workspace and install directory the same!"; \
+		echo -n "Use configure option:  "; \
+		echo " --prefix to specify install directory"; \
+		exit 1; \
+	fi
+	if test -f $(INST_BIN)/ossim-uninstall ; then \
+		$(RM) -f $(TOP)/ossim-uninstall ; \
+	fi
+	$(INSTALL) -d $(INST_BIN) $(INST_LIB) $(INST_INC) $(INST_SHARE) \
+	$(INST_DOCS) $(INST_TEMPLATES)
+	echo "#!/bin/sh" > $(INST_BIN)/ossim-uninstall
+	($(INSTALL) COPYING.GPL COPYING.LGPL README.txt $(INST_DOCS))
+	echo "Installing includes to: $(INST_INC)"
+	( cd include/ossim; \
+		for d in `find . -type d` ; do \
+			if [ ! `echo $$d | egrep CVS` ] ; then \
+				$(INSTALL) -d  $(INST_INC)/$$d; \
+			fi ; \
+		done ; \
+		for f in `find . -name "*.h"` ; do \
+			if [ ! `echo $$f | egrep CVS` ] ; then \
+				echo installing $$f ... ; \
+				g=`$(DIRNAME) $$f`; \
+				g=`echo $$g | sed s/'\.\/'//`; \
+				h=$$f; \
+				h=`echo $$h | sed s/'\.\/'//`; \
+				$(INSTALL) -m 664 $$f $(INST_INC)/$$g; \
+				(echo "$(RM) -f $(INST_INC)/$$h" >> \
+				$(INST_BIN)/ossim-uninstall); \
+			fi ; \
+		done ; \
+	)
+	echo "include installation finished..."
+	( cd lib; \
+		for libFile in * ; do \
+			if test -f $$libFile ; then \
+				echo installing $$libFile ... ; \
+	 			cp -d $$libFile $(INST_LIB) ;\
+				(echo "$(RM) -f $(INST_LIB)/$$libFile" \
+			 	>> $(INST_BIN)/ossim-uninstall) ; \
+			fi ; \
+		done ; \
+	)
+	( for bin in bin/* ; do \
+		if test -f $$bin -a -x $$bin ; then \
+			echo installing $$bin ... ; \
+			$(INSTALL_PROGRAM) $$bin $(INST_BIN) ;\
+			(echo "$(RM) -f $(prefix)/$$bin"  \
+			>> $(INST_BIN)/ossim-uninstall) ; \
+		fi ; \
+	done ; \
+	)
+	( for t in etc/templates/* ; do \
+		if test x$$t != "etc/templates/CVS" ; then \
+			echo installing $$t ... ; \
+			$(INSTALL_PROGRAM) $$t $(INST_TEMPLATES) ; \
+			(echo "$(RM) -f $(prefix)/$$t"  \
+			>> $(INST_BIN)/ossim-uninstall) ; \
+		fi ; \
+	done ; \
+	)
+	($(MAKE) ossim-config-inst)
+	($(INSTALL_PROGRAM) src/apps/ossim-config-inst \
+	$(INST_BIN)/ossim-config)
+	echo "$(RM) -f $(INST_BIN)/ossim-config" \
+	>> $(INST_BIN)/ossim-uninstall
+	echo "$(RM) -f $(INST_BIN)/ossim-uninstall" \
+	>> $(INST_BIN)/ossim-uninstall
+	chmod 775 $(INST_BIN)/ossim-uninstall
+
+# ---
+# End of install rule...
+# ---
+
+# ---
+# Rule for uninstalling a remote directory (prefix).
+# Do not allow uninstall to workspace!
+# ---
+uninstall:
+	if test "$(prefix)" = "$(TOP)"; then \
+		echo "Workspace and install directory the same!"; \
+		echo -n "Use configure option:  "; \
+		echo " --prefix to specify install directory"; \
+		exit 1; \
+	fi
+	$(shell $(INST_BIN)/ossim-uninstall)
+
+shared:
+	(cd src; $(MAKE) shared) ;
+
+ossim-config-inst:
+	@rm -f src/apps/ossim-config-inst
+	@echo '#!/bin/sh' > src/apps/ossim-config-inst
+	@echo 'OSSIM_LIBS="$(OSSIM_CONFIG_APP_LINK_INST)"' >> src/apps/ossim-config-inst
+	@echo 'OSSIM_CFLAGS="$(CFLAGS) $(BASE_DEFINES)"' >> src/apps/ossim-config-inst
+	@echo 'OSSIM_CPPFLAGS="$(CXXFLAGS) $(BASE_DEFINES)"' >> src/apps/ossim-config-inst
+	@echo 'OSSIM_PREFIX="$(prefix)"' >> src/apps/ossim-config-inst
+	@echo 'OSSIM_VERSION="$(OSSIM_VERSION)"' >> src/apps/ossim-config-inst
+	@echo 'OSSIM_INCLUDES="$(BASE_INCLUDES_INST)"' >> src/apps/ossim-config-inst
+	@cat src/apps/ossim-config.in >> src/apps/ossim-config-inst
+	@chmod a+x src/apps/ossim-config-inst
+
+clean:	
+	if test "${RM}" != "" ; then \
+		for d in `find . -name "*.d"` ; do \
+			if ! test -d $$d ; then \
+				${RM} -f $$d ; \
+			fi ; \
+		done ; \
+	fi ;
+	(cd src; $(MAKE) clean) ;
+	(cd lib; $(RM_CMD) libossim* ; )
+	(for d in bin/* ; do \
+	    if test -f $$d; then \
+		$(RM_CMD)  $$d ; \
+	    fi ; \
+	done ; \
+	) ; 
+
+depends: clean_depends
+	(cd src; $(MAKE) depends) ;
+
+clean_depends:
+	(cd src; $(MAKE) clean_depends) ;
+
+configure:	configure.in aclocal.m4
+	aclocal
+	autoconf
+
+all:	default
+
+RPMTOP=${TOP}/../rpmbuild
+CYGWINDIST=${TOP}/../cygwin_ossim
+DISTTOP=${TOP}/..
+
+gzip-dist:
+	cd ${DISTTOP} ; \
+	${RM} -rf ${DISTTOP}/${OSSIM_ARCHIVE} ; \
+	${RM} -rf ${DISTTOP}/${OSSIM_ARCHIVE_TGZ} ; \
+	cp -r ossim ${OSSIM_ARCHIVE} ; \
+	${RM} -f ${OSSIM_ARCHIVE}/lib/* ; \
+	${RM} -f ${OSSIM_ARCHIVE}/bin/* ; \
+	${RM} -rf `find ${DISTTOP}/${OSSIM_ARCHIVE} -name "*.o" -o -name "CVS" -o -name "cvs"` ; \
+	cd ${DISTTOP} ; \
+	tar cvfz $(OSSIM_ARCHIVE_TGZ) ${OSSIM_ARCHIVE} ;
+
+cygwin-dist: gzip-dist
+	@echo "*** Building cygwin-dist ***"
+	${RM} -rf ${CYGWINDIST} ; \
+	${INSTALL} -d ${CYGWINDIST} ; \
+	${INSTALL} -d ${CYGWINDIST}/ossim_install ; \
+	cp -f ${DISTTOP}/${OSSIM_ARCHIVE_TGZ} ${CYGWINDIST} ; \
+	${RM} -f ${DISTTOP}/${OSSIM_ARCHIVE} ; \
+	${RM} -rf ${DISTTOP}/${OSSIM_ARCHIVE}/ossim_install/* ; \
+	cd ${CYGWINDIST} ; \
+	tar -xvzf $(OSSIM_ARCHIVE_TGZ) ; \
+	cd ${CYGWINDIST}/${OSSIM_ARCHIVE} ; \
+	./configure --prefix=${CYGWINDIST}/ossim_install --enable-optimization --disable-debug --with-gdalconf="--with-hdf4=/usr/local"; \
+	make; make install; \
+	if test "${SED}" != "" ; then \
+		${SED}  -e s@$prefix=.*@prefix=/usr/local@g ${CYGWINDIST}/${OSSIM_ARCHIVE}/src/apps/ossim-config > ${INSTALL_BIN}/ossim-config; \
+	fi ; \
+	cd ${CYGWINDIST}/ossim_install ; \
+	tar cvfz ossim-cygwin-${OSSIM_VERSION}.tgz include bin share etc lib;
+
+rpm: gzip-dist
+	@echo "*** Building RPMs ***"
+	${INSTALL} -d  $(RPMTOP) \
+			$(RPMTOP)/SOURCES \
+			$(RPMTOP)/SPECS \
+			$(RPMTOP)/BUILD \
+			$(RPMTOP)/RPMS \
+			$(RPMTOP)/SRPMS ;
+	cp -f ${DISTTOP}/$(OSSIM_ARCHIVE_TGZ) $(RPMTOP)/SOURCES
+	cp -f ${TOP}/ossim.spec $(RPMTOP)/SPECS
+	rpmbuild -ba --define "_topdir ${RPMTOP}" $(RPMTOP)/SPECS/ossim.spec

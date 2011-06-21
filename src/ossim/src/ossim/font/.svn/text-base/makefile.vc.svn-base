@@ -1,0 +1,19 @@
+###
+# $Id$
+#
+# Windows nmake make file.
+###
+OSSIM_ROOT	=	..\..\..
+!INCLUDE $(OSSIM_ROOT)\nmake.opt
+
+OBJ = \
+ossimFont.obj \
+ossimFontFactoryRegistry.obj \
+ossimFreeTypeFont.obj \
+ossimFreeTypeFontFactory.obj \
+ossimGdBitmapFont.obj
+
+default:	$(OBJ)
+
+clean:
+	$(RM) *.obj

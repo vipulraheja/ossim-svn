@@ -1,0 +1,14 @@
+###
+# $Id$
+#
+# Windows nmake make file.
+###
+OSSIM_ROOT	=	..\..\..
+!INCLUDE $(OSSIM_ROOT)\nmake.opt
+
+OBJ	= 	ossimDllMain.obj
+
+default:	$(OBJ)
+
+clean:
+	$(RM) *.obj

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15323/trunk/ossim/src/examples/shared/image_filters
+END
+ossimSharedRgbToGreyFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/7521/trunk/ossim/src/examples/shared/image_filters/ossimSharedRgbToGreyFilter.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/7520/trunk/ossim/src/examples/shared/image_filters/Makefile
+END
+ossimSharedRgbToGreyFilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ossim/!svn/ver/15323/trunk/ossim/src/examples/shared/image_filters/ossimSharedRgbToGreyFilter.cpp
+END

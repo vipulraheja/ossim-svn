@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/parallel
+END
+ossimMpiMasterOverviewSequencer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/17870/trunk/ossim/src/ossim/parallel/ossimMpiMasterOverviewSequencer.cpp
+END
+ossimMpi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/13602/trunk/ossim/src/ossim/parallel/ossimMpi.cpp
+END
+ossimJobThreadQueue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19580/trunk/ossim/src/ossim/parallel/ossimJobThreadQueue.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/10188/trunk/ossim/src/ossim/parallel/makefile.vc
+END
+ossimJob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19459/trunk/ossim/src/ossim/parallel/ossimJob.cpp
+END
+ossimImageMpiMWriterSequenceConnection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/12099/trunk/ossim/src/ossim/parallel/ossimImageMpiMWriterSequenceConnection.cpp
+END
+ossimOrthoIgen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/parallel/ossimOrthoIgen.cpp
+END
+ossimJobQueue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19463/trunk/ossim/src/ossim/parallel/ossimJobQueue.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/8184/trunk/ossim/src/ossim/parallel/.cvsignore
+END
+ossimImageMpiSWriterSequenceConnection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/17206/trunk/ossim/src/ossim/parallel/ossimImageMpiSWriterSequenceConnection.cpp
+END
+ossimIgen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/19682/trunk/ossim/src/ossim/parallel/ossimIgen.cpp
+END
+ossimJobMultiThreadQueue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19580/trunk/ossim/src/ossim/parallel/ossimJobMultiThreadQueue.cpp
+END
+ossimMpiSlaveOverviewSequencer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/17870/trunk/ossim/src/ossim/parallel/ossimMpiSlaveOverviewSequencer.cpp
+END

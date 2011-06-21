@@ -1,0 +1,27 @@
+For the Mac build.
+
+Building with xcode (Panther OSX 10.3 or greater)
+Assumes that ossim and ossim_qt are side by side directories residing in /Users/Shared/Development
+
+You will need to install qt version 3.2.3 (the beta 3.3 had some compatibility problems)  you can find it at ftp.trolltech.com.
+
+
+Building from the terminal:
+
+run the following script:
+
+./macstager.sh ossim_qt.pro
+
+set the OSSIM_HOME environmental variable to point to the the top of the ossim tree
+
+setenv OSSIM_HOME ~mlucas/Development/ossim
+
+also added jpeg header files to /usr/local/include
+
+
+qmake imagelinker.pro
+make
+
+
+there is also a target in the ossim.xcode project that assumes that ossim_qt is alongside ossim in the diretory structure.
+

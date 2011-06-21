@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/ossim/!svn/ver/13414/trunk/pqe/src/pqe
+END
+DatumFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/DatumFactory.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/makefile.vc
+END
+newmatSort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatSort.cpp
+END
+newmatNewfft.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatNewfft.cpp
+END
+Wgs84Datum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Wgs84Datum.cpp
+END
+ColumnVector3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/ColumnVector3d.cpp
+END
+LsrPoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/LsrPoint.cpp
+END
+EllipsoidFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/EllipsoidFactory.cpp
+END
+Dpt3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Dpt3d.cpp
+END
+EcefRay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/EcefRay.cpp
+END
+ThreeParamDatum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/ThreeParamDatum.cpp
+END
+Quaternion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Quaternion.cpp
+END
+EcefVector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/EcefVector.cpp
+END
+newmatnl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatnl.cpp
+END
+Dpt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Dpt.cpp
+END
+newmatSolution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatSolution.cpp
+END
+Gpt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Gpt.cpp
+END
+newmatrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatrm.cpp
+END
+newmatFft.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatFft.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/13414/trunk/pqe/src/pqe/Makefile
+END
+Exception.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Exception.cpp
+END
+PositionQualityEvaluator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/PositionQualityEvaluator.cpp
+END
+newmatHholder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatHholder.cpp
+END
+Matrix3x3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Matrix3x3.cpp
+END
+newmatJacobi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatJacobi.cpp
+END
+Matrix4x4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Matrix4x4.cpp
+END
+newmatExcept.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatExcept.cpp
+END
+newmatSubmat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatSubmat.cpp
+END
+ColumnVector4d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/ColumnVector4d.cpp
+END
+newmatSvd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatSvd.cpp
+END
+Datum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Datum.cpp
+END
+newmat1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat1.cpp
+END
+EcefPoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/EcefPoint.cpp
+END
+LsrSpace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/LsrSpace.cpp
+END
+newmat2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat2.cpp
+END
+newmat3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat3.cpp
+END
+newmat4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat4.cpp
+END
+newmat5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat5.cpp
+END
+newmat6.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat6.cpp
+END
+newmat7.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat7.cpp
+END
+newmatBandmat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatBandmat.cpp
+END
+LsrVector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/LsrVector.cpp
+END
+newmat8.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat8.cpp
+END
+Ellipsoid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Ellipsoid.cpp
+END
+newmat9.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmat9.cpp
+END
+Common.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/Common.cpp
+END
+newmatex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatex.cpp
+END
+newmatCholesky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatCholesky.cpp
+END
+newmatEvalue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/12999/trunk/pqe/src/pqe/newmatEvalue.cpp
+END

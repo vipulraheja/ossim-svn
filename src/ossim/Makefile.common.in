@@ -1,0 +1,218 @@
+##
+# $Id: Makefile.common.in 12710 2008-04-18 13:40:12Z gpotts $
+###
+SHELL				= /bin/sh
+
+OSSIM_TOP			= @OSSIM_TOP@
+TOP				= @OSSIM_TOP@
+OSSIM_LIB_PATH			= @OSSIM_TOP@/lib
+OSSIM_MAJOR_VERSION_NUMBER	= @OSSIM_MAJOR_VERSION_NUMBER@
+OSSIM_MINOR_VERSION_NUMBER	= @OSSIM_MINOR_VERSION_NUMBER@
+OSSIM_RELEASE_NUMBER		= @OSSIM_RELEASE_NUMBER@
+OSSIM_VERSION			= @OSSIM_VERSION@
+OSSIM_ARCHIVE			= ossim-${OSSIM_VERSION}
+OSSIM_ARCHIVE_TGZ		= ${OSSIM_ARCHIVE}.tgz
+
+AR				= @AR@
+AR_FLAGS			= @AR_FLAGS@
+BASE_DEFINES  			= @BASE_DEFINES@
+BUILD_SHARED_OBJS		= @BUILD_SHARED_OBJS@
+BUILD_STATIC_OBJS		= @BUILD_STATIC_OBJS@
+BUILD_SHARED_LIBS		= @BUILD_SHARED_LIBS@
+BUILD_STATIC_LIBS		= @BUILD_STATIC_LIBS@
+BUILD_SINGLE_SHARED_LIBS	= @BUILD_SINGLE_SHARED_LIBS@
+BUILD_SINGLE_STATIC_LIBS	= @BUILD_SINGLE_STATIC_LIBS@
+BUILD_STATIC_APPS		= @BUILD_STATIC_APPS@
+CC		= @CC@
+CFLAGS		= @CFLAGS@
+CDEBUGFLAGS	= @CDEBUGFLAGS@
+CHMOD		= @CHMOD@
+CXX		= @CXX@
+CXXFLAGS	= @CXXFLAGS@
+DATA_DIR	= @datadir@
+DOC_DIR		= @datadir@/doc
+RANLIB		= @RANLIB@
+DESTDIR =
+DIRNAME		= @DIRNAME@
+ECHO		= @ECHO@
+EXEEXT		= @EXEEXT@
+exec_prefix	= @exec_prefix@
+HOST_RESULT	= @HOST_RESULT@
+INC_DIR		= @includedir@
+INST_LIB	= $(DESTDIR)@libdir@
+INST_BIN	= $(DESTDIR)@bindir@
+INST_PACKAGE_BIN= $(DESTDIR)@bindir@/ossim_packages
+INST_INC	= $(DESTDIR)@includedir@/ossim
+INST_SHARE	= $(DESTDIR)@datadir@/ossim
+INST_DATA	= $(DESTDIR)@datadir@/ossim
+INST_DOCS	= $(DESTDIR)@datadir@/ossim/doc/
+INST_TEMPLATES	= $(DESTDIR)@datadir@/ossim/templates
+INSTALL 	= @INSTALL@
+INSTALL_PROGRAM	= $(INSTALL) -m 755
+INSTALL_DATA	= $(INSTALL) -m 644
+INSTALL_INCLUDES= $(INSTALL) -m 444
+LDFLAGS		= @LDFLAGS@
+LDFLAGS_APP     = @LDFLAGS_APP@ 
+LDFLAGS_EXE	= @LDFLAGS_EXE@
+LD_SHARED	= @LD_SHARED@
+LIB_DIR		= @libdir@
+LIB_SRC		= $(OSSIM_TOP)/lib
+MAN_DIR		= @mandir@
+OBJEXT		= @OBJEXT@
+PIC_FLAG        = @PIC_FLAG@
+prefix		= @prefix@
+PROGRAM_PREFIX  = @PROGRAM_PREFIX@
+RANLIB		= @RANLIB@
+RESCOMP		= @RESCOMP@
+RESFLAGS	= @RESFLAGS@
+RM		= @RM@
+RM_NOPROMPT	= $(RM) -f
+RM_CMD		= $(RM) -f core core.* *.o *.d *.a *~ *.out *.exe *.lo
+RMDIR		= $(RM) -rf
+SED		= @SED@
+SHARED_LIB_FLAG = @SHARED_LIB_FLAG@
+SHARED_OBJ_DIR  = @SHARED_OBJ_DIR@
+
+SO_VERSIONLESS_EXT	= @SO_VERSIONLESS_EXT@
+SO_SONAME_EXT		= @SO_SONAME_EXT@
+SO_REALNAME_EXT		= @SO_REALNAME_EXT@
+
+SRC_DIR		= @srcdir@
+STATIC_OBJ_DIR  = @STATIC_OBJ_DIR@
+STRIP           = @STRIP@
+SYS_CONF_DIR	= @sysconfdir@
+VPATH		= @srcdir@
+
+# the datum factory file in base/factory
+# will hang if optimization is turned on
+# and so we will do a special compile for that 
+# file
+#
+NO_OPTIMIZATION_CFLAGS = ${filter-out -fast -O2 -Os -O3, ${CFLAGS} }
+NO_OPTIMIZATION_CXXFLAGS = ${filter-out -fast -O2 -Os -O3, ${CXXFLAGS} }
+
+GEOTIFF_INCLUDE_PATH = @GEOTIFF_INCLUDE_PATH@
+GEOTIFF_LIB_PATH     = @GEOTIFF_LIB_PATH@
+GEOTIFF_LIBS         = @GEOTIFF_LIBS@
+GEOTIFF_DEFINES      = @GEOTIFF_DEFINES@
+
+JPEG_INCLUDE_PATH    = @JPEG_INCLUDE_PATH@
+JPEG_LIB_PATH        = @JPEG_LIB_PATH@
+JPEG_LIBS            = @JPEG_LIBS@
+
+LIBTIFF_INCLUDE_PATH = @LIBTIFF_INCLUDE_PATH@
+LIBTIFF_LIB_PATH     = @LIBTIFF_LIB_PATH@
+LIBTIFF_LIBS         = @LIBTIFF_LIBS@
+
+MPI_DEFINES          = @MPI_DEFINES@
+MPI_INCLUDES         = @MPI_INCLUDES@
+MPI_LIBS             = @MPI_LIBS@
+MPI_LIB_PATH         = @MPI_LIB_PATH@
+
+###
+# OpenThreads support turned off for now until needed.
+OPEN_THREADS_INCLUDES = @OPEN_THREADS_INCLUDES@
+OPEN_THREADS_LIBS     = @OPEN_THREADS_LIBS@
+OPEN_THREADS_LIB_PATH = @OPEN_THREADS_LIB_PATH@
+OPEN_THREADS_DEFINES  = @OPEN_THREADS_DEFINES@
+###
+# OPEN_THREADS_INCLUDES=
+# OPEN_THREADS_LIBS=
+# OPEN_THREADS_LIB_PATH=
+# OPEN_THREADS_DEFINES=
+
+FREETYPE_DEFINES      = @FREETYPE_DEFINES@
+FREETYPE_INCLUDES     = @FREETYPE_INCLUDES@
+FREETYPE_LIBS         = @FREETYPE_LIBS@
+FREETYPE_LIB_PATH     = @FREETYPE_LIB_PATH@
+FREETYPE_SETTING      = @FREETYPE_SETTING@
+
+# Fourier library for image correlator
+# FFTW_DEFINES          = 
+# FFTW_INCLUDES         = 
+# FFTW_LIB_PATH         = 
+# FFTW_LIBS             = -lfftw3
+
+LIBS = @LIBS@
+
+BASE_INCLUDES = -I@OSSIM_TOP@/include $(OSSIM_HOST_INCLUDE) $(ADDITIONAL_INCLUDES) $(FREETYPE_INCLUDES) $(LIBTIFF_INCLUDE_PATH) $(MPI_INCLUDES)   $(OPEN_THREADS_INCLUDES) $(GEOTIFF_INCLUDE_PATH) $(LIBTIFF_INCLUDE_PATH) $(JPEG_INCLUDE_PATH) $(LIBGRASS_INCLUDE)
+
+ifeq ($(HOST_RESULT),darwin)
+   BASE_INCLUDES_INST = -I/Library/Frameworks/ossim.framework/Headers $(OSSIM_HOST_INCLUDE) $(ADDITIONAL_INCLUDES) $(FREETYPE_INCLUDES) $(LIBTIFF_INCLUDE_PATH) $(MPI_INCLUDES)   $(OPEN_THREADS_INCLUDES) $(GEOTIFF_INCLUDE_PATH) $(LIBTIFF_INCLUDE_PATH) $(LIBGRASS_INCLUDE)
+else
+   BASE_INCLUDES_INST = -I$(prefix)/include/ossim $(OSSIM_HOST_INCLUDE) $(ADDITIONAL_INCLUDES) $(FREETYPE_INCLUDES) $(LIBTIFF_INCLUDE_PATH) $(MPI_INCLUDES)   $(OPEN_THREADS_INCLUDES) $(GEOTIFF_INCLUDE_PATH) $(LIBTIFF_INCLUDE_PATH) $(LIBGRASS_INCLUDE)
+endif
+
+BASE_ROOT=@OSSIM_TOP@/src/ossim/base
+ELEVATION_ROOT=@OSSIM_TOP@/src/ossim/elevation
+FONT_ROOT=@OSSIM_TOP@/src/ossim/font
+IMAGING_ROOT=@OSSIM_TOP@/src/ossim/imaging
+KBOOL_ROOT=@OSSIM_TOP@/src/ossim/kbool
+MATRIX_ROOT=@OSSIM_TOP@/src/ossim/matrix
+PARALLEL_ROOT=@OSSIM_TOP@/src/ossim/parallel
+PROJECTION_ROOT=@OSSIM_TOP@/src/ossim/projection
+SUPPORT_DATA_ROOT=@OSSIM_TOP@/src/ossim/support_data
+VEC_ROOT=@OSSIM_TOP@/src/ossim/vec
+VPFUTIL_ROOT=@OSSIM_TOP@/src/ossim/vpfutil
+PLUGIN_ROOT=@OSSIM_TOP@/src/ossim/plugin
+INIT_ROOT=@OSSIM_TOP@/src/ossim/init
+KBOOL_ROOT=@OSSIM_TOP@/src/ossim/kbool
+
+LIB_BASE=libossim_base
+LIB_ELEVATION=libossim_elevation
+LIB_FONT=libossim_font
+LIB_IMAGING=libossim_imaging
+LIB_KBOOL=libossim_kbool
+LIB_MATRIX=libossim_matrix
+LIB_PARALLEL=libossim_parallel
+LIB_PROJECTION=libossim_projection
+LIB_SUPPORT_DATA=libossim_support_data
+LIB_VEC=libossim_vec
+LIB_VPFUTIL=libossim_vpfutil
+LIB_PLUGIN=libossim_plugin
+LIB_INIT=libossim_init
+LIB_KBOOL=libossim_kbool
+
+###
+# Convenience link lines in the correct link order for separate libraries.
+###
+LINK_KBOOL		= -lossim_kbool
+LINK_MATRIX 		= -lossim_matrix $LINK_KBOOL
+LINK_BASE 		= -lossim_base $LINK_MATRIX
+LINK_PLUGIN             = -lossim_plugin $LINK_BASE
+LINK_FONT 		= -lossim_font $LINK_PLUGIN
+LINK_VPF 		= -lossim_vpfutil $LINK_FONT
+LINK_VEC 		= -lossim_vec $LINK_VPF
+LINK_SUPPORT_DATA 	= -lossim_support_data $LINK_VEC
+LINK_ELEVATION 		= -lossim_elevation $LINK_SUPPORT_DATA
+LINK_PROJECTION	        = -lossim_projection $LINK_ELEVATION
+LINK_IMAGING 		= -lossim_imaging $LINK_PROJECTION
+LINK_PARALLEL 		= -lossim_parallel $LINK_IMAGING
+LINK_INIT		= -lossim_init $LINK_PARALLEL
+
+
+###
+# External stuff ossim links with.
+###
+LINK_EXTERNALS = $(ADDITIONAL_LIB_PATH) $(ADDITIONAL_LIBS_BEFORE)  $(OPEN_THREADS_LIB_PATH) $(FREETYPE_LIB_PATH) $(MPI_LIB_PATH) $(MPI_LIBS) $(FREETYPE_LIBS) $(ADDITIONAL_LIBS_AFTER) $(LIBGRASS_LIBS) $(GEOTIFF_LIB_PATH) $(LIBTIFF_LIB_PATH) $(GEOTIFF_LIBS) $(LIBTIFF_LIBS) $(OPEN_THREADS_LIBS) $(JPEG_LIB_PATH) $(JPEG_LIBS) $(LIBS)
+
+###
+# Link line for making single ossim library.
+###
+OSSIM_LIB_LINK = $(LINK_EXTERNALS)
+
+###
+# Link line for applications.
+###
+OSSIM_APP_LINK = -L$(OSSIM_LIB_PATH) -lossim $(LINK_EXTERNALS)
+OSSIM_CONFIG_APP_LINK_INST = -L$(prefix)/lib/ossim -lossim $(LINK_EXTERNALS)
+
+###
+# If single libossim link apps with just that.  Since the single ossim lib
+# linked with external libs we only need libossim at this point.
+###
+ifeq ($(BUILD_SINGLE_SHARED_LIBS),yes)
+  ifeq ($(HOST_RESULT),darwin)
+	OSSIM_CONFIG_APP_LINK_INST = -F/Library/Frameworks -framework ossim  $(MPI_LIB_PATH) $(MPI_LIBS)
+  endif 
+endif

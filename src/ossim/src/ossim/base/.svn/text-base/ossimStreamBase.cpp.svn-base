@@ -1,0 +1,27 @@
+//*******************************************************************
+//
+// License:  See top level LICENSE.txt file.
+//
+// Author: Garrett Potts
+//
+// Description:
+// Base class for all ossim streams...  Derives from ossimReferenced.
+//
+//*******************************************************************
+//  $Id$
+
+#include <ossim/base/ossimStreamBase.h>
+
+ossimStreamBase::ossimStreamBase()
+   : ossimReferenced()
+{
+}
+
+ossimStreamBase::~ossimStreamBase()
+{
+}
+
+bool ossimStreamBase::isCompressed() const
+{
+   return false;
+}

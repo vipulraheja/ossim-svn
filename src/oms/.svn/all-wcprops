@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/ossim/!svn/ver/19684/trunk/oms
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/ossim/!svn/ver/9313/trunk/oms/.cvsignore
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/17086/trunk/oms/CMakeLists.txt
+END

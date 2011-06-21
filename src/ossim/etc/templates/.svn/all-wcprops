@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/19724/trunk/ossim/etc/templates
+END
+orthoigen_annotation_template.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/11359/trunk/ossim/etc/templates/orthoigen_annotation_template.kwl
+END
+orthoigenTilingTemplateByOutputBytes.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/9594/trunk/ossim/etc/templates/orthoigenTilingTemplateByOutputBytes.kwl
+END
+orthoigen_writer_template.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/14387/trunk/ossim/etc/templates/orthoigen_writer_template.kwl
+END
+LambertConformalConicProjection_template.geom
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/9465/trunk/ossim/etc/templates/LambertConformalConicProjection_template.geom
+END
+sample_applanix_camera.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/7791/trunk/ossim/etc/templates/sample_applanix_camera.kwl
+END
+utm_projection_template.geom
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/9465/trunk/ossim/etc/templates/utm_projection_template.geom
+END
+geographic_projection_template.geom
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/9465/trunk/ossim/etc/templates/geographic_projection_template.geom
+END
+fgdc_metadata_file_writer_template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/7918/trunk/ossim/etc/templates/fgdc_metadata_file_writer_template.xml
+END
+usgs_dem_template.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/8620/trunk/ossim/etc/templates/usgs_dem_template.kwl
+END
+orthoigen_srtm.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/10301/trunk/ossim/etc/templates/orthoigen_srtm.kwl
+END
+bilinear_projection_template.geom
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/7662/trunk/ossim/etc/templates/bilinear_projection_template.geom
+END
+applanix.geom
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/7699/trunk/ossim/etc/templates/applanix.geom
+END
+ossim-dem-color-table-template.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17693/trunk/ossim/etc/templates/ossim-dem-color-table-template.kwl
+END
+elevation_database_template.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/117/trunk/ossim/etc/templates/elevation_database_template.sql
+END
+ossim-dem-example-commands.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/17817/trunk/ossim/etc/templates/ossim-dem-example-commands.txt
+END
+general_raster_template.omd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/7332/trunk/ossim/etc/templates/general_raster_template.omd
+END
+ossim_preferences_template
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19724/trunk/ossim/etc/templates/ossim_preferences_template
+END
+shapefile_template.omd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/16466/trunk/ossim/etc/templates/shapefile_template.omd
+END
+orthoigen1.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/7144/trunk/ossim/etc/templates/orthoigen1.kwl
+END
+orthoigen2.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/7144/trunk/ossim/etc/templates/orthoigen2.kwl
+END
+orthoigen3.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/7144/trunk/ossim/etc/templates/orthoigen3.kwl
+END
+orthoigen4.kwl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/7144/trunk/ossim/etc/templates/orthoigen4.kwl
+END

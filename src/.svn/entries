@@ -1,0 +1,88 @@
+10
+
+dir
+19757
+http://svn.osgeo.org/ossim/trunk
+http://svn.osgeo.org/ossim
+
+
+
+2011-06-17T21:07:40.824883Z
+19757
+dburken
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b630af17-092b-0410-afba-a002956477a4
+
+ossim_qt4
+dir
+
+csm_plugins
+dir
+
+swigossim
+dir
+
+pqe
+dir
+
+planet_message
+dir
+
+ossim
+dir
+
+ossimjni
+dir
+
+ossim_plugins
+dir
+
+ossimPredator
+dir
+
+gsoc
+dir
+
+libwms
+dir
+
+ossim_qt
+dir
+
+ossimPlanet
+dir
+
+oms
+dir
+
+ossim_package_support
+dir
+
+ossimPlanetQt
+dir
+
+ossimplanetCocoa
+dir
+
+omarStager
+dir
+
+ossim_contrib
+dir
+
+csmApi
+dir
+

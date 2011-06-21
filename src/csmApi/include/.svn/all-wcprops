@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ossim/!svn/ver/19477/trunk/csmApi/include
+END
+SMManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/17265/trunk/csmApi/include/SMManager.h
+END
+Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/17265/trunk/csmApi/include/Utilities.h
+END
+csmApiExport.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/17266/trunk/csmApi/include/csmApiExport.h
+END
+CSMOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/19477/trunk/csmApi/include/CSMOutput.h
+END
+CSMSensorModelLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/17265/trunk/csmApi/include/CSMSensorModelLoader.h
+END
+VTSMisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/17265/trunk/csmApi/include/VTSMisc.h
+END

@@ -1,0 +1,10 @@
+# $Id: Jamfile 1722 2009-02-23 20:10:55Z raindave $
+
+SubDir TOP lib ;
+
+SubInclude TOP lib rxio ;
+SubInclude TOP lib vdraw ;
+SubInclude TOP lib vplot ;
+SubInclude TOP lib geomatics ;
+SubInclude TOP lib procframe ;
+#SubInclude TOP lib Rinex3 ;

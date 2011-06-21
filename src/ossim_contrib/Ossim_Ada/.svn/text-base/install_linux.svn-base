@@ -1,0 +1,5 @@
+#!/bin/csh -x 
+cp -p Source/Ada_Bindings/*.ad[sb] /usr/local/Bindings/Ossim/
+cp -p Source/Ada_Bindings/*.ali /usr/local/Bindings/Ossim/
+cp -p libossimbindings.a /usr/local/Bindings/Ossim/
+ranlib /usr/local/Bindings/Ossim/libossimbindings.a

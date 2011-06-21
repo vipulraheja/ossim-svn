@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/13689/trunk/ossim/makefiles/mingw
+END
+makeroot
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/12189/trunk/ossim/makefiles/mingw/makeroot
+END
+makelib
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/12268/trunk/ossim/makefiles/mingw/makelib
+END
+makeprog
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/9143/trunk/ossim/makefiles/mingw/makeprog
+END
+makelibcore
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/13689/trunk/ossim/makefiles/mingw/makelibcore
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/ossim/!svn/ver/8236/trunk/ossim/doc
+END
+ossim.spec
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/16/trunk/ossim/doc/ossim.spec
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/8236/trunk/ossim/doc/.cvsignore
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/18967/trunk/ossim/include/ossim/plugin
+END
+ossimSharedPluginRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/18967/trunk/ossim/include/ossim/plugin/ossimSharedPluginRegistry.h
+END
+ossimPluginLibrary.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/18967/trunk/ossim/include/ossim/plugin/ossimPluginLibrary.h
+END
+ossimDynamicLibrary.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/13600/trunk/ossim/include/ossim/plugin/ossimDynamicLibrary.h
+END
+ossimSharedObjectBridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/18967/trunk/ossim/include/ossim/plugin/ossimSharedObjectBridge.h
+END

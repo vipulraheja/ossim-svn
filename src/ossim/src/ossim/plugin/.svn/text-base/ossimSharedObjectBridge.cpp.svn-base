@@ -1,0 +1,13 @@
+//*******************************************************************
+//
+// License:  See top level LICENSE.txt file.
+// 
+// Author: Garrett Potts (gpotts@imagelinks)
+//
+//*************************************************************************
+// $Id$
+#include <ossim/plugin/ossimSharedObjectBridge.h>
+
+extern "C"
+{
+}

@@ -1,0 +1,310 @@
+
+<project name="joms" default="build">
+
+    <property environment="env" />
+    <property file="${basedir}/local.properties" />
+
+
+    <!-- Module Name -->
+    <property name="module.name" value="joms" />
+
+
+    <!--
+        <property name="jdk.home" value="${env.JAVA_HOME}" />
+        <property name="oms.home" value="${OSSIM_DEV_HOME}/oms" />
+        <property name="ossim.home" value="${OSSIM_DEV_HOME}/ossim" />
+    -->
+
+    <echo message="module.name = ${module.name}" />
+    <echo message="jdk.home = ${jdk.home}" />
+    <!--
+        <echo message="mac.sdk_version = ${mac.sdk_version}" />
+     -->   
+    <echo message="oms.home = ${oms.home}" />
+    <echo message="ossim.home = ${ossim.home}" />
+    <echo message="ossim.install_prefix = ${ossim.install_prefix}" />
+    <echo message="ossim.dependencies   = ${ossim.dependencies}" />
+    <echo message="os.name = ${os.name}"/>
+        <echo message="osg.home = ${osg.home}"/>
+
+
+
+    <!-- property name="module.name" value="joms" /-->
+    <!-- <property file="${basedir}/local.properties" /> -->
+
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+        <classpath>
+            <pathelement location="util/ant-contrib.jar" />
+        </classpath>
+    </taskdef>
+
+    <taskdef resource="cpptasks.tasks">
+        <classpath>
+            <pathelement location="util/cpptasks.jar" />
+        </classpath>
+    </taskdef>
+
+    <typedef resource="cpptasks.types">
+        <classpath>
+            <pathelement location="util/cpptasks.jar" />
+        </classpath>
+    </typedef>
+
+    <property name="ossim.package" value="${module.name}" />
+    <property name="gensrc.dir" value="gensrc/${module.name}" />
+
+    <target name="check-reqired-properties">
+        <if>
+            <not>
+                <or>
+                    <isset property="jdk.home" />
+                    <isset property="ossim.home" />
+                    <isset property="oms.home" />
+                </or>
+            </not>
+            <then>
+                <antcall target="missing-required-properties" />
+            </then>
+        </if>
+    </target>
+
+    <target name="missing-required-properties" unless="properties.set">
+        <echo message="Check to see if all variables are set!" />
+        <echo message="JAVA_HOME=${jdk.home}" />
+        <echo message="OSSIM_HOME=${ossim.home}" />
+        <echo message="OMS_HOME=${oms.home}" />
+        <fail />
+    </target>
+
+    <target name="initialize-environment" depends="check-reqired-properties">
+        <if>
+            <equals arg1="${os.name}" arg2="Mac OS X" />
+            <then>
+                <property name="library.name" value="lib${module.name}.jnilib" />
+            </then>
+            <elseif>
+                <equals arg1="${os.name}" arg2="Windows XP" />
+                <then>
+                    <property name="library.name" value="${module.name}.dll" />
+                </then>
+            </elseif>
+            <elseif>
+                <equals arg1="${os.name}" arg2="Linux" />
+                <then>
+                    <property name="library.name" value="lib${module.name}.so" />
+                </then>
+            </elseif>
+        </if>
+    </target>
+    <target name="compile-java">
+        <mkdir dir="bin" />
+        <javac srcdir="gensrc" destdir="bin">
+            <classpath>
+                <fileset dir="lib" includes="*.jar" />
+            </classpath>
+        </javac>
+        <javac srcdir="src" destdir="bin" excludes="**/RasterEngineTest.java">
+            <classpath>
+                <fileset dir="lib" includes="*.jar" />
+            </classpath>
+        </javac>
+        <copy todir="bin">
+            <fileset dir="src" includes="META-INF/**" />
+        </copy>
+    </target>
+    <target name="compile-c++" depends="initialize-environment">
+        <if>
+            <equals arg1="${os.name}" arg2="Mac OS X" />
+            <then>
+                <cc outtype="shared" objdir="swig" outfile="${module.name}">
+                    <compilerarg value="-F${ossim.install_prefix}/Frameworks" />
+                    <compilerarg value="-F${ossim.dependencies}/Frameworks" />
+                    <compilerarg value="-D__STDC_CONSTANT_MACROS"/>
+                    <!--
+                        <compilerarg value="-isysroot" />
+                        <compilerarg value="/Developer/SDKs/MacOSX${mac.sdk_version}.sdk"/>
+                    <compilerarg value="-mmacosx-version-min=${mac.sdk_version}" />
+                    -->
+                    <includepath>
+                        <path location="swig" />
+                        <path location="${jdk.home}/include" />
+                        <path location="${ossim.install_prefix}/Frameworks" />
+                        <path location="${ossim.dependencies}/Frameworks" />
+                        <path location="${ossim.dependencies}/include" />
+                    </includepath>
+                    <fileset dir="swig" id="id">
+                        <!--
+                        <include name="*.cpp" />
+                        -->
+                        <include name="*.cxx" />
+                    </fileset>
+                    <linkerarg value="-dynamiclib" />
+                    <linkerarg value="-framework" />
+                    <linkerarg value="JavaVM" />
+                    <linkerarg value="-F${ossim.install_prefix}/Frameworks" />
+                    <linkerarg value="-F${ossim.dependencies}/Frameworks" />
+                    <linkerarg value="-framework" />
+                    <linkerarg value="ossim" />
+                    <linkerarg value="-framework" />
+                    <linkerarg value="oms" />
+                    <linkerarg value="-framework" />
+                    <linkerarg value="OpenThreads" />
+                    <syslibset libs="c,stdc++" />
+
+                </cc>
+                <move file="lib${module.name}.dylib" tofile="${library.name}" />
+            </then>
+          <elseif>
+            <equals arg1="${os.name}" arg2="Linux" />
+            <then>
+              <cc outtype="shared" objdir="swig" outfile="${module.name}">
+                  <compilerarg value="-D__STDC_CONSTANT_MACROS"/>
+                  <includepath>
+                  <path location="swig" />
+                  <path location="${jdk.home}/include" />
+                  <path location="${jdk.home}/include/linux" />
+                  <path location="${oms.home}/coms/include" />
+                  <path location="${ossim.install_prefix}/include" />
+                  <path location="${ossim.dependencies}/include" />
+                  <path location="${osg.home}/include" />
+                </includepath>
+                <fileset dir="swig" id="id">
+                  <!--
+                            <include name="*.cpp" />
+                            -->
+                  <include name="*.cxx" />
+                </fileset>
+                <linkerarg value="-Wall" />
+                <libset dir="${oms.home}/coms/lib" libs="oms" />
+                <libset dir="${ossim.install_prefix}/lib" libs="ossim" />
+              </cc>
+            </then>
+          </elseif>
+          <elseif>
+            <equals arg1="${os.name}" arg2="Windows XP" />
+            <then>
+              <cc outtype="shared" objdir="swig" name="msvc" outfile="${module.name}">
+                  <compilerarg value="-D__STDC_CONSTANT_MACROS"/>
+                  <includepath>
+                  <path location="swig" />
+                  <path location="${jdk.home}/include" />
+                  <path location="${jdk.home}/include/win32" />
+                  <path location="${oms.home}/coms/include" />
+                  <path location="${ossim.install_prefix}/include" />
+                  <path location="${ossim.dependencies}/include" />
+                  <path location="${osg.home}/include" />
+                </includepath>
+                <fileset dir="swig" id="id">
+                  <!--
+                            <include name="*.cpp" />
+                            -->
+                  <include name="*.cxx" />
+                </fileset>
+                <linkerarg value="-Wall" />
+                <linkerarg value="-Wl,--kill-at" />
+                <libset dir="${ossim.install_prefix}/lib" libs="ossim,oms" />
+              </cc>
+            </then>
+          </elseif>
+          <elseif>
+                <equals arg1="${os.name}" arg2="SunOS" />
+                <then>
+                    <cc outtype="shared" objdir="swig" outfile="${module.name}">
+                        <compilerarg value="-D__STDC_CONSTANT_MACROS"/>
+                        <includepath>
+                            <path location="swig" />
+                            <path location="${jdk.home}/include" />
+                            <path location="${jdk.home}/include/solaris" />
+                            <path location="${ossim.install_prefix}/include" />
+                            <path location="${ossim.dependencies}/include" />
+                        </includepath>
+                        <fileset dir="swig" id="id">
+                            <!--
+                            <include name="*.cpp" />
+                            -->
+                            <include name="*.cxx" />
+                        </fileset>
+                        <linkerarg value="-Wall" />
+                        <libset dir="${oms.install_prefix}/lib" libs="oms" />
+                        <libset dir="${ossim.install_prefix}/lib" libs="ossim" />
+                    </cc>
+                </then>
+            </elseif>
+        </if>
+    </target>
+    <target name="build" depends="initialize-environment,generate-wrappers,compile-java,compile-c++" />
+    <!--
+    <target name="build" depends="initialize-environment,generate-wrappers,compile-java"/>
+    -->
+    <target name="build-java" depends="initialize-environment,generate-wrappers,compile-java" />
+    <target name="dist" depends="build">
+        <mkdir dir="dist" />
+        <jar destfile="${oms.home}/lib/${module.name}.jar" basedir="bin" />
+    </target>
+<!--
+    <target name="deploy" depends="dist">
+        <copy file="${oms.home}/lib/lib${module.name}.so" todir="${catalina.home}/shared/lib" />
+        <copy file="${oms.home}/lib/liboms.so" todir="${catalina.home}/shared/lib" />
+        <copy file="${oms.home}/lib/${module.name}.jar" todir="${catalina.home}/common/lib" />
+    </target>
+-->
+
+    <target name="clean" depends="initialize-environment">
+        <delete dir="bin" />
+        <delete dir="${gensrc.dir}" />
+        <delete>
+            <fileset dir="swig" includes="*_wrap.*" />
+        </delete>
+        <delete dir="dist" />
+        <delete file="${library.name}" />
+    </target>
+
+    <target name="generate-wrappers" depends="initialize-environment">
+        <foreach target="generate-wrapper" param="swig.file">
+            <path>
+                <fileset dir="swig" includes="*.i" />
+            </path>
+        </foreach>
+    </target>
+    <target name="generate-wrapper">
+        <basename file="${swig.file}" property="package.name" suffix=".i" />
+        <propertyregex input="${package.name}" regexp="\." property="package.dir" replace="/" global="true" defaultvalue="${package.name}" />
+        <mkdir dir="${gensrc.dir}/${package.dir}" />
+        <echo message="${oms.home}" />
+        <exec executable="swig">
+            <arg value="-Wall" />
+            <arg value="-java" />
+            <arg value="-c++" />
+            <arg value="-outdir" />
+            <arg value="${gensrc.dir}/${package.dir}" />
+            <arg value="-package" />
+            <arg value="${ossim.package}.${package.name}" />
+            <arg value="-I${oms.home}/coms/include" />
+            <arg value="-I${ossim.home}/include" />
+            <arg value="${swig.file}" />
+
+        </exec>
+        <!--echo message="${swig.file}"/>
+        <echo message="${package.name}"/>
+        <echo message="${package.dir}"/-->
+    </target>
+
+
+
+    <target name="install" depends="initialize-environment,dist">
+        <copy file="${library.name}" todir="${ossim.install_prefix}/lib"/>
+        <copy file="../lib/${module.name}.jar" todir="${env.OMAR_HOME}/../../plugins/omar-oms/lib"/>
+    </target>
+
+    <target name="mvn-install" depends="initialize-environment,dist">
+        <exec executable="mvn">
+            <arg value="install:install-file"/>
+            <arg value="-Dfile=../lib/${module.name}.jar"/>
+            <arg value="-DgroupId=org.ossim"/>
+            <arg value="-DartifactId=${module.name}"/>
+            <arg value="-Dversion=1.0-SNAPSHOT"/>
+            <arg value="-Dpackaging=jar"/>
+            <arg value="-DgeneratePom=true"/>
+        </exec>
+    </target>
+</project>

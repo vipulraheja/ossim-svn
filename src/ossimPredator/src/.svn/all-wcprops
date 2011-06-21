@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/19514/trunk/ossimPredator/src
+END
+ossimPredatorInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/16315/trunk/ossimPredator/src/ossimPredatorInit.cpp
+END
+ossimPredatorKlvTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19475/trunk/ossimPredator/src/ossimPredatorKlvTable.cpp
+END
+ossimPredatorVideo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19476/trunk/ossimPredator/src/ossimPredatorVideo.cpp
+END
+ossimPredatorThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/12408/trunk/ossimPredator/src/ossimPredatorThread.cpp
+END
+ossimPredatorUavProjection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19514/trunk/ossimPredator/src/ossimPredatorUavProjection.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/16326/trunk/ossimPredator/src/GNUmakefile
+END

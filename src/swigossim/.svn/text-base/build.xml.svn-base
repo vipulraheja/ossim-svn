@@ -1,0 +1,153 @@
+<project name="swigossim" default="build">
+	<property file="${basedir}/local.properties" />
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+		<classpath>
+			<pathelement location="util/ant-contrib-1.0b1.jar" />
+		</classpath>
+	</taskdef>
+	<taskdef resource="cpptasks.tasks">
+		<classpath>
+			<pathelement location="util/cpptasks.jar" />
+		</classpath>
+	</taskdef>
+	<typedef resource="cpptasks.types">
+		<classpath>
+			<pathelement location="util/cpptasks.jar" />
+		</classpath>
+	</typedef>
+	<property name="wrapper.src.dir" value="src/${package.prefix}" />
+	<target name="initialize-environment">
+		<if>
+			<equals arg1="${os.name}" arg2="Mac OS X" />
+			<then>
+				<property name="library.name" value="lib${module.name}.jnilib" />
+			</then>
+			<elseif>
+				<equals arg1="${os.name}" arg2="Windows XP" />
+				<then>
+					<property name="library.name" value="${module.name}.dll" />
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${os.name}" arg2="Linux" />
+				<then>
+					<property name="library.name" value="lib${module.name}.so" />
+				</then>
+			</elseif>
+		</if>
+	</target>
+	<target name="compile-java">
+		<mkdir dir="bin" />
+		<javac srcdir="src" destdir="bin">
+			<classpath>
+				<fileset dir="lib" includes="*.jar" />
+			</classpath>
+		</javac>
+	</target>
+	<target name="compile-c++">
+		<if>
+			<equals arg1="${os.name}" arg2="Mac OS X" />
+			<then>
+				<cc outtype="shared" objdir="swig" outfile="${module.name}">
+					<compilerarg value="-Wno-long-double" />
+					<includepath>
+						<path location="/System/Library/Frameworks/JavaVM.framework/Headers" />
+						<path location="${ossim.home}/include" />
+					</includepath>
+					<fileset dir="swig" id="id">
+						<include name="*.cpp" />
+						<include name="*.cxx" />
+					</fileset>
+					<linkerarg value="-fexceptions" />
+					<linkerarg value="-dynamiclib" />
+					<linkerarg value="-framework" />
+					<linkerarg value="JavaVM" />
+					<syslibset libs="c,stdc++" />
+					<libset dir="${ossim.home}/lib" libs="ossim" />
+				</cc>
+				<move file="lib${module.name}.dylib" tofile="${library.name}" />
+			</then>
+			<elseif>
+				<equals arg1="${os.name}" arg2="Windows XP" />
+				<then>
+					<cc outtype="shared" objdir="swig" outfile="${module.name}">
+						<includepath>
+							<path location="${jdk.home}/include" />
+							<path location="${jdk.home}/include/win32" />
+							<path location="${ossim.home}/include" />
+						</includepath>
+						<fileset dir="swig" id="id">
+							<include name="*.cpp" />
+							<include name="*.cxx" />
+						</fileset>
+						<linkerarg value="-Wall" />
+						<linkerarg value="-Wl,--kill-at" />
+						<syslibset libs="stdc++" />
+						<libset dir="${ossim.home}/lib" libs="ossim" />
+					</cc>
+					<move file="lib${module.name}.so" tofile="${library.name}" />
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${os.name}" arg2="Linux" />
+				<then>
+					<cc outtype="shared" objdir="swig" outfile="${module.name}">
+						<includepath>
+							<path location="${jdk.home}/include" />
+							<path location="${jdk.home}/include/linux" />
+							<path location="${ossim.home}/src/include" />
+						</includepath>
+						<fileset dir="swig" id="id">
+							<include name="*.cpp" />
+							<include name="*.cxx" />
+						</fileset>
+						<linkerarg value="-Wall" />
+						<syslibset libs="freetype,stdc++" />
+						<libset dir="${ossim.home}/lib" libs="ossim" />
+					</cc>
+				</then>
+			</elseif>
+		</if>
+	</target>
+	<target name="build" depends="initialize-environment,generate-wrappers,compile-java,compile-c++" />
+	<target name="dist" depends="build">
+		<mkdir dir="dist" />
+		<jar destfile="dist/${module.name}.jar" basedir="bin" />
+		<copy file="${library.name}" todir="dist" />
+	</target>
+	<target name="clean" depends="initialize-environment">
+		<delete dir="${wrapper.src.dir}" />
+		<delete>
+			<fileset dir="swig" includes="*_wrap.*" />
+		</delete>
+		<delete dir="dist" />
+		<delete file="${library.name}" />
+	</target>
+
+	<target name="generate-wrappers">
+		<foreach target="generate-wrapper" param="swig.file">
+			<path>
+				<fileset dir="swig" includes="*.i" />
+			</path>
+		</foreach>
+	</target>
+	<target name="generate-wrapper">
+		<basename file="${swig.file}" property="package.name" suffix=".i" />
+		<propertyregex input="${package.name}" regexp="\." property="package.dir" replace="/" global="true" defaultvalue="${package.name}" />
+		<mkdir dir="${wrapper.src.dir}/${package.dir}" />
+		<exec executable="swig">
+			<arg value="-java" />
+			<arg value="-c++" />
+			<arg value="-outdir" />
+			<arg value="${wrapper.src.dir}/${package.dir}" />
+			<arg value="-package" />
+			<arg value="${package.prefix}.${package.name}" />
+			<arg value="-I${ossim.home}/include" />
+			<arg value="${swig.file}" />
+		</exec>
+		<echo message="${swig.file}" />
+		<echo message="${package.prefix}" />
+		<echo message="${package.name}" />
+		<echo message="${package.dir}" />
+	</target>
+</project>

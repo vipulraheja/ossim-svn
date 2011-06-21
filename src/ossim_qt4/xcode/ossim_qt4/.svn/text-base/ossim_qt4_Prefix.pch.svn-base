@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ossim_qt4' target in the 'ossim_qt4' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

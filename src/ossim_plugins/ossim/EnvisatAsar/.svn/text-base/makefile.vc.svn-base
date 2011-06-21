@@ -1,0 +1,39 @@
+###
+# $Id: makefile.vc 12864 2008-05-15 13:13:28Z dburken $
+#
+# Windows nmake make file.  This code should compile with the Microsoft .NET
+# compiler.
+# 
+# Currently for a typical build on windows you would do the following.
+# - cd back to the ossim top and edit its nmake.opt file appropriately.
+# - nmake /f makefile
+#
+# NOTE:  If you make shared apps it's handy to copy the ossim.dll to the bin
+#        directory. 
+###
+
+!INCLUDE ..\..\nmake.opt
+
+INC = -I.. -I. $(INC)
+
+OBJ = \
+AntennaElevationPatterns.obj \
+ChirpParameters.obj \
+DopplerCentroidParameters.obj \
+dsd.obj \
+EnvisatAsarData.obj \
+EnvisatAsarDataFactory.obj \
+EnvisatAsarRecord.obj \
+EnvisatAsarRecordFactory.obj \
+GeolocationGrid.obj \
+MainProcessingParameters.obj \
+mph.obj \
+sph.obj \
+SQ_ADSR.obj \
+SRGRConversionParameters.obj
+
+
+default:	$(OBJ)
+
+clean:
+	$(RM) *.obj *~

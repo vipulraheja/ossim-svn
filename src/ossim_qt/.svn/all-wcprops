@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/ossim/!svn/ver/19706/trunk/ossim_qt
+END
+macstager.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/9116/trunk/ossim_qt/macstager.sh
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/6527/trunk/ossim_qt/LICENSE.txt
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ossim/!svn/ver/7896/trunk/ossim_qt/Doxyfile
+END
+mac_install.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/7387/trunk/ossim_qt/mac_install.txt
+END
+ossim_qt.spec
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/7205/trunk/ossim_qt/ossim_qt.spec
+END
+makedefs.pri
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ossim/!svn/ver/12063/trunk/ossim_qt/makedefs.pri
+END
+COPYING.GPL
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/6011/trunk/ossim_qt/COPYING.GPL
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/9649/trunk/ossim_qt/README.txt
+END
+ossim_qt.pro
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/6609/trunk/ossim_qt/ossim_qt.pro
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/4671/trunk/ossim_qt/.cvsignore
+END
+imagelinker.pro.OSX
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/6018/trunk/ossim_qt/imagelinker.pro.OSX
+END

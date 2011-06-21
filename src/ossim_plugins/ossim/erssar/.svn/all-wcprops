@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/17505/trunk/ossim_plugins/ossim/erssar
+END
+ErsSarFileDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarFileDescriptor.cpp
+END
+ErsSarRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarRecord.cpp
+END
+ErsSarFileDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarFileDescriptor.h
+END
+ErsSarRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarRecord.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15344/trunk/ossim_plugins/ossim/erssar/makefile.vc
+END
+ErsSarLeaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarLeaderFactory.cpp
+END
+ErsSarPositionVectorRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarPositionVectorRecord.cpp
+END
+ErsSarRecordHeader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarRecordHeader.cpp
+END
+ErsSarLeaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15098/trunk/ossim_plugins/ossim/erssar/ErsSarLeaderFactory.h
+END
+ErsSarPositionVectorRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/15098/trunk/ossim_plugins/ossim/erssar/ErsSarPositionVectorRecord.h
+END
+ErsSarLeader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/17505/trunk/ossim_plugins/ossim/erssar/ErsSarLeader.cpp
+END
+ErsSarRecordHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarRecordHeader.h
+END
+ErsSarFacilityData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarFacilityData.cpp
+END
+ErsSarLeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarLeader.h
+END
+ErsSarPlatformPositionData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarPlatformPositionData.cpp
+END
+ErsSarFacilityData.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarFacilityData.h
+END
+ErsSarDataSetSummary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarDataSetSummary.cpp
+END
+ErsSarMapProjectionData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarMapProjectionData.cpp
+END
+ErsSarRecordFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarRecordFactory.cpp
+END
+ErsSarPlatformPositionData.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarPlatformPositionData.h
+END
+ErsSarDataSetSummary.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarDataSetSummary.h
+END
+ErsSarMapProjectionData.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/ossim/!svn/ver/16869/trunk/ossim_plugins/ossim/erssar/ErsSarMapProjectionData.h
+END
+ErsSarRecordFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15098/trunk/ossim_plugins/ossim/erssar/ErsSarRecordFactory.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/15098/trunk/ossim_plugins/ossim/erssar/Makefile
+END

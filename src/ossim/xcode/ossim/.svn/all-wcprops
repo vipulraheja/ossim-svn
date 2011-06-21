@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/16880/trunk/ossim/xcode/ossim
+END
+ossim_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/8578/trunk/ossim/xcode/ossim/ossim_Prefix.pch
+END
+ossimplanet2-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/16393/trunk/ossim/xcode/ossim/ossimplanet2-Info.plist
+END
+convert_headers.pl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/8578/trunk/ossim/xcode/ossim/convert_headers.pl
+END
+common_settings.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/16826/trunk/ossim/xcode/ossim/common_settings.xcconfig
+END

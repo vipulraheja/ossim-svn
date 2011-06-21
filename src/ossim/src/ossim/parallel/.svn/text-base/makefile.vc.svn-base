@@ -1,0 +1,21 @@
+###
+# $Id$
+#
+# Windows nmake make file.
+###
+OSSIM_ROOT	=	..\..\..
+!INCLUDE $(OSSIM_ROOT)\nmake.opt
+
+OBJ = \
+ossimIgen.obj \
+ossimImageMpiMWriterSequenceConnection.obj \
+ossimImageMpiSWriterSequenceConnection.obj \
+ossimMpi.obj \
+ossimMpiMasterOverviewSequencer.obj \
+ossimMpiSlaveOverviewSequencer.obj \
+ossimOrthoIgen.obj
+
+default:	$(OBJ)
+
+clean:
+	$(RM) *.obj

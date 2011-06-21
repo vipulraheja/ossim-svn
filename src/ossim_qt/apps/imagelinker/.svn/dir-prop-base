@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 35
+imagelinker
+Makefile
+.obj
+.ui
+.moc
+
+END

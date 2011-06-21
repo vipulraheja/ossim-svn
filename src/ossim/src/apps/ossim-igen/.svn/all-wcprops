@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/17815/trunk/ossim/src/apps/ossim-igen
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15171/trunk/ossim/src/apps/ossim-igen/makefile.vc
+END
+ossim-igen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17815/trunk/ossim/src/apps/ossim-igen/ossim-igen.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-igen/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/15171/trunk/ossim/src/apps/ossim-igen/Makefile
+END

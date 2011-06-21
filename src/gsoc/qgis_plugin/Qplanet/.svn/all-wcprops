@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/16100/trunk/gsoc/qgis_plugin/Qplanet
+END
+epsg_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/epsg_ui.py
+END
+msgworn.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/msgworn.py
+END
+pref.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/15935/trunk/gsoc/qgis_plugin/Qplanet/pref.py
+END
+resources_rc.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/16016/trunk/gsoc/qgis_plugin/Qplanet/resources_rc.py
+END
+modelite_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/modelite_ui.py
+END
+kmlsave_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/16017/trunk/gsoc/qgis_plugin/Qplanet/kmlsave_ui.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16100/trunk/gsoc/qgis_plugin/Qplanet/__init__.py
+END
+model.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/model.py
+END
+planetsasha.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/16022/trunk/gsoc/qgis_plugin/Qplanet/planetsasha.py
+END
+geonames.sqlite
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/geonames.sqlite
+END
+episg.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/episg.py
+END
+transvector_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/transvector_ui.py
+END
+dataprocess.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/16022/trunk/gsoc/qgis_plugin/Qplanet/dataprocess.py
+END
+ui_control.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/ui_control.py
+END
+gpst.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/gpst.py
+END
+ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/ossim/!svn/ver/16017/trunk/gsoc/qgis_plugin/Qplanet/ui.py
+END
+g2k.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/g2k.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/Makefile
+END
+Shp2Shp.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/15935/trunk/gsoc/qgis_plugin/Qplanet/Shp2Shp.py
+END
+worningtcp_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/worningtcp_ui.py
+END
+images_rc.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/images_rc.py
+END
+gps.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/gps.py
+END
+Qdata.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/Qdata.py
+END
+LatLongUTMconversion.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/LatLongUTMconversion.py
+END
+OssimPython.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/OssimPython.py
+END
+model_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16017/trunk/gsoc/qgis_plugin/Qplanet/model_ui.py
+END
+epsg.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/epsg.py
+END
+VectorOp.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/VectorOp.py
+END
+planetsashatool.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/planetsashatool.py
+END
+Savekml.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/15935/trunk/gsoc/qgis_plugin/Qplanet/Savekml.py
+END
+modelite.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/modelite.py
+END
+msgworntcp.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/msgworntcp.py
+END
+data_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/16022/trunk/gsoc/qgis_plugin/Qplanet/data_ui.py
+END
+epsg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/epsg
+END
+resources.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15935/trunk/gsoc/qgis_plugin/Qplanet/resources.qrc
+END
+resources.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15935/trunk/gsoc/qgis_plugin/Qplanet/resources.py
+END
+preference_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/15935/trunk/gsoc/qgis_plugin/Qplanet/preference_ui.py
+END
+worning_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/15373/trunk/gsoc/qgis_plugin/Qplanet/worning_ui.py
+END
+GpsData.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/GpsData.py
+END
+GPS_ui.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/16015/trunk/gsoc/qgis_plugin/Qplanet/GPS_ui.py
+END

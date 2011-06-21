@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Data
+END
+Data.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Data/Data.h
+END
+ProcessedDataRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Data/ProcessedDataRecord.cpp
+END
+DataFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Data/DataFactory.cpp
+END
+ImageOptionsFileDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Data/ImageOptionsFileDescriptor.h
+END
+ProcessedDataRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Data/ProcessedDataRecord.h
+END
+DataFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/16868/trunk/ossim_plugins/ossim/RadarSat/Data/DataFactory.h
+END
+Data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Data/Data.cpp
+END
+ImageOptionsFileDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Data/ImageOptionsFileDescriptor.cpp
+END

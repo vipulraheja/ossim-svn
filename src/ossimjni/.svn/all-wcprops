@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/ossim/!svn/ver/19750/trunk/ossimjni
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/19748/trunk/ossimjni/LICENSE.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/19748/trunk/ossimjni/README.txt
+END
+LGPL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/19748/trunk/ossimjni/LGPL.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/19748/trunk/ossimjni/CMakeLists.txt
+END

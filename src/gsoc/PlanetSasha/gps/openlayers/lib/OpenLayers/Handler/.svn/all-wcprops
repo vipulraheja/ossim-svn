@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler
+END
+Click.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Click.js
+END
+Polygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Polygon.js
+END
+Box.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Box.js
+END
+Point.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Point.js
+END
+RegularPolygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/RegularPolygon.js
+END
+Feature.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Feature.js
+END
+Path.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Path.js
+END
+Drag.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Drag.js
+END
+MouseWheel.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/MouseWheel.js
+END
+Keyboard.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Keyboard.js
+END
+Hover.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/gps/openlayers/lib/OpenLayers/Handler/Hover.js
+END

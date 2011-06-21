@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/18848/trunk/gsoc/PlanetSasha/grass_script
+END
+d.png.legend
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/ossim/!svn/ver/17827/trunk/gsoc/PlanetSasha/grass_script/d.png.legend
+END
+d.png.legend.description.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/grass_script/d.png.legend.description.html
+END
+r.planet.description.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/grass_script/r.planet.description.html
+END
+r.planet.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/18848/trunk/gsoc/PlanetSasha/grass_script/r.planet.py
+END
+make3d.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/18706/trunk/gsoc/PlanetSasha/grass_script/make3d.py
+END
+v.planet.description.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/grass_script/v.planet.description.html
+END
+ogrTovrt.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/grass_script/ogrTovrt.py
+END
+v.planet.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/18760/trunk/gsoc/PlanetSasha/grass_script/v.planet.py
+END

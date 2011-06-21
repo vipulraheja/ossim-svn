@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil
+END
+vpfdict.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfdict.c
+END
+vpfnear.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfnear.c
+END
+vpfcntnt.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfcntnt.c
+END
+vpfclip.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfclip.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/9234/trunk/ossim/src/ossim/vpfutil/makefile.vc
+END
+vpftable.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpftable.c
+END
+vpfwrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfwrite.c
+END
+vpfmisc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/18110/trunk/ossim/src/ossim/vpfutil/vpfmisc.c
+END
+vpfselec.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfselec.c
+END
+vpfdraw.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfdraw.c
+END
+vpfdisp.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfdisp.c
+END
+bitarray.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/16166/trunk/ossim/src/ossim/vpfutil/bitarray.c
+END
+vpfquery.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfquery.c
+END
+polygrf.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/vpfutil/polygrf.c
+END
+vpfprim.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfprim.c
+END
+vpfrelat.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfrelat.c
+END
+vpfptply.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfptply.c
+END
+vpftidx.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpftidx.c
+END
+vpfspx.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfspx.c
+END
+vpfread.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/19636/trunk/ossim/src/ossim/vpfutil/vpfread.c
+END
+linklist.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/18110/trunk/ossim/src/ossim/vpfutil/linklist.c
+END
+distance.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/13586/trunk/ossim/src/ossim/vpfutil/distance.c
+END
+set.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/9094/trunk/ossim/src/ossim/vpfutil/set.c
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/1758/trunk/ossim/src/ossim/vpfutil/.cvsignore
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/13368/trunk/oms/joms/src/org/ossim/oms/imageio/spi
+END
+OSSIMImageWriterSpi.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/13368/trunk/oms/joms/src/org/ossim/oms/imageio/spi/OSSIMImageWriterSpi.java
+END
+OSSIMImageReaderSpi.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/13368/trunk/oms/joms/src/org/ossim/oms/imageio/spi/OSSIMImageReaderSpi.java
+END

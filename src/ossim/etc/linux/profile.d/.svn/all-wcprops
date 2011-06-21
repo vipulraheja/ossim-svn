@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/9909/trunk/ossim/etc/linux/profile.d
+END
+ossim.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/9909/trunk/ossim/etc/linux/profile.d/ossim.sh
+END
+ossim.csh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/9909/trunk/ossim/etc/linux/profile.d/ossim.csh
+END

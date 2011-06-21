@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/19740/trunk/ossim_plugins/mrsid
+END
+ossimMrSidWriterFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/17384/trunk/ossim_plugins/mrsid/ossimMrSidWriterFactory.cpp
+END
+ossimMrSidReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/17934/trunk/ossim_plugins/mrsid/ossimMrSidReader.h
+END
+ossimMrSidWriterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/17384/trunk/ossim_plugins/mrsid/ossimMrSidWriterFactory.h
+END
+ossimMrSidReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ossim/!svn/ver/19740/trunk/ossim_plugins/mrsid/ossimMrSidReaderFactory.cpp
+END
+ossimMrSidWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19740/trunk/ossim_plugins/mrsid/ossimMrSidWriter.cpp
+END
+ossimMrSidReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ossim/!svn/ver/19740/trunk/ossim_plugins/mrsid/ossimMrSidReaderFactory.h
+END
+ossimMrSidWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/17934/trunk/ossim_plugins/mrsid/ossimMrSidWriter.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19740/trunk/ossim_plugins/mrsid/CMakeLists.txt
+END
+ossimMrSidPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/17384/trunk/ossim_plugins/mrsid/ossimMrSidPluginInit.cpp
+END
+ossimMrSidReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19740/trunk/ossim_plugins/mrsid/ossimMrSidReader.cpp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ossim/!svn/ver/18363/trunk/ossim/src/apps/ossim-rpf
+END
+ossim-rpf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/ossim/!svn/ver/18363/trunk/ossim/src/apps/ossim-rpf/ossim-rpf.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/16996/trunk/ossim/src/apps/ossim-rpf/makefile.vc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-rpf/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ossim/!svn/ver/16996/trunk/ossim/src/apps/ossim-rpf/Makefile
+END

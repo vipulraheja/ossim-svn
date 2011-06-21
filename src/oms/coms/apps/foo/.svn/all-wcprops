@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/10099/trunk/oms/coms/apps/foo
+END
+foo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/10099/trunk/oms/coms/apps/foo/foo.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/9377/trunk/oms/coms/apps/foo/Makefile
+END

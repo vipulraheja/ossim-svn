@@ -1,0 +1,282 @@
+###
+# $Id: makefile.vc 15844 2009-11-03 21:13:14Z dburken $
+#
+# Windows nmake make file.
+###
+
+default:
+	cd ossim-applanix2ogeom
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-band-merge
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-btoa
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-chgkwval
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-cmm
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-computeSrtmStats
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-correl
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-create-cg
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-create-histo
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-deg2dms
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-dms2deg
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-dump-ocg
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-extract-vertices
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-height
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-icp
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-igen
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-img2md
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-img2rr
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-info
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-modopt
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-mosaic
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-ogeom2ogeom
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-orthoigen
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-pixelflip
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-prune
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-rejout
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-senint
+	$(MAKE) /f makefile.vc
+	cd .. 
+	cd ossim-space-imaging
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-swapbytes
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd ossim-tfw2ogeom
+	$(MAKE) /f makefile.vc
+	cd ..
+
+install:
+	cd ossim-applanix2ogeom
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-band-merge
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-btoa
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-chgkwval
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-cmm
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-computeSrtmStats
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-correl
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-create-cg
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-create-histo
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-deg2dms
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-dms2deg
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-dump-ocg
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-extract-vertices
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-height
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-icp
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-igen
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-img2md
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-img2rr
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-info
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-modopt
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-mosaic
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-ogeom2ogeom
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-orthoigen
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-pixelflip
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-prune
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-rejout
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-senint
+	$(MAKE) /f makefile.vc install
+	cd .. 
+	cd ossim-space-imaging
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-swapbytes
+	$(MAKE) /f makefile.vc install
+	cd ..
+	cd ossim-tfw2ogeom
+	$(MAKE) /f makefile.vc install
+	cd ..
+
+
+clean:
+	cd ossim-applanix2ogeom
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-band-merge
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-btoa
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-chgkwval
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-cmm
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-computeSrtmStats
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-correl
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-create-cg
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-create-histo
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-deg2dms
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-dms2deg
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-dump-ocg
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-extract-vertices
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-height
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-icp
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-igen
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-img2md
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-img2rr
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-info
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-modopt
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-mosaic
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-ogeom2ogeom
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-orthoigen
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-pixelflip
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-prune
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-rejout
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-senint
+	$(MAKE) /f makefile.vc clean
+	cd .. 
+	cd ossim-space-imaging
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-swapbytes
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd ossim-tfw2ogeom
+	$(MAKE) /f makefile.vc clean
+	cd ..

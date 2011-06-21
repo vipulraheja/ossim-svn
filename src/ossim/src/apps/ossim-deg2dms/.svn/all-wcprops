@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-deg2dms
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/14835/trunk/ossim/src/apps/ossim-deg2dms/makefile.vc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-deg2dms/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15539/trunk/ossim/src/apps/ossim-deg2dms/Makefile
+END
+ossim-deg2dms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/14831/trunk/ossim/src/apps/ossim-deg2dms/ossim-deg2dms.cpp
+END

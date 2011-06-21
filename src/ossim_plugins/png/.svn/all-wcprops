@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/19730/trunk/ossim_plugins/png
+END
+ossimPngReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19446/trunk/ossim_plugins/png/ossimPngReaderFactory.h
+END
+ossimPngWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19730/trunk/ossim_plugins/png/ossimPngWriter.h
+END
+ossimPngPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19669/trunk/ossim_plugins/png/ossimPngPluginInit.cpp
+END
+ossimPngReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19730/trunk/ossim_plugins/png/ossimPngReader.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/ossim/!svn/ver/12864/trunk/ossim_plugins/png/makefile.vc
+END
+ossimPngWriterFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/18003/trunk/ossim_plugins/png/ossimPngWriterFactory.cpp
+END
+ossimPngReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/15508/trunk/ossim_plugins/png/ossimPngReader.h
+END
+ossimPngWriterFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/18003/trunk/ossim_plugins/png/ossimPngWriterFactory.h
+END
+ossimPngReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19446/trunk/ossim_plugins/png/ossimPngReaderFactory.cpp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/9812/trunk/ossim_plugins/png/.cvsignore
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/17583/trunk/ossim_plugins/png/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ossim/!svn/ver/15778/trunk/ossim_plugins/png/Makefile
+END
+ossimPngWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19730/trunk/ossim_plugins/png/ossimPngWriter.cpp
+END

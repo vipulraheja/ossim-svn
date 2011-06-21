@@ -1,0 +1,385 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>ossimQtElevationManagerDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtElevationManagerDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>320</width>
+            <height>393</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Elevation Manager</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout13</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout10</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QGroupBox">
+                            <property name="name">
+                                <cstring>theElevationCellGroup</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Elevation cells</string>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="ossimQListBox" row="0" column="0">
+                                    <property name="name">
+                                        <cstring>theElevationListBox</cstring>
+                                    </property>
+                                </widget>
+                            </grid>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout5</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theAddButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Add</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theAddDirectoryButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Add directory</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theRemoveButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Remove</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theRemoveAllButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Remove all</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theMoveUpButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Move up</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theMoveDownButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Move down</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theMoveToTopButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Move to top</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theMoveToBottomButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Move to bottom</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>theMosaicButton</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Mosaic</string>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout6</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>theElevationEnabledCheckBox</cstring>
+                            </property>
+                            <property name="text">
+                                <string>elevation enabled</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>elevation enable</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Enable elevation lookups</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>theAutoLoadCheckBox</cstring>
+                            </property>
+                            <property name="text">
+                                <string>auto load</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>elevation enable</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Enable elevation lookups</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>theAutoSortCheckBox</cstring>
+                            </property>
+                            <property name="text">
+                                <string>auto sorting</string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>elevation enable</string>
+                            </property>
+                            <property name="whatsThis" stdset="0">
+                                <string>Enable elevation lookups</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="Line">
+            <property name="name">
+                <cstring>line1</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout15</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>215</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>215</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theAddButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>addButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theRemoveButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>removeButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theRemoveAllButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>removeAllButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>closeButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAddDirectoryButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>addDirectoryClicked()</slot>
+    </connection>
+    
+    <connection>
+        <sender>theElevationEnabledCheckBox</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>elevationEnabledCheckBoxClicked()</slot>
+    </connection>
+
+    <connection>
+        <sender>theAutoLoadCheckBox</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>autoLoadCheckBoxClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAutoSortCheckBox</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>autoSortingCheckBoxClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMosaicButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>mosaicButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMoveUpButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>moveUpButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMoveDownButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>moveDownButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMoveToBottomButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>moveToBottomButtonClicked()</slot>
+    </connection>
+    <connection>
+        <sender>theMoveToTopButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtElevationManagerDialog</receiver>
+        <slot>moveToTopButtonClicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtElevationManagerController.h</include>
+    <include location="local" impldecl="in implementation">ossimQListBox.h</include>
+    <include location="global" impldecl="in implementation">qfiledialog.h</include>
+    <include location="local" impldecl="in implementation">ossimQtElevationManagerDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtElevationManagerController</forward>
+</forwards>
+<variables>
+    <variable>ossimQtElevationManagerController* theController;</variable>
+</variables>
+<slots>
+    <slot>elevationEnabledCheckBoxClicked()</slot>
+    <slot>closeButtonClicked()</slot>
+    <slot>addDirectoryClicked()</slot>
+    <slot>removeButtonClicked()</slot>
+    <slot>moveUpButtonClicked()</slot>
+    <slot>removeAllButtonClicked()</slot>
+    <slot>moveDownButtonClicked()</slot>
+    <slot>moveToTopButtonClicked()</slot>
+    <slot>moveToBottomButtonClicked()</slot>
+    <slot>mosaicButtonClicked()</slot>
+    <slot>autoLoadCheckBoxClicked()</slot>
+    <slot>autoSortingCheckBoxClicked()</slot>
+    <slot>addButtonClicked()</slot>
+</slots>
+<functions>
+    <function access="private">init()</function>
+    <function access="protected">destroy()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

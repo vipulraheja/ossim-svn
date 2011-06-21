@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ossim/!svn/ver/19691/trunk/ossim/src/apps/ossim-btoa
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/15118/trunk/ossim/src/apps/ossim-btoa/makefile.vc
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/15118/trunk/ossim/src/apps/ossim-btoa/.cvsignore
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/17025/trunk/ossim/src/apps/ossim-btoa/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/15118/trunk/ossim/src/apps/ossim-btoa/Makefile
+END
+ossim-btoa.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19691/trunk/ossim/src/apps/ossim-btoa/ossim-btoa.cpp
+END

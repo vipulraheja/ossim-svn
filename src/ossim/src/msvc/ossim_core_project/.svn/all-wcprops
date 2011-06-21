@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/9436/trunk/ossim/src/msvc/ossim_core_project
+END
+Stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/6197/trunk/ossim/src/msvc/ossim_core_project/Stdafx.h
+END
+app.rc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/6197/trunk/ossim/src/msvc/ossim_core_project/app.rc
+END
+compiler_options.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/6197/trunk/ossim/src/msvc/ossim_core_project/compiler_options.txt
+END
+ossim_core_project.sln
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/8252/trunk/ossim/src/msvc/ossim_core_project/ossim_core_project.sln
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/ossim/!svn/ver/6316/trunk/ossim/src/msvc/ossim_core_project/makefile.vc
+END
+app.ico
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/6197/trunk/ossim/src/msvc/ossim_core_project/app.ico
+END
+ossim_core_project.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/6387/trunk/ossim/src/msvc/ossim_core_project/ossim_core_project.cpp
+END
+Stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/6197/trunk/ossim/src/msvc/ossim_core_project/Stdafx.cpp
+END
+ossim_core_project.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/9436/trunk/ossim/src/msvc/ossim_core_project/ossim_core_project.vcproj
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/6197/trunk/ossim/src/msvc/ossim_core_project/ReadMe.txt
+END
+AssemblyInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/ossim/!svn/ver/6197/trunk/ossim/src/msvc/ossim_core_project/AssemblyInfo.cpp
+END
+ossim_core_project.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/6387/trunk/ossim/src/msvc/ossim_core_project/ossim_core_project.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/ossim/!svn/ver/3819/trunk/ossim/specs
+END
+gdal.spec
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ossim/!svn/ver/3798/trunk/ossim/specs/gdal.spec
+END
+ossim-geoid.spec
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ossim/!svn/ver/3819/trunk/ossim/specs/ossim-geoid.spec
+END
+geotiff.spec
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ossim/!svn/ver/3798/trunk/ossim/specs/geotiff.spec
+END

@@ -1,0 +1,444 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>ossimQtDatumConverterDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtDatumConverterDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>799</width>
+            <height>471</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Datum converter</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout35</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout34</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QGroupBox" row="1" column="0" rowspan="1" colspan="4">
+                            <property name="name">
+                                <cstring>groupBox2</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Datum Description</string>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QTextEdit">
+                                    <property name="name">
+                                        <cstring>textEdit1</cstring>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <widget class="QLabel" row="8" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Height above mean sea level</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="3" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2_2_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="9" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Geocentric &lt;X, Y, Z&gt;</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="5" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>UTM Easting</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="2" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2_2_2_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="7" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="4" column="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="0" column="1" rowspan="1" colspan="3">
+                            <property name="name">
+                                <cstring>theDatumLeftCombo</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Datum:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="6" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="9" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox" row="4" column="3">
+                            <property name="name">
+                                <cstring>checkBox4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Fix zone</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="7" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Height above ellipsoid</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="2" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Lat</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="6" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>UTM Northing</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="3" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Lon:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="8" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="5" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="4" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>UTM Zone</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="Line">
+                    <property name="name">
+                        <cstring>line2</cstring>
+                    </property>
+                    <property name="frameShape">
+                        <enum>VLine</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>Sunken</enum>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout33</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel" row="2" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Lat</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="3" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2_2_2_3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="7" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Height above ellipsoid</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox" row="0" column="1" rowspan="1" colspan="3">
+                            <property name="name">
+                                <cstring>theDatumLeftCombo_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="6" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>UTM Northing</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="6" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="5" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2_3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="3" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Lon:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="4" column="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2_2_3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="8" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="2" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_2_2_2_2_2_2</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="5" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>UTM Easting</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="7" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_2_2_3</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="9" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2_2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Geocentric &lt;X, Y, Z&gt;</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="8" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_2_2_2_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Height above mean sea level</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>textLabel1_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Datum:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="4" column="0" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>textLabel1_2_2_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>UTM Zone</string>
+                            </property>
+                        </widget>
+                        <widget class="QGroupBox" row="1" column="0" rowspan="1" colspan="4">
+                            <property name="name">
+                                <cstring>groupBox2_2</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Datum Description</string>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QTextEdit">
+                                    <property name="name">
+                                        <cstring>textEdit1_2</cstring>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <widget class="QCheckBox" row="4" column="3">
+                            <property name="name">
+                                <cstring>checkBox4_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Fix zone</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit" row="9" column="2" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>lineEdit1_3</cstring>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="Line">
+            <property name="name">
+                <cstring>line2_2</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout36</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer5</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>342</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButton12</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer6</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>341</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>pushButton12</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtDatumConverterDialog</receiver>
+        <slot>pushButton12_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtDatumConverterDialog.ui.h</include>
+</includes>
+<slots>
+    <slot>pushButton12_clicked()</slot>
+</slots>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

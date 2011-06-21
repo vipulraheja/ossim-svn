@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/ossim/!svn/ver/19302/trunk/oms/joms
+END
+local.properties.template
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/18379/trunk/oms/joms/local.properties.template
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ossim/!svn/ver/13174/trunk/oms/joms/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/11664/trunk/oms/joms/.project
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/9982/trunk/oms/joms/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ossim/!svn/ver/18520/trunk/oms/joms/build.xml
+END

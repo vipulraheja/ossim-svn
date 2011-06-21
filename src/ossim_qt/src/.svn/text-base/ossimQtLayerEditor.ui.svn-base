@@ -1,0 +1,277 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtLayerEditor</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>ossimQtLayerEditor</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>588</width>
+            <height>230</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>ossimQtLayerEditor</string>
+    </property>
+    <hbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>theAvailableInputsGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>Available</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="0">
+                    <property name="name">
+                        <cstring>layout9</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="ossimQListBox">
+                            <property name="name">
+                                <cstring>theAvailableLayersListBox</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>7</hsizetype>
+                                    <vsizetype>7</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout6</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>40</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theAddLayerButton</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>--&gt;</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theRemoveLayerButton</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>&lt;--</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer4</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>66</height>
+                        </size>
+                    </property>
+                </spacer>
+            </vbox>
+        </widget>
+        <widget class="QGroupBox">
+            <property name="name">
+                <cstring>theInputsGroupBox</cstring>
+            </property>
+            <property name="title">
+                <string>Inputs</string>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="ossimQListBox">
+                    <property name="name">
+                        <cstring>theCurrentInputLayersListBox</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>7</hsizetype>
+                            <vsizetype>7</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>0</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout4</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theUpButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Up</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>theDownButton</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Down</string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </vbox>
+        </widget>
+    </hbox>
+</widget>
+<customwidgets>
+    <customwidget>
+        <class>ossimQListBox</class>
+        <header location="local">ossimQListBox.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>5</hordata>
+            <verdata>5</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image0</pixmap>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="XPM.GZ" length="45">789cd3d7528808f055d0d2e72a2e492cc94c5648ce482c52d04a29cdcdad8c8eb5ade6523250004143a55a6b2e0026630c4f</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>theUpButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtLayerEditor</receiver>
+        <slot>theUpButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theDownButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtLayerEditor</receiver>
+        <slot>theDownButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theAddLayerButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtLayerEditor</receiver>
+        <slot>theAddLayerButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theRemoveLayerButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtLayerEditor</receiver>
+        <slot>theRemoveLayerButton_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtLayerEditorController.h</include>
+    <include location="local" impldecl="in implementation">ossimQListBox.h</include>
+    <include location="local" impldecl="in implementation">ossimQtLayerEditor.ui.h</include>
+</includes>
+<forwards>
+    <forward>class QListBoxItem;</forward>
+    <forward>class ossimQtLayerEditorController;</forward>
+</forwards>
+<variables>
+    <variable>ossimQtLayerEditorController* theController;</variable>
+</variables>
+<signals>
+    <signal>addingSelectedLayersToInput(bool&amp; canAddAvailableToInput);</signal>
+    <signal>removingSelectedLayersFromInput(bool&amp; canRemoveLayerFromInput);</signal>
+    <signal>movingSelectedLayersUp(bool&amp; canMoveLayersUpFlag);</signal>
+    <signal>movingSelectedLayersDown(bool&amp; canMoveSelectedLayersDownFlag);</signal>
+    <signal>inputLayersChanged();</signal>
+</signals>
+<slots>
+    <slot>theUpButton_clicked()</slot>
+    <slot>theDownButton_clicked()</slot>
+    <slot>theAddLayerButton_clicked()</slot>
+    <slot>theRemoveLayerButton_clicked()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function returnType="ossimQtLayerEditorController *">controller()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>ossimQListBox.h</includehint>
+</includehints>
+</UI>

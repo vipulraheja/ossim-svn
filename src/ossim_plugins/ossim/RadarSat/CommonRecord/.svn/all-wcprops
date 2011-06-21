@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord
+END
+RadiometricData.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/RadiometricData.h
+END
+ProcessingParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/ProcessingParameters.h
+END
+DataSetSummary.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataSetSummary.h
+END
+RadiometryUncertaintyRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/RadiometryUncertaintyRecord.h
+END
+BeamInformationRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/BeamInformationRecord.cpp
+END
+DataPointDataRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataPointDataRecord.cpp
+END
+AttitudeData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/AttitudeData.cpp
+END
+TemperatureSettingsRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/TemperatureSettingsRecord.cpp
+END
+FileDescriptor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/FileDescriptor.cpp
+END
+RadiometricCompensationData.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/RadiometricCompensationData.h
+END
+BeamPixelCountRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/BeamPixelCountRecord.h
+END
+DataHistogramSignalData.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataHistogramSignalData.h
+END
+MisregistrationRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/MisregistrationRecord.h
+END
+DataQuality.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataQuality.h
+END
+SRGRCoefficientSetRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/SRGRCoefficientSetRecord.cpp
+END
+DataHistogramRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataHistogramRecord.h
+END
+RadiometricData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/RadiometricData.cpp
+END
+DopplerCentroidEstimateRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DopplerCentroidEstimateRecord.h
+END
+CompensationDataRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/CompensationDataRecord.h
+END
+ProcessingParameters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/ProcessingParameters.cpp
+END
+DataSetSummary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataSetSummary.cpp
+END
+RadiometryUncertaintyRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/RadiometryUncertaintyRecord.cpp
+END
+RadiometricCompensationData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/RadiometricCompensationData.cpp
+END
+BeamInformationRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/BeamInformationRecord.h
+END
+BeamPixelCountRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/BeamPixelCountRecord.cpp
+END
+DataHistogramSignalData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataHistogramSignalData.cpp
+END
+DataPointDataRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataPointDataRecord.h
+END
+MisregistrationRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/MisregistrationRecord.cpp
+END
+AttitudeData.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/AttitudeData.h
+END
+DataQuality.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataQuality.cpp
+END
+TemperatureSettingsRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/TemperatureSettingsRecord.h
+END
+FileDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/FileDescriptor.h
+END
+DataHistogramRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DataHistogramRecord.cpp
+END
+DopplerCentroidEstimateRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/DopplerCentroidEstimateRecord.cpp
+END
+CompensationDataRecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/CompensationDataRecord.cpp
+END
+SRGRCoefficientSetRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/CommonRecord/SRGRCoefficientSetRecord.h
+END

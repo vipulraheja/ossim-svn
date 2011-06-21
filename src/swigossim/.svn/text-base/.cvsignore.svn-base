@@ -1,0 +1,8 @@
+bin
+history.xml
+libjossim.jnilib
+.project
+.classpath
+local.properties
+jossim.dll
+dist

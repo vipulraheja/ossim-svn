@@ -1,0 +1,11 @@
+###
+# $Id$
+# 
+# nmake makefile
+#
+# Typical usage:  nmake /f makefile.vc
+###
+
+PROGRAM=ossim-info
+
+!include ..\makefile.inc

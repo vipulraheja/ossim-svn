@@ -1,0 +1,34 @@
+To build Library
+
+Make
+
+to build test executables in main directory:
+
+make image_open
+make image_data
+make image_copy
+
+this copies executables into bin/
+
+to run test code
+
+./test.sh
+
+
+the file ossim_ada.pbproj is a project file for os x IDE
+copy_ali.sh is part of os x IDE scripts to install the library
+
+test_files are some simple test files
+
+Source
+	test program source code
+	C_Bindings   -  c bindings to the c++ classes
+	Ada_Bindings -  Ada bindings.
+	
+	
+	the ada tagged types mostly mirror the ossim class structure which is documented on ossim website.
+	
+	
+let me know if you have questions. i am working on a UML model of the bindings.  the test code though shows how easy it is to use.  for example ossim_copy test shows how to take a dted file and convert it to jpeg (use image_copy with no arguments to see the list of file types it knows how to write, it can read many more types than it can read)
+
+best jim

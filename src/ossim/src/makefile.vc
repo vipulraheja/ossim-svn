@@ -1,0 +1,29 @@
+###
+# $Id: makefile.vc 9229 2006-07-05 21:08:52Z dburken $
+#
+# Windows nmake make file.
+###
+OSSIM_ROOT	=	..
+!INCLUDE $(OSSIM_ROOT)\nmake.opt
+
+default:
+	cd ossim
+	$(MAKE) /f makefile.vc
+	cd ..
+	cd apps
+	$(MAKE) /f makefile.vc
+	cd ..
+
+install:
+	cd apps
+	$(MAKE) /f makefile.vc install
+	cd ..
+
+clean:
+	cd ossim
+	$(MAKE) /f makefile.vc clean
+	cd ..
+	cd apps
+	$(MAKE) /f makefile.vc clean
+	cd ..
+

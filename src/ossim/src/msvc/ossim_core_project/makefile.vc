@@ -1,0 +1,27 @@
+GDAL_LIBS = 	gdal.lib \
+		cpl.lib \
+		ogr.lib \
+		ogr2ogr.lib \
+		ogrinfo.lib \
+		ogrsf_frmts.lib \
+		ogrsf_frmts_sup.lib \
+		libjpeg.lib
+
+# GDAL_LIBS2 = 	gdal_i.lib
+
+MR_SID_LIBS = /LIBPATH:C:\drb\mrsid\Win7_DSDK\lib MrSIDDecode_md.lib lt_xTrans_md.lib advapi32.lib user32.lib
+
+OBJ = *.obj
+
+LIB_DIR = ..\..\..\lib
+
+default:	$(OBJ)
+        link /OUT:"$(LIB_DIR)\ossim.dll" /NOLOGO /DLL /IMPLIB:"$(LIB_DIR)\ossim.lib"  $(OBJ) /LIBPATH:$(LIB_DIR) $(GDAL_LIBS) $(MR_SID_LIBS) odbc32.lib
+
+#        link /OUT:".\ossim.dll" /INCREMENTAL:NO /NOLOGO /DLL /IMPLIB:".\ossim.lib"  $(OBJ) $(GDAL_LIBS) odbc32.lib msvcrt.lib
+
+# $(GDAL_LIBS) kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib msvcrt.lib
+
+clean:
+	-del *.obj *.lib *.dll
+

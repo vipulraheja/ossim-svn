@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf
+END
+ossimHdfGridModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfGridModel.cpp
+END
+ossimHdfGridModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfGridModel.h
+END
+ossimHdfPluginInit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfPluginInit.cpp
+END
+ossimHdfInfoFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfInfoFactory.cpp
+END
+ossimHdf4SubDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf4SubDataset.cpp
+END
+ossimHdf5SubDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf5SubDataset.cpp
+END
+ossimHdf4Reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf4Reader.cpp
+END
+ossimHdf5Reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf5Reader.cpp
+END
+ossimHdfInfoFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfInfoFactory.h
+END
+ossimHdf4SubDataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf4SubDataset.h
+END
+ossimHdf5SubDataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf5SubDataset.h
+END
+ossimHdfReaderFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfReaderFactory.cpp
+END
+ossimHdfInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfInfo.cpp
+END
+ossimHdf4Reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf4Reader.h
+END
+ossimHdf5Reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdf5Reader.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/CMakeLists.txt
+END
+ossimHdfReaderFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfReaderFactory.h
+END
+ossimHdfInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ossim/!svn/ver/19719/trunk/ossim_plugins/hdf/ossimHdfInfo.h
+END

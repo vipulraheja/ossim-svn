@@ -1,0 +1,360 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtUnitConverterDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtUnitConverterDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>318</width>
+            <height>366</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Unit Converter</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout38</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Meters:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="8" column="1">
+                    <property name="name">
+                        <cstring>theSecondsField</cstring>
+                    </property>
+                    <property name="frameShape">
+                        <enum>LineEditPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                        <enum>Sunken</enum>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="3" column="1">
+                    <property name="name">
+                        <cstring>theMilesField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="3" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Miles:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="7" column="1">
+                    <property name="name">
+                        <cstring>theMinutesField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="5" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_5_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Radians:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="6" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_5_2_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Degrees:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Feet:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="4" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_5</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Nautical miles:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="7" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_5_2_2_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Minutes:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="5" column="1">
+                    <property name="name">
+                        <cstring>theRadiansField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>U.S. survey feet:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="8" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_5_2_2_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Seconds:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="4" column="1">
+                    <property name="name">
+                        <cstring>theNauticalMilesField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="6" column="1">
+                    <property name="name">
+                        <cstring>theDegreesField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="9" column="0">
+                    <property name="name">
+                        <cstring>textLabel2_5_2_2_3_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Dms:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>theMetersField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="9" column="1">
+                    <property name="name">
+                        <cstring>theDmsField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="2" column="1">
+                    <property name="name">
+                        <cstring>theUsSurveyFeetField</cstring>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="1" column="1">
+                    <property name="name">
+                        <cstring>theFeetField</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="Line">
+            <property name="name">
+                <cstring>line4</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout39</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>theCloseButtonSpacerLeft</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>TabFocus</enum>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>theCloseButtonSpacerRight</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theCloseButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theDmsField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theDmsField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theMetersField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theMetersField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theFeetField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theFeetField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theUsSurveyFeetField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theUsSurveyFeetField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theNauticalMilesField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theNauticalMilesField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theRadiansField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theRadiansField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theDegreesField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theDegreesField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theMinutesField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theMinutesField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theSecondsField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theSecondsField_returnPressed()</slot>
+    </connection>
+    <connection>
+        <sender>theMilesField</sender>
+        <signal>returnPressed()</signal>
+        <receiver>ossimQtUnitConverterDialog</receiver>
+        <slot>theMilesField_returnPressed()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>theMetersField</tabstop>
+    <tabstop>theFeetField</tabstop>
+    <tabstop>theUsSurveyFeetField</tabstop>
+    <tabstop>theMilesField</tabstop>
+    <tabstop>theNauticalMilesField</tabstop>
+    <tabstop>theRadiansField</tabstop>
+    <tabstop>theDegreesField</tabstop>
+    <tabstop>theMinutesField</tabstop>
+    <tabstop>theSecondsField</tabstop>
+    <tabstop>theDmsField</tabstop>
+    <tabstop>theCloseButton</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in declaration">ossim/base/ossimUnitConversionTool.h</include>
+    <include location="local" impldecl="in implementation">ossim/base/ossimDms.h</include>
+    <include location="local" impldecl="in implementation">ossimQtUnitConverterDialog.ui.h</include>
+</includes>
+<variables>
+    <variable>ossimUnitConversionTool theConversionTool;</variable>
+    <variable>mutable bool theUpdateFlag;</variable>
+</variables>
+<slots>
+    <slot>updateFields()</slot>
+    <slot>theCloseButton_clicked()</slot>
+    <slot>theDmsField_returnPressed()</slot>
+    <slot>theMetersField_returnPressed()</slot>
+    <slot>theFeetField_returnPressed()</slot>
+    <slot>theUsSurveyFeetField_returnPressed()</slot>
+    <slot>theNauticalMilesField_returnPressed()</slot>
+    <slot>theRadiansField_returnPressed()</slot>
+    <slot>theDegreesField_returnPressed()</slot>
+    <slot>theMinutesField_returnPressed()</slot>
+    <slot>theSecondsField_returnPressed()</slot>
+    <slot>theMilesField_returnPressed()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

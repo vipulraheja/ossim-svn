@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Trailer
+END
+TrailerFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Trailer/TrailerFactory.h
+END
+Trailer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Trailer/Trailer.cpp
+END
+Trailer.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Trailer/Trailer.h
+END
+TrailerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ossim/!svn/ver/19550/trunk/ossim_plugins/ossim/RadarSat/Trailer/TrailerFactory.cpp
+END

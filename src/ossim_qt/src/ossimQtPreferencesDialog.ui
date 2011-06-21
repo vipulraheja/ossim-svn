@@ -1,0 +1,282 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>ossimQtPreferencesDialog</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ossimQtPreferencesDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>684</width>
+            <height>409</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Preferences</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>true</bool>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QTabWidget">
+            <property name="name">
+                <cstring>theTabWidget</cstring>
+            </property>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Plugins</string>
+                </attribute>
+                <hbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>groupBox1</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Plugins</string>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout5</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QListBox">
+                                        <property name="name">
+                                            <cstring>thePluginList</cstring>
+                                        </property>
+                                        <property name="selectionMode">
+                                            <enum>Multi</enum>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLayoutWidget">
+                                        <property name="name">
+                                            <cstring>layout4</cstring>
+                                        </property>
+                                        <hbox>
+                                            <property name="name">
+                                                <cstring>unnamed</cstring>
+                                            </property>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>theAddPluginButton</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Add</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>theSelectAllPluginButton</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Select all</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>theReloadPluginButton</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Reload</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QPushButton">
+                                                <property name="name">
+                                                    <cstring>theRemovePluginButton</cstring>
+                                                </property>
+                                                <property name="enabled">
+                                                    <bool>true</bool>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Remove</string>
+                                                </property>
+                                            </widget>
+                                        </hbox>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                        </vbox>
+                    </widget>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>groupBox2</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Description</string>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QTextEdit">
+                                <property name="name">
+                                    <cstring>thePluginDescription</cstring>
+                                </property>
+                                <property name="enabled">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="readOnly">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                        </vbox>
+                    </widget>
+                </hbox>
+            </widget>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout6</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>284</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>theCloseButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Close</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer4</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>284</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>Layout1</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>theAddPluginButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtPreferencesDialog</receiver>
+        <slot>theAddPluginButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theRemovePluginButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtPreferencesDialog</receiver>
+        <slot>theRemovePluginButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theCloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtPreferencesDialog</receiver>
+        <slot>theCloseButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>thePluginList</sender>
+        <signal>currentChanged(QListBoxItem*)</signal>
+        <receiver>ossimQtPreferencesDialog</receiver>
+        <slot>thePluginList_currentChanged(QListBoxItem*)</slot>
+    </connection>
+    <connection>
+        <sender>theSelectAllPluginButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtPreferencesDialog</receiver>
+        <slot>theSelectAllPluginButton_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>theReloadPluginButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ossimQtPreferencesDialog</receiver>
+        <slot>theReloadPluginButton_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">ossimQtPreferencesDialogController.h</include>
+    <include location="local" impldecl="in implementation">ossimQtPreferencesDialog.ui.h</include>
+</includes>
+<forwards>
+    <forward>class ossimQtPreferencesDialogController;</forward>
+</forwards>
+<variables>
+    <variable>ossimQtPreferencesDialogController* theController;</variable>
+</variables>
+<slots>
+    <slot>theAddPluginButton_clicked()</slot>
+    <slot>theRemovePluginButton_clicked()</slot>
+    <slot>theCloseButton_clicked()</slot>
+    <slot>thePluginList_currentChanged( QListBoxItem * item )</slot>
+    <slot>theSelectAllPluginButton_clicked()</slot>
+    <slot>theReloadPluginButton_clicked()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function access="private" specifier="non virtual">destroy()</function>
+    <function returnType="ossimQtPreferencesDialogController *">controller()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
