@@ -1,0 +1,5 @@
+File	: README
+Author	: Vipul Raheja
+License	: LGPL
+
+PyOSSIM will act as a Python wrapper to the core library, making available the functionalities of OSSIM core libraries via Python, originally written in C++. Many GIS analysis tools like GRASS and QGIS, as well as libraries like GDAL have the Python binding support, but OSSIM also needs it in order to enable these tools and libraries to interact with it. In this way, we shall be making available the functionalities of OSSIM to these GIS and remote sensing analysis tools and libraries.
