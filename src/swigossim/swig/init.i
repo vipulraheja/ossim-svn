@@ -1,7 +1,7 @@
 %module jossim
 %{
-#include <ossim/init/ossimInit.h>	
-%}	
+#include <ossim/init/ossimInit.h>
+%}
 
 %include "various.i"
 
@@ -10,9 +10,9 @@
 class ossimInit
 {
 public:
-	static ossimInit* instance();
-	void initialize( int argc, char **argv);
-	
+        static ossimInit* instance();
+        void initialize( int argc, char **argv);
+
 protected:
-	ossimInit();
-};			
+        ossimInit();
+};

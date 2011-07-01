@@ -25,14 +25,14 @@
 template<class T> class ossimRefPtr
 {
 public:
-	T* operator->();
-	bool valid() const;
-	T* get();	
+        T* operator->();
+        bool valid() const;
+        T* get();
 };
 
 %include "std_vector.i"
 
-%include <ossim/base/ossimConstants.h>	
+%include <ossim/base/ossimConstants.h>
 
 %typemap(javabody) SWIGTYPE %{
   protected long swigCPtr;
@@ -51,7 +51,7 @@ public:
 %typemap(javabody_derived) SWIGTYPE %{
 
   public $javaclassname(long cPtr, boolean cMemoryOwn) {
-	  super(cPtr,cMemoryOwn);
+          super(cPtr,cMemoryOwn);
   }
 %}
 
@@ -71,18 +71,18 @@ import jossim.base.ossimString;
 import jossim.base.ossimStringVector;	
 import jossim.base.ossimPropertyRefPtr;	
 import jossim.base.ossimPropertyRefPtrVector;	
-%}	
+%}
 class ossimPropertyInterface
 {
 public:
    virtual void setProperty(const ossimString& name,
                             const ossimString& value);
                             
-	virtual void setProperty(ossimRefPtr<ossimProperty> property);
-	virtual ossimRefPtr<ossimProperty> getProperty(const ossimString& name)const;
-	virtual void getPropertyNames(std::vector<ossimString>& propertyNames)const;
-	void getPropertyList(std::vector<ossimRefPtr<ossimProperty> >& propertyList)const;
-	void setProperties(std::vector<ossimRefPtr<ossimProperty> >& propertyList);
+        virtual void setProperty(ossimRefPtr<ossimProperty> property);
+        virtual ossimRefPtr<ossimProperty> getProperty(const ossimString& name)const;
+        virtual void getPropertyNames(std::vector<ossimString>& propertyNames)const;
+        void getPropertyList(std::vector<ossimRefPtr<ossimProperty> >& propertyList)const;
+        void setProperties(std::vector<ossimRefPtr<ossimProperty> >& propertyList);
    
 protected:
      ossimPropertyInterface();
@@ -90,33 +90,33 @@ protected:
 
 %typemap ( javaimports ) ossimConnectableObject
 %{
-import jossim.base.ossimString;	
-import jossim.base.ossimStringVector;	
-import jossim.base.ossimPropertyRefPtr;	
-import jossim.base.ossimPropertyRefPtrVector;	
-%}	
+import jossim.base.ossimString;
+import jossim.base.ossimStringVector;
+import jossim.base.ossimPropertyRefPtr;
+import jossim.base.ossimPropertyRefPtrVector;
+%}
 class ossimConnectableObject : public ossimPropertyInterface
 {
 protected:
    ossimConnectableObject();
    
 public:
-	virtual ossim_int32 connectMyInputTo(ossimConnectableObject* inputObject,
+        virtual ossim_int32 connectMyInputTo(ossimConnectableObject* inputObject,
                                         bool makeOutputConnection=true,
-                                        bool createEventFlag=true);	     
+                                        bool createEventFlag=true); 
                                                                     
-	virtual void setProperty(ossimRefPtr<ossimProperty> property);
-	virtual ossimRefPtr<ossimProperty> getProperty(const ossimString& name)const;
-	virtual void getPropertyNames(std::vector<ossimString>& propertyNames)const;
-	void getPropertyList(std::vector<ossimRefPtr<ossimProperty> >& propertyList)const;
-	void setProperties(std::vector<ossimRefPtr<ossimProperty> >& propertyList);                                        
+        virtual void setProperty(ossimRefPtr<ossimProperty> property);
+        virtual ossimRefPtr<ossimProperty> getProperty(const ossimString& name)const;
+        virtual void getPropertyNames(std::vector<ossimString>& propertyNames)const;
+        void getPropertyList(std::vector<ossimRefPtr<ossimProperty> >& propertyList)const;
+        void setProperties(std::vector<ossimRefPtr<ossimProperty> >& propertyList);                                        
 };
 
 class ossimSource : public ossimConnectableObject
 {
 public:
-	virtual void initialize();
-	
+        virtual void initialize();
+
 protected:
     ossimSource();
 };
@@ -148,44 +148,44 @@ protected:
 class ossimString
 {
 public:
-	ossimString();
+        ossimString();
     ossimString(const char*);
 };
 %extend ossimString {
-public:	
-	std::string toString()
-	{
-		return self->c_str();
-	}
+public:
+        std::string toString()
+        {
+                return self->c_str();
+        }
 };
 
 namespace std
 {
-	%template(ossimStringVector) vector<ossimString>; 
+        %template(ossimStringVector) vector<ossimString>; 
 }
 
 
 class ossimFilename : public ossimString
 {
 public:
-	ossimFilename(const char* src);	
+        ossimFilename(const char* src);
 };
 
 %typemap ( javaimports ) ossimIrect
 %{
 import jossim.base.ossimCoordSysOrientMode;
-import jossim.base.ossimIpt;	
+import jossim.base.ossimIpt;
 %}
-	
-	
+
+
 class ossimIpt
 {
 public:
-	ossimIpt(ossim_int32 anX, ossim_int32 aY);
-	ossim_int32 x;
-	ossim_int32 y;
+        ossimIpt(ossim_int32 anX, ossim_int32 aY);
+        ossim_int32 x;
+        ossim_int32 y;
 };
-		
+        
 class ossimIrect
 {
 public:
@@ -195,15 +195,15 @@ public:
               ossim_int32 lr_corner_y,
               ossimCoordSysOrientMode mode=OSSIM_LEFT_HANDED);
               
-	ossimIpt ul() const;
-	ossimIpt ur() const; 
-	ossimIpt lr() const; 
-	ossimIpt ll() const; 
+        ossimIpt ul() const;
+        ossimIpt ur() const; 
+        ossimIpt lr() const; 
+        ossimIpt ll() const; 
 
-	ossim_uint32 width() const;
-	ossim_uint32 height() const;
-	
-	 
+        ossim_uint32 width() const;
+        ossim_uint32 height() const;
+
+ 
 };
 
 
@@ -258,15 +258,15 @@ public:
     * Methods to dump the ossimKeywordlist to a file on disk.
     * @return true on success, false on error.
     */
-   bool write(const char* file) const;   	
+   bool write(const char* file) const;   
 };
 
 %extend ossimKeywordlist {
-public:	
-	std::string toString()
-	{
-		return self->toString();
-	}
+public:
+        std::string toString()
+        {
+                return self->toString();
+        }
 };
 
 class ossimGpt
@@ -324,7 +324,7 @@ import jossim.base.ossimObject;
 import jossim.base.ossimString;
 import jossim.base.ossimStringVector;
 import jossim.base.ossimKeywordlist;	
-%}	
+%}
 class ossimObjectFactory : public ossimObject
 {
 public:
@@ -348,7 +348,7 @@ public:
    virtual void getTypeNameList(std::vector<ossimString>& typeList)const=0;
 
 protected:
-	ossimObjectFactory();
+        ossimObjectFactory();
 };
 
 %include "various.i"
