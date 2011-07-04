@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------
-Filename        : projection.i
+Filename        : ossimProjection.i
 Author          : Vipul Raheja
 License         : See top level LICENSE.txt file.
 Description     : Contains SWIG-Python of class ossimProjection which is the 
@@ -77,4 +77,4 @@ class ossimProjection : public ossimObject
                 virtual ossimDpt getMetersPerPixel() const=0;
 
                 virtual bool isAffectedByElevation() const=0;
-}
+};

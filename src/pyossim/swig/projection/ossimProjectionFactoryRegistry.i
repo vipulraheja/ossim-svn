@@ -15,6 +15,7 @@ Description     :
 #include <ossim/base/ossimPropertyInterface.h>
 
 #include <ossim/projection/ossimProjection.h>
+#include <ossim/projection/ossimProjectionFactoryRegistry.h>
 #include <ossim/projection/ossimProjectionFactoryBase.h>
 %}
 
@@ -62,6 +63,4 @@ class ossimProjectionFactoryRegistry : public ossimObjectFactory
 
                 static ossimProjectionFactoryRegistry* m_instance;
                 void initializeDefaults();
-}
-
-/* Left out 
+};
