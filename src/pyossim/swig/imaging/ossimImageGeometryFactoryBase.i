@@ -12,11 +12,14 @@
 #include <ossim/base/ossimBaseObjectFactory.h>
 #include <ossim/imaging/ossimImageGeometry.h>
 #include <ossim/imaging/ossimImageGeometryFactoryBase.h>
+#include <ossim/imaging/ossimImageHandler.h>
 
 %}
 
-%import "ossim/imaging/ossimImageHandler.h";
+/* Include the required header files */
+%import "ossim/base/ossimConstants.h"
 
+/* Wrapping the class ossimImageGeometryFactoryBase */
 class ossimImageGeometryFactoryBase : public ossimBaseObjectFactory
 {
         public: 

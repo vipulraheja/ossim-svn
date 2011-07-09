@@ -14,6 +14,10 @@
 
 %}
 
+/* Include the required header files */
+%import "ossim/base/ossimConstants.h";
+
+/* Wrapping the class ossimHistogramThreshholdFilter */
 class ossimHistogramThreshholdFilter : public ossimImageSourceHistogramFilter
 {
         public:
@@ -46,6 +50,7 @@ class ossimHistogramThreshholdFilter : public ossimImageSourceHistogramFilter
                         ossimRefPtr<ossimImageData> runThreshholdStretchAlgorithm(
                                         T dummyVariable,
                                         ossimRefPtr<ossimImageData>& tile);
-
-                TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

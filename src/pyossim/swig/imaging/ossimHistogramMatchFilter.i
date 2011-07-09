@@ -71,5 +71,6 @@ class ossimHistogramMatchFilter : public ossimImageSourceFilter
 
                 bool          theAutoLoadInputHistogramFlag;
 
-                TYPE_DATA   
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

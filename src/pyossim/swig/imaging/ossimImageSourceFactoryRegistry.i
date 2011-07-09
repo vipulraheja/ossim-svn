@@ -14,7 +14,15 @@ Description     : Contains SWIG-Python of class ossimImageSourceFactoryRegistry
 
 %}
 
-class OSSIM_DLL ossimImageSourceFactoryRegistry : public ossimImageSourceFactoryBase
+/* Include the header file  */
+%import "ossim/base/ossimConstants.h";
+
+/* Handling ossimImageSourceFactoryRegistry Assignment operator */
+%rename(__setattr__) ossimImageSourceFactoryRegistry::operator=;
+
+
+/* Wrapping class ossimImageSourceFactoryRegistry */
+class ossimImageSourceFactoryRegistry : public ossimImageSourceFactoryBase
 {
         public:
                 static ossimImageSourceFactoryRegistry* instance();
@@ -35,7 +43,9 @@ class OSSIM_DLL ossimImageSourceFactoryRegistry : public ossimImageSourceFactory
 
                 static ossimImageSourceFactoryRegistry* theInstance;
                 std::vector<ossimImageSourceFactoryBase*> theFactoryList;
-                TYPE_DATA
+
+                /* Ignored due to unclean parsing of MACROS     */                
+                /* TYPE_DATA                                    */
 };
 
 extern "C"

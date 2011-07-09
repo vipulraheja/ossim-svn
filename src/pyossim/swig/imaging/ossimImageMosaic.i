@@ -9,13 +9,21 @@
 
 %{
 
+#include <vector>
+
 #include <ossim/imaging/ossimImageCombiner.h>
+#include <ossim/imaging/ossimImageData.h>
 #include <ossim/imaging/ossimImageMosaic.h>
 
 %}
 
+/* Include the header file containing the declarations to be wrapped */
+%import "ossim/base/ossimConstants.h"
 
 /**
+
+  Wrapping the class
+  ------------------
  * An image mosaic is a simple combiner that will
  * just do a simple mosaic.  It just checks NULL pix values until it finds a
  * pixel that is not empty and copies it out to the output.  The list will
@@ -53,5 +61,6 @@ class ossimImageMosaic : public ossimImageCombiner
                                 const ossimIrect& tileRect,
                                 ossim_uint32 resLevel=0);
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

@@ -9,28 +9,26 @@ Description     : Contains SWIG-Python of class ossimGeneralRasterInfo
 
 %{
 
-#include <ossim/base/ossimObject.h>
-#include <ossim/base/ossimErrorContext.h>
-#include <ossim/base/ossimErrorStatusInterface.h>
-#include <ossim/base/ossimConstants.h>
-#include <ossim/base/ossimCommon.h>
-#include <ossim/base/ossimIrect.h>
-#include <ossim/base/ossimDrect.h>
-#include <ossim/base/ossimKeywordList.h>
-#include <ossim/base/ossimFileName.h>
-#include <ossim/base/ossimImageMetaData.h>
-
 #include <ossim/imaging/ossimGeneralRasterInfo.h>
 
 #include <vector>
 
 %}
 
-%rename(__set__) ossim::operator=;
+/* Handling ossimGeneralRasterInfo assignment operator */
+%rename(__set__) ossimGeneralRasterInfo::operator=;
 
-%import "ossim/base/ossimKeywordlist.h";
-%import "ossim/base/ossimString.h";
+/* Handling the reserved print function */
+%rename(ossimGeneralRasterInfo_print) ossimGeneralRasterInfo::print;
 
+/* Handling the std::vector for Python */
+%include "std_vector.i"
+namespace std
+{
+        %template(vectorOssimFileName) std::vector<ossimFilename>;
+}
+
+/* Wrapping the class ossimGeneralRasterInfo */
 class ossimGeneralRasterInfo : public ossimObject,
         public ossimErrorStatusInterface
 {
@@ -65,15 +63,12 @@ class ossimGeneralRasterInfo : public ossimObject,
                 ~ossimGeneralRasterInfo ();
 
                 ossimIrect imageRect()       const { return theImageRect;      }
-
                 ossimIrect validImageRect()  const { return theValidImageRect; }
-
                 ossimIrect rawImageRect()    const { return theRawImageRect;   }
 
                 ossimIpt subImageOffset()  const { return theSubImageOffset; }
 
                 ossim_uint32 headerSize()      const { return theHeaderSize;     }
-
                 ossim_uint32 fillToNullsMode() const { return theSetNullsMode;   }
 
                 void setFillToNullsMode(ossim_uint32 mode);
@@ -111,25 +106,17 @@ class ossimGeneralRasterInfo : public ossimObject,
                 void setNumberOfBands(ossim_uint32 bands) { theMetaData.setNumberOfBands(bands); }
 
                 ossim_uint32 pixelsToChop()   const { return thePixelsToChop;   } 
-
                 ossim_uint32 numberOfBands()  const { return theMetaData.getNumberOfBands();  }
 
                 ossimInterleaveType interleaveType() const { return theInterleaveType; }
-
                 ossimScalarType getScalarType() const { return theMetaData.getScalarType(); }
 
                 ossim_uint64 validLines()        const;
-
                 ossim_uint64 rawLines()          const;
-
                 ossim_uint64 bytesPerRawLine()   const;
-
                 ossim_uint64 bytesPerValidLine() const;
-
                 ossim_uint64 validSamples()      const;
-
                 ossim_uint64 rawSamples()        const;
-                
                 ossim_uint64 offsetToFirstValidSample() const;
 
                 std::vector<ossimFilename> getImageFileList() const { return theImageFileList; }
@@ -175,32 +162,26 @@ class ossimGeneralRasterInfo : public ossimObject,
 
 
         private:
-                ossimImageMetaData           theMetaData;
+                ossimImageMetaData          theMetaData;
                 std::vector<ossimFilename>  theImageFileList;
                 ossimInterleaveType         theInterleaveType;
                 ossim_uint32                theNumberOfBands;
 
                 ossimIrect theRawImageRect;
-
                 ossimIrect theValidImageRect;
-
                 ossimIrect theImageRect;
 
                 ossimIpt theSubImageOffset;
 
                 ossim_uint32 theHeaderSize;
-
                 ossimFillMode theSetNullsMode;
-
                 ossim_uint32 thePixelsToChop;
-
                 ossimByteOrder theImageDataByteOrder;
+
 };
 
 
-%inline 
-
-%{
+%inline %{
 
 ossim_uint64 ossimGeneralRasterInfo::validLines() const
 {
@@ -265,7 +246,9 @@ ossim_uint64 ossimGeneralRasterInfo::offsetToFirstValidSample() const
                         ( bytesPerRawLine() * validImageRect().ul().y * numberOfBands() ) +
                         ( validImageRect().ul().x * bytesPerPixel());
         }
-        else // BSQ
+        
+        /* BSQ */
+        else            
         {
                 return headerSize() +
                         ( bytesPerRawLine() * validImageRect().ul().y ) +
@@ -274,3 +257,4 @@ ossim_uint64 ossimGeneralRasterInfo::offsetToFirstValidSample() const
 }
 
 %}
+

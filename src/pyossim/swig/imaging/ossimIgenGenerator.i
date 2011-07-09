@@ -18,9 +18,11 @@
 #include <ossim/imaging/ossimImageSource.h>
 #include <ossim/projection/ossimProjection.h>
 #include <ossim/imaging/ossimImageFileWriter.h>
+#include <ossim/imaging/ossimIgenGenerator.h>
 
 %}
 
+/* Wrapping class ossimIgenGenerator */
 class ossimIgenGenerator
 {
         public:
@@ -261,6 +263,7 @@ class ossimIgenGenerator
 
                 ossimObject*     createOutput()const;
                 ossimObject*     createInput()const;
+
 
         protected:
                 ossimKeywordlist  theInputKwl;

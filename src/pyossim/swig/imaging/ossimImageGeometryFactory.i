@@ -11,13 +11,16 @@
 
 #include <ossim/imaging/ossimImageGeometryFactoryBase.h>
 #include <ossim/imaging/ossimImageGeometryFactory.h>
+#include <ossim/base/ossim2dTo2dTransform.h>
+#include <ossim/imaging/ossimNitfTileSource.h>
+#include <ossim/projection/ossimProjection.h>
 
 %}
 
-%import "ossim/base/ossim2dTo2dTransform";
-%import "ossim/imaging/ossimNitfTileSource.h";
-%import "ossim/projection/ossimProjection.h";
+/* Include the required header files */
+%import "ossim/base/ossimConstants.h";
 
+/* Wrapping the class ossimImageGeometryFactory */
 class ossimImageGeometryFactory : public ossimImageGeometryFactoryBase
 {
         public:

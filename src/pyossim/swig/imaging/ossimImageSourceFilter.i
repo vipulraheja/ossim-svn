@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------
- * Filename        : ossimImageData.i
+ * Filename        : ossimImageSourceFilter.i
  * Author          : Vipul Raheja
  * License         : See top level LICENSE.txt file.
- * Description     : Contains SWIG-Python of class ossimImageData 
+ * Description     : Contains SWIG-Python of class ossimImageSourceFilter
  * -----------------------------------------------------------------------------*/
 
 %module pyossim
@@ -16,6 +16,19 @@
 
 %}
 
+/* Handling the vector templates */
+%include "std_vector.i"
+namespace std
+{
+                %template(vectorossimUInt32) vector<ossim_uint32>;
+                %template(vectorossimString) vector<ossimString>;
+};
+
+/* Include the header file  */
+%import "ossim/base/ossimConstants.h";
+
+
+/* Wrapping class ossimImageSourceFilter */
 class ossimImageSourceFilter : public ossimImageSource,
         public ossimConnectableObjectListener
 {
@@ -52,5 +65,7 @@ class ossimImageSourceFilter : public ossimImageSource,
         protected:
                 virtual ~ossimImageSourceFilter();
                 ossimImageSource* theInputConnection;
-                TYPE_DATA
+
+                /* Ignored due to unclean parsing of MACROS     */                
+                /* TYPE_DATA                                    */
 };

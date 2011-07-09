@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------
- * Filename        : ossimImageData.i
+ * Filename        : ossimImageWriter.i
  * Author          : Vipul Raheja
  * License         : See top level LICENSE.txt file.
- * Description     : Contains SWIG-Python of class ossimImageData 
+ * Description     : Contains SWIG-Python of class ossimImageWriter
  * -----------------------------------------------------------------------------*/
 
 %module pyossim
@@ -51,47 +51,31 @@ class ossimImageFileWriter : public ossimImageWriter,
                 virtual ossimString getExtension() const;
 
                 virtual bool getOutputHasInternalOverviews( void ) const;
-
                 virtual bool hasImageType(const ossimString& imageType) const;
-
                 virtual void setTileSize(const ossimIpt& tileSize);
-
+                
                 virtual bool writeEnviHeaderFile() ;
-
                 virtual bool writeErsHeaderFile() ;
-
                 virtual bool writeExternalGeometryFile() ;
-
                 virtual bool writeFgdcFile() ;
-
                 virtual bool writeHistogramFile() ;
-
                 virtual bool writeJpegWorldFile() ;
-
                 virtual bool writeOverviewFile(ossim_uint16 tiff_compress_type = 1,
                                 ossim_int32 jpeg_compress_quality = 75,
                                 bool includeR0 = false );
-
                 virtual bool writeReadmeFile() ;
-
                 virtual bool writeTiffWorldFile() ;
-
                 virtual bool writeWorldFile() ;
-
                 virtual bool writeMetaDataFiles() ;
 
                 virtual void setAreaOfInterest(const ossimIrect& inputRect);
-
                 virtual void changeSequencer(ossimImageSourceSequencer* sequencer);
 
                 virtual ossimImageSourceSequencer* getSequencer();
 
                 virtual void initialize();
-
                 virtual bool execute();
-
                 virtual bool writeStream();
-
                 virtual bool setOutputStream(ossimRefPtr<ossimOStream> stream);
 
                 /** tmp drb */
@@ -219,5 +203,6 @@ class ossimImageFileWriter : public ossimImageWriter,
                 /** OSSIM_PIXEL_IS_POINT = 0, OSSIM_PIXEL_IS_AREA  = 1 */
                 ossimPixelType             thePixelType;
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */                
+                /* TYPE_DATA                                    */
 };

@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------
- * Filename        : ossimImageData.i
+ * Filename        : ossimImageGeometry.i
  * Author          : Vipul Raheja
  * License         : See top level LICENSE.txt file.
- * Description     : Contains SWIG-Python of class ossimImageData 
+ * Description     : Contains SWIG-Python of class ossimImageGeometry
  * -----------------------------------------------------------------------------*/
 
 %module pyossim
@@ -19,10 +19,33 @@
 #include <ossim/projection/ossimProjection.h>
 #include <ossim/base/ossim2dTo2dTransform.h>
 
-#include <ossim/include/ossimImageGeometry.h>
+#include <ossim/imaging/ossimImageGeometry.h>
 
 %}
 
+/* Handling primitive data types */
+%include "typemaps.i"
+%typemap(in) ossimjni_int32
+{
+                $1 = PyInt_AsLong($input);
+}
+%typemap(out) ossimjni_int32
+{
+                $result = PyInt_FromLong((long) $1);
+}
+
+/* Include the required header files */
+%import "ossim/base/ossimConstants.h";
+
+/* Handling ossimImageMetaDataWriterFactory operator */
+%rename(__set__) ossimImageGeometry::operator=;
+%rename(__eq__) ossimImageGeometry::operator==; 
+
+/* Handling the reserved function print */
+%rename(ossimImageGeometry_print) ossimImageGeometry::print;
+
+
+/* Wrapping the class ossimImageGeometry */
 class ossimImageGeometry : public ossimObject
 {
         public:
@@ -131,5 +154,6 @@ class ossimImageGeometry : public ossimObject
                 /** @brief Target rrds for localToWorld and worldToLocal methods. */
                 ossim_uint32                      m_targetRrds; 
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

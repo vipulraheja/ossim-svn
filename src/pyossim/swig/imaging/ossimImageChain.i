@@ -9,14 +9,28 @@
 
 %{
 
+#include <vector>
+#include <map>
+        
+#include <ossim/base/ossimId.h>
+#include <ossim/base/ossimConnectableObjectListener.h>
+#include <ossim/base/ossimConnectableContainerInterface.h>
+
 #include <ossim/imaging/ossimImageSource.h>
 #include <ossim/imaging/ossimImageChain.h>
-#include <ossim/base/ossimConnectableObjectListener.h>
-#include <ossim/base/ossimId.h>
-#include <ossim/base/ossimConnectableContainerInterface.h>
 
 %}
 
+
+/* Handling Image chain Assignment operator */
+%rename(__getitem__) ossimImageChain::operator[];
+
+
+/* Importing other dependent files */
+%import "ossim/base/ossimConstants.h"
+
+
+/* Wrapping class ossimImageChain */
 class ossimImageChain : public ossimImageSource, 
         public ossimConnectableObjectListener,
         public ossimConnectableContainerInterface
@@ -97,29 +111,7 @@ class ossimImageChain : public ossimImageSource,
                 virtual void enableSource();
                 virtual void disableSource();
 
-                /*
-                   bool canConnectMyInputTo(ossim_int32 myInputIndex,
-                   const ossimConnectableObject* object)const
-                   {
-                   if(theImageChainList.size()&&
-                   theImageChainList[theImageChainList.size()-1].valid())
-                   {
-                   ossimConnectableObject* obj = PTR_CAST(ossimConnectableObject, theImageChainList[theImageChainList.size()-1].get());
-                   if(obj)
-                   {
-                   return obj->canConnectMyInputTo(myInputIndex,
-                   object);
-                   }
-                   }
-                   else if(!theImageChainList.size())
-                   {
-                   return true;
-                   }
-                   return false;
-                   }
-                 */
-
-                // __CONNECTABLE CONTAINER DEFINTIONS__
+                /* __CONNECTABLE CONTAINER DEFINTIONS__*/
                 virtual void makeUniqueIds();
 
                 virtual ossim_uint32 getNumberOfObjects(bool recurse=true)const;
@@ -132,7 +124,7 @@ class ossimImageChain : public ossimImageSource,
 
                 virtual void getChildren(vector<ossimConnectableObject*>& children,
                                 bool immediateChildrenOnlyFlag);
-                //__END CONNECTABLE CONTAINER INTERFACE__
+                /*__END CONNECTABLE CONTAINER INTERFACE__*/
 
                 virtual void disconnectInputEvent(ossimConnectionEvent& event);
                 virtual void disconnectOutputEvent(ossimConnectionEvent& event);
@@ -145,6 +137,7 @@ class ossimImageChain : public ossimImageSource,
 
 
                 virtual void accept(ossimVisitor& visitor);
+
 
         protected:
                 friend class ossimImageChainChildListener;
@@ -166,6 +159,7 @@ class ossimImageChain : public ossimImageSource,
                 bool connectAllSources(const map<ossimId, vector<ossimId> >& idMapping);
 
                 void deleteList();
-
-                //TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

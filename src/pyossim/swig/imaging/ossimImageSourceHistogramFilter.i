@@ -16,15 +16,27 @@ Description     : Contains SWIG-Python of class ossimImageSourceHistogramFilter
 
 %}
 
+
+/* Include the required header files */
+%import "ossim/base/ossimConstants.h";
+
+/* Handling the reserved function print */
+%rename(ossimImageSourceHistogramFilter_print) ossimImageSourceHistogramFilter::print;
+
+
+/* Wrapping the class ossimImageSourceHistogramFilter */
 class ossimImageSourceHistogramFilter : public ossimImageSourceFilter
 {
         public:
                 ossimImageSourceHistogramFilter();
                 ossimImageSourceHistogramFilter(ossimImageSource* inputSource,
                                 ossimRefPtr<ossimMultiResLevelHistogram> histogram);
+
                 virtual void setHistogram(ossimRefPtr<ossimMultiResLevelHistogram> histogram);
                 virtual bool setHistogram(const ossimFilename& filename);
+                
                 virtual const ossimFilename& getHistogramFilename()const;
+                
                 virtual ossimRefPtr<ossimMultiResLevelHistogram> getHistogram();
                 virtual const ossimRefPtr<ossimMultiResLevelHistogram> getHistogram()const;
 
@@ -49,5 +61,6 @@ class ossimImageSourceHistogramFilter : public ossimImageSourceFilter
                 ossimRefPtr<ossimMultiResLevelHistogram> theHistogram;
                 ossimFilename theFilename;
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

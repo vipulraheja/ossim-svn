@@ -16,7 +16,19 @@
 
 %}
 
-        class ossimHistogramEqualization : public ossimImageSourceHistogramFilter
+/* Handling the vector<ossim_uint32> */
+%include "std_vector.i"
+namespace std
+{
+        %template(vectorossimUInt32) vector<ossim_uint32>;
+};
+
+/* Handling the reserved function print */
+%rename(ossimHistogramEqualization_print) ossimHistogramEqualization::print;
+
+
+/* Wrapping the class ossimHistogramEqualization */
+class ossimHistogramEqualization : public ossimImageSourceHistogramFilter
 {
         public:
                 ossimHistogramEqualization();
@@ -42,6 +54,7 @@
 
                 virtual std::ostream& print(std::ostream& out) const;
 
+
         protected:
                 virtual ~ossimHistogramEqualization();
 
@@ -65,6 +78,7 @@
 
                 virtual void initializeLuts();
                 virtual void deleteLuts();
-
-                TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

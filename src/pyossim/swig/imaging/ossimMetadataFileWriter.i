@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------
-Filename        : ossimImageData.i
+Filename        : ossimMetadataFileWriter.i
 Author          : Vipul Raheja
 License         : See top level LICENSE.txt file.
-Description     : Contains SWIG-Python of class ossimImageData 
+Description     : Contains SWIG-Python of class ossimMetadataFileWriter
 -----------------------------------------------------------------------------*/
 
 %module pyossim
@@ -22,9 +22,11 @@ Description     : Contains SWIG-Python of class ossimImageData
 
 %}
 
-%import "ossim/imaging/ossimImageSource.h";
+/* Include the required header files */
+%import "ossim/base/ossimConstants.h"
 
-class OSSIMDLLEXPORT ossimMetadataFileWriter :
+/* Wrapping class ossimMetadataFileWriter */
+class ossimMetadataFileWriter :
         public ossimConnectableObject,
         public ossimProcessInterface,
         public ossimConnectableObjectListener
@@ -80,5 +82,6 @@ class OSSIMDLLEXPORT ossimMetadataFileWriter :
                 ossimPixelType             thePixelType;
                 ossimIrect                 theAreaOfInterest;
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

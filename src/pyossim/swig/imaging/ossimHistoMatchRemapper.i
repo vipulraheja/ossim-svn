@@ -15,6 +15,11 @@
 
 %}
 
+/* Include the header file containing the declarations to be wrapped */
+%import "ossim/base/ossimConstants.h"
+
+
+/* Wrapping the class ossimHistoMatchRemapper */
 class ossimHistoMatchRemapper : public ossimImageSourceFilter
 {
         public:

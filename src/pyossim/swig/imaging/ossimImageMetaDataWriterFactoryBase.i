@@ -11,12 +11,15 @@ Description     : Contains SWIG-Python of class ossimImageMetaDataWriterFactoryB
 
 #include <ossim/base/ossimObjectFactory.h>
 #include <ossim/base/ossimRefPtr.h>
-#include <ossim/imaging/ossimMetaDataWriterFactoryBase.h;
+#include <ossim/imaging/ossimMetadataFileWriter.h>
+#include <ossim/imaging/ossimImageMetaDataWriterFactoryBase.h>
 
 %}
 
-%import "ossim/imaging/ossimMetadataFileWriter.h";
+/* Handling ossimImageMetaDataWriterFactoryBase Assignment operator */
+%rename(__set__) ossimImageMetaDataWriterFactoryBase::operator=;
 
+/* Wrapping class ossimImageMetaDataWriterFactoryBase */
 class ossimImageMetaDataWriterFactoryBase : public ossimObjectFactory
 {
         public:
@@ -34,6 +37,7 @@ class ossimImageMetaDataWriterFactoryBase : public ossimObjectFactory
 
                 const ossimImageMetaDataWriterFactoryBase& operator=(
                                 const ossimImageMetaDataWriterFactoryBase&);
-
-                TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

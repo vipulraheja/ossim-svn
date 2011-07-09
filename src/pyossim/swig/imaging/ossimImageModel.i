@@ -10,6 +10,7 @@ Description     : Contains SWIG-Python of class ossimImageModel
 %{
 
 #include <vector>
+
 #include <ossim/base/ossimConstants.h>
 #include <ossim/base/ossimObject.h>
 #include <ossim/base/ossimDpt.h>
@@ -17,11 +18,23 @@ Description     : Contains SWIG-Python of class ossimImageModel
 #include <ossim/imaging/ossimImageModel.h>
 
 %}
+
+/* Handling the vector<ossimDpt> */
+%include "std_vector.i"
+namespace std
+{
+        %template(vectorossimDpt) vector<ossimDpt>;
+};
         
-%import "ossim/base/ossimDrect";
-%import "ossim/imaging/ossimImageHandler";
+/* Include the header file containing the declarations to be wrapped */
+%import "ossim/base/ossimDrect.h"
+%import "ossim/base/ossimConstants.h"
+
 
 /**
+
+  Wrapping the class
+  ------------------
  * @brief Class to handle transforming image points, rectangles, and offsets
  * from one reduced resolution data set (rrds) level to another.
  *
@@ -72,5 +85,6 @@ class ossimImageModel : public ossimObject
                 ossim_uint32 theSamples;
                 ossim_uint32 theTargetRrds;
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

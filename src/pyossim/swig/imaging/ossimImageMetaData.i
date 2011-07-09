@@ -11,9 +11,9 @@ Description     : Contains SWIG-Python of class ossimImageMetaData
 
 #include <ossim/base/ossimConstants.h>
 #include <ossim/base/ossimCommon.h>
-#include <ossim/base/ossimKeywordList.h>
-#include <ossim/base/ossimFileName.h>
-#include <ossim/base/ossimImageMetaData.h>
+#include <ossim/base/ossimKeywordlist.h>
+#include <ossim/base/ossimFilename.h>
+#include <ossim/imaging/ossimImageMetaData.h>
 
 #include <vector>
 #include <string>
@@ -21,10 +21,14 @@ Description     : Contains SWIG-Python of class ossimImageMetaData
 
 %}
 
-%import "pyossim/base/ossimConstants.i"
+/* Include the header file containing the declarations to be wrapped */
+%include "ossim/base/ossimConstants.h"
 
+/* Handling ossimImageMetaData Assignment operator */
 %rename(__set__) ossimImageMetaData::operator=;
 
+
+/* Wrapping class ossimImageMetaData */
 class ossimImageMetaData
 {
         public:
@@ -93,7 +97,5 @@ class ossimImageMetaData
                 ossimScalarType theScalarType;
                 ossim_uint32    theNumberOfBands;
 
-
                 void loadBandInfo(const ossimKeywordlist& kwl, const char* prefix = 0);
 };
-

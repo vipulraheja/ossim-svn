@@ -17,9 +17,7 @@ Description     : Contains SWIG-Python of class ossimImageDataFactory
 
 %}
 
-%import "ossim/base/ossimSource.h";
-%import "ossim/imaging/ossimImageSource.h";
-
+/* Handling ossimImageDataFactory assignment operator */
 %rename(__set__) ossimImageDataFactory::operator=; 
 
 /*!

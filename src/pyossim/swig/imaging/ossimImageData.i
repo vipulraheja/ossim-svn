@@ -23,7 +23,113 @@ Description     : Contains SWIG-Python of class ossimImageData
 
 %}
 
+/* Handling the std::exception  */
+%include "exception.i"
+%exception
+{
+        try
+        {
+                $action
+        }
+        catch(const std::exception& e)
+        {
+                SWIG_exception(SWIG_RuntimeError, e.what());
+        }
+}
 
+
+/* Handling the vector<ossimDpt>  */
+%include "std_vector.i"
+namespace std
+{
+        %template(vectorFloat64) vector<ossim_float64>;
+        %template(vectorUInt8) vector<ossim_uint8>;
+};
+
+
+/* Handling void ponters */
+%typemap(in) void* 
+{
+        if (!PyCapsule_CheckExact($input)) 
+        {
+                %argument_fail(SWIG_ERROR, "$type", $symname, $argnum);
+        }
+        
+        $1 = PyCapsule_GetPointer($input, NULL);
+}
+
+%typemap(out) void* 
+{
+        $result = PyCapsule_New($1, NULL, NULL);
+}
+
+
+/* Handling basic primitives */
+/* Typemaps to convert values from Python to C++ */
+%typemap(in) ossimjni_int8
+{
+        $1 = PyString_AsString($input);
+}
+
+%typemap(in) ossimjni_int32
+{
+        $1 = PyInt_AsLong($input);
+}
+
+%typemap(in) ossimjni_int64
+{
+        $1 = PyLong_AsLongLong($input);
+}
+
+%typemap(in) ossimjni_uint64
+{
+        $1 = PyLong_AsUnsignedLongLong
+}
+
+%typemap(in) ossimjni_float64
+{
+        $1 = PyFloat_AsDouble($input);
+}
+
+
+/* Typemaps to convert from C++ to Python */
+%typemap(out) ossimjni_int32
+{
+        $result = PyInt_FromLong((long) $1);
+}
+
+%typemap(out) ossimjni_int64
+{
+        $result = PyLong_FromLongLong($1);
+}
+
+%typemap(out) ossimjni_uint64
+{
+        $result = PyLong_FromUnsignedLongLong($1);
+}
+
+%typemap(out) ossimjni_float64
+{
+        $result = PyFloat_FromDouble($1);
+}
+
+
+/* Applying the typemaps to other basic primitives */
+%apply ossimjni_int8 { ossimjni_sint8, ossimjni_uint8 };
+%apply ossimjni_int32 { ossimjni_int16, ossimjni_uint16, ossimjni_uint16, ossimjni_uint32, ossimjni_sint32 };
+%apply ossimjni_int64 { ossimjni_sint64 };
+%apply ossimjni_float64 { ossimjni_float32 };
+
+
+/* Handling ossimImageData Assignment operator */
+%rename(__setattr__) ossimImageData::operator=;
+
+
+/* Handling ossimImageData Assignment operator */
+%rename(ossimImageData_print) ossimImageData::print;
+
+
+/* Wrapping the ossimImageData class */
 class ossimImageData : public ossimRectilinearDataObject
 {
         public:
@@ -105,9 +211,8 @@ class ossimImageData : public ossimRectilinearDataObject
                 virtual ossim_float64        getNullPix(ossim_uint32 band) const;
                 virtual ossim_float64        getMinPix(ossim_uint32 band)  const;
                 virtual ossim_float64        getMaxPix(ossim_uint32 band)  const;
-                */
 
-                        virtual ossim_float64   getMinNormalizedPix() const;
+                virtual ossim_float64   getMinNormalizedPix() const;
 
                 virtual ossimString     getScalarTypeAsString()const;
 
@@ -584,10 +689,10 @@ class ossimImageData : public ossimRectilinearDataObject
 
                 bool m_indexedFlag;
 
+
         private:
-
-
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */                
+                /* TYPE_DATA */
 };
 
 %inline 
@@ -650,4 +755,4 @@ class ossimImageData : public ossimRectilinearDataObject
                                 bufy[2]*151 + bufy[3]*157);
         }
 
-        %}
+%}

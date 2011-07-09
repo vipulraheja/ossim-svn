@@ -21,14 +21,16 @@ Description     : Contains SWIG-Python of class ossimHistogramWriter
 #include <ossim/base/ossimHistogramSource.h>
 #include <ossim/imaging/ossimImageSource.h>
 #include <ossim/imaging/ossimHistogramWriter.h>
+#include <ossim/imaging/ossimImageHistogramSource.h>
 
 #include <fstream>
 
 %}
         
-%import "ossim/imaging/ossimImageSource.h";
-%import "ossim/imaging/ossimImageHistogramSource.h";
+/* Include the required header files */
+%import "ossim/base/ossimConstants.h";
 
+/* Wrapping the class ossimHistogramWriter */
 class ossimHistogramWriter : public ossimOutputSource,
         public ossimProcessInterface,
         public ossimConnectableObjectListener
@@ -87,6 +89,7 @@ class ossimHistogramWriter : public ossimOutputSource,
 
                 /** stored for abort call only. */
                 ossimHistogramSource*                theHistogramSource;
-
-                TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

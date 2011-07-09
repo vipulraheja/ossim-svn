@@ -9,14 +9,39 @@ Description     : Contains SWIG-Python of class ossimImageMetaDataRegistry
 
 %{
 
-#include <ossim/imaging/ossimImageMetaDataWriterFactoryBase.h>
 #include <ossim/base/ossimRefPtr.h>
-#include <ossim/imaging/ossimMetaDataWriterRegistry.h>;
+
+#include <ossim/imaging/ossimImageMetaDataWriterFactoryBase.h>
+#include <ossim/imaging/ossimMetadataFileWriter.h>
+#include <ossim/imaging/ossimImageMetaDataWriterRegistry.h>
 
 %}
 
-%import "ossim/imaging/ossimMetadataFileWriter.h";
+/* Handling the std::exception */
+%include "exception.i"
+%exception
+{
+        try
+        {
+                $action
+        }
+        catch(const std::exception& e)
+        {
+                SWIG_exception(SWIG_RuntimeError, e.what());
+        }
+}
 
+/* Handling ossimImageMetaDataWriterRegistry Assignment operator */
+%rename(__set__) ossimImageMetaDataWriterRegistry::operator=;
+
+/* Include the header file containing the declarations to be wrapped */
+%import "ossim/base/ossimConstants.h";
+
+/* Wrapping the file */
+%include "ossim/imaging/ossimImageMetaDataWriterRegistry.h"
+
+
+/*
 class ossimImageMetaDataWriterRegistry : 
         public ossimImageMetaDataWriterFactoryBase
 {
@@ -59,4 +84,4 @@ class ossimImageMetaDataWriterRegistry :
 extern "C"
 {
         OSSIMDLLEXPORT void* ossimImageMetaDataWriterRegistryGetInstance();
-}
+}*/

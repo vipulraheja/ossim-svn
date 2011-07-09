@@ -11,14 +11,19 @@ Description     : Contains SWIG-Python of class ossimImageSourceFactoryBase
 
 #include <ossim/base/ossimObjectFactory.h>
 #include <ossim/imaging/ossimImageSourceFactoryBase.h>
+#include <ossim/imaging/ossimImageSource.h>
 
 %}
 
-%import "ossim/imaging/ossimImageSource.h";
+/* Include the header files */
+%import "ossim/base/ossimConstants.h"
 
+/* Handling ossimImageSourceFactoryBase Assignment operator */
 %rename(__set__) ossimImageSourceFactoryBase::operator=;
 
-class OSSIMDLLEXPORT ossimImageSourceFactoryBase : public ossimObjectFactory
+
+/* Wrapping class ossimImageSourceFactoryBase */
+class ossimImageSourceFactoryBase : public ossimObjectFactory
 {
         public:
                 virtual ossimImageSource* createImageSource(const ossimString& name)const;
@@ -26,7 +31,7 @@ class OSSIMDLLEXPORT ossimImageSourceFactoryBase : public ossimObjectFactory
                                 const char* prefix=0)const;
 
         protected:
-                // Hide from use.
+                /* Hide from use */
                 ossimImageSourceFactoryBase();
                 ossimImageSourceFactoryBase(const ossimImageSourceFactoryBase&);
                 const ossimImageSourceFactoryBase& operator=(const ossimImageSourceFactoryBase&);

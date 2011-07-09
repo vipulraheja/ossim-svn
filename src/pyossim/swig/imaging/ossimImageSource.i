@@ -10,17 +10,21 @@ Description     : Contains SWIG-Python of class ossimImageSource
 %{
 
 #include <ossim/base/ossimConstants.h>
-#include <ossim/base/ossimImageData.h>
-#include <ossim/base/ossimImageGeometry.h>
+#include <ossim/imaging/ossimImageData.h>
+#include <ossim/imaging/ossimImageGeometry.h>
 #include <ossim/imaging/ossimImageSource.h>
 #include <ossim/base/ossimIrect.h>
 #include <ossim/base/ossimRefPtr.h>
-#include <ossim/base/ossimSource.h>
 
 %}
 
+/* Handling ossimImageSource Assignment operator */
 %rename(__set__) ossimImageSource::operator=;
 
+/* Include the header file containing the constants */
+%import "ossim/base/ossimConstants.h"
+
+/* Wrapping the ossimImageSource class */
 class ossimImageSource : public ossimSource
 {
         public:
@@ -99,5 +103,6 @@ class ossimImageSource : public ossimSource
 
         
         private:
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

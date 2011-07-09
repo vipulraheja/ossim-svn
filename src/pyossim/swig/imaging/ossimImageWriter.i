@@ -16,16 +16,14 @@
 
 #include <ossim/imaging/ossimImageSourceSequencer.h>
 #include <ossim/imaging/ossimImageWriter.h>
+#include <ossim/base/ossimOutputSource.h>
 
 %}
 
-%import "ossim/imaging/ossimImageSource.h";
-%import "ossim/imaging/ossimImageWriter.h";
-%import "ossim/imaging/ossimImageWriterFactory.h";
-%import "ossim/base/ossimKeywordlist.h";
-%import "ossim/base/ossimFilename.h";
+%import "ossim/base/ossimConstants.h"
 
-class ossimImageWriter :  public ossimOutputSource
+/* Wrapping class ossimImageWriter */
+class ossimImageWriter : public ossimOutputSource
 {
         public:
                 ossimImageWriter(ossimObject* owner=NULL);
@@ -46,12 +44,13 @@ class ossimImageWriter :  public ossimOutputSource
 
                 virtual bool saveState(ossimKeywordlist& kwl,
                                 const char* prefix=0)const;
-
                 virtual bool loadState(const ossimKeywordlist& kwl,
                                 const char* prefix=0);
 
         protected:
 
                 ossimIrect theAreaOfInterest;
-                TYPE_DATA
+
+                /* Ignored due to unclean parsing of MACROS     */                
+                /* TYPE_DATA                                    */
 };
