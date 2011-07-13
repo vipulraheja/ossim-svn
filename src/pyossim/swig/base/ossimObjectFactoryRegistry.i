@@ -15,12 +15,16 @@
 #include <ossim/base/ossimObjectFactory.h>
 #include <ossim/base/ossimFactoryListInterface.h>
 #include <ossim/base/ossimObjectFactoryRegistry.h>
+#include <ossim/base/ossimKeywordlist.h>
+#include <ossim/base/ossimString.h>
 
 %}
 
-%import "ossim/base/ossimKeywordlist.h";
-%import "ossim/base/ossimString.h";
 
+/* Handling assignment operator */
+%rename(__set__) ossimObjectFactoryRegistry::operator=;
+
+/* Wrapping the class ossimObjectFactoryRegistry */
 class ossimObjectFactoryRegistry : public ossimObject,
         public ossimFactoryListInterface<ossimObjectFactory, ossimObject>
 {
@@ -55,10 +59,11 @@ class ossimObjectFactoryRegistry : public ossimObject,
                 ossimObjectFactoryRegistry(const ossimObjectFactoryRegistry&):ossimObject(){}   //hide
                 void operator =(const ossimObjectFactoryRegistry&){}                            //hide
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     *
+                TYPE_DATA */
 };
 
 extern "C"
 {
-        OSSIMDLLEXPORT void* ossimObjectFactoryRegistryGetInstance();
+        void* ossimObjectFactoryRegistryGetInstance();
 }

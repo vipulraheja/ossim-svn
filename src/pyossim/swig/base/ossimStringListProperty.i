@@ -65,5 +65,7 @@ class ossimStringListProperty : public ossimProperty
                 bool findValueInConstraintList(const ossimString& value)const;
                 bool findValueInValueList(const ossimString& value)const;
                 bool canAddValue(const ossimString& value)const;
-                TYPE_DATA
+
+                /* Ignoring Macros
+                TYPE_DATA */
 };

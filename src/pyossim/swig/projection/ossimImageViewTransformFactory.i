@@ -14,9 +14,10 @@
 
 %}
 
-%import "ossim/projection/ossimImageViewTransform.h";
-%import "ossim/base/ossimKeywordlist.h";
+/* Handling the assignment operator */
+%rename(__set__) ossimImageViewTransformFactory::operator=;
 
+/* Wrapping the class ossimImageViewTransformFactory */
 class ossimImageViewTransformFactory : public ossimObject
 {
         public:
@@ -31,5 +32,6 @@ class ossimImageViewTransformFactory : public ossimObject
 
                 static ossimImageViewTransformFactory* theInstance;
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

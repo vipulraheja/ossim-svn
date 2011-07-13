@@ -35,5 +35,6 @@ class ossimPropertyInterface
 
         protected:
 
-                TYPE_DATA
+                /* Macro Ignored 
+                TYPE_DATA */
 };

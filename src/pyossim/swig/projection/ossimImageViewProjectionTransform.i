@@ -15,27 +15,27 @@
 
 %}
 
+/* Handling the reserved function print */
+%rename(ossimImageViewProjectionTransform_print) ossimImageViewProjectionTransform::print;
+
+/* Wrapping the class ossimImageViewProjectionTransform */
 class ossimImageViewProjectionTransform : public ossimImageViewTransform
 {
         public:
                 ossimImageViewProjectionTransform(ossimImageGeometry* imageGeometry=0,
                                 ossimImageGeometry* viewGeometry=0);
-
                 ossimImageViewProjectionTransform(const ossimImageViewProjectionTransform& src);
 
                 virtual ossimObject* dup() const { return new ossimImageViewProjectionTransform(*this); }
                 virtual ~ossimImageViewProjectionTransform();
 
                 virtual bool isValid() const { return (m_imageGeometry.valid() && m_viewGeometry.valid()); }
-
                 virtual bool isIdentity() const { return (m_imageGeometry == m_viewGeometry); }
 
                 void setViewGeometry(ossimImageGeometry* g) { m_viewGeometry = g; }   
-
                 void setImageGeometry(ossimImageGeometry* g) { m_imageGeometry = g; }  
 
                 virtual void imageToView(const ossimDpt& imagePoint, ossimDpt& viewPoint) const;
-
                 virtual void viewToImage(const ossimDpt& viewPoint, ossimDpt& imagePoint) const;
 
                 virtual std::ostream& print(std::ostream& out) const;
@@ -50,18 +50,16 @@ class ossimImageViewProjectionTransform : public ossimImageViewTransform
                 virtual const ossimObject* getView() const { return m_viewGeometry.get(); }
 
                 virtual ossimDpt getInputMetersPerPixel()const;
-
                 virtual ossimDpt getOutputMetersPerPixel() const;
-
                 virtual ossimDrect getImageToViewBounds(const ossimDrect& imageRect)const;
 
                 virtual bool loadState(const ossimKeywordlist& kwl, const char* prefix =0);
-
                 virtual bool saveState(ossimKeywordlist& kwl, const char* prefix = 0)const;
 
         protected:
                 ossimRefPtr<ossimImageGeometry> m_imageGeometry;
                 ossimRefPtr<ossimImageGeometry> m_viewGeometry;
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

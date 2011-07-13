@@ -10,14 +10,11 @@
 %{
 
 #include <ossim/projection/ossimProjectionFactoryBase.h>
-#include <ossim/projection/ossimProjectionFactory.h>
 #include <ossim/projection/ossimMapProjectionFactory.h>
 
 %}
 
-%import "ossim/projection/ossimProjection.h";
-%import "ossim/base/ossimString.h";
-
+/* Wrapping the class ossimMapProjectionFactory */
 class ossimMapProjectionFactory : public ossimProjectionFactoryBase
 {
         public:
@@ -28,8 +25,8 @@ class ossimMapProjectionFactory : public ossimProjectionFactoryBase
                 virtual ossimProjection* createProjection(const ossimString& name)const;
                 virtual ossimProjection* createProjection(const ossimKeywordlist& kwl,
                                 const char* prefix = 0)const;
-                virtual ossimObject* createObject(const ossimString& typeName)const;
 
+                virtual ossimObject* createObject(const ossimString& typeName)const;
                 virtual ossimObject* createObject(const ossimKeywordlist& kwl,
                                 const char* prefix=0)const;
 

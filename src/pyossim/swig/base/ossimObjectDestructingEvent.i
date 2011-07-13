@@ -15,8 +15,6 @@
 
 %}
 
-%import "ossim/base/ossimObject.h";
-
 class ossimObjectDestructingEvent : public ossimEvent
 {
         public:
@@ -24,5 +22,6 @@ class ossimObjectDestructingEvent : public ossimEvent
                         :ossimEvent(objectDestructing, OSSIM_EVENT_OBJECT_DESTRUCTING_ID) {}
                 virtual ossimObject* dup()const{return new ossimObjectDestructingEvent(*this);}
 
-                TYPE_DATA
+                /* Ignoring
+                   TYPE_DATA */
 };

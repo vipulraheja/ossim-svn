@@ -16,8 +16,10 @@
 
 %}
 
-%import "ossim/base/ossimContainerProperty.h";
+/* Handling assignment operator */
+%rename(__set__) ossimProperty::operator=;
 
+/* Wrapping the class */
 class ossimProperty : public ossimObject
 {
         public:
@@ -82,6 +84,7 @@ class ossimProperty : public ossimObject
                 bool                    theReadOnlyFlag;
                 ossimPropertyChangeType theChangeType;
                 bool                    theModifiedFlag;
-
-                TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     *
+                TYPE_DATA */
 };

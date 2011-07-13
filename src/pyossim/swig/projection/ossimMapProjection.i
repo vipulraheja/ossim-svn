@@ -24,22 +24,23 @@
 
 %}
 
-%import "ossim/base/ossimKeywordList.h"
+/* Handling ossimHistogramRemapper assignment operator */
+%rename(__cmp__) ossimMapProjection::operator==;
 
-/* operator== ? */
+/* Handling the reserved function print */
+%rename(ossimMapProjection_print) ossimMapProjection::print;
 
+
+/* Wrapping the class ossimMapProjection */
 class ossimMapProjection : public ossimProjection
 {
         public:
                 ossimMapProjection(const ossimEllipsoid& ellipsoid = ossimEllipsoid(),
                                 const ossimGpt& origin=ossimGpt());
-
                 ossimMapProjection(const ossimMapProjection& src);
 
                 virtual ossimGpt origin()const;
-
                 virtual ossimDpt forward(const ossimGpt &worldPoint) const = 0;
-
                 virtual ossimGpt inverse(const ossimDpt &projectedPoint)const = 0;
 
                 virtual ossimDpt worldToLineSample(const ossimGpt &worldPoint)const;
@@ -49,27 +50,23 @@ class ossimMapProjection : public ossimProjection
                 virtual ossimGpt lineSampleToWorld(const ossimDpt &projectedPoint)const;
                 virtual void     lineSampleToWorld(const ossimDpt &projectedPoint,
                                 ossimGpt& gpt)const;
+
                 virtual void lineSampleHeightToWorld(const ossimDpt& lineSampPt,
                                 const double&   heightAboveEllipsoid,
                                 ossimGpt&       worldPt) const;
-
                 virtual void lineSampleToEastingNorthing(const ossimDpt& liineSample,
                                 ossimDpt& eastingNorthing)const;
 
                 virtual void eastingNorthingToLineSample(const ossimDpt& eastingNorthing,
                                 ossimDpt&       lineSample)const;
-
                 virtual void eastingNorthingToWorld(const ossimDpt& eastingNorthing,
                                 ossimGpt&       worldPt)const;
 
 
                 virtual double getFalseEasting() const;
-
                 virtual double getFalseNorthing() const;
 
                 virtual double getStandardParallel1() const;
-
-
                 virtual double getStandardParallel2() const;
 
                 virtual void update();
@@ -78,7 +75,6 @@ class ossimMapProjection : public ossimProjection
                 virtual void setGcsCode(ossim_uint32 pcsCode);
 
                 virtual ossim_uint32 getPcsCode()const;
-
                 virtual ossim_uint32 getGcsCode()const;
 
                 virtual ossimString getProjectionName() const;
@@ -102,9 +98,7 @@ class ossimMapProjection : public ossimProjection
 
                 virtual void setEllipsoid(const ossimEllipsoid& ellipsoid);
                 virtual void setAB(double a, double b);
-
                 virtual void setDatum(const ossimDatum* datum);
-
                 virtual void setOrigin(const ossimGpt& origin);
 
                 virtual void setMetersPerPixel(const ossimDpt& gsd);
@@ -117,7 +111,6 @@ class ossimMapProjection : public ossimProjection
 
                 virtual bool saveState(ossimKeywordlist& kwl,
                                 const char* prefix=0) const;
-
                 virtual bool loadState(const ossimKeywordlist& kwl,
                                 const char* prefix=0);
 
@@ -129,13 +122,10 @@ class ossimMapProjection : public ossimProjection
                                 const ossimDpt& metersPerPixel,
                                 double &deltaLat,
                                 double &deltaLon);
-
-
                 virtual void computeMetersPerPixel(const ossimGpt& center,
                                 double deltaDegreesPerPixelLat,
                                 double deltaDegreesPerPixelLon,
                                 ossimDpt &metersPerPixel);
-
                 virtual void computeMetersPerPixel(double deltaDegreesPerPixelLat,
                                 double deltaDegreesPerPixelLon,
                                 ossimDpt &metersPerPixel);
@@ -143,11 +133,8 @@ class ossimMapProjection : public ossimProjection
                 void setMatrix(double rotation,
                                 const ossimDpt& scale,
                                 const ossimDpt& translation);
-
                 void setMatrixScale(const ossimDpt& scale);
-
                 void setMatrixRotation(double rotation);
-
                 void setMatrixTranslation(const ossimDpt& translation);
 
                 void snapTiePointTo(ossim_float64 multiple, ossimUnitType unitType);
@@ -185,27 +172,22 @@ class ossimMapProjection : public ossimProjection
                 const ossimDatum* theDatum;
 
                 ossimDpt          theMetersPerPixel;
-
                 ossimDpt          theDegreesPerPixel;
-
                 ossimGpt          theUlGpt;
-
                 ossimDpt          theUlEastingNorthing;
-
                 ossimDpt          theFalseEastingNorthing;
 
                 mutable ossim_uint32      thePcsCode;
-
                 mutable ossim_uint32      theGcsCode;
 
                 bool              theElevationLookupFlag;
 
-                ossimMatrix4x4 theModelTransform; 		// goes from image to model
-                ossimMatrix4x4 theInverseModelTransform; 	//goes from model back to image
+                ossimMatrix4x4 theModelTransform;               // goes from image to model
+                ossimMatrix4x4 theInverseModelTransform;        //goes from model back to image
 
                 ossimUnitType theModelTransformUnitType;
-
                 ossimUnitType theProjectionUnits;
-
-                TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

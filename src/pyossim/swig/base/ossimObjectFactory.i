@@ -39,5 +39,6 @@ class ossimObjectFactory : public ossimObject
                 virtual void getTypeNameList(std::vector<ossimString>& typeList)const=0;
 
         protected:
-                TYPE_DATA
+                /* Ignoring Macros
+                TYPE_DATA */
 };

@@ -19,9 +19,70 @@
 
 %}
 
-%import "ossim/projection/ossimMapProjection.h";
-%import "ossim/imaging/ossimImageChain.h";
+/* Handling assignment operator */
+%rename(__set__) ossimMapProjectionInfo::operator=;
 
+/* Handling the reserved function print */
+%rename(ossimMapProjectionInfo_print) ossimMapProjectionInfo::print;
+
+/* This tells SWIG to treat char ** as a special case */
+%typemap(in) char ** 
+{
+        /* Check if input is a list */
+        if (PyList_Check($input)) 
+        {
+                int size = PyList_Size($input);
+                int i = 0;
+
+                /* Allocate memory */
+                $1 = (char *) malloc((size+1)*sizeof(char));
+
+                for (i = 0; i < size; i++) 
+                {
+                        PyObject *o = PyList_GetItem($input,i);
+
+                        if (PyString_Check(o))
+                        {
+                                $1[i] = PyString_AsString(PyList_GetItem($input,i));
+                        }
+
+                        else 
+                        {
+                                PyErr_SetString(PyExc_TypeError,"List must contain strings");
+                                free($1);
+                                return NULL;
+                        }
+                }
+                $1[i] = 0;
+        } 
+
+        else 
+        {
+                PyErr_SetString(PyExc_TypeError,"not a list");
+                return NULL;
+        }
+}
+
+/* To return char** from a C function as Python List */
+%typemap(out) char*
+{
+        int i;
+        int len = 0;
+
+        while ($1[len])
+        {
+                len++;
+        }
+
+        $result = PyList_New(len);
+
+        for (i = 0; i < len; i++) 
+        {
+                PyList_SetItem($result, i, PyString_FromString($1[i]));
+        }
+}
+
+/* Wrapping the class ossimMapProjectionInfo */
 class ossimMapProjectionInfo : public ossimObject
 {
         public:
@@ -36,9 +97,7 @@ class ossimMapProjectionInfo : public ossimObject
                 void getGeom(ossimKeywordlist& kwl, const char* prefix=0)const;
 
                 ossimDpt getMetersPerPixel() const;
-
                 ossimDpt getUsSurveyFeetPerPixel() const;
-
                 ossimDpt getDecimalDegreesPerPixel() const;
 
                 ossimDpt ulEastingNorthingPt() const;
@@ -57,7 +116,6 @@ class ossimMapProjectionInfo : public ossimObject
                 ossimGpt llGroundPt() const;
 
                 ossimGpt centerGroundPt() const;
-
                 ossimDpt centerEastingNorthingPt() const;
 
                 ossim_int32 linesPerImage() const;
@@ -88,7 +146,7 @@ class ossimMapProjectionInfo : public ossimObject
 
         private:
 
-                // Do not permit construction with void args.
+                /* Do not permit construction with void args. */
                 ossimMapProjectionInfo();
                 ossimMapProjectionInfo& operator=(const ossimMapProjectionInfo&);
 

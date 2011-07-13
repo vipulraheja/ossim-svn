@@ -12,12 +12,11 @@
 #include <ossim/base/ossimBaseObjectFactory.h>
 #include <ossim/base/ossimString.h>
 
-#include <ossim/projection/ossimProjecionViewControllerFactory.h>
+#include <ossim/projection/ossimProjectionViewControllerFactory.h>
 
 %}
 
-%import "ossim/base/ossimViewController.h";
-
+/* Wrapping class ossimProjectionViewControllerFactory */
 class ossimProjectionViewControllerFactory : public ossimObjectFactory
 {
         public:
@@ -38,5 +37,7 @@ class ossimProjectionViewControllerFactory : public ossimObjectFactory
                 ossimProjectionViewControllerFactory(const ossimProjectionViewControllerFactory& /* rhs */){}
 
                 static ossimProjectionViewControllerFactory* theInstance;
-                TYPE_DATA
+
+                /* Ignoring Macro 
+                TYPE_DATA */
 };

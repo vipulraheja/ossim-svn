@@ -20,11 +20,18 @@
 
 %}
 
+/* Handling ossimImageViewTransform <<  operator */
+%rename(__lshift__) operator <<;
+
+/* Handling the reserved function print */
+%rename(ossimImageViewTransform_print) ossimImageViewTransform::print;
+
+/* Wrapping class ossimImageViewTransform */
 class ossimImageViewTransform : public ossim2dTo2dTransform,
         public ossimViewInterface
 {
         public:
-                friend OSSIMDLLEXPORT ostream& operator<<(ostream& out,
+                friend ostream& operator<<(ostream& out,
                                 const ossimImageViewTransform& data);
 
                 ossimImageViewTransform();
@@ -34,7 +41,6 @@ class ossimImageViewTransform : public ossim2dTo2dTransform,
 
                 virtual bool isIdentity()const=0;
 
-
                 virtual bool isValid()const=0;
                 virtual ossimDpt getInputMetersPerPixel()const=0;
                 virtual ossimDpt getOutputMetersPerPixel()const=0;
@@ -42,21 +48,18 @@ class ossimImageViewTransform : public ossim2dTo2dTransform,
                 virtual void getImageToViewScale(ossimDpt& resultScale,
                                 const ossimDpt& imagePoint,
                                 const ossimDpt& deltaImagePointXY)const;
-
                 virtual void getViewToImageScale(ossimDpt& resultScale,
                                 const ossimDpt& imagePoint,
                                 const ossimDpt& deltaImagePointXY)const;
 
                 virtual void imageToView(const ossimDpt& imagePoint,
                                 ossimDpt&       viewPoint)const;
-
                 virtual void viewToImage(const ossimDpt& viewPoint,
                                 ossimDpt&       imagePoint)const;
 
                 virtual std::ostream& print(std::ostream& out) const;
 
                 ossimDpt imageToView(const ossimDpt& imagePoint)const;
-
                 ossimDpt viewToImage(const ossimDpt& viewPoint)const;
 
                 virtual void getScaleChangeImageToView(ossimDpt& result,
@@ -77,6 +80,6 @@ class ossimImageViewTransform : public ossim2dTo2dTransform,
                                 const char* prefix =0);
                 virtual bool saveState(ossimKeywordlist& kwl,
                                 const char* prefix = 0)const;
-
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

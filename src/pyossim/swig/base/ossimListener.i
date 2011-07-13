@@ -11,10 +11,10 @@
 
 #include <ossim/base/ossimObject.h>
 #include <ossim/base/ossimListener.h>
+#include <ossim/base/ossimEvent.h>
 
 %}
 
-%import "osism/base/ossimEvent";
 
 /*!
  * Base class for all listners.  Listners nned to derive from this
@@ -43,5 +43,7 @@ class ossimListener
 
         protected:
                 bool theListenerEnableFlag;
-                TYPE_DATA
+
+                /* ignored Macro
+                TYPE_DATA */
 };

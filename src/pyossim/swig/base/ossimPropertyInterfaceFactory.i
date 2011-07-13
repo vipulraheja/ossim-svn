@@ -12,13 +12,13 @@
 #include <ossim/base/ossimRtti.h>
 #include <ossim/base/ossimObjectFactory.h>
 #include <ossim/base/ossimPropertyInterfaceFactory.h>
+#include <ossim/base/ossimObject.h>
+#include <ossim/base/ossimPropertyInterface.h>
 
 %}
 
-%import "ossim/base/ossimObject.h";
-%import "ossim/base/ossimPropertyInterface.h";
 
-class OSSIMDLLEXPORT ossimPropertyInterfaceFactory : public ossimObjectFactory
+class ossimPropertyInterfaceFactory : public ossimObjectFactory
 {
         public:
                 ossimPropertyInterfaceFactory()
@@ -27,5 +27,6 @@ class OSSIMDLLEXPORT ossimPropertyInterfaceFactory : public ossimObjectFactory
 
                 virtual ossimPropertyInterface* createInterface( const ossimObject* obj ) const = 0;
 
-                TYPE_DATA
+                /* Macro ignored 
+                TYPE_DATA */
 };

@@ -12,15 +12,15 @@
 #include <ossim/base/ossimObjectFactory.h>
 #include <ossim/base/ossimPropertyInterfaceRegistry.h>
 #include <ossim/base/ossimRtti.h>
+#include <ossim/base/ossimPropertyInterfaceFactory.h>
+#include <ossim/base/ossimPropertyInterface.h>
 
 #include <vector>
 
 %}
 
-%import "ossim/base/ossimPropertyInterfaceFactory.h";
-%import "ossim/base/ossimPropertyInterface.h";
-
-/* operator = */
+/* Handling assignment operator */
+%rename(__set__) ossimPropertyInterfaceRegistry::operator=;
 
 class ossimPropertyInterfaceRegistry : public ossimObjectFactory
 {
@@ -51,6 +51,8 @@ class ossimPropertyInterfaceRegistry : public ossimObjectFactory
 
                 bool addFactory( ossimPropertyInterfaceFactory* factory );
                 bool registerFactory(ossimPropertyInterfaceFactory* factory);
+
+        
         protected:
                 ossimPropertyInterfaceRegistry()
                         :ossimObjectFactory() {}
@@ -62,7 +64,8 @@ class ossimPropertyInterfaceRegistry : public ossimObjectFactory
                 static ossimPropertyInterfaceRegistry* theInstance;
                 vector<ossimPropertyInterfaceFactory*> theFactoryList;
 
-                TYPE_DATA
+                /* Ignoring Macro 
+                TYPE_DATA */
 };
 
 extern "C"

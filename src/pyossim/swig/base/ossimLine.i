@@ -15,6 +15,10 @@ Description     : Contains SWIG-Python of class ossimLine
 
 %}
 
+/* Handling operators */
+%rename(__lshift__) operator<<;
+
+/* Wrapping class ossimLine */
 class ossimLine
 {
         public:

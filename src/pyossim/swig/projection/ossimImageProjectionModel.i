@@ -12,12 +12,9 @@
 #include <ossim/base/ossimConstants.h>
 #include <ossim/base/ossimRtti.h>
 #include <ossim/imaging/ossimImageModel.h>
-#include <ossim/projection/ossimProjectionModel.h>
 #include <ossim/projection/ossimImageProjectionModel.h>
 
 %}
-
-%import "ossim/projection/ossimProjection.h";
 
 /**
  * @brief Class derived from ossimImageModel, this adds an image projection
@@ -42,5 +39,6 @@ class ossimImageProjectionModel : public ossimImageModel
 
                 ossimProjection* theProjection;
 
-                TYPE_DATA
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };

@@ -5,10 +5,6 @@
  * Description     : Contains SWIG-Python of class ossimString
  * -----------------------------------------------------------------------------*/
 
-
-
-/* THIS FILE IS STILL INCOMPLETE */
-
 %module pyossim
 
 %{
@@ -21,6 +17,19 @@
 
 %}
 
+/* OPERATOR () left */
+
+/* Handling ossimHistogramRemapper assignment operator */
+%rename(__set__) ossimString::operator=;
+%rename(__iadd__) ossimString::operator+=;
+%rename(__ne__) ossimString::operator!=;
+%rename(__getitem__) ossimString::operator[];
+%rename(__eq__) operator==;
+%rename(__add__) operator+;
+%rename(__rshift__) operator>>;
+%rename(__lshift__) operator<<;
+
+/* Wrapping the class ossimString */
 class ossimString
 {
         public:
@@ -29,30 +38,25 @@ class ossimString
                 typedef std::string::iterator       iterator;
                 typedef std::string::size_type      size_type;
 
-                /** default constructor */
                 ossimString(): m_str() {}
-
-                /** constructor that takes a std::string */
                 ossimString(const std::string& s):m_str(s) {}
                 ossimString(const char *aString):m_str( aString?aString:"" ){}
-
-                /** copy constructor */
                 ossimString(const ossimString& aString):m_str(aString.m_str){}
-
-                /** constructor - constructs with n copies of c */
                 ossimString(std::string::size_type n, char c):m_str(n,c){}
-
-                /** constructor - constructs with 1 c. */
                 ossimString(char aChar):m_str(1, aChar){}
 
                 template <class Iter>
                         ossimString(Iter startIter, Iter endIter):m_str(startIter, endIter){}
 
                 bool contains(const ossimString& aString) const
-                { return m_str.find(aString.m_str)!=std::string::npos; }
+                {
+                        return m_str.find(aString.m_str)!=std::string::npos; 
+                }
 
                 bool contains(const char* aString) const
-                { return m_str.find(aString)!=std::string::npos; }
+                {
+                        return m_str.find(aString)!=std::string::npos; 
+                }
 
                 /** @brief Type conversion operator to a const std::string&. */
                 operator const std::string&() const { return m_str; }
@@ -67,22 +71,22 @@ class ossimString
                 const char* chars() const { return m_str.c_str(); }
 
                 /** @brief Reads s from the input stream is. */
-                friend OSSIM_DLL std::istream& operator>>(std::istream&  is, ossimString& s);
+                friend std::istream& operator>>(std::istream&  is, ossimString& s);
 
                 /** @brief Writes s to the output stream os. */
-                friend OSSIM_DLL std::ostream& operator<<(std::ostream& os,
+                friend std::ostream& operator<<(std::ostream& os,
                                 const ossimString& s);
 
                 /**
                  * @brief Reads a string from the input stream is, stopping when it
                  * reaches delim.
                  */
-                friend OSSIM_DLL std::istream& getline( std::istream& is,
+                friend std::istream& getline( std::istream& is,
                                 ossimString& str,
                                 char delim );
 
                 /** @brief Reads a single line from the input stream is. */
-                friend OSSIM_DLL std::istream& getline( std::istream& is, ossimString& str );
+                friend std::istream& getline( std::istream& is, ossimString& str );
 
                 const ossimString& operator=(const std::string& s)
                 {
@@ -143,13 +147,10 @@ class ossimString
                 }
 
                 const ossimString& append(const ossimString& s);
-
                 const ossimString& append(const std::string& s);
-
                 const ossimString& append(const char* s);
 
                 const char& at(std::string::size_type n) const;
-
                 char& at(std::string::size_type n);
 
                 /** @brief Append n copies of c to *this. */
@@ -183,13 +184,13 @@ class ossimString
                         return returnS;
                 }
 
-                friend OSSIM_DLL ossimString operator+(const char* s1, const ossimString& s2);
+                friend ossimString operator+(const char* s1, const ossimString& s2);
 
-                friend OSSIM_DLL ossimString operator+(const std::string s1, const ossimString& s2);
+                friend ossimString operator+(const std::string s1, const ossimString& s2);
 
-                friend OSSIM_DLL ossimString operator+(char c, const ossimString& s2);
-                friend OSSIM_DLL bool operator==(const char* lhs, const ossimString& rhs);
-                friend OSSIM_DLL bool operator==(const std::string& lhs, const ossimString& rhs);
+                friend ossimString operator+(char c, const ossimString& s2);
+                friend bool operator==(const char* lhs, const ossimString& rhs);
+                friend bool operator==(const std::string& lhs, const ossimString& rhs);
 
                 /**
                  *  @brief  Test if this ossimString is equal to another ossimString.
@@ -267,94 +268,37 @@ class ossimString
                 std::string substr(std::string::size_type pos = 0,
                                 std::string::size_type n = std::string::npos) const;
 
-                /**
-                 * this will strip lead and trailing character passed in.
-                 * So if you want to remove blanks:
-                 *    ossimString temp("       asdfasdf      ");
-                 *    ossimString trimmedString = temp.trim(" \n\t\r");
-                 *
-                 *    this will now contain "asdfasdf" without the blanks.
-                 *
-                 */
                 ossimString trim(const ossimString& valueToTrim= ossimString(" \t\n\r"))const;
                 ossimString& trim(const ossimString& valueToTrim= ossimString(" \t\n\r"));
 
                 ossimString beforePos(std::string::size_type pos)const;
                 ossimString afterPos(std::string::size_type pos)const;
 
-                /**
-                 *  Substitutes searchKey string with replacementValue and returns a
-                 *  string.  Will replace all occurrences found if "replaceAll" is true.
-                 */
                 ossimString substitute(const ossimString &searchKey,
                                 const ossimString &replacementValue,
                                 bool replaceAll=false)const;
 
-                /**
-                 *  Substitutes searchKey string with replacementValue and returns a
-                 *  reference to *this.  Will replace all occurrences found if
-                 *  "replaceAll" is true.  (like substitute only works on "this")
-                 */
                 ossimString& gsub(const ossimString &searchKey,
                                 const ossimString &replacementValue,
                                 bool replaceAll=false);
 
                 std::vector<ossimString> explode(const ossimString& delimeter) const;
 
-                /**
-                 * If the variable "$(env_var_name)" is found in the string, where
-                 * "env_var_name" is any system environment variable resolvable by
-                 * the getenv() function, the variable is expanded in place and the
-                 * result returned.
-                 */
                 ossimString expandEnvironmentVariable() const;
 
-                /**
-                 * @param aString String to make an upcased copy of.
-                 *
-                 * @return An upcased version of aString.
-                 */
                 static ossimString upcase(const ossimString& aString);
-
-                /**
-                 * @param aString String to make an downcased copy of.
-                 *
-                 * @return A downcased version of aString.
-                 */
                 static ossimString downcase(const ossimString& aString);
 
-                /**
-                 * Upcases this string.
-                 *
-                 * @return Reference to this.
-                 */
                 ossimString& upcase();
                 ossimString upcase()const;
 
-                /**
-                 * Downcases this string.
-                 *
-                 * @return Reference to this.
-                 */
                 ossimString& downcase();
                 ossimString downcase()const;
 
-                /**
-                 * @brief Returns a pointer to a null-terminated array of characters
-                 * representing the string's contents.
-                 */
                 const char* c_str() const { return m_str.c_str(); }
-
-                /**
-                 * @brief Returns a pointer to an array of characters (not necessarily
-                 * null-terminated) representing the string's contents.
-                 */
                 const char* data() const { return m_str.data(); }
 
-                /** @return The size of the string. */
                 std::string::size_type size() const { return m_str.size(); }
-
-                /** @return The size of the string. */
                 std::string::size_type length() const { return m_str.size(); }
 
                 /** @return True if size is 0. */
@@ -659,242 +603,4 @@ class ossimString
         protected:
 
                 std::string m_str;
-};
-
-
-inline std::string::iterator ossimString::erase(std::string::iterator p)
-{
-        return m_str.erase(p);
-}
-
-inline std::string::iterator ossimString::erase(std::string::iterator first,
-                std::string::iterator last)
-{
-        return m_str.erase(first, last);
-}
-
-inline std::string& ossimString::erase(std::string::size_type pos,
-                std::string::size_type n)
-{
-        return m_str.erase(pos, n);
-}
-
-inline std::string::size_type ossimString::find(
-                const std::string& s, std::string::size_type pos) const
-{
-        return m_str.find(s, pos);
-}
-
-inline std::string::size_type ossimString::find(
-                const char* s, std::string::size_type pos, std::string::size_type n) const
-{
-        return m_str.find(s, pos, n);
-}
-
-inline std::string::size_type ossimString::find(
-                const char* s, std::string::size_type pos) const
-{
-        return m_str.find(s, pos);
-}
-
-inline std::string::size_type ossimString::find(
-                char c, std::string::size_type pos) const
-{
-        return m_str.find(c, pos);
-}
-
-inline std::string::size_type ossimString::rfind(
-                const std::string& s, std::string::size_type pos) const
-{
-        return m_str.rfind(s, pos);
-}
-
-inline std::string::size_type ossimString::rfind(
-                const char* s, std::string::size_type pos, std::string::size_type n) const
-{
-        return m_str.rfind(s, pos, n);
-}
-
-inline std::string::size_type ossimString::rfind(
-                const char* s, std::string::size_type pos) const
-{
-        return m_str.rfind(s, pos);
-}
-
-inline std::string::size_type ossimString::rfind(
-                char c, std::string::size_type pos) const
-{
-        return m_str.rfind(c, pos);
-}
-
-inline std::string::size_type ossimString::find_first_of(
-                char c, std::string::size_type pos) const
-{
-        return m_str.find_first_of(c, pos);
-}
-
-inline std::string::size_type ossimString::find_first_of(
-                const char* s, std::string::size_type pos) const
-{
-        return m_str.find_first_of(s, pos);
-}
-
-inline std::string::size_type ossimString::find_first_not_of(
-                const char c, std::string::size_type pos) const
-{
-        return m_str.find_first_not_of(c, pos);
-}
-
-inline std::string::size_type ossimString::find_first_not_of(
-                const char* s, std::string::size_type pos) const
-{
-        return m_str.find_first_not_of(s, pos);
-}
-
-inline std::string::size_type ossimString::find_last_of(
-                char c, std::string::size_type pos) const
-{
-        return m_str.find_last_of(c, pos);
-}
-
-inline const ossimString& ossimString::append(const ossimString& s)
-{
-        m_str.append(s.m_str);
-        return *this;
-}
-
-inline const ossimString& ossimString::append(const std::string& s)
-{
-        m_str.append(s);
-        return *this;
-}
-
-inline const ossimString& ossimString::append(const char* s)
-{
-        if ( s ) m_str.append(s);
-        return *this;
-}
-
-inline const ossimString& ossimString::append(std::string::size_type n, char c)
-{
-        m_str.append(n, c);
-        return *this;
-}
-
-inline const char& ossimString::at(std::string::size_type n) const
-{
-        return m_str.at(n); 
-}
-
-inline char& ossimString::at(std::string::size_type n)
-{
-        return m_str.at(n);
-}
-
-inline std::string& ossimString::assign(std::string::size_type n, char c)
-{
-        return m_str.assign(n, c);
-}
-
-inline std::string& ossimString::replace(
-                std::string::size_type pos, std::string::size_type n, const std::string& s)
-{
-        return m_str.replace(pos, n, s);
-}
-
-inline std::string& ossimString::replace(std::string::iterator first,
-                std::string::iterator last,
-                const std::string& s)
-{
-        return m_str.replace(first, last, s);
-}
-
-inline std::string& ossimString::replace(std::string::size_type pos,
-                std::string::size_type n,
-                const std::string& s,
-                std::string::size_type pos1,
-                std::string::size_type n1)
-{
-        return m_str.replace(pos, n, s, pos1, n1);
-}
-
-inline void ossimString::reserve(std::string::size_type n)
-{
-        m_str.reserve(n);
-}
-
-
-inline std::string& ossimString::insert(std::string::size_type pos,
-                const char* s)
-{
-        if (s) m_str.insert(pos, s);
-        return m_str;
-}
-
-inline void ossimString::push_back(char c)
-{
-        m_str.push_back(c);
-}
-
-inline std::string ossimString::substr(std::string::size_type pos,
-                std::string::size_type n) const
-{
-        return m_str.substr(pos, n);
-}
-
-inline std::istream& getline( std::istream& is, ossimString& str, char delim )
-{
-        return std::getline( is, str.string(), delim );
-}
-
-inline std::istream& getline( std::istream& is, ossimString& str )
-{
-        // Not sure why getline( is, str.string()) doesnt work. (drb)
-        return std::getline( is, str.string(), '\n' );
-}
-
-inline std::istream& operator>>(std::istream&  is, ossimString& s)
-{
-        return is >> s.string();
-}
-
-inline std::ostream& operator<<(std::ostream& os, const ossimString& s)
-{
-        return os << s.string();
-}
-
-inline ossimString operator+(const char* s1, const ossimString& s2)
-{
-        ossimString result;
-        if ( s1 ) result = ossimString( s1 + s2.string() );
-        else result = s2;
-        return result;
-}
-
-inline ossimString operator+(const std::string s1, const ossimString& s2)
-{
-        return ossimString( s1 + s2.string() );
-}
-
-inline ossimString operator+(char c, const ossimString& s2)
-{
-        return ossimString( c + s2.string() );
-}
-
-inline bool operator==(const char* lhs, const ossimString& rhs)
-{
-        return (rhs.operator ==(lhs));
-}
-
-inline bool operator==(const std::string& lhs, const ossimString& rhs)
-{
-        return (rhs.operator ==(lhs));
-}
-
-struct ossimStringLtstr
-{
-        bool operator()(const ossimString& s1, const ossimString& s2) const
-        {
-                return s1.string().compare(s2.string()) < 0;
-        }
 };

@@ -13,12 +13,12 @@
 #include <ossim/base/ossimListenerManager.h>
 #include <list>
 #include <ossim/base/ossimRtti.h>
+#include <ossim/base/ossimListener.h>
+#include <ossim/base/ossimEvent.h>
 
 %}
 
-%import "ossim/base/ossimListener.h";
-%import "ossim/base/ossimEvent.h";
-
+/* Wrapping class ossimListenerManager */
 class ossimListenerManager
 {
         public:
@@ -48,5 +48,6 @@ class ossimListenerManager
                 mutable std::list<ossimListener*> theDelayedRemove;
                 mutable bool theFireEventFlag;
 
-                TYPE_DATA
+                /* Ignoring Macro
+                TYPE_DATA */
 };

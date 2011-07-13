@@ -51,5 +51,6 @@ class ossimStringProperty : public ossimProperty
                 bool        theEditableFlag;
                 std::vector<ossimString> theConstraints;
 
-                TYPE_DATA
+                /* Ignoring Macro 
+                TYPE_DATA */
 };

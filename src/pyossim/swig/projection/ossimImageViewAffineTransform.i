@@ -15,6 +15,7 @@
 
 %}
 
+/* Wrapping the class ossimImageViewAffineTransform */
 class ossimImageViewAffineTransform: public ossimImageViewTransform
 {
         public:
@@ -98,6 +99,7 @@ class ossimImageViewAffineTransform: public ossimImageViewTransform
                 ossimDpt      m_scale;
                 ossimDpt      m_translate;
                 ossimDpt      m_pivot;
-
-                TYPE_DATA
+                
+                /* Ignored due to unclean parsing of MACROS     */
+                /* TYPE_DATA                                    */
 };
