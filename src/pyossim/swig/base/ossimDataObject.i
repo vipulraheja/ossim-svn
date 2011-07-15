@@ -18,11 +18,11 @@
 
 /* OPERATORS */
 /* Handling operators */
-%rename(__cmp__) ossimDataObject::operator==;
 %rename(__set__) ossimDataObject::operator=;
+%rename(__cmp__) ossimDataObject::operator==;
 %rename(__ne__) ossimDataObject::operator!=;
 %rename(ossimDataObject_print) print;
-
+  
 /* Wrapping class ossimDataObject */
 class ossimDataObject : public ossimObject
 {
