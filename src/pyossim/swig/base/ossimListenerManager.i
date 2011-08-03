@@ -8,46 +8,14 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimConstants.h>
 #include <ossim/base/ossimListenerManager.h>
-#include <list>
-#include <ossim/base/ossimRtti.h>
-#include <ossim/base/ossimListener.h>
-#include <ossim/base/ossimEvent.h>
-
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Wrapping class ossimListenerManager */
-class ossimListenerManager
-{
-        public:
-                ossimListenerManager();
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimListenerManager.h"
 
-                virtual ~ossimListenerManager();
-
-                virtual void fireEvent(ossimEvent& event);
-
-                virtual bool addListener(ossimListener* listener);
-                virtual bool removeListener(ossimListener* listener);
-
-                /*!
-                 * Searches the list and sees if a listener is found
-                 */
-                virtual bool findListener(ossimListener* listener);
-
-        protected:
-                ossimListenerManager(const ossimListenerManager& rhs);
-
-                /*!
-                 *  Holds the list of listeners.
-                 */
-                std::list<ossimListener*> theListenerList;
-                bool theEnabledFlag;
-                mutable std::list<ossimListener*> theDelayedAdd;
-                mutable std::list<ossimListener*> theDelayedRemove;
-                mutable bool theFireEventFlag;
-
-                /* Ignoring Macro
-                TYPE_DATA */
-};
+#endif

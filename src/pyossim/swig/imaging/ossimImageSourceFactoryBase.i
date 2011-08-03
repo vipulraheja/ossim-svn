@@ -21,18 +21,5 @@ Description     : Contains SWIG-Python of class ossimImageSourceFactoryBase
 /* Handling ossimImageSourceFactoryBase Assignment operator */
 %rename(__set__) ossimImageSourceFactoryBase::operator=;
 
-
 /* Wrapping class ossimImageSourceFactoryBase */
-class ossimImageSourceFactoryBase : public ossimObjectFactory
-{
-        public:
-                virtual ossimImageSource* createImageSource(const ossimString& name)const;
-                virtual ossimImageSource* createImageSource(const ossimKeywordlist& kwl,
-                                const char* prefix=0)const;
-
-        protected:
-                /* Hide from use */
-                ossimImageSourceFactoryBase();
-                ossimImageSourceFactoryBase(const ossimImageSourceFactoryBase&);
-                const ossimImageSourceFactoryBase& operator=(const ossimImageSourceFactoryBase&);
-};
+%include "ossim/imaging/ossimImageSourceFactoryBase.h"

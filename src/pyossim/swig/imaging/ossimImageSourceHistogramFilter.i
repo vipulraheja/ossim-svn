@@ -16,6 +16,8 @@ Description     : Contains SWIG-Python of class ossimImageSourceHistogramFilter
 
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
 /* Include the required header files */
 %import "ossim/base/ossimConstants.h";
@@ -25,42 +27,6 @@ Description     : Contains SWIG-Python of class ossimImageSourceHistogramFilter
 
 
 /* Wrapping the class ossimImageSourceHistogramFilter */
-class ossimImageSourceHistogramFilter : public ossimImageSourceFilter
-{
-        public:
-                ossimImageSourceHistogramFilter();
-                ossimImageSourceHistogramFilter(ossimImageSource* inputSource,
-                                ossimRefPtr<ossimMultiResLevelHistogram> histogram);
+%include "ossim/imaging/ossimImageSourceHistogramFilter.h"
 
-                virtual void setHistogram(ossimRefPtr<ossimMultiResLevelHistogram> histogram);
-                virtual bool setHistogram(const ossimFilename& filename);
-                
-                virtual const ossimFilename& getHistogramFilename()const;
-                
-                virtual ossimRefPtr<ossimMultiResLevelHistogram> getHistogram();
-                virtual const ossimRefPtr<ossimMultiResLevelHistogram> getHistogram()const;
-
-                bool canConnectMyInputTo(ossim_int32 inputIndex,
-                                const ossimConnectableObject* object)const;
-
-                virtual void connectInputEvent(ossimConnectionEvent& event);
-
-                virtual bool loadState(const ossimKeywordlist& kwl,
-                                const char* prefix = NULL);
-
-                virtual bool saveState(ossimKeywordlist& kwl,
-                                const char* prefix = NULL)const;
-
-                virtual std::ostream& print(std::ostream& out) const;
-
-        protected:
-                virtual ~ossimImageSourceHistogramFilter();
-                ossim_int32 theCurrentResLevel;
-
-        private:
-                ossimRefPtr<ossimMultiResLevelHistogram> theHistogram;
-                ossimFilename theFilename;
-
-                /* Ignored due to unclean parsing of MACROS     */
-                /* TYPE_DATA                                    */
-};
+#endif                                        

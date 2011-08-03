@@ -8,24 +8,9 @@
 %module pyossim
 
 %{
-#include <ossim/elevation/ossimElevationDatabaseFactoryBase.h>
 #include <ossim/elevation/ossimElevationDatabaseFactory.h>
 %}
 
-class ossimElevationDatabaseFactory : public ossimElevationDatabaseFactoryBase
-{
-        public:
-                ossimElevationDatabaseFactory()
-                {
-                        m_instance = this;
-                }
-                static ossimElevationDatabaseFactory* instance();
+%include "ossim/base/ossimConstants.h"
 
-                ossimElevationDatabase* createDatabase(const ossimString& typeName)const;
-                ossimElevationDatabase* createDatabase(const ossimKeywordlist& kwl,
-                                const char* prefix=0)const;
-                virtual ossimElevationDatabase* open(const ossimString& connectionString)const;
-                virtual void getTypeNameList(std::vector<ossimString>& typeList)const;
-        protected:
-                static ossimElevationDatabaseFactory* m_instance;
-};
+%include "ossim/elevation/ossimElevationDatabaseFactory.h"

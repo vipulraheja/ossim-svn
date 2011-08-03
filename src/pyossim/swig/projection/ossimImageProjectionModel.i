@@ -8,37 +8,15 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimConstants.h>
-#include <ossim/base/ossimRtti.h>
-#include <ossim/imaging/ossimImageModel.h>
 #include <ossim/projection/ossimImageProjectionModel.h>
-
 %}
 
-/**
- * @brief Class derived from ossimImageModel, this adds an image projection
- * for lineSampleToWorld and worldToLineSample.
- *
- * Note that image points fed to projection methods should be full
- * resolution with any sub image offset applied.
- */
-class ossimImageProjectionModel : public ossimImageModel
-{
-        public:
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
-                ossimImageProjectionModel();
+%include "ossim/base/ossimConstants.h"
 
-                virtual void initialize(const ossimImageHandler& ih);
+/* Wrapping the class ossimImageProjectionModel */
+%include "ossim/projection/ossimImageProjectionModel.h"
 
-                const ossimProjection* getProjection() const;
-
-        protected:
-                /** @brief virtual destructor */
-                virtual ~ossimImageProjectionModel();
-
-                ossimProjection* theProjection;
-
-                /* Ignored due to unclean parsing of MACROS     */
-                /* TYPE_DATA                                    */
-};
+#endif

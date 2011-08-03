@@ -8,33 +8,14 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimKeywordlist.h>
-#include <ossim/base/ossimObject.h>
-#include <ossim/base/ossimRefPtr.h>
-#include <ossim/base/ossimProperty.h>
 #include <ossim/base/ossimPropertyInterface.h>
-
 %}
 
-class ossimPropertyInterface
-{
-        public:
-                ossimPropertyInterface() {}
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
-                virtual ~ossimPropertyInterface() {}
+/* Wrapping the class ossimPropertyInterface */
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimPropertyInterface.h"
 
-                virtual void setProperty(const ossimString& name,
-                                const ossimString& value);
-                virtual void setProperty(ossimRefPtr<ossimProperty> property);
-                virtual ossimRefPtr<ossimProperty> getProperty(const ossimString& name)const; 
-                virtual ossimString getPropertyValueAsString(const ossimString& name)const;
-                virtual void getPropertyNames(std::vector<ossimString>& propertyNames)const;
-                void getPropertyList(std::vector<ossimRefPtr<ossimProperty> >& propertyList)const;
-                void setProperties(std::vector<ossimRefPtr<ossimProperty> >& propertyList);
-
-        protected:
-
-                /* Macro Ignored 
-                TYPE_DATA */
-};
+#endif

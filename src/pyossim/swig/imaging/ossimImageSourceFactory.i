@@ -14,28 +14,13 @@ Description     : Contains SWIG-Python of class ossimImageSourceFactory
 
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Handling ossimImageSourceFactory Assignment operator */
 %rename(__set__) ossimImageSourceFactory::operator=;
 
 /* Wrapping class ossimImageSourceFactory */
-class ossimImageSourceFactory : public ossimImageSourceFactoryBase
-{
-        public:
-                virtual ~ossimImageSourceFactory();
-                static ossimImageSourceFactory* instance();
-                virtual ossimObject* createObject(const ossimString& name)const;
-                virtual ossimObject* createObject(const ossimKeywordlist& kwl,
-                                const char* prefix=0)const;
-                virtual void getTypeNameList(std::vector<ossimString>& typeList)const;
+%include "ossim/imaging/ossimImageSourceFactory.h"
 
-        protected:
-                /* Hide from use */
-                ossimImageSourceFactory();
-                ossimImageSourceFactory(const ossimImageSourceFactory&);
-                const ossimImageSourceFactory& operator=(ossimImageSourceFactory&);
-
-                static ossimImageSourceFactory* theInstance;
-                
-                /* Ignored due to unclean parsing of MACROS     */                
-                /* TYPE_DATA                                    */
-};
+#endif

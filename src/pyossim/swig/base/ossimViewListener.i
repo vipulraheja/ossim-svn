@@ -8,28 +8,14 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimListener.h>
-#include <ossim/base/ossimViewEvent.h>
 #include <ossim/base/ossimViewListener.h>
-
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Wrapping class ossimViewListener */
-class ossimViewListener : public ossimListener
-{
-        public:
-                ossimViewListener():ossimListener(){}
-                virtual ~ossimViewListener(){}
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimViewListener.h"
 
-                virtual void processEvent(ossimEvent& event);
-                virtual void viewScaleChangeEvent(ossimViewEvent& /* event */)   {}
-                virtual void viewTypeChangeEvent(ossimViewEvent& /* event */)    {}
-                virtual void viewEvent(ossimViewEvent& /* event */ )             {}
-                virtual void viewTransformChangeEvent(ossimViewEvent& /* event */) {}
-
-                virtual void allViewEvents(ossimViewEvent& /* event */)          {}
-
-                /* Ignoring Macro
-                TYPE_DATA */
-};
+#endif

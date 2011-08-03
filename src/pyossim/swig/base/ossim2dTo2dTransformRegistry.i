@@ -19,61 +19,14 @@
 
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Handling operators */
 %rename(__set__) ossim2dTo2dTransformRegistry::operator=;
 
-
 /* Wrapping class ossim2dTo2dTransformRegistry */
-class ossim2dTo2dTransformRegistry : public ossimObjectFactory,
-        public ossimFactoryListInterface<ossim2dTo2dTransformFactoryBase,
-        ossim2dTo2dTransform>
-{
-        public:
-                virtual ~ossim2dTo2dTransformRegistry(){}
-                static ossim2dTo2dTransformRegistry* instance();
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossim2dTo2dTransformRegistry.h"
 
-                
-                virtual ossimObject* createObject(const ossimString& typeName)const
-                {
-                        return createObjectFromRegistry(typeName);
-                }
-                virtual ossimObject* createObject(const ossimKeywordlist& kwl,
-                                const char* prefix=0)const
-                {
-                        return createObjectFromRegistry(kwl, prefix);
-                }
-                
-                
-                virtual ossim2dTo2dTransform* createTransform(const ossimString& typeName)const
-                {
-                        return createNativeObjectFromRegistry(typeName);
-                }
-                virtual ossim2dTo2dTransform* createTransform(const ossimKeywordlist& kwl,
-                                const char* prefix=0)const
-                {
-                        return createNativeObjectFromRegistry(kwl, prefix);
-                }
-
-                /*!
-                 * This should return the type name of all objects in all factories.
-                 * This is the name used to construct the objects dynamially and this
-                 * name must be unique.
-                 */
-                virtual void getTypeNameList(std::vector<ossimString>& typeList)const
-                {
-                        getAllTypeNamesFromRegistry(typeList);
-                }
-
-        protected:
-                ossim2dTo2dTransformRegistry()
-                        :ossimObjectFactory() {}
-
-                ossim2dTo2dTransformRegistry( const ossim2dTo2dTransformRegistry& rhs )
-                        :ossimObjectFactory(rhs) {}
-
-                void operator =(const ossim2dTo2dTransformRegistry&){}
-                static ossim2dTo2dTransformRegistry* m_instance;
-
-                /* Ignoring Macro
-                   TYPE_DATA */
-};
+#endif

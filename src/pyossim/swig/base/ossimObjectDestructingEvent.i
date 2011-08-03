@@ -8,20 +8,13 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimEvent.h>
-#include <ossim/base/ossimEventIds.h>
 #include <ossim/base/ossimObjectDestructingEvent.h>
-
 %}
 
-class ossimObjectDestructingEvent : public ossimEvent
-{
-        public:
-                ossimObjectDestructingEvent(ossimObject* objectDestructing=NULL)
-                        :ossimEvent(objectDestructing, OSSIM_EVENT_OBJECT_DESTRUCTING_ID) {}
-                virtual ossimObject* dup()const{return new ossimObjectDestructingEvent(*this);}
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
-                /* Ignoring
-                   TYPE_DATA */
-};
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimObjectDestructingEvent.h"
+
+#endif

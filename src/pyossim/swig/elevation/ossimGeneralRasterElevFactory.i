@@ -8,38 +8,15 @@
 %module pyossim
 
 %{
-#include <ossim/elevation/ossimElevSourceFactory.h>
-#include <ossim/base/ossimDrect.h>
-#include <ossim/elevation/ossimGeneralRasterElevHandler.h>
 #include <ossim/elevation/ossimGeneralRasterElevFactory.h>
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
+%include "ossim/base/ossimConstants.h"
+
 /* Wrapping class ossimGeneralRasterElevFactory */
-class ossimGeneralRasterElevFactory : public ossimElevSourceFactory
-{
-        public:
-                typedef std::vector<ossimGeneralRasterElevHandler::GeneralRasterInfo> BoundingRectListType;
+%include "ossim/elevation/ossimGeneralRasterElevFactory.h"
 
-                ossimGeneralRasterElevFactory();
-                ossimGeneralRasterElevFactory(const ossimFilename& dir);
-
-                virtual ~ossimGeneralRasterElevFactory();
-
-                void setDirectory(const ossimFilename& directory);
-
-                virtual ossimElevSource* getNewElevSource(const ossimGpt& gpt) const;
-
-                virtual void createIndex();
-
-
-        protected:
-                void addInfo(const ossimGeneralRasterElevHandler::GeneralRasterInfo& info);
-
-                std::vector<ossimGeneralRasterElevHandler::GeneralRasterInfo>  theGeneralRasterInfoList;
-                ossimDrect            theBoundingRect;
-                mutable ossim_int32   theCurrentIdx;
-                mutable bool theHandlerReturnedFlag;
-
-                /* Ignoring Macro
-                   TYPE_DATA */
-};
+#endif

@@ -8,30 +8,16 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimObject.h>
 #include <ossim/projection/ossimImageViewTransformFactory.h>
-
 %}
+
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
 /* Handling the assignment operator */
 %rename(__set__) ossimImageViewTransformFactory::operator=;
 
 /* Wrapping the class ossimImageViewTransformFactory */
-class ossimImageViewTransformFactory : public ossimObject
-{
-        public:
-                static ossimImageViewTransformFactory* instance();
-                virtual ossimImageViewTransform* createTransform(const ossimKeywordlist& kwl,
-                                const char* prefix = 0);
+%include "ossim/projection/ossimImageViewTransformFactory.h"
 
-        protected:
-                ossimImageViewTransformFactory(){}      //hide
-                ossimImageViewTransformFactory(const ossimImageViewTransformFactory&){}
-                void operator =(const ossimImageViewTransformFactory&){}
-
-                static ossimImageViewTransformFactory* theInstance;
-
-                /* Ignored due to unclean parsing of MACROS     */
-                /* TYPE_DATA                                    */
-};
+#endif

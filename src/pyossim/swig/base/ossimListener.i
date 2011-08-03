@@ -8,42 +8,14 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimObject.h>
 #include <ossim/base/ossimListener.h>
-#include <ossim/base/ossimEvent.h>
-
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
-/*!
- * Base class for all listners.  Listners nned to derive from this
- * class and override the processEvent method.
- */
-class ossimListener
-{
-        public:
+/* Wrapping class ossimListener */
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimListener.h"
 
-                ossimListener();
-
-                virtual ~ossimListener();
-
-                /**
-                 * ProcessEvent.  The defaul is to do nothing.  Derived
-                 * classes need to override this class.
-                 */
-                virtual void processEvent(ossimEvent& event);
-
-                void enableListener();
-                void disableListener();
-
-                void setListenerEnableFlag(bool flag);
-                bool isListenerEnabled() const;
-                bool getListenerEnableFlag() const;
-
-        protected:
-                bool theListenerEnableFlag;
-
-                /* ignored Macro
-                TYPE_DATA */
-};
+#endif

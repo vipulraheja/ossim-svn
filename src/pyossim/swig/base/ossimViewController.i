@@ -8,12 +8,11 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimSource.h>
-#include <ossim/base/ossimViewInterface.h>
 #include <ossim/base/ossimViewController.h>
-
 %}
+
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
 /*!
  * All view sources will derive from this class.  For example
@@ -21,33 +20,7 @@
  * being rendered.  All sources within the containers are expected
  * to derive from the view interface.
  */
-class ossimViewController : public ossimSource
-{
-        public:
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimViewController.h"
 
-                ossimViewController();
-
-                ossimViewController(ossimObject* owner,
-                                ossim_uint32 inputListSize,
-                                ossim_uint32 outputListSize,
-                                bool   inputListFixedFlag=true,
-                                bool   outputListFixedFlag=false);
-
-                virtual ~ossimViewController();
-
-                virtual ossimString getShortName()const;
-                virtual ossimString getLongName()const;
-
-                virtual bool propagateView();
-                virtual bool setView(ossimObject* object);
-                virtual ossimObject* getView();
-                virtual const ossimObject* getView()const;
-                virtual bool canConnectMyInputTo(ossim_int32 index,
-                                const ossimConnectableObject* obj)const;
-                virtual const ossimObject* findFirstViewOfType(RTTItypeid typeId)const;
-        protected:
-                ossimRefPtr<ossimObject> theView;
-
-                /* Ignoring Macro
-                TYPE_DATA */
-};
+#endif

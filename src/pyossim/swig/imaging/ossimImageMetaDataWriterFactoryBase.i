@@ -9,35 +9,21 @@ Description     : Contains SWIG-Python of class ossimImageMetaDataWriterFactoryB
 
 %{
 
-#include <ossim/base/ossimObjectFactory.h>
 #include <ossim/base/ossimRefPtr.h>
+#include <ossim/base/ossimObjectFactory.h>
 #include <ossim/imaging/ossimMetadataFileWriter.h>
 #include <ossim/imaging/ossimImageMetaDataWriterFactoryBase.h>
 
 %}
 
+/* Handling unclean Macro parsing */
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Handling ossimImageMetaDataWriterFactoryBase Assignment operator */
 %rename(__set__) ossimImageMetaDataWriterFactoryBase::operator=;
 
 /* Wrapping class ossimImageMetaDataWriterFactoryBase */
-class ossimImageMetaDataWriterFactoryBase : public ossimObjectFactory
-{
-        public:
-                virtual ossimRefPtr<ossimMetadataFileWriter> createWriter(
-                                const ossimString& type)const=0;
+%include "ossim/imaging/ossimImageMetaDataWriterFactoryBase.h"
 
-                virtual void getMetadatatypeList(
-                                std::vector<ossimString>& metadatatypeList) const=0;
-
-        protected:
-                ossimImageMetaDataWriterFactoryBase();
-
-                ossimImageMetaDataWriterFactoryBase(
-                                const ossimImageMetaDataWriterFactoryBase&);
-
-                const ossimImageMetaDataWriterFactoryBase& operator=(
-                                const ossimImageMetaDataWriterFactoryBase&);
-                
-                /* Ignored due to unclean parsing of MACROS     */
-                /* TYPE_DATA                                    */
-};
+#endif

@@ -14,6 +14,9 @@ Description     : Contains SWIG-Python of class ossimImageSourceFactoryRegistry
 
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Include the header file  */
 %import "ossim/base/ossimConstants.h";
 
@@ -22,33 +25,6 @@ Description     : Contains SWIG-Python of class ossimImageSourceFactoryRegistry
 
 
 /* Wrapping class ossimImageSourceFactoryRegistry */
-class ossimImageSourceFactoryRegistry : public ossimImageSourceFactoryBase
-{
-        public:
-                static ossimImageSourceFactoryRegistry* instance();
-                virtual ~ossimImageSourceFactoryRegistry();
-                virtual ossimObject* createObject(const ossimString& name)const;
-                virtual ossimObject* createObject(const ossimKeywordlist& kwl,
-                                const char* prefix=0)const;
-                virtual void getTypeNameList(std::vector<ossimString>& typeList)const;
+%include "ossim/imaging/ossimImageSourceFactoryRegistry.h"
 
-                void registerFactory(ossimImageSourceFactoryBase* factory);
-                void unregisterFactory(ossimImageSourceFactoryBase* factory);
-                bool findFactory(ossimImageSourceFactoryBase* factory)const;
-
-        protected:
-                ossimImageSourceFactoryRegistry(); // hide
-                ossimImageSourceFactoryRegistry(const ossimImageSourceFactoryRegistry&);//hide
-                void operator = (ossimImageSourceFactoryRegistry&);// hide
-
-                static ossimImageSourceFactoryRegistry* theInstance;
-                std::vector<ossimImageSourceFactoryBase*> theFactoryList;
-
-                /* Ignored due to unclean parsing of MACROS     */                
-                /* TYPE_DATA                                    */
-};
-
-extern "C"
-{
-        OSSIMDLLEXPORT void* ossimImageSourceFactoryRegistryGetInstance();
-}
+#endif 

@@ -17,6 +17,9 @@
 
 %}
 
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Include the required header files */
 %import "ossim/base/ossimConstants.h";
 
@@ -34,42 +37,6 @@ namespace std
 %rename(__set__) ossimImageGeometryRegistry::operator=;
 
 /* Wrapping the class ossimImageGeometryRegistry */
-class ossimImageGeometryRegistry : public ossimBaseObjectFactory,
-        public ossimFactoryListInterface<ossimImageGeometryFactoryBase,
-        ossimImageGeometry>
-{
-        public:
-                virtual ~ossimImageGeometryRegistry(){m_instance=0;}
-                static ossimImageGeometryRegistry* instance();
-
-                virtual ossimObject* createObject(const ossimString& typeName)const
-                {
-                        return createObjectFromRegistry(typeName);
-                }
-
-                virtual ossimObject* createObject(const ossimKeywordlist& kwl,
-                                const char* prefix=0)const
-                {
-                        return createObjectFromRegistry(kwl, prefix);
-                }
-
-                virtual bool extendGeometry(ossimImageHandler* handler)const;
-
-                virtual void getTypeNameList(std::vector<ossimString>& typeList)const
-                {
-                        getAllTypeNamesFromRegistry(typeList);
-                }
-
-        protected:
-                ossimImageGeometryRegistry()
-                        :ossimBaseObjectFactory() {}
-
-                ossimImageGeometryRegistry( const ossimImageGeometryRegistry& rhs )
-                        :ossimBaseObjectFactory(rhs) {}
-
-                void operator =(const ossimImageGeometryRegistry&){}
-                static ossimImageGeometryRegistry* m_instance;
-
-                /* Ignored due to unclean parsing of MACROS     */
-                /* TYPE_DATA                                    */
-};
+%include "ossim/imaging/ossimImageGeometryRegistry.h"
+ 
+#endif

@@ -8,37 +8,15 @@
 %module pyossim
 
 %{
-#include <ossim/elevation/ossimElevSourceFactory.h>
 #include <ossim/elevation/ossimSrtmFactory.h>
 %}
 
-class ossimSrtmFactory : public ossimElevSourceFactory
-{
-        public:
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
-                /** default constructor */
-                ossimSrtmFactory();
+%include "ossim/base/ossimConstants.h"
 
-                /** Constructor that takes a directory name. */
-                ossimSrtmFactory(const ossimFilename& dir);
+/* Wrapping the class ossimSrtmFactory */
+%include "ossim/elevation/ossimSrtmFactory.h"
 
-                /** destructor */
-                virtual ~ossimSrtmFactory();
-
-                /**
-                 * Open the appropriate ossimSrtmElevSource that covers given a
-                 * ground point.
-                 *
-                 * @param gpt Ground point that an elevation source is need for.
-                 *
-                 * @return Returns a pointer to an ossimElevSource if an srtm file is found
-                 * that can cover the ground point.  Returns NULL if no cell is found
-                 * for the point.
-                 */
-                virtual ossimElevSource* getNewElevSource(const ossimGpt& gpt) const;
-
-        protected:
-
-                /* Ignoring Macro
-                   TYPE_DATA */
-};
+#endif

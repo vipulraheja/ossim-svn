@@ -8,14 +8,7 @@ Description     : Contains SWIG-Python of class ossimIpt
 %module pyossim
 
 %{
-
-#include <iosfwd>
-
-#include <ossim/base/ossimConstants.h>
-#include <ossim/base/ossimCommon.h>
-#include <ossim/base/ossimDpt.h>
 #include <ossim/base/ossimIpt.h>
-
 %}
 
 /* Handling operators */
@@ -34,102 +27,5 @@ Description     : Contains SWIG-Python of class ossimIpt
 %rename(ossimIpt_print) print;
 
 /* Wrapping class ossimIpt */
-class ossimIpt
-{
-public:
-
-   ossimIpt() : x(0), y(0) {}
-   ossimIpt(ossim_int32 anX, ossim_int32 aY) : x(anX), y(aY) {}
-   ossimIpt(const ossimIpt& pt) : x(pt.x), y(pt.y) {}
-   ossimIpt(const ossimDpt& pt);
-   ossimIpt(const ossimFpt& pt);
-   ossimIpt(const ossimDpt3d &pt);
-
-   const ossimIpt& operator=(const ossimIpt& pt);
-   const ossimIpt& operator=(const ossimDpt& pt);
-   const ossimIpt& operator=(const ossimFpt& pt);
-
-   bool operator==(const ossimIpt& pt) const
-   {
-           return ( (x == pt.x) && (y == pt.y) ); 
-   } 
-   bool operator!=(const ossimIpt& pt) const
-   {
-           return ( (x != pt.x) || (y != pt.y) ); 
-   }
-   
-   void makeNan(){x = OSSIM_INT_NAN; y=OSSIM_INT_NAN;}
-   bool hasNans()const
-   {
-      return ( (x==OSSIM_INT_NAN) || (y==OSSIM_INT_NAN) );
-   }
-   bool isNan()const
-   {
-      return ( (x==OSSIM_INT_NAN) && (y==OSSIM_INT_NAN) );
-   }
-   
-   std::ostream& print(std::ostream& os) const;
-   
-   friend std::ostream& operator<<(std::ostream& os,
-                                                  const ossimIpt& pt);
-
-   /**
-    * @return ossimString representing point.
-    *
-    * Format:  ( 30, -90 )
-    *            -x- -y-
-    */
-   ossimString toString() const;
-
-   void toPoint(const std::string& s);
-   
-   friend std::istream& operator>>(std::istream& is,
-                                                  ossimIpt& pt);
-   
-   /*!
-    * METHOD: length()
-    * Returns the RSS of the components.
-    */
-   double length() const { return sqrt((double)x*x + (double)y*y); }
-   
-   /***
-   // OPERATORS: +, -, +=, -=
-   // Point add/subtract with other point:
-   ***/
-   ossimIpt operator+(const ossimIpt& p) const
-   {
-           return ossimIpt(x+p.x, y+p.y);
-   }
-   ossimIpt operator-(const ossimIpt& p) const
-   {
-           return ossimIpt(x-p.x, y-p.y); 
-   }
-   const ossimIpt& operator+=(const ossimIpt& p)
-   {
-           x += p.x; y += p.y; return *this; 
-   }
-   const ossimIpt& operator-=(const ossimIpt& p)
-   {
-           x -= p.x; y -= p.y; return *this; 
-   }
-
-   /***
-   // OPERATORS: *, /
-   // Scale point components by scalar:
-   ***/
-   ossimDpt operator*(const double& d) const
-   {
-           return ossimDpt(d*x, d*y); 
-   }
-   ossimDpt operator/(const double& d) const
-   {
-           return ossimDpt(x/d, y/d); 
-   }
-
-   /***
-   // Public data members:
-   ***/
-   union {ossim_int32 x; ossim_int32 u; ossim_int32 samp;};
-   union {ossim_int32 y; ossim_int32 v; ossim_int32 line;};
-
-};
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimIpt.h"

@@ -8,26 +8,14 @@
 %module pyossim
 
 %{
-
-#include <ossim/elevation/ossimElevSourceFactory.h>
 #include <ossim/elevation/ossimDtedFactory.h>
-
 %}
-        
+
+#ifndef TYPE_DATA
+#define TYPE_DATA
+
 /* Wrapping class ossimDtedFactory */
-class ossimDtedFactory : public ossimElevSourceFactory
-{
-        public:
+%include "ossim/base/ossimConstants.h"
+%include "ossim/elevation/ossimDtedFactory.h"
 
-                ossimDtedFactory();
-                ossimDtedFactory(const ossimFilename& dir);
-
-
-                virtual ossimElevSource* getNewElevSource(const ossimGpt& gpt) const;
-                virtual void createIndex();
-        protected:
-                virtual ~ossimDtedFactory();
-
-                /* Ignoring Macro 
-                   TYPE_DATA */
-};
+#endif

@@ -8,49 +8,14 @@
 %module pyossim
 
 %{
-
-#include <ossim/base/ossimProperty.h>
 #include <ossim/base/ossimStringProperty.h>
-#include <vector>
-
 %}
 
-class ossimStringProperty : public ossimProperty
-{
-        public:
-                ossimStringProperty(const ossimString& name = ossimString(""),
-                                const ossimString& value = ossimString(""),
-                                bool editableFlag = true,
-                                const std::vector<ossimString>& constraintList = std::vector<ossimString>());
+#ifndef TYPE_DATA
+#define TYPE_DATA
 
-                ossimStringProperty(const ossimStringProperty& rhs);
+/* Wrapping the class ossimStringProperty */
+%include "ossim/base/ossimConstants.h"
+%include "ossim/base/ossimStringProperty.h"
 
-                virtual ossimObject* dup()const;
-
-                virtual const ossimProperty& assign(const ossimProperty& rhs);
-
-                void setEditableFlag(bool flag);
-                bool getEditableFlag()const;
-                bool isEditable()const;
-
-                void clearConstraints();
-
-                void setConstraints(const std::vector<ossimString>& constraintList);
-
-                void addConstraint(const ossimString& value);
-                const std::vector<ossimString>& getConstraints()const;
-
-                bool hasConstraints()const;
-
-                virtual bool setValue(const ossimString& value);
-
-                virtual void valueToString(ossimString& valueResult)const;
-
-        protected:
-                ossimString theValue;
-                bool        theEditableFlag;
-                std::vector<ossimString> theConstraints;
-
-                /* Ignoring Macro 
-                TYPE_DATA */
-};
+#endif
