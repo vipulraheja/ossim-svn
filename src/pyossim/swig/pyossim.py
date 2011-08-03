@@ -67,94 +67,39 @@ except AttributeError:
     _newclass = 0
 
 
-OSSIM_VERTEX_ORDER_UNKNOWN = _pyossim.OSSIM_VERTEX_ORDER_UNKNOWN
-OSSIM_CLOCKWISE_ORDER = _pyossim.OSSIM_CLOCKWISE_ORDER
-OSSIM_COUNTERCLOCKWISE_ORDER = _pyossim.OSSIM_COUNTERCLOCKWISE_ORDER
-OSSIM_HISTO_MODE_UNKNOWN = _pyossim.OSSIM_HISTO_MODE_UNKNOWN
-OSSIM_HISTO_MODE_NORMAL = _pyossim.OSSIM_HISTO_MODE_NORMAL
-OSSIM_HISTO_MODE_FAST = _pyossim.OSSIM_HISTO_MODE_FAST
-OSSIM_PIXEL_IS_POINT = _pyossim.OSSIM_PIXEL_IS_POINT
-OSSIM_PIXEL_IS_AREA = _pyossim.OSSIM_PIXEL_IS_AREA
-OSSIM_SCALAR_UNKNOWN = _pyossim.OSSIM_SCALAR_UNKNOWN
-OSSIM_UINT8 = _pyossim.OSSIM_UINT8
-OSSIM_SINT8 = _pyossim.OSSIM_SINT8
-OSSIM_UINT16 = _pyossim.OSSIM_UINT16
-OSSIM_SINT16 = _pyossim.OSSIM_SINT16
-OSSIM_UINT32 = _pyossim.OSSIM_UINT32
-OSSIM_SINT32 = _pyossim.OSSIM_SINT32
-OSSIM_FLOAT32 = _pyossim.OSSIM_FLOAT32
-OSSIM_FLOAT64 = _pyossim.OSSIM_FLOAT64
-OSSIM_CINT16 = _pyossim.OSSIM_CINT16
-OSSIM_CINT32 = _pyossim.OSSIM_CINT32
-OSSIM_CFLOAT32 = _pyossim.OSSIM_CFLOAT32
-OSSIM_CFLOAT64 = _pyossim.OSSIM_CFLOAT64
-OSSIM_UCHAR = _pyossim.OSSIM_UCHAR
-OSSIM_USHORT16 = _pyossim.OSSIM_USHORT16
-OSSIM_SSHORT16 = _pyossim.OSSIM_SSHORT16
-OSSIM_USHORT11 = _pyossim.OSSIM_USHORT11
-OSSIM_FLOAT = _pyossim.OSSIM_FLOAT
-OSSIM_NORMALIZED_FLOAT = _pyossim.OSSIM_NORMALIZED_FLOAT
-OSSIM_DOUBLE = _pyossim.OSSIM_DOUBLE
-OSSIM_NORMALIZED_DOUBLE = _pyossim.OSSIM_NORMALIZED_DOUBLE
-OSSIM_INTERLEAVE_UNKNOWN = _pyossim.OSSIM_INTERLEAVE_UNKNOWN
-OSSIM_BIL = _pyossim.OSSIM_BIL
-OSSIM_BIP = _pyossim.OSSIM_BIP
-OSSIM_BSQ = _pyossim.OSSIM_BSQ
-OSSIM_BSQ_MULTI_FILE = _pyossim.OSSIM_BSQ_MULTI_FILE
-OSSIM_ORIGIN_LOCATION_UNKNOWN = _pyossim.OSSIM_ORIGIN_LOCATION_UNKNOWN
-OSSIM_CENTER = _pyossim.OSSIM_CENTER
-OSSIM_UPPER_LEFT = _pyossim.OSSIM_UPPER_LEFT
-OSSIM_UPPER_LEFT_CENTER = _pyossim.OSSIM_UPPER_LEFT_CENTER
-OSSIM_LOWER_LEFT = _pyossim.OSSIM_LOWER_LEFT
-OSSIM_LOWER_LEFT_CENTER = _pyossim.OSSIM_LOWER_LEFT_CENTER
-OSSIM_COORDINATE_SYSTEM_UNKNOWN = _pyossim.OSSIM_COORDINATE_SYSTEM_UNKNOWN
-OSSIM_IMAGE_SPACE = _pyossim.OSSIM_IMAGE_SPACE
-OSSIM_GEOGRAPHIC_SPACE = _pyossim.OSSIM_GEOGRAPHIC_SPACE
-OSSIM_PROJECTED_SPACE = _pyossim.OSSIM_PROJECTED_SPACE
-OSSIM_GEOCENTRIC_SPACE = _pyossim.OSSIM_GEOCENTRIC_SPACE
-OSSIM_LEFT_HANDED = _pyossim.OSSIM_LEFT_HANDED
-OSSIM_RIGHT_HANDED = _pyossim.OSSIM_RIGHT_HANDED
-OSSIM_UNIT_UNKNOWN = _pyossim.OSSIM_UNIT_UNKNOWN
-OSSIM_METERS = _pyossim.OSSIM_METERS
-OSSIM_FEET = _pyossim.OSSIM_FEET
-OSSIM_US_SURVEY_FEET = _pyossim.OSSIM_US_SURVEY_FEET
-OSSIM_DEGREES = _pyossim.OSSIM_DEGREES
-OSSIM_RADIANS = _pyossim.OSSIM_RADIANS
-OSSIM_NAUTICAL_MILES = _pyossim.OSSIM_NAUTICAL_MILES
-OSSIM_SECONDS = _pyossim.OSSIM_SECONDS
-OSSIM_MINUTES = _pyossim.OSSIM_MINUTES
-OSSIM_PIXEL = _pyossim.OSSIM_PIXEL
-OSSIM_MILES = _pyossim.OSSIM_MILES
-OSSIM_MILLIMETERS = _pyossim.OSSIM_MILLIMETERS
-OSSIM_MICRONS = _pyossim.OSSIM_MICRONS
-OSSIM_CENTIMETERS = _pyossim.OSSIM_CENTIMETERS
-OSSIM_YARDS = _pyossim.OSSIM_YARDS
-OSSIM_INCHES = _pyossim.OSSIM_INCHES
-OSSIM_KILOMETERS = _pyossim.OSSIM_KILOMETERS
-OSSIM_STATUS_UNKNOWN = _pyossim.OSSIM_STATUS_UNKNOWN
-OSSIM_NULL = _pyossim.OSSIM_NULL
-OSSIM_EMPTY = _pyossim.OSSIM_EMPTY
-OSSIM_PARTIAL = _pyossim.OSSIM_PARTIAL
-OSSIM_FULL = _pyossim.OSSIM_FULL
-OSSIM_IMAGE_TYPE_UNKNOWN = _pyossim.OSSIM_IMAGE_TYPE_UNKNOWN
-OSSIM_TIFF_STRIP = _pyossim.OSSIM_TIFF_STRIP
-OSSIM_TIFF_STRIP_BAND_SEPARATE = _pyossim.OSSIM_TIFF_STRIP_BAND_SEPARATE
-OSSIM_TIFF_TILED = _pyossim.OSSIM_TIFF_TILED
-OSSIM_TIFF_TILED_BAND_SEPARATE = _pyossim.OSSIM_TIFF_TILED_BAND_SEPARATE
-OSSIM_GENERAL_RASTER_BIP = _pyossim.OSSIM_GENERAL_RASTER_BIP
-OSSIM_GENERAL_RASTER_BIL = _pyossim.OSSIM_GENERAL_RASTER_BIL
-OSSIM_GENERAL_RASTER_BSQ = _pyossim.OSSIM_GENERAL_RASTER_BSQ
-OSSIM_JPEG = _pyossim.OSSIM_JPEG
-OSSIM_META_UNKNOWN = _pyossim.OSSIM_META_UNKNOWN
-OSSIM_META_TFW = _pyossim.OSSIM_META_TFW
-OSSIM_META_JGW = _pyossim.OSSIM_META_JGW
-OSSIM_META_GEOM = _pyossim.OSSIM_META_GEOM
-OSSIM_META_README = _pyossim.OSSIM_META_README
-OSSIM_META_FGDC = _pyossim.OSSIM_META_FGDC
-OSSIM_META_ENVI = _pyossim.OSSIM_META_ENVI
-OSSIM_LITTLE_ENDIAN = _pyossim.OSSIM_LITTLE_ENDIAN
-OSSIM_BIG_ENDIAN = _pyossim.OSSIM_BIG_ENDIAN
-TIFFTAG_OSSIM_METADATA = _pyossim.TIFFTAG_OSSIM_METADATA
+ossimInit_HEADER = _pyossim.ossimInit_HEADER
+class ossimInit(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimInit, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimInit, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_destroy__ = _pyossim.delete_ossimInit
+    __del__ = lambda self : None;
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimInit_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimInit_instance)
+    def addOptions(self, *args): return _pyossim.ossimInit_addOptions(self, *args)
+    def initialize(self, *args): return _pyossim.ossimInit_initialize(self, *args)
+    def finalize(self): return _pyossim.ossimInit_finalize(self)
+    def usage(self): return _pyossim.ossimInit_usage(self)
+    def getElevEnabledFlag(self): return _pyossim.ossimInit_getElevEnabledFlag(self)
+    def setElevEnabledFlag(self, *args): return _pyossim.ossimInit_setElevEnabledFlag(self, *args)
+    def setPluginLoaderEnabledFlag(self, *args): return _pyossim.ossimInit_setPluginLoaderEnabledFlag(self, *args)
+    def loadPlugins(self, *args): return _pyossim.ossimInit_loadPlugins(self, *args)
+    def initializePlugins(self): return _pyossim.ossimInit_initializePlugins(self)
+    def initializeDefaultFactories(self): return _pyossim.ossimInit_initializeDefaultFactories(self)
+    def initializeElevation(self): return _pyossim.ossimInit_initializeElevation(self)
+    def initializeLogFile(self): return _pyossim.ossimInit_initializeLogFile(self)
+    def version(self): return _pyossim.ossimInit_version(self)
+    def appName(self): return _pyossim.ossimInit_appName(self)
+ossimInit_swigregister = _pyossim.ossimInit_swigregister
+ossimInit_swigregister(ossimInit)
+
+def ossimInit_instance():
+  return _pyossim.ossimInit_instance()
+ossimInit_instance = _pyossim.ossimInit_instance
+
 class ossimDtedElevationDatabase(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, ossimDtedElevationDatabase, name, value)

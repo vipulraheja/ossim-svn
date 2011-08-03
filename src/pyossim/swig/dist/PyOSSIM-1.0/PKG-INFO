@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: PyOSSIM
+Version: 1.0
+Summary: Python wrappings for OSSIM
+Home-page: https://github.com/vipulraheja/ossim-svn/tree/master/src/pyossim
+Author: Vipul Raheja
+Author-email: vipul.iiith@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

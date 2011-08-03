@@ -2956,116 +2956,119 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_long_long swig_types[11]
 #define SWIGTYPE_p_ossim2dTo2dTransform swig_types[12]
 #define SWIGTYPE_p_ossim2dTo2dTransformFactory swig_types[13]
-#define SWIGTYPE_p_ossimColumnVector3d swig_types[14]
-#define SWIGTYPE_p_ossimConnectableObject swig_types[15]
-#define SWIGTYPE_p_ossimConnectableObject__ConnectableObjectList swig_types[16]
-#define SWIGTYPE_p_ossimConnectionEvent swig_types[17]
-#define SWIGTYPE_p_ossimDatum swig_types[18]
-#define SWIGTYPE_p_ossimDatumFactory swig_types[19]
-#define SWIGTYPE_p_ossimDatumFactoryInterface swig_types[20]
-#define SWIGTYPE_p_ossimDatumFactoryRegistry swig_types[21]
-#define SWIGTYPE_p_ossimDpt swig_types[22]
-#define SWIGTYPE_p_ossimDpt3d swig_types[23]
-#define SWIGTYPE_p_ossimDrect swig_types[24]
-#define SWIGTYPE_p_ossimDtedElevationDatabase swig_types[25]
-#define SWIGTYPE_p_ossimEcefPoint swig_types[26]
-#define SWIGTYPE_p_ossimEcefRay swig_types[27]
-#define SWIGTYPE_p_ossimEcefVector swig_types[28]
-#define SWIGTYPE_p_ossimElevCellHandler swig_types[29]
-#define SWIGTYPE_p_ossimElevCellHandlerFactory swig_types[30]
-#define SWIGTYPE_p_ossimElevManager swig_types[31]
-#define SWIGTYPE_p_ossimElevationDatabase swig_types[32]
-#define SWIGTYPE_p_ossimElevationDatabaseFactory swig_types[33]
-#define SWIGTYPE_p_ossimElevationDatabaseRegistry swig_types[34]
-#define SWIGTYPE_p_ossimEllipsoid swig_types[35]
-#define SWIGTYPE_p_ossimEvent swig_types[36]
-#define SWIGTYPE_p_ossimFilename swig_types[37]
-#define SWIGTYPE_p_ossimFpt swig_types[38]
-#define SWIGTYPE_p_ossimGeneralRasterInfo swig_types[39]
-#define SWIGTYPE_p_ossimGeoPolygon swig_types[40]
-#define SWIGTYPE_p_ossimGpt swig_types[41]
-#define SWIGTYPE_p_ossimGrect swig_types[42]
-#define SWIGTYPE_p_ossimHistoMatchRemapper swig_types[43]
-#define SWIGTYPE_p_ossimId swig_types[44]
-#define SWIGTYPE_p_ossimIgenGenerator swig_types[45]
-#define SWIGTYPE_p_ossimImageChain swig_types[46]
-#define SWIGTYPE_p_ossimImageFileWriter swig_types[47]
-#define SWIGTYPE_p_ossimImageGeometry swig_types[48]
-#define SWIGTYPE_p_ossimImageGeometryFactory swig_types[49]
-#define SWIGTYPE_p_ossimImageHandler swig_types[50]
-#define SWIGTYPE_p_ossimImageMetaData swig_types[51]
-#define SWIGTYPE_p_ossimImageMetaDataWriterFactoryBase swig_types[52]
-#define SWIGTYPE_p_ossimImageMetaDataWriterRegistry swig_types[53]
-#define SWIGTYPE_p_ossimImageMosaic swig_types[54]
-#define SWIGTYPE_p_ossimImageSource swig_types[55]
-#define SWIGTYPE_p_ossimImageSourceFactoryBase swig_types[56]
-#define SWIGTYPE_p_ossimImageWriterFactory swig_types[57]
-#define SWIGTYPE_p_ossimImageWriterFactoryBase__ImageFileWriterList swig_types[58]
-#define SWIGTYPE_p_ossimImageWriterFactoryRegistry swig_types[59]
-#define SWIGTYPE_p_ossimIpt swig_types[60]
-#define SWIGTYPE_p_ossimIrect swig_types[61]
-#define SWIGTYPE_p_ossimKeywordlist swig_types[62]
-#define SWIGTYPE_p_ossimLine swig_types[63]
-#define SWIGTYPE_p_ossimLsrPoint swig_types[64]
-#define SWIGTYPE_p_ossimLsrRay swig_types[65]
-#define SWIGTYPE_p_ossimLsrSpace swig_types[66]
-#define SWIGTYPE_p_ossimLsrVector swig_types[67]
-#define SWIGTYPE_p_ossimMapProjection swig_types[68]
-#define SWIGTYPE_p_ossimMapProjectionFactory swig_types[69]
-#define SWIGTYPE_p_ossimMapProjectionInfo swig_types[70]
-#define SWIGTYPE_p_ossimNadconGridDatum swig_types[71]
-#define SWIGTYPE_p_ossimNadconGridFile swig_types[72]
-#define SWIGTYPE_p_ossimNadconGridHeader swig_types[73]
-#define SWIGTYPE_p_ossimNadconNarDatum swig_types[74]
-#define SWIGTYPE_p_ossimNadconNasDatum swig_types[75]
-#define SWIGTYPE_p_ossimObject swig_types[76]
-#define SWIGTYPE_p_ossimObjectDestructingEvent swig_types[77]
-#define SWIGTYPE_p_ossimProjection swig_types[78]
-#define SWIGTYPE_p_ossimProjectionFactoryRegistry swig_types[79]
-#define SWIGTYPE_p_ossimRefPtrT_ossimImageData_t swig_types[80]
-#define SWIGTYPE_p_ossimRefPtrT_ossimImageGeometry_t swig_types[81]
-#define SWIGTYPE_p_ossimRefPtrT_ossimMetadataFileWriter_t swig_types[82]
-#define SWIGTYPE_p_ossimRpcPqeInputs swig_types[83]
-#define SWIGTYPE_p_ossimSensorModel swig_types[84]
-#define SWIGTYPE_p_ossimSensorModelFactory swig_types[85]
-#define SWIGTYPE_p_ossimSensorModelTuple swig_types[86]
-#define SWIGTYPE_p_ossimString swig_types[87]
-#define SWIGTYPE_p_ossimStringLtstr swig_types[88]
-#define SWIGTYPE_p_ossimVisitor swig_types[89]
-#define SWIGTYPE_p_ostream swig_types[90]
-#define SWIGTYPE_p_p_PyObject swig_types[91]
-#define SWIGTYPE_p_short swig_types[92]
-#define SWIGTYPE_p_signed_char swig_types[93]
-#define SWIGTYPE_p_size_type swig_types[94]
-#define SWIGTYPE_p_std__allocatorT_ossimFilename_t swig_types[95]
-#define SWIGTYPE_p_std__allocatorT_ossimString_t swig_types[96]
-#define SWIGTYPE_p_std__invalid_argument swig_types[97]
-#define SWIGTYPE_p_std__istream swig_types[98]
-#define SWIGTYPE_p_std__listT_ossimString_t swig_types[99]
-#define SWIGTYPE_p_std__ostream swig_types[100]
-#define SWIGTYPE_p_std__string swig_types[101]
-#define SWIGTYPE_p_std__string__const_iterator swig_types[102]
-#define SWIGTYPE_p_std__string__iterator swig_types[103]
-#define SWIGTYPE_p_std__string__size_type swig_types[104]
-#define SWIGTYPE_p_std__vectorT__Tp__Alloc_t swig_types[105]
-#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[106]
-#define SWIGTYPE_p_std__vectorT_ossimConnectableObject_p_std__allocatorT_ossimConnectableObject_p_t_t swig_types[107]
-#define SWIGTYPE_p_std__vectorT_ossimDpt_std__allocatorT_ossimDpt_t_t swig_types[108]
-#define SWIGTYPE_p_std__vectorT_ossimFilename_std__allocatorT_ossimFilename_t_t swig_types[109]
-#define SWIGTYPE_p_std__vectorT_ossimIpt_std__allocatorT_ossimIpt_t_t swig_types[110]
-#define SWIGTYPE_p_std__vectorT_ossimKeywordlist_std__allocatorT_ossimKeywordlist_t_t swig_types[111]
-#define SWIGTYPE_p_std__vectorT_ossimRefPtrT_ossimElevationDatabase_t_std__allocatorT_ossimRefPtrT_ossimElevationDatabase_t_t_t swig_types[112]
-#define SWIGTYPE_p_std__vectorT_ossimString_std__allocatorT_ossimString_t_t swig_types[113]
-#define SWIGTYPE_p_std__vectorT_unsigned_int_std__allocatorT_unsigned_int_t_t swig_types[114]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[115]
-#define SWIGTYPE_p_unsigned_char swig_types[116]
-#define SWIGTYPE_p_unsigned_int swig_types[117]
-#define SWIGTYPE_p_unsigned_long_long swig_types[118]
-#define SWIGTYPE_p_unsigned_short swig_types[119]
-#define SWIGTYPE_p_value_type swig_types[120]
-#define SWIGTYPE_p_void swig_types[121]
-static swig_type_info *swig_types[123];
-static swig_module_info swig_module = {swig_types, 122, 0, 0, 0, 0};
+#define SWIGTYPE_p_ossimArgumentParser swig_types[14]
+#define SWIGTYPE_p_ossimColumnVector3d swig_types[15]
+#define SWIGTYPE_p_ossimConnectableObject swig_types[16]
+#define SWIGTYPE_p_ossimConnectableObject__ConnectableObjectList swig_types[17]
+#define SWIGTYPE_p_ossimConnectionEvent swig_types[18]
+#define SWIGTYPE_p_ossimDatum swig_types[19]
+#define SWIGTYPE_p_ossimDatumFactory swig_types[20]
+#define SWIGTYPE_p_ossimDatumFactoryInterface swig_types[21]
+#define SWIGTYPE_p_ossimDatumFactoryRegistry swig_types[22]
+#define SWIGTYPE_p_ossimDpt swig_types[23]
+#define SWIGTYPE_p_ossimDpt3d swig_types[24]
+#define SWIGTYPE_p_ossimDrect swig_types[25]
+#define SWIGTYPE_p_ossimDtedElevationDatabase swig_types[26]
+#define SWIGTYPE_p_ossimEcefPoint swig_types[27]
+#define SWIGTYPE_p_ossimEcefRay swig_types[28]
+#define SWIGTYPE_p_ossimEcefVector swig_types[29]
+#define SWIGTYPE_p_ossimElevCellHandler swig_types[30]
+#define SWIGTYPE_p_ossimElevCellHandlerFactory swig_types[31]
+#define SWIGTYPE_p_ossimElevManager swig_types[32]
+#define SWIGTYPE_p_ossimElevationDatabase swig_types[33]
+#define SWIGTYPE_p_ossimElevationDatabaseFactory swig_types[34]
+#define SWIGTYPE_p_ossimElevationDatabaseRegistry swig_types[35]
+#define SWIGTYPE_p_ossimEllipsoid swig_types[36]
+#define SWIGTYPE_p_ossimEvent swig_types[37]
+#define SWIGTYPE_p_ossimFilename swig_types[38]
+#define SWIGTYPE_p_ossimFpt swig_types[39]
+#define SWIGTYPE_p_ossimGeneralRasterInfo swig_types[40]
+#define SWIGTYPE_p_ossimGeoPolygon swig_types[41]
+#define SWIGTYPE_p_ossimGpt swig_types[42]
+#define SWIGTYPE_p_ossimGrect swig_types[43]
+#define SWIGTYPE_p_ossimHistoMatchRemapper swig_types[44]
+#define SWIGTYPE_p_ossimId swig_types[45]
+#define SWIGTYPE_p_ossimIgenGenerator swig_types[46]
+#define SWIGTYPE_p_ossimImageChain swig_types[47]
+#define SWIGTYPE_p_ossimImageFileWriter swig_types[48]
+#define SWIGTYPE_p_ossimImageGeometry swig_types[49]
+#define SWIGTYPE_p_ossimImageGeometryFactory swig_types[50]
+#define SWIGTYPE_p_ossimImageHandler swig_types[51]
+#define SWIGTYPE_p_ossimImageMetaData swig_types[52]
+#define SWIGTYPE_p_ossimImageMetaDataWriterFactoryBase swig_types[53]
+#define SWIGTYPE_p_ossimImageMetaDataWriterRegistry swig_types[54]
+#define SWIGTYPE_p_ossimImageMosaic swig_types[55]
+#define SWIGTYPE_p_ossimImageSource swig_types[56]
+#define SWIGTYPE_p_ossimImageSourceFactoryBase swig_types[57]
+#define SWIGTYPE_p_ossimImageWriterFactory swig_types[58]
+#define SWIGTYPE_p_ossimImageWriterFactoryBase__ImageFileWriterList swig_types[59]
+#define SWIGTYPE_p_ossimImageWriterFactoryRegistry swig_types[60]
+#define SWIGTYPE_p_ossimInit swig_types[61]
+#define SWIGTYPE_p_ossimIpt swig_types[62]
+#define SWIGTYPE_p_ossimIrect swig_types[63]
+#define SWIGTYPE_p_ossimKeywordlist swig_types[64]
+#define SWIGTYPE_p_ossimLine swig_types[65]
+#define SWIGTYPE_p_ossimLsrPoint swig_types[66]
+#define SWIGTYPE_p_ossimLsrRay swig_types[67]
+#define SWIGTYPE_p_ossimLsrSpace swig_types[68]
+#define SWIGTYPE_p_ossimLsrVector swig_types[69]
+#define SWIGTYPE_p_ossimMapProjection swig_types[70]
+#define SWIGTYPE_p_ossimMapProjectionFactory swig_types[71]
+#define SWIGTYPE_p_ossimMapProjectionInfo swig_types[72]
+#define SWIGTYPE_p_ossimNadconGridDatum swig_types[73]
+#define SWIGTYPE_p_ossimNadconGridFile swig_types[74]
+#define SWIGTYPE_p_ossimNadconGridHeader swig_types[75]
+#define SWIGTYPE_p_ossimNadconNarDatum swig_types[76]
+#define SWIGTYPE_p_ossimNadconNasDatum swig_types[77]
+#define SWIGTYPE_p_ossimObject swig_types[78]
+#define SWIGTYPE_p_ossimObjectDestructingEvent swig_types[79]
+#define SWIGTYPE_p_ossimProjection swig_types[80]
+#define SWIGTYPE_p_ossimProjectionFactoryRegistry swig_types[81]
+#define SWIGTYPE_p_ossimRefPtrT_ossimImageData_t swig_types[82]
+#define SWIGTYPE_p_ossimRefPtrT_ossimImageGeometry_t swig_types[83]
+#define SWIGTYPE_p_ossimRefPtrT_ossimMetadataFileWriter_t swig_types[84]
+#define SWIGTYPE_p_ossimRpcPqeInputs swig_types[85]
+#define SWIGTYPE_p_ossimSensorModel swig_types[86]
+#define SWIGTYPE_p_ossimSensorModelFactory swig_types[87]
+#define SWIGTYPE_p_ossimSensorModelTuple swig_types[88]
+#define SWIGTYPE_p_ossimString swig_types[89]
+#define SWIGTYPE_p_ossimStringLtstr swig_types[90]
+#define SWIGTYPE_p_ossimVisitor swig_types[91]
+#define SWIGTYPE_p_ostream swig_types[92]
+#define SWIGTYPE_p_p_PyObject swig_types[93]
+#define SWIGTYPE_p_p_char swig_types[94]
+#define SWIGTYPE_p_short swig_types[95]
+#define SWIGTYPE_p_signed_char swig_types[96]
+#define SWIGTYPE_p_size_type swig_types[97]
+#define SWIGTYPE_p_std__allocatorT_ossimFilename_t swig_types[98]
+#define SWIGTYPE_p_std__allocatorT_ossimString_t swig_types[99]
+#define SWIGTYPE_p_std__invalid_argument swig_types[100]
+#define SWIGTYPE_p_std__istream swig_types[101]
+#define SWIGTYPE_p_std__listT_ossimString_t swig_types[102]
+#define SWIGTYPE_p_std__ostream swig_types[103]
+#define SWIGTYPE_p_std__string swig_types[104]
+#define SWIGTYPE_p_std__string__const_iterator swig_types[105]
+#define SWIGTYPE_p_std__string__iterator swig_types[106]
+#define SWIGTYPE_p_std__string__size_type swig_types[107]
+#define SWIGTYPE_p_std__vectorT__Tp__Alloc_t swig_types[108]
+#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[109]
+#define SWIGTYPE_p_std__vectorT_ossimConnectableObject_p_std__allocatorT_ossimConnectableObject_p_t_t swig_types[110]
+#define SWIGTYPE_p_std__vectorT_ossimDpt_std__allocatorT_ossimDpt_t_t swig_types[111]
+#define SWIGTYPE_p_std__vectorT_ossimFilename_std__allocatorT_ossimFilename_t_t swig_types[112]
+#define SWIGTYPE_p_std__vectorT_ossimIpt_std__allocatorT_ossimIpt_t_t swig_types[113]
+#define SWIGTYPE_p_std__vectorT_ossimKeywordlist_std__allocatorT_ossimKeywordlist_t_t swig_types[114]
+#define SWIGTYPE_p_std__vectorT_ossimRefPtrT_ossimElevationDatabase_t_std__allocatorT_ossimRefPtrT_ossimElevationDatabase_t_t_t swig_types[115]
+#define SWIGTYPE_p_std__vectorT_ossimString_std__allocatorT_ossimString_t_t swig_types[116]
+#define SWIGTYPE_p_std__vectorT_unsigned_int_std__allocatorT_unsigned_int_t_t swig_types[117]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[118]
+#define SWIGTYPE_p_unsigned_char swig_types[119]
+#define SWIGTYPE_p_unsigned_int swig_types[120]
+#define SWIGTYPE_p_unsigned_long_long swig_types[121]
+#define SWIGTYPE_p_unsigned_short swig_types[122]
+#define SWIGTYPE_p_value_type swig_types[123]
+#define SWIGTYPE_p_void swig_types[124]
+static swig_type_info *swig_types[126];
+static swig_module_info swig_module = {swig_types, 125, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3162,7 +3165,11 @@ namespace swig {
 }
 
 
-#include <ossim/elevation/ossimDtedElevationDatabase.h>
+
+#include <ossim/init/ossimInit.h>
+#include <ossim/base/ossimFilename.h>        
+#include <ossim/base/ossimConstants.h>
+
 
 
   #define SWIG_From_long   PyInt_FromLong 
@@ -3182,32 +3189,133 @@ SWIGINTERNINLINE PyObject*
 }
 
 
-  #define SWIG_From_double   PyFloat_FromDouble 
-
-
-#include <limits.h>
-#if !defined(SWIG_NO_LLONG_MAX)
-# if !defined(LLONG_MAX) && defined(__GNUC__) && defined (__LONG_LONG_MAX__)
-#   define LLONG_MAX __LONG_LONG_MAX__
-#   define LLONG_MIN (-LLONG_MAX - 1LL)
-#   define ULLONG_MAX (LLONG_MAX * 2ULL + 1ULL)
-# endif
-#endif
-
-
-SWIGINTERNINLINE PyObject* 
-SWIG_From_long_SS_long  (long long value)
+SWIGINTERN int
+SWIG_AsVal_double (PyObject *obj, double *val)
 {
-  return ((value < LONG_MIN) || (value > LONG_MAX)) ?
-    PyLong_FromLongLong(value) : PyInt_FromLong(static_cast< long >(value)); 
+  int res = SWIG_TypeError;
+  if (PyFloat_Check(obj)) {
+    if (val) *val = PyFloat_AsDouble(obj);
+    return SWIG_OK;
+  } else if (PyInt_Check(obj)) {
+    if (val) *val = PyInt_AsLong(obj);
+    return SWIG_OK;
+  } else if (PyLong_Check(obj)) {
+    double v = PyLong_AsDouble(obj);
+    if (!PyErr_Occurred()) {
+      if (val) *val = v;
+      return SWIG_OK;
+    } else {
+      PyErr_Clear();
+    }
+  }
+#ifdef SWIG_PYTHON_CAST_MODE
+  {
+    int dispatch = 0;
+    double d = PyFloat_AsDouble(obj);
+    if (!PyErr_Occurred()) {
+      if (val) *val = d;
+      return SWIG_AddCast(SWIG_OK);
+    } else {
+      PyErr_Clear();
+    }
+    if (!dispatch) {
+      long v = PyLong_AsLong(obj);
+      if (!PyErr_Occurred()) {
+	if (val) *val = v;
+	return SWIG_AddCast(SWIG_AddCast(SWIG_OK));
+      } else {
+	PyErr_Clear();
+      }
+    }
+  }
+#endif
+  return res;
 }
 
 
-SWIGINTERNINLINE PyObject* 
-SWIG_From_unsigned_SS_long_SS_long  (unsigned long long value)
+#include <float.h>
+
+
+#include <math.h>
+
+
+SWIGINTERNINLINE int
+SWIG_CanCastAsInteger(double *d, double min, double max) {
+  double x = *d;
+  if ((min <= x && x <= max)) {
+   double fx = floor(x);
+   double cx = ceil(x);
+   double rd =  ((x - fx) < 0.5) ? fx : cx; /* simple rint */
+   if ((errno == EDOM) || (errno == ERANGE)) {
+     errno = 0;
+   } else {
+     double summ, reps, diff;
+     if (rd < x) {
+       diff = x - rd;
+     } else if (rd > x) {
+       diff = rd - x;
+     } else {
+       return 1;
+     }
+     summ = rd + x;
+     reps = diff/summ;
+     if (reps < 8*DBL_EPSILON) {
+       *d = rd;
+       return 1;
+     }
+   }
+  }
+  return 0;
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_long (PyObject *obj, long* val)
 {
-  return (value > LONG_MAX) ?
-    PyLong_FromUnsignedLongLong(value) : PyInt_FromLong(static_cast< long >(value)); 
+  if (PyInt_Check(obj)) {
+    if (val) *val = PyInt_AsLong(obj);
+    return SWIG_OK;
+  } else if (PyLong_Check(obj)) {
+    long v = PyLong_AsLong(obj);
+    if (!PyErr_Occurred()) {
+      if (val) *val = v;
+      return SWIG_OK;
+    } else {
+      PyErr_Clear();
+    }
+  }
+#ifdef SWIG_PYTHON_CAST_MODE
+  {
+    int dispatch = 0;
+    long v = PyInt_AsLong(obj);
+    if (!PyErr_Occurred()) {
+      if (val) *val = v;
+      return SWIG_AddCast(SWIG_OK);
+    } else {
+      PyErr_Clear();
+    }
+    if (!dispatch) {
+      double d;
+      int res = SWIG_AddCast(SWIG_AsVal_double (obj,&d));
+      if (SWIG_IsOK(res) && SWIG_CanCastAsInteger(&d, LONG_MIN, LONG_MAX)) {
+	if (val) *val = (long)(d);
+	return res;
+      }
+    }
+  }
+#endif
+  return SWIG_TypeError;
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_bool (PyObject *obj, bool *val)
+{
+  int r = PyObject_IsTrue(obj);
+  if (r == -1)
+    return SWIG_ERROR;
+  if (val) *val = r ? true : false;
+  return SWIG_OK;
 }
 
 
@@ -3303,6 +3411,38 @@ SWIG_AsCharPtrAndSize(PyObject *obj, char** cptr, size_t* psize, int *alloc)
 
 
 
+#include <ossim/elevation/ossimDtedElevationDatabase.h>
+
+
+  #define SWIG_From_double   PyFloat_FromDouble 
+
+
+#include <limits.h>
+#if !defined(SWIG_NO_LLONG_MAX)
+# if !defined(LLONG_MAX) && defined(__GNUC__) && defined (__LONG_LONG_MAX__)
+#   define LLONG_MAX __LONG_LONG_MAX__
+#   define LLONG_MIN (-LLONG_MAX - 1LL)
+#   define ULLONG_MAX (LLONG_MAX * 2ULL + 1ULL)
+# endif
+#endif
+
+
+SWIGINTERNINLINE PyObject* 
+SWIG_From_long_SS_long  (long long value)
+{
+  return ((value < LONG_MIN) || (value > LONG_MAX)) ?
+    PyLong_FromLongLong(value) : PyInt_FromLong(static_cast< long >(value)); 
+}
+
+
+SWIGINTERNINLINE PyObject* 
+SWIG_From_unsigned_SS_long_SS_long  (unsigned long long value)
+{
+  return (value > LONG_MAX) ?
+    PyLong_FromUnsignedLongLong(value) : PyInt_FromLong(static_cast< long >(value)); 
+}
+
+
 #include <ossim/elevation/ossimDtedFactory.h>
 
 
@@ -3340,86 +3480,6 @@ SWIGINTERNINLINE PyObject *
 SWIG_From_unsigned_SS_int  (unsigned int value)
 {    
   return SWIG_From_unsigned_SS_long  (value);
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_double (PyObject *obj, double *val)
-{
-  int res = SWIG_TypeError;
-  if (PyFloat_Check(obj)) {
-    if (val) *val = PyFloat_AsDouble(obj);
-    return SWIG_OK;
-  } else if (PyInt_Check(obj)) {
-    if (val) *val = PyInt_AsLong(obj);
-    return SWIG_OK;
-  } else if (PyLong_Check(obj)) {
-    double v = PyLong_AsDouble(obj);
-    if (!PyErr_Occurred()) {
-      if (val) *val = v;
-      return SWIG_OK;
-    } else {
-      PyErr_Clear();
-    }
-  }
-#ifdef SWIG_PYTHON_CAST_MODE
-  {
-    int dispatch = 0;
-    double d = PyFloat_AsDouble(obj);
-    if (!PyErr_Occurred()) {
-      if (val) *val = d;
-      return SWIG_AddCast(SWIG_OK);
-    } else {
-      PyErr_Clear();
-    }
-    if (!dispatch) {
-      long v = PyLong_AsLong(obj);
-      if (!PyErr_Occurred()) {
-	if (val) *val = v;
-	return SWIG_AddCast(SWIG_AddCast(SWIG_OK));
-      } else {
-	PyErr_Clear();
-      }
-    }
-  }
-#endif
-  return res;
-}
-
-
-#include <float.h>
-
-
-#include <math.h>
-
-
-SWIGINTERNINLINE int
-SWIG_CanCastAsInteger(double *d, double min, double max) {
-  double x = *d;
-  if ((min <= x && x <= max)) {
-   double fx = floor(x);
-   double cx = ceil(x);
-   double rd =  ((x - fx) < 0.5) ? fx : cx; /* simple rint */
-   if ((errno == EDOM) || (errno == ERANGE)) {
-     errno = 0;
-   } else {
-     double summ, reps, diff;
-     if (rd < x) {
-       diff = x - rd;
-     } else if (rd > x) {
-       diff = rd - x;
-     } else {
-       return 1;
-     }
-     summ = rd + x;
-     reps = diff/summ;
-     if (reps < 8*DBL_EPSILON) {
-       *d = rd;
-       return 1;
-     }
-   }
-  }
-  return 0;
 }
 
 
@@ -3480,56 +3540,6 @@ SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
     }
   }  
   return res;
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_long (PyObject *obj, long* val)
-{
-  if (PyInt_Check(obj)) {
-    if (val) *val = PyInt_AsLong(obj);
-    return SWIG_OK;
-  } else if (PyLong_Check(obj)) {
-    long v = PyLong_AsLong(obj);
-    if (!PyErr_Occurred()) {
-      if (val) *val = v;
-      return SWIG_OK;
-    } else {
-      PyErr_Clear();
-    }
-  }
-#ifdef SWIG_PYTHON_CAST_MODE
-  {
-    int dispatch = 0;
-    long v = PyInt_AsLong(obj);
-    if (!PyErr_Occurred()) {
-      if (val) *val = v;
-      return SWIG_AddCast(SWIG_OK);
-    } else {
-      PyErr_Clear();
-    }
-    if (!dispatch) {
-      double d;
-      int res = SWIG_AddCast(SWIG_AsVal_double (obj,&d));
-      if (SWIG_IsOK(res) && SWIG_CanCastAsInteger(&d, LONG_MIN, LONG_MAX)) {
-	if (val) *val = (long)(d);
-	return res;
-      }
-    }
-  }
-#endif
-  return SWIG_TypeError;
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_bool (PyObject *obj, bool *val)
-{
-  int r = PyObject_IsTrue(obj);
-  if (r == -1)
-    return SWIG_ERROR;
-  if (val) *val = r ? true : false;
-  return SWIG_OK;
 }
 
 
@@ -5787,12 +5797,833 @@ SWIGINTERN void std_vector_Sl_ossimFilename_Sg__append(std::vector< ossimFilenam
 #ifdef __cplusplus
 extern "C" {
 #endif
+SWIGINTERN PyObject *_wrap_delete_ossimInit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_ossimInit",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ossimInit" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      delete arg1;
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_instance(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":ossimInit_instance")) SWIG_fail;
+  {
+    try
+    {
+      result = (ossimInit *)ossimInit::instance();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimInit, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_addOptions(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  ossimArgumentParser *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:ossimInit_addOptions",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_addOptions" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_ossimArgumentParser,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ossimInit_addOptions" "', argument " "2"" of type '" "ossimArgumentParser &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimInit_addOptions" "', argument " "2"" of type '" "ossimArgumentParser &""'"); 
+  }
+  arg2 = reinterpret_cast< ossimArgumentParser * >(argp2);
+  {
+    try
+    {
+      (arg1)->addOptions(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initialize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  int *arg2 = 0 ;
+  char **arg3 = (char **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:ossimInit_initialize",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_initialize" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_int,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ossimInit_initialize" "', argument " "2"" of type '" "int &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimInit_initialize" "', argument " "2"" of type '" "int &""'"); 
+  }
+  arg2 = reinterpret_cast< int * >(argp2);
+  {
+    /* Check if input is a list */
+    if (PyList_Check(obj2)) 
+    {
+      int size = PyList_Size(obj2);
+      int i = 0;
+      
+      /* Allocate memory */
+      arg3 = (char **) malloc((size+1)*sizeof(char *));
+      
+      for (i = 0; i < size; i++) 
+      {
+        PyObject *o = PyList_GetItem(obj2,i);
+        
+        if (PyString_Check(o))
+        {
+          arg3[i] = PyString_AsString(PyList_GetItem(obj2,i));
+        }
+        
+        else 
+        {
+          PyErr_SetString(PyExc_TypeError,"List must contain strings");
+          free(arg3);
+          return NULL;
+        }
+      }
+      arg3[i] = 0;
+    } 
+    
+    else 
+    {
+      PyErr_SetString(PyExc_TypeError,"not a list");
+      return NULL;
+    }
+  }
+  {
+    try
+    {
+      (arg1)->initialize(*arg2,arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initialize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  ossimArgumentParser *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:ossimInit_initialize",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_initialize" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_ossimArgumentParser,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ossimInit_initialize" "', argument " "2"" of type '" "ossimArgumentParser &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimInit_initialize" "', argument " "2"" of type '" "ossimArgumentParser &""'"); 
+  }
+  arg2 = reinterpret_cast< ossimArgumentParser * >(argp2);
+  {
+    try
+    {
+      (arg1)->initialize(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initialize__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_initialize",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_initialize" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      (arg1)->initialize();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initialize(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_ossimInit, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_ossimInit_initialize__SWIG_2(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_ossimInit, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_ossimArgumentParser, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_ossimInit_initialize__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_ossimInit, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_int, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_p_char, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ossimInit_initialize__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ossimInit_initialize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    ossimInit::initialize(int &,char **)\n"
+    "    ossimInit::initialize(ossimArgumentParser &)\n"
+    "    ossimInit::initialize()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_finalize(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_finalize",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_finalize" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      (arg1)->finalize();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_usage(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_usage",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_usage" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      (arg1)->usage();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_getElevEnabledFlag(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_getElevEnabledFlag",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_getElevEnabledFlag" "', argument " "1"" of type '" "ossimInit const *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      result = (bool)((ossimInit const *)arg1)->getElevEnabledFlag();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_setElevEnabledFlag(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:ossimInit_setElevEnabledFlag",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_setElevEnabledFlag" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ossimInit_setElevEnabledFlag" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    try
+    {
+      (arg1)->setElevEnabledFlag(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_setPluginLoaderEnabledFlag(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:ossimInit_setPluginLoaderEnabledFlag",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_setPluginLoaderEnabledFlag" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ossimInit_setPluginLoaderEnabledFlag" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    try
+    {
+      (arg1)->setPluginLoaderEnabledFlag(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_loadPlugins__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  ossimFilename *arg2 = 0 ;
+  char *arg3 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:ossimInit_loadPlugins",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_loadPlugins" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_ossimFilename,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ossimInit_loadPlugins" "', argument " "2"" of type '" "ossimFilename const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimInit_loadPlugins" "', argument " "2"" of type '" "ossimFilename const &""'"); 
+  }
+  arg2 = reinterpret_cast< ossimFilename * >(argp2);
+  res3 = SWIG_AsCharPtrAndSize(obj2, &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimInit_loadPlugins" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = reinterpret_cast< char * >(buf3);
+  {
+    try
+    {
+      (arg1)->loadPlugins((ossimFilename const &)*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return resultobj;
+fail:
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_loadPlugins__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  ossimFilename *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:ossimInit_loadPlugins",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_loadPlugins" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_ossimFilename,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ossimInit_loadPlugins" "', argument " "2"" of type '" "ossimFilename const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimInit_loadPlugins" "', argument " "2"" of type '" "ossimFilename const &""'"); 
+  }
+  arg2 = reinterpret_cast< ossimFilename * >(argp2);
+  {
+    try
+    {
+      (arg1)->loadPlugins((ossimFilename const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_loadPlugins(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_ossimInit, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_ossimFilename, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_ossimInit_loadPlugins__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_ossimInit, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_ossimFilename, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsCharPtrAndSize(argv[2], 0, NULL, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_ossimInit_loadPlugins__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'ossimInit_loadPlugins'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    ossimInit::loadPlugins(ossimFilename const &,char const *)\n"
+    "    ossimInit::loadPlugins(ossimFilename const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initializePlugins(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_initializePlugins",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_initializePlugins" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      (arg1)->initializePlugins();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initializeDefaultFactories(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_initializeDefaultFactories",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_initializeDefaultFactories" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      (arg1)->initializeDefaultFactories();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initializeElevation(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_initializeElevation",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_initializeElevation" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      (arg1)->initializeElevation();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_initializeLogFile(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_initializeLogFile",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_initializeLogFile" "', argument " "1"" of type '" "ossimInit *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      (arg1)->initializeLogFile();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_version(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  ossimString result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_version",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_version" "', argument " "1"" of type '" "ossimInit const *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      result = ((ossimInit const *)arg1)->version();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new ossimString(static_cast< const ossimString& >(result))), SWIGTYPE_p_ossimString, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_ossimInit_appName(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  ossimInit *arg1 = (ossimInit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  ossimFilename result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:ossimInit_appName",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_ossimInit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimInit_appName" "', argument " "1"" of type '" "ossimInit const *""'"); 
+  }
+  arg1 = reinterpret_cast< ossimInit * >(argp1);
+  {
+    try
+    {
+      result = ((ossimInit const *)arg1)->appName();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_NewPointerObj((new ossimFilename(static_cast< const ossimFilename& >(result))), SWIGTYPE_p_ossimFilename, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *ossimInit_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_ossimInit, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 SWIGINTERN PyObject *_wrap_new_ossimDtedElevationDatabase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   ossimDtedElevationDatabase *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":new_ossimDtedElevationDatabase")) SWIG_fail;
-  result = (ossimDtedElevationDatabase *)new ossimDtedElevationDatabase();
+  {
+    try
+    {
+      result = (ossimDtedElevationDatabase *)new ossimDtedElevationDatabase();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimDtedElevationDatabase, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
@@ -5817,7 +6648,16 @@ SWIGINTERN PyObject *_wrap_new_ossimDtedElevationDatabase__SWIG_1(PyObject *SWIG
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_ossimDtedElevationDatabase" "', argument " "1"" of type '" "ossimDtedElevationDatabase const &""'"); 
   }
   arg1 = reinterpret_cast< ossimDtedElevationDatabase * >(argp1);
-  result = (ossimDtedElevationDatabase *)new ossimDtedElevationDatabase((ossimDtedElevationDatabase const &)*arg1);
+  {
+    try
+    {
+      result = (ossimDtedElevationDatabase *)new ossimDtedElevationDatabase((ossimDtedElevationDatabase const &)*arg1);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimDtedElevationDatabase, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
@@ -5869,7 +6709,16 @@ SWIGINTERN PyObject *_wrap_delete_ossimDtedElevationDatabase(PyObject *SWIGUNUSE
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ossimDtedElevationDatabase" "', argument " "1"" of type '" "ossimDtedElevationDatabase *""'"); 
   }
   arg1 = reinterpret_cast< ossimDtedElevationDatabase * >(argp1);
-  delete arg1;
+  {
+    try
+    {
+      delete arg1;
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -5891,7 +6740,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_dup(PyObject *SWIGUNUSEDPA
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimDtedElevationDatabase_dup" "', argument " "1"" of type '" "ossimDtedElevationDatabase const *""'"); 
   }
   arg1 = reinterpret_cast< ossimDtedElevationDatabase * >(argp1);
-  result = (ossimObject *)((ossimDtedElevationDatabase const *)arg1)->dup();
+  {
+    try
+    {
+      result = (ossimObject *)((ossimDtedElevationDatabase const *)arg1)->dup();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimObject, 0 |  0 );
   return resultobj;
 fail:
@@ -5925,7 +6783,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_open(PyObject *SWIGUNUSEDP
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_open" "', argument " "2"" of type '" "ossimString const &""'"); 
   }
   arg2 = reinterpret_cast< ossimString * >(argp2);
-  result = (bool)(arg1)->open((ossimString const &)*arg2);
+  {
+    try
+    {
+      result = (bool)(arg1)->open((ossimString const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -5959,7 +6826,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_pointHasCoverage(PyObject 
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_pointHasCoverage" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (bool)((ossimDtedElevationDatabase const *)arg1)->pointHasCoverage((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (bool)((ossimDtedElevationDatabase const *)arg1)->pointHasCoverage((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -5993,7 +6869,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_getAccuracyLE90(PyObject *
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_getAccuracyLE90" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)((ossimDtedElevationDatabase const *)arg1)->getAccuracyLE90((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)((ossimDtedElevationDatabase const *)arg1)->getAccuracyLE90((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -6027,7 +6912,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_getAccuracyCE90(PyObject *
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_getAccuracyCE90" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)((ossimDtedElevationDatabase const *)arg1)->getAccuracyCE90((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)((ossimDtedElevationDatabase const *)arg1)->getAccuracyCE90((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -6061,7 +6955,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_getHeightAboveMSL(PyObject
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_getHeightAboveMSL" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)(arg1)->getHeightAboveMSL((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)(arg1)->getHeightAboveMSL((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -6095,7 +6998,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_getHeightAboveEllipsoid(Py
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_getHeightAboveEllipsoid" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)(arg1)->getHeightAboveEllipsoid((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)(arg1)->getHeightAboveEllipsoid((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -6129,7 +7041,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_createId(PyObject *SWIGUNU
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_createId" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (ossim_uint64)((ossimDtedElevationDatabase const *)arg1)->createId((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (ossim_uint64)((ossimDtedElevationDatabase const *)arg1)->createId((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
   return resultobj;
 fail:
@@ -6173,7 +7094,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_loadState__SWIG_0(PyObject
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimDtedElevationDatabase_loadState" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -6209,7 +7139,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_loadState__SWIG_1(PyObject
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_loadState" "', argument " "2"" of type '" "ossimKeywordlist const &""'"); 
   }
   arg2 = reinterpret_cast< ossimKeywordlist * >(argp2);
-  result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2);
+  {
+    try
+    {
+      result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -6303,7 +7242,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_saveState__SWIG_0(PyObject
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimDtedElevationDatabase_saveState" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (bool)((ossimDtedElevationDatabase const *)arg1)->saveState(*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (bool)((ossimDtedElevationDatabase const *)arg1)->saveState(*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -6339,7 +7287,16 @@ SWIGINTERN PyObject *_wrap_ossimDtedElevationDatabase_saveState__SWIG_1(PyObject
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimDtedElevationDatabase_saveState" "', argument " "2"" of type '" "ossimKeywordlist &""'"); 
   }
   arg2 = reinterpret_cast< ossimKeywordlist * >(argp2);
-  result = (bool)((ossimDtedElevationDatabase const *)arg1)->saveState(*arg2);
+  {
+    try
+    {
+      result = (bool)((ossimDtedElevationDatabase const *)arg1)->saveState(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -6411,7 +7368,16 @@ SWIGINTERN PyObject *_wrap_new_ossimElevationDatabaseFactory(PyObject *SWIGUNUSE
   ossimElevationDatabaseFactory *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":new_ossimElevationDatabaseFactory")) SWIG_fail;
-  result = (ossimElevationDatabaseFactory *)new ossimElevationDatabaseFactory();
+  {
+    try
+    {
+      result = (ossimElevationDatabaseFactory *)new ossimElevationDatabaseFactory();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabaseFactory, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
@@ -6424,7 +7390,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseFactory_instance(PyObject *SWIG
   ossimElevationDatabaseFactory *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":ossimElevationDatabaseFactory_instance")) SWIG_fail;
-  result = (ossimElevationDatabaseFactory *)ossimElevationDatabaseFactory::instance();
+  {
+    try
+    {
+      result = (ossimElevationDatabaseFactory *)ossimElevationDatabaseFactory::instance();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabaseFactory, 0 |  0 );
   return resultobj;
 fail:
@@ -6458,7 +7433,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseFactory_createDatabase__SWIG_0(
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseFactory_createDatabase" "', argument " "2"" of type '" "ossimString const &""'"); 
   }
   arg2 = reinterpret_cast< ossimString * >(argp2);
-  result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->createDatabase((ossimString const &)*arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->createDatabase((ossimString const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -6502,7 +7486,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseFactory_createDatabase__SWIG_1(
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimElevationDatabaseFactory_createDatabase" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -6538,7 +7531,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseFactory_createDatabase__SWIG_2(
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseFactory_createDatabase" "', argument " "2"" of type '" "ossimKeywordlist const &""'"); 
   }
   arg2 = reinterpret_cast< ossimKeywordlist * >(argp2);
-  result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -6636,7 +7638,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseFactory_open(PyObject *SWIGUNUS
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseFactory_open" "', argument " "2"" of type '" "ossimString const &""'"); 
   }
   arg2 = reinterpret_cast< ossimString * >(argp2);
-  result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->open((ossimString const &)*arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevationDatabaseFactory const *)arg1)->open((ossimString const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -6669,7 +7680,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseFactory_getTypeNameList(PyObjec
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseFactory_getTypeNameList" "', argument " "2"" of type '" "std::vector< ossimString,std::allocator< ossimString > > &""'"); 
   }
   arg2 = reinterpret_cast< std::vector< ossimString,std::allocator< ossimString > > * >(argp2);
-  ((ossimElevationDatabaseFactory const *)arg1)->getTypeNameList(*arg2);
+  {
+    try
+    {
+      ((ossimElevationDatabaseFactory const *)arg1)->getTypeNameList(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -6719,7 +7739,16 @@ SWIGINTERN PyObject *_wrap_new_ossimElevationDatabaseRegistry(PyObject *SWIGUNUS
   ossimElevationDatabaseRegistry *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":new_ossimElevationDatabaseRegistry")) SWIG_fail;
-  result = (ossimElevationDatabaseRegistry *)new ossimElevationDatabaseRegistry();
+  {
+    try
+    {
+      result = (ossimElevationDatabaseRegistry *)new ossimElevationDatabaseRegistry();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabaseRegistry, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
@@ -6732,7 +7761,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseRegistry_instance(PyObject *SWI
   ossimElevationDatabaseRegistry *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":ossimElevationDatabaseRegistry_instance")) SWIG_fail;
-  result = (ossimElevationDatabaseRegistry *)ossimElevationDatabaseRegistry::instance();
+  {
+    try
+    {
+      result = (ossimElevationDatabaseRegistry *)ossimElevationDatabaseRegistry::instance();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabaseRegistry, 0 |  0 );
   return resultobj;
 fail:
@@ -6765,7 +7803,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseRegistry_getTypeNameList(PyObje
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseRegistry_getTypeNameList" "', argument " "2"" of type '" "std::vector< ossimString,std::allocator< ossimString > > &""'"); 
   }
   arg2 = reinterpret_cast< std::vector< ossimString,std::allocator< ossimString > > * >(argp2);
-  ((ossimElevationDatabaseRegistry const *)arg1)->getTypeNameList(*arg2);
+  {
+    try
+    {
+      ((ossimElevationDatabaseRegistry const *)arg1)->getTypeNameList(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -6799,7 +7846,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseRegistry_createDatabase__SWIG_0
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseRegistry_createDatabase" "', argument " "2"" of type '" "ossimString const &""'"); 
   }
   arg2 = reinterpret_cast< ossimString * >(argp2);
-  result = (ossimElevationDatabase *)((ossimElevationDatabaseRegistry const *)arg1)->createDatabase((ossimString const &)*arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevationDatabaseRegistry const *)arg1)->createDatabase((ossimString const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -6843,7 +7899,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseRegistry_createDatabase__SWIG_1
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimElevationDatabaseRegistry_createDatabase" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (ossimElevationDatabase *)((ossimElevationDatabaseRegistry const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevationDatabaseRegistry const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -6879,7 +7944,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseRegistry_createDatabase__SWIG_2
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseRegistry_createDatabase" "', argument " "2"" of type '" "ossimKeywordlist const &""'"); 
   }
   arg2 = reinterpret_cast< ossimKeywordlist * >(argp2);
-  result = (ossimElevationDatabase *)((ossimElevationDatabaseRegistry const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevationDatabaseRegistry const *)arg1)->createDatabase((ossimKeywordlist const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -6977,7 +8051,16 @@ SWIGINTERN PyObject *_wrap_ossimElevationDatabaseRegistry_open(PyObject *SWIGUNU
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevationDatabaseRegistry_open" "', argument " "2"" of type '" "ossimString const &""'"); 
   }
   arg2 = reinterpret_cast< ossimString * >(argp2);
-  result = (ossimElevationDatabase *)(arg1)->open((ossimString const &)*arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)(arg1)->open((ossimString const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -7027,7 +8110,16 @@ SWIGINTERN PyObject *_wrap_ossimElevCellHandlerFactory_instance(PyObject *SWIGUN
   ossimElevCellHandlerFactory *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":ossimElevCellHandlerFactory_instance")) SWIG_fail;
-  result = (ossimElevCellHandlerFactory *)ossimElevCellHandlerFactory::instance();
+  {
+    try
+    {
+      result = (ossimElevCellHandlerFactory *)ossimElevCellHandlerFactory::instance();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevCellHandlerFactory, 0 |  0 );
   return resultobj;
 fail:
@@ -7061,7 +8153,16 @@ SWIGINTERN PyObject *_wrap_ossimElevCellHandlerFactory_create__SWIG_0(PyObject *
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevCellHandlerFactory_create" "', argument " "2"" of type '" "ossimString const &""'"); 
   }
   arg2 = reinterpret_cast< ossimString * >(argp2);
-  result = (ossimElevCellHandler *)((ossimElevCellHandlerFactory const *)arg1)->create((ossimString const &)*arg2);
+  {
+    try
+    {
+      result = (ossimElevCellHandler *)((ossimElevCellHandlerFactory const *)arg1)->create((ossimString const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevCellHandler, 0 |  0 );
   return resultobj;
 fail:
@@ -7105,7 +8206,16 @@ SWIGINTERN PyObject *_wrap_ossimElevCellHandlerFactory_create__SWIG_1(PyObject *
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimElevCellHandlerFactory_create" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (ossimElevCellHandler *)((ossimElevCellHandlerFactory const *)arg1)->create((ossimKeywordlist const &)*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (ossimElevCellHandler *)((ossimElevCellHandlerFactory const *)arg1)->create((ossimKeywordlist const &)*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevCellHandler, 0 |  0 );
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -7179,7 +8289,16 @@ SWIGINTERN PyObject *_wrap_ossimElevCellHandlerFactory_getList(PyObject *SWIGUNU
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevCellHandlerFactory_getList" "', argument " "1"" of type '" "ossimElevCellHandlerFactory const *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevCellHandlerFactory * >(argp1);
-  result = ((ossimElevCellHandlerFactory const *)arg1)->getList();
+  {
+    try
+    {
+      result = ((ossimElevCellHandlerFactory const *)arg1)->getList();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj((new std::list< ossimString >(static_cast< const std::list< ossimString >& >(result))), SWIGTYPE_p_std__listT_ossimString_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
@@ -7237,7 +8356,16 @@ SWIGINTERN PyObject *_wrap_delete_ossimElevManager(PyObject *SWIGUNUSEDPARM(self
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ossimElevManager" "', argument " "1"" of type '" "ossimElevManager *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  delete arg1;
+  {
+    try
+    {
+      delete arg1;
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -7250,7 +8378,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_instance(PyObject *SWIGUNUSEDPARM(se
   ossimElevManager *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":ossimElevManager_instance")) SWIG_fail;
-  result = (ossimElevManager *)ossimElevManager::instance();
+  {
+    try
+    {
+      result = (ossimElevManager *)ossimElevManager::instance();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevManager, 0 |  0 );
   return resultobj;
 fail:
@@ -7284,7 +8421,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getHeightAboveEllipsoid(PyObject *SW
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_getHeightAboveEllipsoid" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)(arg1)->getHeightAboveEllipsoid((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)(arg1)->getHeightAboveEllipsoid((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -7318,7 +8464,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getHeightAboveMSL(PyObject *SWIGUNUS
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_getHeightAboveMSL" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)(arg1)->getHeightAboveMSL((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)(arg1)->getHeightAboveMSL((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -7352,7 +8507,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getAccuracyLE90(PyObject *SWIGUNUSED
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_getAccuracyLE90" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)((ossimElevManager const *)arg1)->getAccuracyLE90((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)((ossimElevManager const *)arg1)->getAccuracyLE90((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -7386,7 +8550,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getAccuracyCE90(PyObject *SWIGUNUSED
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_getAccuracyCE90" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (double)((ossimElevManager const *)arg1)->getAccuracyCE90((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (double)((ossimElevManager const *)arg1)->getAccuracyCE90((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -7420,7 +8593,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_pointHasCoverage(PyObject *SWIGUNUSE
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_pointHasCoverage" "', argument " "2"" of type '" "ossimGpt const &""'"); 
   }
   arg2 = reinterpret_cast< ossimGpt * >(argp2);
-  result = (bool)((ossimElevManager const *)arg1)->pointHasCoverage((ossimGpt const &)*arg2);
+  {
+    try
+    {
+      result = (bool)((ossimElevManager const *)arg1)->pointHasCoverage((ossimGpt const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -7442,7 +8624,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getMeanSpacingMeters(PyObject *SWIGU
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevManager_getMeanSpacingMeters" "', argument " "1"" of type '" "ossimElevManager const *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  result = (double)((ossimElevManager const *)arg1)->getMeanSpacingMeters();
+  {
+    try
+    {
+      result = (double)((ossimElevManager const *)arg1)->getMeanSpacingMeters();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -7464,7 +8655,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getNumberOfElevationDatabases(PyObje
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevManager_getNumberOfElevationDatabases" "', argument " "1"" of type '" "ossimElevManager const *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  result = (ossim_uint32)((ossimElevManager const *)arg1)->getNumberOfElevationDatabases();
+  {
+    try
+    {
+      result = (ossim_uint32)((ossimElevManager const *)arg1)->getNumberOfElevationDatabases();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
   return resultobj;
 fail:
@@ -7495,7 +8695,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getElevationDatabase__SWIG_0(PyObjec
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ossimElevManager_getElevationDatabase" "', argument " "2"" of type '" "ossim_uint32""'");
   } 
   arg2 = static_cast< ossim_uint32 >(val2);
-  result = (ossimElevationDatabase *)(arg1)->getElevationDatabase(arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)(arg1)->getElevationDatabase(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -7526,7 +8735,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getElevationDatabase__SWIG_1(PyObjec
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ossimElevManager_getElevationDatabase" "', argument " "2"" of type '" "ossim_uint32""'");
   } 
   arg2 = static_cast< ossim_uint32 >(val2);
-  result = (ossimElevationDatabase *)((ossimElevManager const *)arg1)->getElevationDatabase(arg2);
+  {
+    try
+    {
+      result = (ossimElevationDatabase *)((ossimElevManager const *)arg1)->getElevationDatabase(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossimElevationDatabase, 0 |  0 );
   return resultobj;
 fail:
@@ -7598,7 +8816,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getElevationDatabaseList__SWIG_0(PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevManager_getElevationDatabaseList" "', argument " "1"" of type '" "ossimElevManager *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  result = (ossimElevManager::ElevationDatabaseListType *) &(arg1)->getElevationDatabaseList();
+  {
+    try
+    {
+      result = (ossimElevManager::ElevationDatabaseListType *) &(arg1)->getElevationDatabaseList();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_ossimRefPtrT_ossimElevationDatabase_t_std__allocatorT_ossimRefPtrT_ossimElevationDatabase_t_t_t, 0 |  0 );
   return resultobj;
 fail:
@@ -7620,7 +8847,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getElevationDatabaseList__SWIG_1(PyO
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevManager_getElevationDatabaseList" "', argument " "1"" of type '" "ossimElevManager const *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  result = (ossimElevManager::ElevationDatabaseListType *) &((ossimElevManager const *)arg1)->getElevationDatabaseList();
+  {
+    try
+    {
+      result = (ossimElevManager::ElevationDatabaseListType *) &((ossimElevManager const *)arg1)->getElevationDatabaseList();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_ossimRefPtrT_ossimElevationDatabase_t_std__allocatorT_ossimRefPtrT_ossimElevationDatabase_t_t_t, 0 |  0 );
   return resultobj;
 fail:
@@ -7688,7 +8924,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_addDatabase(PyObject *SWIGUNUSEDPARM
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ossimElevManager_addDatabase" "', argument " "2"" of type '" "ossimElevationDatabase *""'"); 
   }
   arg2 = reinterpret_cast< ossimElevationDatabase * >(argp2);
-  (arg1)->addDatabase(arg2);
+  {
+    try
+    {
+      (arg1)->addDatabase(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -7722,7 +8967,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_loadElevationPath(PyObject *SWIGUNUS
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_loadElevationPath" "', argument " "2"" of type '" "ossimFilename const &""'"); 
   }
   arg2 = reinterpret_cast< ossimFilename * >(argp2);
-  result = (bool)(arg1)->loadElevationPath((ossimFilename const &)*arg2);
+  {
+    try
+    {
+      result = (bool)(arg1)->loadElevationPath((ossimFilename const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -7752,7 +9006,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_setDefaultHeightAboveEllipsoid(PyObj
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ossimElevManager_setDefaultHeightAboveEllipsoid" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
-  (arg1)->setDefaultHeightAboveEllipsoid(arg2);
+  {
+    try
+    {
+      (arg1)->setDefaultHeightAboveEllipsoid(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -7782,7 +9045,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_setElevationOffset(PyObject *SWIGUNU
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ossimElevManager_setElevationOffset" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
-  (arg1)->setElevationOffset(arg2);
+  {
+    try
+    {
+      (arg1)->setElevationOffset(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -7804,7 +9076,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getElevationOffset(PyObject *SWIGUNU
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevManager_getElevationOffset" "', argument " "1"" of type '" "ossimElevManager const *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  result = (double)((ossimElevManager const *)arg1)->getElevationOffset();
+  {
+    try
+    {
+      result = (double)((ossimElevManager const *)arg1)->getElevationOffset();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
@@ -7837,7 +9118,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getOpenCellList(PyObject *SWIGUNUSED
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_getOpenCellList" "', argument " "2"" of type '" "std::vector< ossimFilename,std::allocator< ossimFilename > > &""'"); 
   }
   arg2 = reinterpret_cast< std::vector< ossimFilename,std::allocator< ossimFilename > > * >(argp2);
-  ((ossimElevManager const *)arg1)->getOpenCellList(*arg2);
+  {
+    try
+    {
+      ((ossimElevManager const *)arg1)->getOpenCellList(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -7867,7 +9157,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_setUseGeoidIfNullFlag(PyObject *SWIG
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "ossimElevManager_setUseGeoidIfNullFlag" "', argument " "2"" of type '" "bool""'");
   } 
   arg2 = static_cast< bool >(val2);
-  (arg1)->setUseGeoidIfNullFlag(arg2);
+  {
+    try
+    {
+      (arg1)->setUseGeoidIfNullFlag(arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -7889,7 +9188,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_getUseGeoidIfNullFlag(PyObject *SWIG
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevManager_getUseGeoidIfNullFlag" "', argument " "1"" of type '" "ossimElevManager const *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  result = (bool)((ossimElevManager const *)arg1)->getUseGeoidIfNullFlag();
+  {
+    try
+    {
+      result = (bool)((ossimElevManager const *)arg1)->getUseGeoidIfNullFlag();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -7910,7 +9218,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_clear(PyObject *SWIGUNUSEDPARM(self)
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ossimElevManager_clear" "', argument " "1"" of type '" "ossimElevManager *""'"); 
   }
   arg1 = reinterpret_cast< ossimElevManager * >(argp1);
-  (arg1)->clear();
+  {
+    try
+    {
+      (arg1)->clear();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -7954,7 +9271,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_saveState__SWIG_0(PyObject *SWIGUNUS
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimElevManager_saveState" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (bool)((ossimElevManager const *)arg1)->saveState(*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (bool)((ossimElevManager const *)arg1)->saveState(*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -7990,7 +9316,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_saveState__SWIG_1(PyObject *SWIGUNUS
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_saveState" "', argument " "2"" of type '" "ossimKeywordlist &""'"); 
   }
   arg2 = reinterpret_cast< ossimKeywordlist * >(argp2);
-  result = (bool)((ossimElevManager const *)arg1)->saveState(*arg2);
+  {
+    try
+    {
+      result = (bool)((ossimElevManager const *)arg1)->saveState(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -8086,7 +9421,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_loadState__SWIG_0(PyObject *SWIGUNUS
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossimElevManager_loadState" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -8122,7 +9466,16 @@ SWIGINTERN PyObject *_wrap_ossimElevManager_loadState__SWIG_1(PyObject *SWIGUNUS
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossimElevManager_loadState" "', argument " "2"" of type '" "ossimKeywordlist const &""'"); 
   }
   arg2 = reinterpret_cast< ossimKeywordlist * >(argp2);
-  result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2);
+  {
+    try
+    {
+      result = (bool)(arg1)->loadState((ossimKeywordlist const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -8192,7 +9545,16 @@ SWIGINTERN PyObject *_wrap_new_ossim2dTo2dTransformFactory(PyObject *SWIGUNUSEDP
   ossim2dTo2dTransformFactory *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":new_ossim2dTo2dTransformFactory")) SWIG_fail;
-  result = (ossim2dTo2dTransformFactory *)new ossim2dTo2dTransformFactory();
+  {
+    try
+    {
+      result = (ossim2dTo2dTransformFactory *)new ossim2dTo2dTransformFactory();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossim2dTo2dTransformFactory, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
@@ -8205,7 +9567,16 @@ SWIGINTERN PyObject *_wrap_ossim2dTo2dTransformFactory_instance(PyObject *SWIGUN
   ossim2dTo2dTransformFactory *result = 0 ;
   
   if (!PyArg_ParseTuple(args,(char *)":ossim2dTo2dTransformFactory_instance")) SWIG_fail;
-  result = (ossim2dTo2dTransformFactory *)ossim2dTo2dTransformFactory::instance();
+  {
+    try
+    {
+      result = (ossim2dTo2dTransformFactory *)ossim2dTo2dTransformFactory::instance();
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossim2dTo2dTransformFactory, 0 |  0 );
   return resultobj;
 fail:
@@ -8239,7 +9610,16 @@ SWIGINTERN PyObject *_wrap_ossim2dTo2dTransformFactory_createTransform__SWIG_0(P
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossim2dTo2dTransformFactory_createTransform" "', argument " "2"" of type '" "ossimString const &""'"); 
   }
   arg2 = reinterpret_cast< ossimString * >(argp2);
-  result = (ossim2dTo2dTransform *)((ossim2dTo2dTransformFactory const *)arg1)->createTransform((ossimString const &)*arg2);
+  {
+    try
+    {
+      result = (ossim2dTo2dTransform *)((ossim2dTo2dTransformFactory const *)arg1)->createTransform((ossimString const &)*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossim2dTo2dTransform, 0 |  0 );
   return resultobj;
 fail:
@@ -8283,7 +9663,16 @@ SWIGINTERN PyObject *_wrap_ossim2dTo2dTransformFactory_createTransform__SWIG_1(P
     SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "ossim2dTo2dTransformFactory_createTransform" "', argument " "3"" of type '" "char const *""'");
   }
   arg3 = reinterpret_cast< char * >(buf3);
-  result = (ossim2dTo2dTransform *)((ossim2dTo2dTransformFactory const *)arg1)->createTransform((ossimKeywordlist const &)*arg2,(char const *)arg3);
+  {
+    try
+    {
+      result = (ossim2dTo2dTransform *)((ossim2dTo2dTransformFactory const *)arg1)->createTransform((ossimKeywordlist const &)*arg2,(char const *)arg3);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_ossim2dTo2dTransform, 0 |  0 );
   if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
@@ -8368,7 +9757,16 @@ SWIGINTERN PyObject *_wrap_ossim2dTo2dTransformFactory_getTypeNameList(PyObject 
     SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ossim2dTo2dTransformFactory_getTypeNameList" "', argument " "2"" of type '" "std::vector< ossimString,std::allocator< ossimString > > &""'"); 
   }
   arg2 = reinterpret_cast< std::vector< ossimString,std::allocator< ossimString > > * >(argp2);
-  ((ossim2dTo2dTransformFactory const *)arg1)->getTypeNameList(*arg2);
+  {
+    try
+    {
+      ((ossim2dTo2dTransformFactory const *)arg1)->getTypeNameList(*arg2);
+    }
+    catch(const std::exception& e)
+    {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -60325,6 +61723,23 @@ SWIGINTERN PyObject *ossimSensorModelTuple_swigregister(PyObject *SWIGUNUSEDPARM
 
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
+	 { (char *)"delete_ossimInit", _wrap_delete_ossimInit, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_instance", _wrap_ossimInit_instance, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_addOptions", _wrap_ossimInit_addOptions, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_initialize", _wrap_ossimInit_initialize, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_finalize", _wrap_ossimInit_finalize, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_usage", _wrap_ossimInit_usage, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_getElevEnabledFlag", _wrap_ossimInit_getElevEnabledFlag, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_setElevEnabledFlag", _wrap_ossimInit_setElevEnabledFlag, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_setPluginLoaderEnabledFlag", _wrap_ossimInit_setPluginLoaderEnabledFlag, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_loadPlugins", _wrap_ossimInit_loadPlugins, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_initializePlugins", _wrap_ossimInit_initializePlugins, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_initializeDefaultFactories", _wrap_ossimInit_initializeDefaultFactories, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_initializeElevation", _wrap_ossimInit_initializeElevation, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_initializeLogFile", _wrap_ossimInit_initializeLogFile, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_version", _wrap_ossimInit_version, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_appName", _wrap_ossimInit_appName, METH_VARARGS, NULL},
+	 { (char *)"ossimInit_swigregister", ossimInit_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_ossimDtedElevationDatabase", _wrap_new_ossimDtedElevationDatabase, METH_VARARGS, NULL},
 	 { (char *)"delete_ossimDtedElevationDatabase", _wrap_delete_ossimDtedElevationDatabase, METH_VARARGS, NULL},
 	 { (char *)"ossimDtedElevationDatabase_dup", _wrap_ossimDtedElevationDatabase_dup, METH_VARARGS, NULL},
@@ -61192,6 +62607,7 @@ static swig_type_info _swigt__p_iterator = {"_p_iterator", "iterator *", 0, 0, (
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "ossim_sint64 *|ossim_int64 *|long long *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossim2dTo2dTransform = {"_p_ossim2dTo2dTransform", "ossim2dTo2dTransform *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossim2dTo2dTransformFactory = {"_p_ossim2dTo2dTransformFactory", "ossim2dTo2dTransformFactory *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ossimArgumentParser = {"_p_ossimArgumentParser", "ossimArgumentParser *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimColumnVector3d = {"_p_ossimColumnVector3d", "ossimColumnVector3d *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimConnectableObject = {"_p_ossimConnectableObject", "ossimConnectableObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimConnectableObject__ConnectableObjectList = {"_p_ossimConnectableObject__ConnectableObjectList", "ossimConnectableObject::ConnectableObjectList *", 0, 0, (void*)0, 0};
@@ -61238,6 +62654,7 @@ static swig_type_info _swigt__p_ossimImageSourceFactoryBase = {"_p_ossimImageSou
 static swig_type_info _swigt__p_ossimImageWriterFactory = {"_p_ossimImageWriterFactory", "ossimImageWriterFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimImageWriterFactoryBase__ImageFileWriterList = {"_p_ossimImageWriterFactoryBase__ImageFileWriterList", "ossimImageWriterFactoryBase::ImageFileWriterList *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimImageWriterFactoryRegistry = {"_p_ossimImageWriterFactoryRegistry", "ossimImageWriterFactoryRegistry *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_ossimInit = {"_p_ossimInit", "ossimInit *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimIpt = {"_p_ossimIpt", "ossimIpt *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimIrect = {"_p_ossimIrect", "ossimIrect *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ossimKeywordlist = {"_p_ossimKeywordlist", "ossimKeywordlist *", 0, 0, (void*)0, 0};
@@ -61270,6 +62687,7 @@ static swig_type_info _swigt__p_ossimStringLtstr = {"_p_ossimStringLtstr", "ossi
 static swig_type_info _swigt__p_ossimVisitor = {"_p_ossimVisitor", "ossimVisitor *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ostream = {"_p_ostream", "ostream *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_PyObject = {"_p_p_PyObject", "PyObject **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_char = {"_p_p_char", "char **", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_short = {"_p_short", "ossim_sint16 *|ossim_int16 *|short *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "signed char *|ossim_sint8 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
@@ -61316,6 +62734,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_long_long,
   &_swigt__p_ossim2dTo2dTransform,
   &_swigt__p_ossim2dTo2dTransformFactory,
+  &_swigt__p_ossimArgumentParser,
   &_swigt__p_ossimColumnVector3d,
   &_swigt__p_ossimConnectableObject,
   &_swigt__p_ossimConnectableObject__ConnectableObjectList,
@@ -61362,6 +62781,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_ossimImageWriterFactory,
   &_swigt__p_ossimImageWriterFactoryBase__ImageFileWriterList,
   &_swigt__p_ossimImageWriterFactoryRegistry,
+  &_swigt__p_ossimInit,
   &_swigt__p_ossimIpt,
   &_swigt__p_ossimIrect,
   &_swigt__p_ossimKeywordlist,
@@ -61394,6 +62814,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_ossimVisitor,
   &_swigt__p_ostream,
   &_swigt__p_p_PyObject,
+  &_swigt__p_p_char,
   &_swigt__p_short,
   &_swigt__p_signed_char,
   &_swigt__p_size_type,
@@ -61440,6 +62861,7 @@ static swig_cast_info _swigc__p_iterator[] = {  {&_swigt__p_iterator, 0, 0, 0},{
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossim2dTo2dTransform[] = {  {&_swigt__p_ossim2dTo2dTransform, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossim2dTo2dTransformFactory[] = {  {&_swigt__p_ossim2dTo2dTransformFactory, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ossimArgumentParser[] = {  {&_swigt__p_ossimArgumentParser, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimColumnVector3d[] = {  {&_swigt__p_ossimColumnVector3d, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimConnectableObject[] = {  {&_swigt__p_ossimConnectableObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimConnectableObject__ConnectableObjectList[] = {  {&_swigt__p_ossimConnectableObject__ConnectableObjectList, 0, 0, 0},{0, 0, 0, 0}};
@@ -61486,6 +62908,7 @@ static swig_cast_info _swigc__p_ossimImageSourceFactoryBase[] = {  {&_swigt__p_o
 static swig_cast_info _swigc__p_ossimImageWriterFactory[] = {  {&_swigt__p_ossimImageWriterFactory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimImageWriterFactoryBase__ImageFileWriterList[] = {  {&_swigt__p_ossimImageWriterFactoryBase__ImageFileWriterList, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimImageWriterFactoryRegistry[] = {  {&_swigt__p_ossimImageWriterFactoryRegistry, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_ossimInit[] = {  {&_swigt__p_ossimInit, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimIpt[] = {  {&_swigt__p_ossimIpt, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimIrect[] = {  {&_swigt__p_ossimIrect, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ossimKeywordlist[] = {  {&_swigt__p_ossimKeywordlist, 0, 0, 0},{0, 0, 0, 0}};
@@ -61518,6 +62941,7 @@ static swig_cast_info _swigc__p_ossimStringLtstr[] = {  {&_swigt__p_ossimStringL
 static swig_cast_info _swigc__p_ossimVisitor[] = {  {&_swigt__p_ossimVisitor, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ostream[] = {  {&_swigt__p_ostream, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_PyObject[] = {  {&_swigt__p_p_PyObject, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_char[] = {  {&_swigt__p_p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
@@ -61564,6 +62988,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_long_long,
   _swigc__p_ossim2dTo2dTransform,
   _swigc__p_ossim2dTo2dTransformFactory,
+  _swigc__p_ossimArgumentParser,
   _swigc__p_ossimColumnVector3d,
   _swigc__p_ossimConnectableObject,
   _swigc__p_ossimConnectableObject__ConnectableObjectList,
@@ -61610,6 +63035,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_ossimImageWriterFactory,
   _swigc__p_ossimImageWriterFactoryBase__ImageFileWriterList,
   _swigc__p_ossimImageWriterFactoryRegistry,
+  _swigc__p_ossimInit,
   _swigc__p_ossimIpt,
   _swigc__p_ossimIrect,
   _swigc__p_ossimKeywordlist,
@@ -61642,6 +63068,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_ossimVisitor,
   _swigc__p_ostream,
   _swigc__p_p_PyObject,
+  _swigc__p_p_char,
   _swigc__p_short,
   _swigc__p_signed_char,
   _swigc__p_size_type,
@@ -62357,94 +63784,7 @@ SWIG_init(void) {
   
   SWIG_InstallConstants(d,swig_const_table);
   
-  SWIG_Python_SetConstant(d, "OSSIM_VERTEX_ORDER_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_VERTEX_ORDER_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_CLOCKWISE_ORDER",SWIG_From_int(static_cast< int >(OSSIM_CLOCKWISE_ORDER)));
-  SWIG_Python_SetConstant(d, "OSSIM_COUNTERCLOCKWISE_ORDER",SWIG_From_int(static_cast< int >(OSSIM_COUNTERCLOCKWISE_ORDER)));
-  SWIG_Python_SetConstant(d, "OSSIM_HISTO_MODE_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_HISTO_MODE_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_HISTO_MODE_NORMAL",SWIG_From_int(static_cast< int >(OSSIM_HISTO_MODE_NORMAL)));
-  SWIG_Python_SetConstant(d, "OSSIM_HISTO_MODE_FAST",SWIG_From_int(static_cast< int >(OSSIM_HISTO_MODE_FAST)));
-  SWIG_Python_SetConstant(d, "OSSIM_PIXEL_IS_POINT",SWIG_From_int(static_cast< int >(OSSIM_PIXEL_IS_POINT)));
-  SWIG_Python_SetConstant(d, "OSSIM_PIXEL_IS_AREA",SWIG_From_int(static_cast< int >(OSSIM_PIXEL_IS_AREA)));
-  SWIG_Python_SetConstant(d, "OSSIM_SCALAR_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_SCALAR_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_UINT8",SWIG_From_int(static_cast< int >(OSSIM_UINT8)));
-  SWIG_Python_SetConstant(d, "OSSIM_SINT8",SWIG_From_int(static_cast< int >(OSSIM_SINT8)));
-  SWIG_Python_SetConstant(d, "OSSIM_UINT16",SWIG_From_int(static_cast< int >(OSSIM_UINT16)));
-  SWIG_Python_SetConstant(d, "OSSIM_SINT16",SWIG_From_int(static_cast< int >(OSSIM_SINT16)));
-  SWIG_Python_SetConstant(d, "OSSIM_UINT32",SWIG_From_int(static_cast< int >(OSSIM_UINT32)));
-  SWIG_Python_SetConstant(d, "OSSIM_SINT32",SWIG_From_int(static_cast< int >(OSSIM_SINT32)));
-  SWIG_Python_SetConstant(d, "OSSIM_FLOAT32",SWIG_From_int(static_cast< int >(OSSIM_FLOAT32)));
-  SWIG_Python_SetConstant(d, "OSSIM_FLOAT64",SWIG_From_int(static_cast< int >(OSSIM_FLOAT64)));
-  SWIG_Python_SetConstant(d, "OSSIM_CINT16",SWIG_From_int(static_cast< int >(OSSIM_CINT16)));
-  SWIG_Python_SetConstant(d, "OSSIM_CINT32",SWIG_From_int(static_cast< int >(OSSIM_CINT32)));
-  SWIG_Python_SetConstant(d, "OSSIM_CFLOAT32",SWIG_From_int(static_cast< int >(OSSIM_CFLOAT32)));
-  SWIG_Python_SetConstant(d, "OSSIM_CFLOAT64",SWIG_From_int(static_cast< int >(OSSIM_CFLOAT64)));
-  SWIG_Python_SetConstant(d, "OSSIM_UCHAR",SWIG_From_int(static_cast< int >(OSSIM_UCHAR)));
-  SWIG_Python_SetConstant(d, "OSSIM_USHORT16",SWIG_From_int(static_cast< int >(OSSIM_USHORT16)));
-  SWIG_Python_SetConstant(d, "OSSIM_SSHORT16",SWIG_From_int(static_cast< int >(OSSIM_SSHORT16)));
-  SWIG_Python_SetConstant(d, "OSSIM_USHORT11",SWIG_From_int(static_cast< int >(OSSIM_USHORT11)));
-  SWIG_Python_SetConstant(d, "OSSIM_FLOAT",SWIG_From_int(static_cast< int >(OSSIM_FLOAT)));
-  SWIG_Python_SetConstant(d, "OSSIM_NORMALIZED_FLOAT",SWIG_From_int(static_cast< int >(OSSIM_NORMALIZED_FLOAT)));
-  SWIG_Python_SetConstant(d, "OSSIM_DOUBLE",SWIG_From_int(static_cast< int >(OSSIM_DOUBLE)));
-  SWIG_Python_SetConstant(d, "OSSIM_NORMALIZED_DOUBLE",SWIG_From_int(static_cast< int >(OSSIM_NORMALIZED_DOUBLE)));
-  SWIG_Python_SetConstant(d, "OSSIM_INTERLEAVE_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_INTERLEAVE_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_BIL",SWIG_From_int(static_cast< int >(OSSIM_BIL)));
-  SWIG_Python_SetConstant(d, "OSSIM_BIP",SWIG_From_int(static_cast< int >(OSSIM_BIP)));
-  SWIG_Python_SetConstant(d, "OSSIM_BSQ",SWIG_From_int(static_cast< int >(OSSIM_BSQ)));
-  SWIG_Python_SetConstant(d, "OSSIM_BSQ_MULTI_FILE",SWIG_From_int(static_cast< int >(OSSIM_BSQ_MULTI_FILE)));
-  SWIG_Python_SetConstant(d, "OSSIM_ORIGIN_LOCATION_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_ORIGIN_LOCATION_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_CENTER",SWIG_From_int(static_cast< int >(OSSIM_CENTER)));
-  SWIG_Python_SetConstant(d, "OSSIM_UPPER_LEFT",SWIG_From_int(static_cast< int >(OSSIM_UPPER_LEFT)));
-  SWIG_Python_SetConstant(d, "OSSIM_UPPER_LEFT_CENTER",SWIG_From_int(static_cast< int >(OSSIM_UPPER_LEFT_CENTER)));
-  SWIG_Python_SetConstant(d, "OSSIM_LOWER_LEFT",SWIG_From_int(static_cast< int >(OSSIM_LOWER_LEFT)));
-  SWIG_Python_SetConstant(d, "OSSIM_LOWER_LEFT_CENTER",SWIG_From_int(static_cast< int >(OSSIM_LOWER_LEFT_CENTER)));
-  SWIG_Python_SetConstant(d, "OSSIM_COORDINATE_SYSTEM_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_COORDINATE_SYSTEM_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_IMAGE_SPACE",SWIG_From_int(static_cast< int >(OSSIM_IMAGE_SPACE)));
-  SWIG_Python_SetConstant(d, "OSSIM_GEOGRAPHIC_SPACE",SWIG_From_int(static_cast< int >(OSSIM_GEOGRAPHIC_SPACE)));
-  SWIG_Python_SetConstant(d, "OSSIM_PROJECTED_SPACE",SWIG_From_int(static_cast< int >(OSSIM_PROJECTED_SPACE)));
-  SWIG_Python_SetConstant(d, "OSSIM_GEOCENTRIC_SPACE",SWIG_From_int(static_cast< int >(OSSIM_GEOCENTRIC_SPACE)));
-  SWIG_Python_SetConstant(d, "OSSIM_LEFT_HANDED",SWIG_From_int(static_cast< int >(OSSIM_LEFT_HANDED)));
-  SWIG_Python_SetConstant(d, "OSSIM_RIGHT_HANDED",SWIG_From_int(static_cast< int >(OSSIM_RIGHT_HANDED)));
-  SWIG_Python_SetConstant(d, "OSSIM_UNIT_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_UNIT_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_METERS",SWIG_From_int(static_cast< int >(OSSIM_METERS)));
-  SWIG_Python_SetConstant(d, "OSSIM_FEET",SWIG_From_int(static_cast< int >(OSSIM_FEET)));
-  SWIG_Python_SetConstant(d, "OSSIM_US_SURVEY_FEET",SWIG_From_int(static_cast< int >(OSSIM_US_SURVEY_FEET)));
-  SWIG_Python_SetConstant(d, "OSSIM_DEGREES",SWIG_From_int(static_cast< int >(OSSIM_DEGREES)));
-  SWIG_Python_SetConstant(d, "OSSIM_RADIANS",SWIG_From_int(static_cast< int >(OSSIM_RADIANS)));
-  SWIG_Python_SetConstant(d, "OSSIM_NAUTICAL_MILES",SWIG_From_int(static_cast< int >(OSSIM_NAUTICAL_MILES)));
-  SWIG_Python_SetConstant(d, "OSSIM_SECONDS",SWIG_From_int(static_cast< int >(OSSIM_SECONDS)));
-  SWIG_Python_SetConstant(d, "OSSIM_MINUTES",SWIG_From_int(static_cast< int >(OSSIM_MINUTES)));
-  SWIG_Python_SetConstant(d, "OSSIM_PIXEL",SWIG_From_int(static_cast< int >(OSSIM_PIXEL)));
-  SWIG_Python_SetConstant(d, "OSSIM_MILES",SWIG_From_int(static_cast< int >(OSSIM_MILES)));
-  SWIG_Python_SetConstant(d, "OSSIM_MILLIMETERS",SWIG_From_int(static_cast< int >(OSSIM_MILLIMETERS)));
-  SWIG_Python_SetConstant(d, "OSSIM_MICRONS",SWIG_From_int(static_cast< int >(OSSIM_MICRONS)));
-  SWIG_Python_SetConstant(d, "OSSIM_CENTIMETERS",SWIG_From_int(static_cast< int >(OSSIM_CENTIMETERS)));
-  SWIG_Python_SetConstant(d, "OSSIM_YARDS",SWIG_From_int(static_cast< int >(OSSIM_YARDS)));
-  SWIG_Python_SetConstant(d, "OSSIM_INCHES",SWIG_From_int(static_cast< int >(OSSIM_INCHES)));
-  SWIG_Python_SetConstant(d, "OSSIM_KILOMETERS",SWIG_From_int(static_cast< int >(OSSIM_KILOMETERS)));
-  SWIG_Python_SetConstant(d, "OSSIM_STATUS_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_STATUS_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_NULL",SWIG_From_int(static_cast< int >(OSSIM_NULL)));
-  SWIG_Python_SetConstant(d, "OSSIM_EMPTY",SWIG_From_int(static_cast< int >(OSSIM_EMPTY)));
-  SWIG_Python_SetConstant(d, "OSSIM_PARTIAL",SWIG_From_int(static_cast< int >(OSSIM_PARTIAL)));
-  SWIG_Python_SetConstant(d, "OSSIM_FULL",SWIG_From_int(static_cast< int >(OSSIM_FULL)));
-  SWIG_Python_SetConstant(d, "OSSIM_IMAGE_TYPE_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_IMAGE_TYPE_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_TIFF_STRIP",SWIG_From_int(static_cast< int >(OSSIM_TIFF_STRIP)));
-  SWIG_Python_SetConstant(d, "OSSIM_TIFF_STRIP_BAND_SEPARATE",SWIG_From_int(static_cast< int >(OSSIM_TIFF_STRIP_BAND_SEPARATE)));
-  SWIG_Python_SetConstant(d, "OSSIM_TIFF_TILED",SWIG_From_int(static_cast< int >(OSSIM_TIFF_TILED)));
-  SWIG_Python_SetConstant(d, "OSSIM_TIFF_TILED_BAND_SEPARATE",SWIG_From_int(static_cast< int >(OSSIM_TIFF_TILED_BAND_SEPARATE)));
-  SWIG_Python_SetConstant(d, "OSSIM_GENERAL_RASTER_BIP",SWIG_From_int(static_cast< int >(OSSIM_GENERAL_RASTER_BIP)));
-  SWIG_Python_SetConstant(d, "OSSIM_GENERAL_RASTER_BIL",SWIG_From_int(static_cast< int >(OSSIM_GENERAL_RASTER_BIL)));
-  SWIG_Python_SetConstant(d, "OSSIM_GENERAL_RASTER_BSQ",SWIG_From_int(static_cast< int >(OSSIM_GENERAL_RASTER_BSQ)));
-  SWIG_Python_SetConstant(d, "OSSIM_JPEG",SWIG_From_int(static_cast< int >(OSSIM_JPEG)));
-  SWIG_Python_SetConstant(d, "OSSIM_META_UNKNOWN",SWIG_From_int(static_cast< int >(OSSIM_META_UNKNOWN)));
-  SWIG_Python_SetConstant(d, "OSSIM_META_TFW",SWIG_From_int(static_cast< int >(OSSIM_META_TFW)));
-  SWIG_Python_SetConstant(d, "OSSIM_META_JGW",SWIG_From_int(static_cast< int >(OSSIM_META_JGW)));
-  SWIG_Python_SetConstant(d, "OSSIM_META_GEOM",SWIG_From_int(static_cast< int >(OSSIM_META_GEOM)));
-  SWIG_Python_SetConstant(d, "OSSIM_META_README",SWIG_From_int(static_cast< int >(OSSIM_META_README)));
-  SWIG_Python_SetConstant(d, "OSSIM_META_FGDC",SWIG_From_int(static_cast< int >(OSSIM_META_FGDC)));
-  SWIG_Python_SetConstant(d, "OSSIM_META_ENVI",SWIG_From_int(static_cast< int >(OSSIM_META_ENVI)));
-  SWIG_Python_SetConstant(d, "OSSIM_LITTLE_ENDIAN",SWIG_From_int(static_cast< int >(OSSIM_LITTLE_ENDIAN)));
-  SWIG_Python_SetConstant(d, "OSSIM_BIG_ENDIAN",SWIG_From_int(static_cast< int >(OSSIM_BIG_ENDIAN)));
-  SWIG_Python_SetConstant(d, "TIFFTAG_OSSIM_METADATA",SWIG_From_int(static_cast< int >(50955)));
+  SWIG_Python_SetConstant(d, "ossimInit_HEADER",SWIG_From_int(static_cast< int >(1)));
   SWIG_Python_SetConstant(d, "ossimDatumFactory_HEADER",SWIG_From_int(static_cast< int >(1)));
   SWIG_Python_SetConstant(d, "ossimIrect_HEADER",SWIG_From_int(static_cast< int >(1)));
   SWIG_Python_SetConstant(d, "ossimIrect_UPPER_LEFT",SWIG_From_int(static_cast< int >(ossimIrect::UPPER_LEFT)));

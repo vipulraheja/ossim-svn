@@ -26,7 +26,6 @@
 
 
 /* Importing Base Interfaces */
-%include "base/master.i"
 %include "base/ossim2dTo2dIdentityTransform.i"
 %include "base/ossim2dTo2dShiftTransform.i"
 %include "base/ossim2dTo2dTransformFactory.i"

@@ -1,0 +1,3 @@
+import pyossim
+
+a = pyossim.ossimInit()
