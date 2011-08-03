@@ -15,7 +15,7 @@ pyossim/
 		|-README   		Readme file written earlier
 		|-LEFTOUT  		File containing names of classes missed out
 		|-master.i		The master swig-interface file
-		|-master_wrap.cxx	The master_wrap file generated upon swig compilation of master.i  
+		|-Instructions.txt	This file  
 	|   
 	|
 	|- python (Contains files specific to python distribution - eg. distutils setup.py file)
