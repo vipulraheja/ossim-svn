@@ -33,36 +33,32 @@ Description     : Contains SWIG-Python of class ossimInit which handles
 }
 
 /* This tells SWIG to treat char ** as a special case */
-%typemap(in) char ** 
+%typemap(in) ( int&, char ** )
 {
-        /* Check if input is a list */
+        /* Check if is a list */
         if (PyList_Check($input)) 
         {
-                int size = PyList_Size($input);
+                $1 = PyList_Size($input);
+                
                 int i = 0;
-
-                /* Allocate memory */
-                $1 = (char **) malloc((size+1)*sizeof(char *));
-
-                for (i = 0; i < size; i++) 
+                $2 = (char **) malloc(($1+1)*sizeof(char *));
+                
+                for (i = 0; i < $1; i++) 
                 {
                         PyObject *o = PyList_GetItem($input,i);
-
+                
                         if (PyString_Check(o))
-                        {
-                                $1[i] = PyString_AsString(PyList_GetItem($input,i));
-                        }
-
+                                $2[i] = PyString_AsString(PyList_GetItem($input,i));
                         else 
                         {
-                                PyErr_SetString(PyExc_TypeError,"List must contain strings");
-                                free($1);
+                                PyErr_SetString(PyExc_TypeError,"list must contain strings");
+                                free($2);
                                 return NULL;
                         }
                 }
-                $1[i] = 0;
+                $2[i] = 0;
         } 
-
+ 
         else 
         {
                 PyErr_SetString(PyExc_TypeError,"not a list");
@@ -70,23 +66,10 @@ Description     : Contains SWIG-Python of class ossimInit which handles
         }
 }
 
-/* To return char** from a C function as Python List */
-%typemap(out) char**
+/* This cleans up the char ** array we mallocd before the function call */
+%typemap(freearg) (int&, char **)
 {
-        int i;
-        int len = 0;
-
-        while ($1[len])
-        {
-                len++;
-        }
-
-        $result = PyList_New(len);
-
-        for (i = 0; i < len; i++) 
-        {
-                PyList_SetItem($result, i, PyString_FromString($1[i]));
-        }
+        free((char *) $2);
 }
 
 

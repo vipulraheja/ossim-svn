@@ -1,0 +1,64 @@
+Filename 	: README
+Author 		: Vipul Raheja
+---------------------------------------------------------------------------------
+
+Steps:
+---------------------------------------------------------------------------------
+
+1. Suppose the class you are trying to test is in 'imaging' module, and it is 
+   ossimImageModel. Then you need to generate the .cxx file and .py file by 
+   SWIG. For that you need to use the corresponding file in the module, which 
+   in this case, will be ossimImageModel.i
+
+ $ swig -c++ -python -Wall -I/home/vipul/ossim-svn/src/ossim/include/ ossimImageModel.i
+ 			    -----------------------------------------
+			    -----------------------------------------
+			    Address of Ossim source include header
+			    files directory
+
+   This step creates two files:
+   - ossimImageModel_wrap.cxx
+   - pyossim.py
+
+
+2. Now, we need to compile the generated .cxx with the original source files
+   to create the corresponding object files.
+
+ $ g++ -fPIC -c /home/vipul/ossim-svn/src/ossim/src/ossim/imaging/ossimImageModel.cpp 
+   ossimImageModel_wrap.cxx -I/usr/include/python2.6
+
+ Argument 4:  Address of source (.cpp file) of class being wrapped 
+	      (present in compiled & built ossim source)
+ Argument 5:  Address of generated _wrap.cxx file
+ Argument 6: -I/Address of python header files
+
+   This step creates two object files:
+   - ossimImageModel.o
+   - ossimImageModel_wrap.o
+
+
+3. Now, we create a Python shared library from the generated .o object files
+
+ $ g++ -shared ossimImageModel.o ossimImageModel_wrap.o -o _pyossim.so 
+   -L/home/vipul/ossim-svn/src/ossim_package_support/cmake/build -l ossim
+
+ Argument 3: Class object file
+ Argument 4: Wrapper object file
+ Argument 5: [Module name].so
+ Argument 6: -L/[Address of ossim build folder]
+
+   This step creates the library file, "_pyossim.so"
+
+
+4. Run Python, import the library and test the respective functions.
+
+ $ python
+ $ Python 2.6.6 (r266:84292, Sep 15 2010, 15:52:39) 
+   [GCC 4.4.5] on linux2
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> import pyossim               [module name, pyossim in our case]
+   >>> a = pyssim.ossimImageModel()
+   
+   and so on...
+
+----------------------------------------------------------------------------------

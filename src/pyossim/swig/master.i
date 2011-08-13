@@ -1,5 +1,46 @@
 %module pyossim
 
+/* This tells SWIG to treat char ** as a special case */
+%typemap(in) (int&, char **) 
+{
+        /* Check if is a list */
+        if (PyList_Check($input)) 
+        {
+                $1 = PyList_Size($input);
+        
+                int i = 0;
+                $2 = (char **) malloc(($1+1)*sizeof(char *));
+                
+                for (i = 0; i < $1; i++) 
+                {
+                        PyObject *o = PyList_GetItem($input,i);
+                
+                        if (PyString_Check(o))
+                                $2[i] = PyString_AsString(PyList_GetItem($input,i));
+                        
+                        else 
+                        {
+                                PyErr_SetString(PyExc_TypeError,"list must contain strings");
+                                free($2);
+                                return NULL;
+                        }
+                }
+                $2[i] = 0;
+        } 
+        
+        else 
+        {
+                PyErr_SetString(PyExc_TypeError,"not a list");
+                return NULL;
+        }
+}
+
+/* This cleans up the char ** array we malloc'd before the function call */
+%typemap(freearg) (int&, char **)
+{
+        free((char *) $2);
+}
+
 /* Importing Init Interfaces */
 %include "init/ossimInit.i"
 
@@ -26,23 +67,39 @@
 
 
 /* Importing Base Interfaces */
+%include "base/ossim2dBilinearTransform.i"
+%include "base/ossim2dLinearRegression.i"
 %include "base/ossim2dTo2dIdentityTransform.i"
 %include "base/ossim2dTo2dShiftTransform.i"
 %include "base/ossim2dTo2dTransformFactory.i"
 %include "base/ossim2dTo2dTransform.i"
 %include "base/ossim2dTo2dTransformRegistry.i"
+%include "base/ossimAdjustableParameterInfo.i"
+%include "base/ossimAdjustableParameterInterface.i"
 %include "base/ossimConnectableContainer.i"
 %include "base/ossimConnectableContainerInterface.i"
 %include "base/ossimConnectableDisplayListener.i"
 %include "base/ossimConnectableObject.i"
 %include "base/ossimConnectableObjectListener.i"
+%include "base/ossimContainerEvent.i"
+%include "base/ossimContainerProperty.i"
 %include "base/ossimDataObject.i"
+%include "base/ossimDateProperty.i"
 %include "base/ossimDatumFactory.i"
 %include "base/ossimDatumFactoryRegistry.i"
 %include "base/ossimDatum.i"
+%include "base/ossimDirectoryData.i"
+%include "base/ossimDirectory.i"
+%include "base/ossimDisplayEventListener.i"
+%include "base/ossimDisplayInterface.i"
+%include "base/ossimDisplayListEvent.i"
+%include "base/ossimDisplayRefreshEvent.i"
 %include "base/ossimDpt3d.i"
 %include "base/ossimDpt.i"
 %include "base/ossimEvent.i"
+%include "base/ossimException.i"
+%include "base/ossimFilename.i"
+%include "base/ossimFilenameProperty.i"
 %include "base/ossimIpt.i"
 %include "base/ossimIrect.i"
 %include "base/ossimLine.i"
@@ -131,3 +188,10 @@
 %include "projection/ossimSensorModel.i"
 %include "projection/ossimSensorModelTuple.i"
 %include "projection/ossimTransMercatorProjection.i"
+
+/* Importing Util Interfaces */
+%include "util/ossimElevUtil.i"
+%include "util/ossimFileWalker.i"
+%include "util/ossimInfo.i"
+%include "util/ossimRpfUtil.i"
+

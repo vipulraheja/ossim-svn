@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<history>
-   <processor signature="gcc 4.4.5 i686-linux-gnu -D__STDC_CONSTANT_MACROS -c -fPIC -I../swig -I${env.JAVA_HOME}/include -I${env.JAVA_HOME}/include/linux -I../cpp/include">
-      <target file="ossimjni_wrap.o" lastModified="130a49869f0">
-         <source file="../../../swig/ossimjni_wrap.cxx" lastModified="130a4986608"/>
-      </target>
-   </processor>
-</history>

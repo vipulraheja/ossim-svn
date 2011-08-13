@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="gcc 4.4.5 i686-linux-gnu -c -fPIC -I../../../../../usr/lib/jvm/java-6-sun-1.6.0.26/include -I../../../../../usr/lib/jvm/java-6-sun-1.6.0.26/include/linux -I../ossim/src/include">
+      <target file="projection_wrap.o" lastModified="131968d8ba0">
+         <source file="projection_wrap.cxx" lastModified="131968d7fe8"/>
+      </target>
+      <target file="init_wrap.o" lastModified="131968d8ba0">
+         <source file="init_wrap.cxx" lastModified="131968d7c00"/>
+      </target>
+   </processor>
+</history>
