@@ -3,6 +3,9 @@ Classes left out due to some issues here and there, marked for future completion
 Imaging-
 ossimImageData
 ossimImageWriter
+ossimAnnotationGdBitmapFont
+ossimJpegMemSrc
+ossimJpegStdIOSrc
 
 Base-
 ossimGpt.i

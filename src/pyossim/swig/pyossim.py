@@ -1114,10 +1114,6 @@ def __rshift__(*args):
   return _pyossim.__rshift__(*args)
 __rshift__ = _pyossim.__rshift__
 
-def __lshift__(*args):
-  return _pyossim.__lshift__(*args)
-__lshift__ = _pyossim.__lshift__
-
 def getline(*args):
   return _pyossim.getline(*args)
 getline = _pyossim.getline
@@ -1209,6 +1205,155 @@ class ossimStringLtstr(_object):
     __del__ = lambda self : None;
 ossimStringLtstr_swigregister = _pyossim.ossimStringLtstr_swigregister
 ossimStringLtstr_swigregister(ossimStringLtstr)
+
+class ossimAnnotationMultiEllipseObject(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimAnnotationMultiEllipseObject, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimAnnotationMultiEllipseObject, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _pyossim.new_ossimAnnotationMultiEllipseObject(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def dup(self): return _pyossim.ossimAnnotationMultiEllipseObject_dup(self)
+    def getNewClippedObject(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_getNewClippedObject(self, *args)
+    def applyScale(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_applyScale(self, *args)
+    def draw(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_draw(self, *args)
+    def intersects(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_intersects(self, *args)
+    def ossimAnnotationMultiEllipseObject_print(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_ossimAnnotationMultiEllipseObject_print(self, *args)
+    def getBoundingRect(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_getBoundingRect(self, *args)
+    def computeBoundingRect(self): return _pyossim.ossimAnnotationMultiEllipseObject_computeBoundingRect(self)
+    def isPointWithin(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_isPointWithin(self, *args)
+    def setFillFlag(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_setFillFlag(self, *args)
+    def resize(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_resize(self, *args)
+    def setWidthHeight(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject_setWidthHeight(self, *args)
+    def __getitem__(self, *args): return _pyossim.ossimAnnotationMultiEllipseObject___getitem__(self, *args)
+ossimAnnotationMultiEllipseObject_swigregister = _pyossim.ossimAnnotationMultiEllipseObject_swigregister
+ossimAnnotationMultiEllipseObject_swigregister(ossimAnnotationMultiEllipseObject)
+
+class ossimAnnotationObjectFactory(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimAnnotationObjectFactory, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimAnnotationObjectFactory, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimAnnotationObjectFactory_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimAnnotationObjectFactory_instance)
+    def create(self, *args): return _pyossim.ossimAnnotationObjectFactory_create(self, *args)
+    def getList(self): return _pyossim.ossimAnnotationObjectFactory_getList(self)
+    __swig_destroy__ = _pyossim.delete_ossimAnnotationObjectFactory
+    __del__ = lambda self : None;
+ossimAnnotationObjectFactory_swigregister = _pyossim.ossimAnnotationObjectFactory_swigregister
+ossimAnnotationObjectFactory_swigregister(ossimAnnotationObjectFactory)
+
+def ossimAnnotationObjectFactory_instance():
+  return _pyossim.ossimAnnotationObjectFactory_instance()
+ossimAnnotationObjectFactory_instance = _pyossim.ossimAnnotationObjectFactory_instance
+
+class ossimBitMaskWriter(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimBitMaskWriter, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimBitMaskWriter, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BM_STARTING_RLEVEL_KW"] = _pyossim.ossimBitMaskWriter_BM_STARTING_RLEVEL_KW_set
+    __swig_getmethods__["BM_STARTING_RLEVEL_KW"] = _pyossim.ossimBitMaskWriter_BM_STARTING_RLEVEL_KW_get
+    if _newclass:BM_STARTING_RLEVEL_KW = _swig_property(_pyossim.ossimBitMaskWriter_BM_STARTING_RLEVEL_KW_get, _pyossim.ossimBitMaskWriter_BM_STARTING_RLEVEL_KW_set)
+    __swig_setmethods__["MASK_FILE_MAGIC_NUMBER"] = _pyossim.ossimBitMaskWriter_MASK_FILE_MAGIC_NUMBER_set
+    __swig_getmethods__["MASK_FILE_MAGIC_NUMBER"] = _pyossim.ossimBitMaskWriter_MASK_FILE_MAGIC_NUMBER_get
+    if _newclass:MASK_FILE_MAGIC_NUMBER = _swig_property(_pyossim.ossimBitMaskWriter_MASK_FILE_MAGIC_NUMBER_get, _pyossim.ossimBitMaskWriter_MASK_FILE_MAGIC_NUMBER_set)
+    def __init__(self): 
+        this = _pyossim.new_ossimBitMaskWriter()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimBitMaskWriter
+    __del__ = lambda self : None;
+    def setBogusPixel(self, *args): return _pyossim.ossimBitMaskWriter_setBogusPixel(self, *args)
+    def setBogusPixelRange(self, *args): return _pyossim.ossimBitMaskWriter_setBogusPixelRange(self, *args)
+    def setStartingResLevel(self, *args): return _pyossim.ossimBitMaskWriter_setStartingResLevel(self, *args)
+    def generateMask(self, *args): return _pyossim.ossimBitMaskWriter_generateMask(self, *args)
+    def buildOverviews(self, *args): return _pyossim.ossimBitMaskWriter_buildOverviews(self, *args)
+    def loadState(self, *args): return _pyossim.ossimBitMaskWriter_loadState(self, *args)
+    def isOpen(self): return _pyossim.ossimBitMaskWriter_isOpen(self)
+    def open(self): return _pyossim.ossimBitMaskWriter_open(self)
+    def close(self): return _pyossim.ossimBitMaskWriter_close(self)
+    def canConnectMyInputTo(self, *args): return _pyossim.ossimBitMaskWriter_canConnectMyInputTo(self, *args)
+    def connectMyInputTo(self, *args): return _pyossim.ossimBitMaskWriter_connectMyInputTo(self, *args)
+ossimBitMaskWriter_swigregister = _pyossim.ossimBitMaskWriter_swigregister
+ossimBitMaskWriter_swigregister(ossimBitMaskWriter)
+
+class ossimFilterResampler(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimFilterResampler, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimFilterResampler, name)
+    __repr__ = _swig_repr
+    ossimFilterResampler_NEAREST_NEIGHBOR = _pyossim.ossimFilterResampler_ossimFilterResampler_NEAREST_NEIGHBOR
+    ossimFilterResampler_BOX = _pyossim.ossimFilterResampler_ossimFilterResampler_BOX
+    ossimFilterResampler_GAUSSIAN = _pyossim.ossimFilterResampler_ossimFilterResampler_GAUSSIAN
+    ossimFilterResampler_CUBIC = _pyossim.ossimFilterResampler_ossimFilterResampler_CUBIC
+    ossimFilterResampler_HANNING = _pyossim.ossimFilterResampler_ossimFilterResampler_HANNING
+    ossimFilterResampler_HAMMING = _pyossim.ossimFilterResampler_ossimFilterResampler_HAMMING
+    ossimFilterResampler_LANCZOS = _pyossim.ossimFilterResampler_ossimFilterResampler_LANCZOS
+    ossimFilterResampler_MITCHELL = _pyossim.ossimFilterResampler_ossimFilterResampler_MITCHELL
+    ossimFilterResampler_CATROM = _pyossim.ossimFilterResampler_ossimFilterResampler_CATROM
+    ossimFilterResampler_BLACKMAN = _pyossim.ossimFilterResampler_ossimFilterResampler_BLACKMAN
+    ossimFilterResampler_BLACKMAN_SINC = _pyossim.ossimFilterResampler_ossimFilterResampler_BLACKMAN_SINC
+    ossimFilterResampler_BLACKMAN_BESSEL = _pyossim.ossimFilterResampler_ossimFilterResampler_BLACKMAN_BESSEL
+    ossimFilterResampler_QUADRATIC = _pyossim.ossimFilterResampler_ossimFilterResampler_QUADRATIC
+    ossimFilterResampler_TRIANGLE = _pyossim.ossimFilterResampler_ossimFilterResampler_TRIANGLE
+    ossimFilterResampler_BILINEAR = _pyossim.ossimFilterResampler_ossimFilterResampler_BILINEAR
+    ossimFilterResampler_HERMITE = _pyossim.ossimFilterResampler_ossimFilterResampler_HERMITE
+    ossimFilterResampler_BELL = _pyossim.ossimFilterResampler_ossimFilterResampler_BELL
+    ossimFilterResampler_BSPLINE = _pyossim.ossimFilterResampler_ossimFilterResampler_BSPLINE
+    def __init__(self): 
+        this = _pyossim.new_ossimFilterResampler()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimFilterResampler
+    __del__ = lambda self : None;
+    def resample(self, *args): return _pyossim.ossimFilterResampler_resample(self, *args)
+    def setFilterType(self, *args): return _pyossim.ossimFilterResampler_setFilterType(self, *args)
+    def setMinifyFilterType(self, *args): return _pyossim.ossimFilterResampler_setMinifyFilterType(self, *args)
+    def setMagnifyFilterType(self, *args): return _pyossim.ossimFilterResampler_setMagnifyFilterType(self, *args)
+    def getMinifyFilterTypeAsString(self): return _pyossim.ossimFilterResampler_getMinifyFilterTypeAsString(self)
+    def getMagnifyFilterTypeAsString(self): return _pyossim.ossimFilterResampler_getMagnifyFilterTypeAsString(self)
+    def setScaleFactor(self, *args): return _pyossim.ossimFilterResampler_setScaleFactor(self, *args)
+    def setBlurFactor(self, *args): return _pyossim.ossimFilterResampler_setBlurFactor(self, *args)
+    def setBoundingInputRect(self, *args): return _pyossim.ossimFilterResampler_setBoundingInputRect(self, *args)
+    def getBoundingInputRect(self): return _pyossim.ossimFilterResampler_getBoundingInputRect(self)
+    def getBlurFactor(self): return _pyossim.ossimFilterResampler_getBlurFactor(self)
+    def getScaleFactor(self): return _pyossim.ossimFilterResampler_getScaleFactor(self)
+    def saveState(self, *args): return _pyossim.ossimFilterResampler_saveState(self, *args)
+    def loadState(self, *args): return _pyossim.ossimFilterResampler_loadState(self, *args)
+    def getKernelSupport(self, *args): return _pyossim.ossimFilterResampler_getKernelSupport(self, *args)
+    def getFilterTypes(self, *args): return _pyossim.ossimFilterResampler_getFilterTypes(self, *args)
+ossimFilterResampler_swigregister = _pyossim.ossimFilterResampler_swigregister
+ossimFilterResampler_swigregister(ossimFilterResampler)
+
+class ossimFilterTable(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimFilterTable, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimFilterTable, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        this = _pyossim.new_ossimFilterTable()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimFilterTable
+    __del__ = lambda self : None;
+    def buildTable(self, *args): return _pyossim.ossimFilterTable_buildTable(self, *args)
+    def getWidthByHeight(self): return _pyossim.ossimFilterTable_getWidthByHeight(self)
+    def getXSupport(self): return _pyossim.ossimFilterTable_getXSupport(self)
+    def getYSupport(self): return _pyossim.ossimFilterTable_getYSupport(self)
+    def getWidth(self): return _pyossim.ossimFilterTable_getWidth(self)
+    def getHeight(self): return _pyossim.ossimFilterTable_getHeight(self)
+    def getClosestWeights(self, *args): return _pyossim.ossimFilterTable_getClosestWeights(self, *args)
+ossimFilterTable_swigregister = _pyossim.ossimFilterTable_swigregister
+ossimFilterTable_swigregister(ossimFilterTable)
 
 class vectorOssimFileName(_object):
     __swig_setmethods__ = {}
@@ -1314,6 +1459,55 @@ class ossimGeneralRasterInfo(_object):
     def loadState(self, *args): return _pyossim.ossimGeneralRasterInfo_loadState(self, *args)
 ossimGeneralRasterInfo_swigregister = _pyossim.ossimGeneralRasterInfo_swigregister
 ossimGeneralRasterInfo_swigregister(ossimGeneralRasterInfo)
+
+class ossimGeoAnnotationMultiEllipseObject(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimGeoAnnotationMultiEllipseObject, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimGeoAnnotationMultiEllipseObject, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _pyossim.new_ossimGeoAnnotationMultiEllipseObject(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def dup(self): return _pyossim.ossimGeoAnnotationMultiEllipseObject_dup(self)
+    def getNewClippedObject(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_getNewClippedObject(self, *args)
+    def transform(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_transform(self, *args)
+    def applyScale(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_applyScale(self, *args)
+    def draw(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_draw(self, *args)
+    def intersects(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_intersects(self, *args)
+    def addPoint(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_addPoint(self, *args)
+    def setColor(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_setColor(self, *args)
+    def setThickness(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_setThickness(self, *args)
+    def setPoint(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_setPoint(self, *args)
+    def setWidthHeight(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_setWidthHeight(self, *args)
+    def resize(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_resize(self, *args)
+    def setFillFlag(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_setFillFlag(self, *args)
+    def ossimGeoAnnotationMultiEllipseObject_print(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_ossimGeoAnnotationMultiEllipseObject_print(self, *args)
+    def getBoundingRect(self, *args): return _pyossim.ossimGeoAnnotationMultiEllipseObject_getBoundingRect(self, *args)
+    def computeBoundingRect(self): return _pyossim.ossimGeoAnnotationMultiEllipseObject_computeBoundingRect(self)
+    __swig_destroy__ = _pyossim.delete_ossimGeoAnnotationMultiEllipseObject
+    __del__ = lambda self : None;
+ossimGeoAnnotationMultiEllipseObject_swigregister = _pyossim.ossimGeoAnnotationMultiEllipseObject_swigregister
+ossimGeoAnnotationMultiEllipseObject_swigregister(ossimGeoAnnotationMultiEllipseObject)
+
+class ossimGridRemapEngineFactory(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimGridRemapEngineFactory, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimGridRemapEngineFactory, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["create"] = lambda x: _pyossim.ossimGridRemapEngineFactory_create
+    if _newclass:create = staticmethod(_pyossim.ossimGridRemapEngineFactory_create)
+    __swig_destroy__ = _pyossim.delete_ossimGridRemapEngineFactory
+    __del__ = lambda self : None;
+ossimGridRemapEngineFactory_swigregister = _pyossim.ossimGridRemapEngineFactory_swigregister
+ossimGridRemapEngineFactory_swigregister(ossimGridRemapEngineFactory)
+
+def ossimGridRemapEngineFactory_create(*args):
+  return _pyossim.ossimGridRemapEngineFactory_create(*args)
+ossimGridRemapEngineFactory_create = _pyossim.ossimGridRemapEngineFactory_create
 
 class ossimHistoMatchRemapper(_object):
     __swig_setmethods__ = {}
@@ -1460,6 +1654,27 @@ class ossimImageChain(_object):
     def accept(self, *args): return _pyossim.ossimImageChain_accept(self, *args)
 ossimImageChain_swigregister = _pyossim.ossimImageChain_swigregister
 ossimImageChain_swigregister(ossimImageChain)
+
+class ossimImageDataHelper(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimImageDataHelper, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimImageDataHelper, name)
+    __repr__ = _swig_repr
+    def __init__(self, imageData = None): 
+        this = _pyossim.new_ossimImageDataHelper(imageData)
+        try: self.this.append(this)
+        except: self.this = this
+    def setImageData(self, *args): return _pyossim.ossimImageDataHelper_setImageData(self, *args)
+    def fill(self, *args): return _pyossim.ossimImageDataHelper_fill(self, *args)
+    def copyInputToThis(self, *args): return _pyossim.ossimImageDataHelper_copyInputToThis(self, *args)
+    __swig_setmethods__["theImageData"] = _pyossim.ossimImageDataHelper_theImageData_set
+    __swig_getmethods__["theImageData"] = _pyossim.ossimImageDataHelper_theImageData_get
+    if _newclass:theImageData = _swig_property(_pyossim.ossimImageDataHelper_theImageData_get, _pyossim.ossimImageDataHelper_theImageData_set)
+    __swig_destroy__ = _pyossim.delete_ossimImageDataHelper
+    __del__ = lambda self : None;
+ossimImageDataHelper_swigregister = _pyossim.ossimImageDataHelper_swigregister
+ossimImageDataHelper_swigregister(ossimImageDataHelper)
 
 ossimImageGeometryFactory_HEADER = _pyossim.ossimImageGeometryFactory_HEADER
 class ossimImageGeometryFactory(_object):
@@ -1643,6 +1858,287 @@ ossimImageWriterFactoryRegistry_instance = _pyossim.ossimImageWriterFactoryRegis
 def ossimImageWriterFactoryRegistryGetInstance():
   return _pyossim.ossimImageWriterFactoryRegistryGetInstance()
 ossimImageWriterFactoryRegistryGetInstance = _pyossim.ossimImageWriterFactoryRegistryGetInstance
+class ossimNormalizedRemapTable(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimNormalizedRemapTable, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimNormalizedRemapTable, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+    __swig_destroy__ = _pyossim.delete_ossimNormalizedRemapTable
+    __del__ = lambda self : None;
+    def __getitem__(self, *args): return _pyossim.ossimNormalizedRemapTable___getitem__(self, *args)
+    def normFromPix(self, *args): return _pyossim.ossimNormalizedRemapTable_normFromPix(self, *args)
+    def pixFromNorm(self, *args): return _pyossim.ossimNormalizedRemapTable_pixFromNorm(self, *args)
+    def getEntries(self): return _pyossim.ossimNormalizedRemapTable_getEntries(self)
+    def getNormalizer(self): return _pyossim.ossimNormalizedRemapTable_getNormalizer(self)
+ossimNormalizedRemapTable_swigregister = _pyossim.ossimNormalizedRemapTable_swigregister
+ossimNormalizedRemapTable_swigregister(ossimNormalizedRemapTable)
+
+class ossimNormalizedS16RemapTable(ossimNormalizedRemapTable):
+    __swig_setmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_setmethods__.update(getattr(_s,'__swig_setmethods__',{}))
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimNormalizedS16RemapTable, name, value)
+    __swig_getmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimNormalizedS16RemapTable, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        this = _pyossim.new_ossimNormalizedS16RemapTable()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimNormalizedS16RemapTable
+    __del__ = lambda self : None;
+    TABLE_ENTRIES = _pyossim.ossimNormalizedS16RemapTable_TABLE_ENTRIES
+    OFFSET_TO_ZERO = _pyossim.ossimNormalizedS16RemapTable_OFFSET_TO_ZERO
+    NULL_PIX = _pyossim.ossimNormalizedS16RemapTable_NULL_PIX
+    MIN_PIX = _pyossim.ossimNormalizedS16RemapTable_MIN_PIX
+    def getEntries(self): return _pyossim.ossimNormalizedS16RemapTable_getEntries(self)
+    def __getitem__(self, *args): return _pyossim.ossimNormalizedS16RemapTable___getitem__(self, *args)
+    def normFromPix(self, *args): return _pyossim.ossimNormalizedS16RemapTable_normFromPix(self, *args)
+    def pixFromNorm(self, *args): return _pyossim.ossimNormalizedS16RemapTable_pixFromNorm(self, *args)
+ossimNormalizedS16RemapTable_swigregister = _pyossim.ossimNormalizedS16RemapTable_swigregister
+ossimNormalizedS16RemapTable_swigregister(ossimNormalizedS16RemapTable)
+
+class ossimNormalizedU11RemapTable(ossimNormalizedRemapTable):
+    __swig_setmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_setmethods__.update(getattr(_s,'__swig_setmethods__',{}))
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimNormalizedU11RemapTable, name, value)
+    __swig_getmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimNormalizedU11RemapTable, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        this = _pyossim.new_ossimNormalizedU11RemapTable()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimNormalizedU11RemapTable
+    __del__ = lambda self : None;
+    TABLE_ENTRIES = _pyossim.ossimNormalizedU11RemapTable_TABLE_ENTRIES
+    def getEntries(self): return _pyossim.ossimNormalizedU11RemapTable_getEntries(self)
+    def __getitem__(self, *args): return _pyossim.ossimNormalizedU11RemapTable___getitem__(self, *args)
+    def normFromPix(self, *args): return _pyossim.ossimNormalizedU11RemapTable_normFromPix(self, *args)
+    def pixFromNorm(self, *args): return _pyossim.ossimNormalizedU11RemapTable_pixFromNorm(self, *args)
+ossimNormalizedU11RemapTable_swigregister = _pyossim.ossimNormalizedU11RemapTable_swigregister
+ossimNormalizedU11RemapTable_swigregister(ossimNormalizedU11RemapTable)
+
+class ossimNormalizedU16RemapTable(ossimNormalizedRemapTable):
+    __swig_setmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_setmethods__.update(getattr(_s,'__swig_setmethods__',{}))
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimNormalizedU16RemapTable, name, value)
+    __swig_getmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimNormalizedU16RemapTable, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        this = _pyossim.new_ossimNormalizedU16RemapTable()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimNormalizedU16RemapTable
+    __del__ = lambda self : None;
+    TABLE_ENTRIES = _pyossim.ossimNormalizedU16RemapTable_TABLE_ENTRIES
+    def getEntries(self): return _pyossim.ossimNormalizedU16RemapTable_getEntries(self)
+    def __getitem__(self, *args): return _pyossim.ossimNormalizedU16RemapTable___getitem__(self, *args)
+    def normFromPix(self, *args): return _pyossim.ossimNormalizedU16RemapTable_normFromPix(self, *args)
+    def pixFromNorm(self, *args): return _pyossim.ossimNormalizedU16RemapTable_pixFromNorm(self, *args)
+ossimNormalizedU16RemapTable_swigregister = _pyossim.ossimNormalizedU16RemapTable_swigregister
+ossimNormalizedU16RemapTable_swigregister(ossimNormalizedU16RemapTable)
+
+class ossimNormalizedU8RemapTable(ossimNormalizedRemapTable):
+    __swig_setmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_setmethods__.update(getattr(_s,'__swig_setmethods__',{}))
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimNormalizedU8RemapTable, name, value)
+    __swig_getmethods__ = {}
+    for _s in [ossimNormalizedRemapTable]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimNormalizedU8RemapTable, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        this = _pyossim.new_ossimNormalizedU8RemapTable()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimNormalizedU8RemapTable
+    __del__ = lambda self : None;
+    TABLE_ENTRIES = _pyossim.ossimNormalizedU8RemapTable_TABLE_ENTRIES
+    def getEntries(self): return _pyossim.ossimNormalizedU8RemapTable_getEntries(self)
+    def __getitem__(self, *args): return _pyossim.ossimNormalizedU8RemapTable___getitem__(self, *args)
+    def normFromPix(self, *args): return _pyossim.ossimNormalizedU8RemapTable_normFromPix(self, *args)
+    def pixFromNorm(self, *args): return _pyossim.ossimNormalizedU8RemapTable_pixFromNorm(self, *args)
+ossimNormalizedU8RemapTable_swigregister = _pyossim.ossimNormalizedU8RemapTable_swigregister
+ossimNormalizedU8RemapTable_swigregister(ossimNormalizedU8RemapTable)
+
+class ossimOverviewBuilderFactoryBase(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimOverviewBuilderFactoryBase, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimOverviewBuilderFactoryBase, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+    __swig_destroy__ = _pyossim.delete_ossimOverviewBuilderFactoryBase
+    __del__ = lambda self : None;
+    def createBuilder(self, *args): return _pyossim.ossimOverviewBuilderFactoryBase_createBuilder(self, *args)
+    def getTypeNameList(self, *args): return _pyossim.ossimOverviewBuilderFactoryBase_getTypeNameList(self, *args)
+    def createObject(self, *args): return _pyossim.ossimOverviewBuilderFactoryBase_createObject(self, *args)
+ossimOverviewBuilderFactoryBase_swigregister = _pyossim.ossimOverviewBuilderFactoryBase_swigregister
+ossimOverviewBuilderFactoryBase_swigregister(ossimOverviewBuilderFactoryBase)
+
+class ossimOverviewBuilderFactory(ossimOverviewBuilderFactoryBase):
+    __swig_setmethods__ = {}
+    for _s in [ossimOverviewBuilderFactoryBase]: __swig_setmethods__.update(getattr(_s,'__swig_setmethods__',{}))
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimOverviewBuilderFactory, name, value)
+    __swig_getmethods__ = {}
+    for _s in [ossimOverviewBuilderFactoryBase]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimOverviewBuilderFactory, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimOverviewBuilderFactory_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimOverviewBuilderFactory_instance)
+    __swig_destroy__ = _pyossim.delete_ossimOverviewBuilderFactory
+    __del__ = lambda self : None;
+    def createBuilder(self, *args): return _pyossim.ossimOverviewBuilderFactory_createBuilder(self, *args)
+    def getTypeNameList(self, *args): return _pyossim.ossimOverviewBuilderFactory_getTypeNameList(self, *args)
+ossimOverviewBuilderFactory_swigregister = _pyossim.ossimOverviewBuilderFactory_swigregister
+ossimOverviewBuilderFactory_swigregister(ossimOverviewBuilderFactory)
+
+def ossimOverviewBuilderFactory_instance():
+  return _pyossim.ossimOverviewBuilderFactory_instance()
+ossimOverviewBuilderFactory_instance = _pyossim.ossimOverviewBuilderFactory_instance
+
+class ossimOverviewBuilderFactoryRegistry(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimOverviewBuilderFactoryRegistry, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimOverviewBuilderFactoryRegistry, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimOverviewBuilderFactoryRegistry_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimOverviewBuilderFactoryRegistry_instance)
+    def createObject(self, *args): return _pyossim.ossimOverviewBuilderFactoryRegistry_createObject(self, *args)
+    def createBuilder(self, *args): return _pyossim.ossimOverviewBuilderFactoryRegistry_createBuilder(self, *args)
+    def getTypeNameList(self, *args): return _pyossim.ossimOverviewBuilderFactoryRegistry_getTypeNameList(self, *args)
+    __swig_destroy__ = _pyossim.delete_ossimOverviewBuilderFactoryRegistry
+    __del__ = lambda self : None;
+ossimOverviewBuilderFactoryRegistry_swigregister = _pyossim.ossimOverviewBuilderFactoryRegistry_swigregister
+ossimOverviewBuilderFactoryRegistry_swigregister(ossimOverviewBuilderFactoryRegistry)
+
+def ossimOverviewBuilderFactoryRegistry_instance():
+  return _pyossim.ossimOverviewBuilderFactoryRegistry_instance()
+ossimOverviewBuilderFactoryRegistry_instance = _pyossim.ossimOverviewBuilderFactoryRegistry_instance
+
+ossimOverviewSequencer_HEADER = _pyossim.ossimOverviewSequencer_HEADER
+class ossimOverviewSequencer(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimOverviewSequencer, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimOverviewSequencer, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        this = _pyossim.new_ossimOverviewSequencer()
+        try: self.this.append(this)
+        except: self.this = this
+    def getNumberOfTiles(self): return _pyossim.ossimOverviewSequencer_getNumberOfTiles(self)
+    def getNumberOfTilesHorizontal(self): return _pyossim.ossimOverviewSequencer_getNumberOfTilesHorizontal(self)
+    def getNumberOfTilesVertical(self): return _pyossim.ossimOverviewSequencer_getNumberOfTilesVertical(self)
+    def getOutputImageRectangle(self, *args): return _pyossim.ossimOverviewSequencer_getOutputImageRectangle(self, *args)
+    def setImageHandler(self, *args): return _pyossim.ossimOverviewSequencer_setImageHandler(self, *args)
+    def setBitMaskObjects(self, *args): return _pyossim.ossimOverviewSequencer_setBitMaskObjects(self, *args)
+    def setSourceLevel(self, *args): return _pyossim.ossimOverviewSequencer_setSourceLevel(self, *args)
+    def getHistogramMode(self): return _pyossim.ossimOverviewSequencer_getHistogramMode(self)
+    def setHistogramMode(self, *args): return _pyossim.ossimOverviewSequencer_setHistogramMode(self, *args)
+    def writeHistogram(self, *args): return _pyossim.ossimOverviewSequencer_writeHistogram(self, *args)
+    def initialize(self): return _pyossim.ossimOverviewSequencer_initialize(self)
+    def setToStartOfSequence(self): return _pyossim.ossimOverviewSequencer_setToStartOfSequence(self)
+    def getNextTile(self): return _pyossim.ossimOverviewSequencer_getNextTile(self)
+    def slaveProcessTiles(self): return _pyossim.ossimOverviewSequencer_slaveProcessTiles(self)
+    def isMaster(self): return _pyossim.ossimOverviewSequencer_isMaster(self)
+    def getTileSize(self): return _pyossim.ossimOverviewSequencer_getTileSize(self)
+    def setTileSize(self, *args): return _pyossim.ossimOverviewSequencer_setTileSize(self, *args)
+    def setResampleType(self, *args): return _pyossim.ossimOverviewSequencer_setResampleType(self, *args)
+    def setScanForMinMax(self, *args): return _pyossim.ossimOverviewSequencer_setScanForMinMax(self, *args)
+    def getScanForMinMax(self): return _pyossim.ossimOverviewSequencer_getScanForMinMax(self)
+    def setScanForMinMaxNull(self, *args): return _pyossim.ossimOverviewSequencer_setScanForMinMaxNull(self, *args)
+    def getScanForMinMaxNull(self): return _pyossim.ossimOverviewSequencer_getScanForMinMaxNull(self)
+    def writeOmdFile(self, *args): return _pyossim.ossimOverviewSequencer_writeOmdFile(self, *args)
+ossimOverviewSequencer_swigregister = _pyossim.ossimOverviewSequencer_swigregister
+ossimOverviewSequencer_swigregister(ossimOverviewSequencer)
+
+class ossimRgbImage(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimRgbImage, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimRgbImage, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _pyossim.new_ossimRgbImage(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def createNewGrey(self, *args): return _pyossim.ossimRgbImage_createNewGrey(self, *args)
+    def createNewTrueColor(self, *args): return _pyossim.ossimRgbImage_createNewTrueColor(self, *args)
+    def initialize(self): return _pyossim.ossimRgbImage_initialize(self)
+    def slowPlotPixel(self, *args): return _pyossim.ossimRgbImage_slowPlotPixel(self, *args)
+    def fastPlotPixel(self, *args): return _pyossim.ossimRgbImage_fastPlotPixel(self, *args)
+    def setThickness(self, *args): return _pyossim.ossimRgbImage_setThickness(self, *args)
+    def getThickness(self): return _pyossim.ossimRgbImage_getThickness(self)
+    def setCurrentImageData(self, *args): return _pyossim.ossimRgbImage_setCurrentImageData(self, *args)
+    def drawFilledPolygon(self, *args): return _pyossim.ossimRgbImage_drawFilledPolygon(self, *args)
+    def drawArc(self, *args): return _pyossim.ossimRgbImage_drawArc(self, *args)
+    def drawFilledEllipse(self, *args): return _pyossim.ossimRgbImage_drawFilledEllipse(self, *args)
+    def drawEllipse(self, *args): return _pyossim.ossimRgbImage_drawEllipse(self, *args)
+    def drawFilledArc(self, *args): return _pyossim.ossimRgbImage_drawFilledArc(self, *args)
+    def drawPolygon(self, *args): return _pyossim.ossimRgbImage_drawPolygon(self, *args)
+    def drawLine(self, *args): return _pyossim.ossimRgbImage_drawLine(self, *args)
+    def drawRectangle(self, *args): return _pyossim.ossimRgbImage_drawRectangle(self, *args)
+    def drawFilledRectangle(self, *args): return _pyossim.ossimRgbImage_drawFilledRectangle(self, *args)
+    def fill(self): return _pyossim.ossimRgbImage_fill(self)
+    def setDrawColor(self, r = 255, g = 255, b = 255): return _pyossim.ossimRgbImage_setDrawColor(self, r, g, b)
+    def getDrawColor(self, *args): return _pyossim.ossimRgbImage_getDrawColor(self, *args)
+    def getImageData(self, *args): return _pyossim.ossimRgbImage_getImageData(self, *args)
+ossimRgbImage_swigregister = _pyossim.ossimRgbImage_swigregister
+ossimRgbImage_swigregister(ossimRgbImage)
+
+class ossimEpsgProjectionDatabase(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimEpsgProjectionDatabase, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimEpsgProjectionDatabase, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimEpsgProjectionDatabase_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimEpsgProjectionDatabase_instance)
+    __swig_destroy__ = _pyossim.delete_ossimEpsgProjectionDatabase
+    __del__ = lambda self : None;
+    def findProjection(self, *args): return _pyossim.ossimEpsgProjectionDatabase_findProjection(self, *args)
+    def findProjectionCode(self, *args): return _pyossim.ossimEpsgProjectionDatabase_findProjectionCode(self, *args)
+    def findProjectionName(self, *args): return _pyossim.ossimEpsgProjectionDatabase_findProjectionName(self, *args)
+    def getProjectionsList(self, *args): return _pyossim.ossimEpsgProjectionDatabase_getProjectionsList(self, *args)
+    def numRecords(self): return _pyossim.ossimEpsgProjectionDatabase_numRecords(self)
+ossimEpsgProjectionDatabase_swigregister = _pyossim.ossimEpsgProjectionDatabase_swigregister
+ossimEpsgProjectionDatabase_swigregister(ossimEpsgProjectionDatabase)
+
+def ossimEpsgProjectionDatabase_instance():
+  return _pyossim.ossimEpsgProjectionDatabase_instance()
+ossimEpsgProjectionDatabase_instance = _pyossim.ossimEpsgProjectionDatabase_instance
+
+class ossimEpsgProjectionFactory(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimEpsgProjectionFactory, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimEpsgProjectionFactory, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimEpsgProjectionFactory_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimEpsgProjectionFactory_instance)
+    def createProjection(self, *args): return _pyossim.ossimEpsgProjectionFactory_createProjection(self, *args)
+    def createObject(self, *args): return _pyossim.ossimEpsgProjectionFactory_createObject(self, *args)
+    def getTypeNameList(self, *args): return _pyossim.ossimEpsgProjectionFactory_getTypeNameList(self, *args)
+    __swig_destroy__ = _pyossim.delete_ossimEpsgProjectionFactory
+    __del__ = lambda self : None;
+ossimEpsgProjectionFactory_swigregister = _pyossim.ossimEpsgProjectionFactory_swigregister
+ossimEpsgProjectionFactory_swigregister(ossimEpsgProjectionFactory)
+
+def ossimEpsgProjectionFactory_instance():
+  return _pyossim.ossimEpsgProjectionFactory_instance()
+ossimEpsgProjectionFactory_instance = _pyossim.ossimEpsgProjectionFactory_instance
+
 class ossimMapProjectionFactory(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, ossimMapProjectionFactory, name, value)
@@ -1718,6 +2214,144 @@ class ossimMapProjectionInfo(_object):
     def saveState(self, *args): return _pyossim.ossimMapProjectionInfo_saveState(self, *args)
 ossimMapProjectionInfo_swigregister = _pyossim.ossimMapProjectionInfo_swigregister
 ossimMapProjectionInfo_swigregister(ossimMapProjectionInfo)
+
+ossimNitfProjectionFactory_HEADER = _pyossim.ossimNitfProjectionFactory_HEADER
+class ossimNitfProjectionFactory(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimNitfProjectionFactory, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimNitfProjectionFactory, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimNitfProjectionFactory_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimNitfProjectionFactory_instance)
+    __swig_destroy__ = _pyossim.delete_ossimNitfProjectionFactory
+    __del__ = lambda self : None;
+    def createProjection(self, *args): return _pyossim.ossimNitfProjectionFactory_createProjection(self, *args)
+    def createObject(self, *args): return _pyossim.ossimNitfProjectionFactory_createObject(self, *args)
+    def getTypeNameList(self, *args): return _pyossim.ossimNitfProjectionFactory_getTypeNameList(self, *args)
+ossimNitfProjectionFactory_swigregister = _pyossim.ossimNitfProjectionFactory_swigregister
+ossimNitfProjectionFactory_swigregister(ossimNitfProjectionFactory)
+
+def ossimNitfProjectionFactory_instance():
+  return _pyossim.ossimNitfProjectionFactory_instance()
+ossimNitfProjectionFactory_instance = _pyossim.ossimNitfProjectionFactory_instance
+
+ONE_SIGMA = _pyossim.ONE_SIGMA
+P50 = _pyossim.P50
+P90 = _pyossim.P90
+P95 = _pyossim.P95
+NUM_PROB_LEVELS = _pyossim.NUM_PROB_LEVELS
+class pqeErrorEllipse(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, pqeErrorEllipse, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, pqeErrorEllipse, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["theSemiMinorAxis"] = _pyossim.pqeErrorEllipse_theSemiMinorAxis_set
+    __swig_getmethods__["theSemiMinorAxis"] = _pyossim.pqeErrorEllipse_theSemiMinorAxis_get
+    if _newclass:theSemiMinorAxis = _swig_property(_pyossim.pqeErrorEllipse_theSemiMinorAxis_get, _pyossim.pqeErrorEllipse_theSemiMinorAxis_set)
+    __swig_setmethods__["theSemiMajorAxis"] = _pyossim.pqeErrorEllipse_theSemiMajorAxis_set
+    __swig_getmethods__["theSemiMajorAxis"] = _pyossim.pqeErrorEllipse_theSemiMajorAxis_get
+    if _newclass:theSemiMajorAxis = _swig_property(_pyossim.pqeErrorEllipse_theSemiMajorAxis_get, _pyossim.pqeErrorEllipse_theSemiMajorAxis_set)
+    __swig_setmethods__["theAzimAngle"] = _pyossim.pqeErrorEllipse_theAzimAngle_set
+    __swig_getmethods__["theAzimAngle"] = _pyossim.pqeErrorEllipse_theAzimAngle_get
+    if _newclass:theAzimAngle = _swig_property(_pyossim.pqeErrorEllipse_theAzimAngle_get, _pyossim.pqeErrorEllipse_theAzimAngle_set)
+    __swig_setmethods__["theCenter"] = _pyossim.pqeErrorEllipse_theCenter_set
+    __swig_getmethods__["theCenter"] = _pyossim.pqeErrorEllipse_theCenter_get
+    if _newclass:theCenter = _swig_property(_pyossim.pqeErrorEllipse_theCenter_get, _pyossim.pqeErrorEllipse_theCenter_set)
+    def __init__(self): 
+        this = _pyossim.new_pqeErrorEllipse()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_pqeErrorEllipse
+    __del__ = lambda self : None;
+pqeErrorEllipse_swigregister = _pyossim.pqeErrorEllipse_swigregister
+pqeErrorEllipse_swigregister(pqeErrorEllipse)
+
+class pqeRPCModel(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, pqeRPCModel, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, pqeRPCModel, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["theLineScale"] = _pyossim.pqeRPCModel_theLineScale_set
+    __swig_getmethods__["theLineScale"] = _pyossim.pqeRPCModel_theLineScale_get
+    if _newclass:theLineScale = _swig_property(_pyossim.pqeRPCModel_theLineScale_get, _pyossim.pqeRPCModel_theLineScale_set)
+    __swig_setmethods__["theSampScale"] = _pyossim.pqeRPCModel_theSampScale_set
+    __swig_getmethods__["theSampScale"] = _pyossim.pqeRPCModel_theSampScale_get
+    if _newclass:theSampScale = _swig_property(_pyossim.pqeRPCModel_theSampScale_get, _pyossim.pqeRPCModel_theSampScale_set)
+    __swig_setmethods__["theLatScale"] = _pyossim.pqeRPCModel_theLatScale_set
+    __swig_getmethods__["theLatScale"] = _pyossim.pqeRPCModel_theLatScale_get
+    if _newclass:theLatScale = _swig_property(_pyossim.pqeRPCModel_theLatScale_get, _pyossim.pqeRPCModel_theLatScale_set)
+    __swig_setmethods__["theLonScale"] = _pyossim.pqeRPCModel_theLonScale_set
+    __swig_getmethods__["theLonScale"] = _pyossim.pqeRPCModel_theLonScale_get
+    if _newclass:theLonScale = _swig_property(_pyossim.pqeRPCModel_theLonScale_get, _pyossim.pqeRPCModel_theLonScale_set)
+    __swig_setmethods__["theHgtScale"] = _pyossim.pqeRPCModel_theHgtScale_set
+    __swig_getmethods__["theHgtScale"] = _pyossim.pqeRPCModel_theHgtScale_get
+    if _newclass:theHgtScale = _swig_property(_pyossim.pqeRPCModel_theHgtScale_get, _pyossim.pqeRPCModel_theHgtScale_set)
+    __swig_setmethods__["theLineOffset"] = _pyossim.pqeRPCModel_theLineOffset_set
+    __swig_getmethods__["theLineOffset"] = _pyossim.pqeRPCModel_theLineOffset_get
+    if _newclass:theLineOffset = _swig_property(_pyossim.pqeRPCModel_theLineOffset_get, _pyossim.pqeRPCModel_theLineOffset_set)
+    __swig_setmethods__["theSampOffset"] = _pyossim.pqeRPCModel_theSampOffset_set
+    __swig_getmethods__["theSampOffset"] = _pyossim.pqeRPCModel_theSampOffset_get
+    if _newclass:theSampOffset = _swig_property(_pyossim.pqeRPCModel_theSampOffset_get, _pyossim.pqeRPCModel_theSampOffset_set)
+    __swig_setmethods__["theLatOffset"] = _pyossim.pqeRPCModel_theLatOffset_set
+    __swig_getmethods__["theLatOffset"] = _pyossim.pqeRPCModel_theLatOffset_get
+    if _newclass:theLatOffset = _swig_property(_pyossim.pqeRPCModel_theLatOffset_get, _pyossim.pqeRPCModel_theLatOffset_set)
+    __swig_setmethods__["theLonOffset"] = _pyossim.pqeRPCModel_theLonOffset_set
+    __swig_getmethods__["theLonOffset"] = _pyossim.pqeRPCModel_theLonOffset_get
+    if _newclass:theLonOffset = _swig_property(_pyossim.pqeRPCModel_theLonOffset_get, _pyossim.pqeRPCModel_theLonOffset_set)
+    __swig_setmethods__["theHgtOffset"] = _pyossim.pqeRPCModel_theHgtOffset_set
+    __swig_getmethods__["theHgtOffset"] = _pyossim.pqeRPCModel_theHgtOffset_get
+    if _newclass:theHgtOffset = _swig_property(_pyossim.pqeRPCModel_theHgtOffset_get, _pyossim.pqeRPCModel_theHgtOffset_set)
+    __swig_setmethods__["theLineNumCoef"] = _pyossim.pqeRPCModel_theLineNumCoef_set
+    __swig_getmethods__["theLineNumCoef"] = _pyossim.pqeRPCModel_theLineNumCoef_get
+    if _newclass:theLineNumCoef = _swig_property(_pyossim.pqeRPCModel_theLineNumCoef_get, _pyossim.pqeRPCModel_theLineNumCoef_set)
+    __swig_setmethods__["theLineDenCoef"] = _pyossim.pqeRPCModel_theLineDenCoef_set
+    __swig_getmethods__["theLineDenCoef"] = _pyossim.pqeRPCModel_theLineDenCoef_get
+    if _newclass:theLineDenCoef = _swig_property(_pyossim.pqeRPCModel_theLineDenCoef_get, _pyossim.pqeRPCModel_theLineDenCoef_set)
+    __swig_setmethods__["theSampNumCoef"] = _pyossim.pqeRPCModel_theSampNumCoef_set
+    __swig_getmethods__["theSampNumCoef"] = _pyossim.pqeRPCModel_theSampNumCoef_get
+    if _newclass:theSampNumCoef = _swig_property(_pyossim.pqeRPCModel_theSampNumCoef_get, _pyossim.pqeRPCModel_theSampNumCoef_set)
+    __swig_setmethods__["theSampDenCoef"] = _pyossim.pqeRPCModel_theSampDenCoef_set
+    __swig_getmethods__["theSampDenCoef"] = _pyossim.pqeRPCModel_theSampDenCoef_get
+    if _newclass:theSampDenCoef = _swig_property(_pyossim.pqeRPCModel_theSampDenCoef_get, _pyossim.pqeRPCModel_theSampDenCoef_set)
+    __swig_setmethods__["theType"] = _pyossim.pqeRPCModel_theType_set
+    __swig_getmethods__["theType"] = _pyossim.pqeRPCModel_theType_get
+    if _newclass:theType = _swig_property(_pyossim.pqeRPCModel_theType_get, _pyossim.pqeRPCModel_theType_set)
+    def __init__(self): 
+        this = _pyossim.new_pqeRPCModel()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_pqeRPCModel
+    __del__ = lambda self : None;
+pqeRPCModel_swigregister = _pyossim.pqeRPCModel_swigregister
+pqeRPCModel_swigregister(pqeRPCModel)
+
+class ossimPositionQualityEvaluator(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimPositionQualityEvaluator, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimPositionQualityEvaluator, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _pyossim.new_ossimPositionQualityEvaluator(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _pyossim.delete_ossimPositionQualityEvaluator
+    __del__ = lambda self : None;
+    def addContributingCovariance(self, *args): return _pyossim.ossimPositionQualityEvaluator_addContributingCovariance(self, *args)
+    def addContributingCE_LE(self, *args): return _pyossim.ossimPositionQualityEvaluator_addContributingCE_LE(self, *args)
+    def subtractContributingCovariance(self, *args): return _pyossim.ossimPositionQualityEvaluator_subtractContributingCovariance(self, *args)
+    def subtractContributingCE_LE(self, *args): return _pyossim.ossimPositionQualityEvaluator_subtractContributingCE_LE(self, *args)
+    def getCovMatrix(self, *args): return _pyossim.ossimPositionQualityEvaluator_getCovMatrix(self, *args)
+    def computeCE_LE(self, *args): return _pyossim.ossimPositionQualityEvaluator_computeCE_LE(self, *args)
+    def extractErrorEllipse(self, *args): return _pyossim.ossimPositionQualityEvaluator_extractErrorEllipse(self, *args)
+    def isValid(self): return _pyossim.ossimPositionQualityEvaluator_isValid(self)
+    def ossimPositionQualityEvaluator_print(self, *args): return _pyossim.ossimPositionQualityEvaluator_ossimPositionQualityEvaluator_print(self, *args)
+ossimPositionQualityEvaluator_swigregister = _pyossim.ossimPositionQualityEvaluator_swigregister
+ossimPositionQualityEvaluator_swigregister(ossimPositionQualityEvaluator)
 
 class ossimProjectionFactoryRegistry(_object):
     __swig_setmethods__ = {}
@@ -1825,6 +2459,106 @@ class ossimSensorModelTuple(_object):
     def getRpcPqeInputs(self, *args): return _pyossim.ossimSensorModelTuple_getRpcPqeInputs(self, *args)
 ossimSensorModelTuple_swigregister = _pyossim.ossimSensorModelTuple_swigregister
 ossimSensorModelTuple_swigregister(ossimSensorModelTuple)
+
+class ossimStatePlaneProjectionInfo(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimStatePlaneProjectionInfo, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimStatePlaneProjectionInfo, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _pyossim.new_ossimStatePlaneProjectionInfo(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def code(self): return _pyossim.ossimStatePlaneProjectionInfo_code(self)
+    def name(self): return _pyossim.ossimStatePlaneProjectionInfo_name(self)
+    def projName(self): return _pyossim.ossimStatePlaneProjectionInfo_projName(self)
+    def originLat(self): return _pyossim.ossimStatePlaneProjectionInfo_originLat(self)
+    def originLon(self): return _pyossim.ossimStatePlaneProjectionInfo_originLon(self)
+    def datum(self): return _pyossim.ossimStatePlaneProjectionInfo_datum(self)
+    def origin(self): return _pyossim.ossimStatePlaneProjectionInfo_origin(self)
+    def parallel1(self): return _pyossim.ossimStatePlaneProjectionInfo_parallel1(self)
+    def parallel2(self): return _pyossim.ossimStatePlaneProjectionInfo_parallel2(self)
+    def falseEasting(self): return _pyossim.ossimStatePlaneProjectionInfo_falseEasting(self)
+    def falseNorthing(self): return _pyossim.ossimStatePlaneProjectionInfo_falseNorthing(self)
+    def falseEastingInMeters(self): return _pyossim.ossimStatePlaneProjectionInfo_falseEastingInMeters(self)
+    def falseNorthingInMeters(self): return _pyossim.ossimStatePlaneProjectionInfo_falseNorthingInMeters(self)
+    def scaleFactor(self): return _pyossim.ossimStatePlaneProjectionInfo_scaleFactor(self)
+    def units(self): return _pyossim.ossimStatePlaneProjectionInfo_units(self)
+    def getUnitType(self): return _pyossim.ossimStatePlaneProjectionInfo_getUnitType(self)
+    def matchesProjection(self, *args): return _pyossim.ossimStatePlaneProjectionInfo_matchesProjection(self, *args)
+    def isSameCode(self, *args): return _pyossim.ossimStatePlaneProjectionInfo_isSameCode(self, *args)
+    def populateProjectionKeywords(self, *args): return _pyossim.ossimStatePlaneProjectionInfo_populateProjectionKeywords(self, *args)
+    __swig_destroy__ = _pyossim.delete_ossimStatePlaneProjectionInfo
+    __del__ = lambda self : None;
+ossimStatePlaneProjectionInfo_swigregister = _pyossim.ossimStatePlaneProjectionInfo_swigregister
+ossimStatePlaneProjectionInfo_swigregister(ossimStatePlaneProjectionInfo)
+
+def __lshift__(*args):
+  return _pyossim.__lshift__(*args)
+__lshift__ = _pyossim.__lshift__
+
+class ossimTiffProjectionFactory(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimTiffProjectionFactory, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimTiffProjectionFactory, name)
+    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+    __swig_getmethods__["instance"] = lambda x: _pyossim.ossimTiffProjectionFactory_instance
+    if _newclass:instance = staticmethod(_pyossim.ossimTiffProjectionFactory_instance)
+    def createProjection(self, *args): return _pyossim.ossimTiffProjectionFactory_createProjection(self, *args)
+    def createObject(self, *args): return _pyossim.ossimTiffProjectionFactory_createObject(self, *args)
+    def getTypeNameList(self, *args): return _pyossim.ossimTiffProjectionFactory_getTypeNameList(self, *args)
+    __swig_destroy__ = _pyossim.delete_ossimTiffProjectionFactory
+    __del__ = lambda self : None;
+ossimTiffProjectionFactory_swigregister = _pyossim.ossimTiffProjectionFactory_swigregister
+ossimTiffProjectionFactory_swigregister(ossimTiffProjectionFactory)
+
+def ossimTiffProjectionFactory_instance():
+  return _pyossim.ossimTiffProjectionFactory_instance()
+ossimTiffProjectionFactory_instance = _pyossim.ossimTiffProjectionFactory_instance
+
+class ossimUpspt(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimUpspt, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimUpspt, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _pyossim.new_ossimUpspt(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def hemisphere(self): return _pyossim.ossimUpspt_hemisphere(self)
+    def easting(self): return _pyossim.ossimUpspt_easting(self)
+    def northing(self): return _pyossim.ossimUpspt_northing(self)
+    def datum(self): return _pyossim.ossimUpspt_datum(self)
+    __swig_destroy__ = _pyossim.delete_ossimUpspt
+    __del__ = lambda self : None;
+ossimUpspt_swigregister = _pyossim.ossimUpspt_swigregister
+ossimUpspt_swigregister(ossimUpspt)
+
+class ossimUtmpt(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, ossimUtmpt, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, ossimUtmpt, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _pyossim.new_ossimUtmpt(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def zone(self): return _pyossim.ossimUtmpt_zone(self)
+    def hemisphere(self): return _pyossim.ossimUtmpt_hemisphere(self)
+    def easting(self): return _pyossim.ossimUtmpt_easting(self)
+    def northing(self): return _pyossim.ossimUtmpt_northing(self)
+    def datum(self): return _pyossim.ossimUtmpt_datum(self)
+    def convertFromGround(self, *args): return _pyossim.ossimUtmpt_convertFromGround(self, *args)
+    def convertToGround(self, *args): return _pyossim.ossimUtmpt_convertToGround(self, *args)
+    __swig_destroy__ = _pyossim.delete_ossimUtmpt
+    __del__ = lambda self : None;
+ossimUtmpt_swigregister = _pyossim.ossimUtmpt_swigregister
+ossimUtmpt_swigregister(ossimUtmpt)
 
 ossimElevUtil_HEADER = _pyossim.ossimElevUtil_HEADER
 class ossimElevUtil(_object):

@@ -3318,31 +3318,41 @@ SWIGINTERN PyObject *_wrap_Info_initialize(PyObject *SWIGUNUSEDPARM(self), PyObj
   char **arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
   bool result;
   
-  if (!PyArg_ParseTuple(args,(char *)"OOO:Info_initialize",&obj0,&obj1,&obj2)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:Info_initialize",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_pyossimtest__Info, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Info_initialize" "', argument " "1"" of type '" "pyossimtest::Info *""'"); 
   }
   arg1 = reinterpret_cast< pyossimtest::Info * >(argp1);
-  ecode2 = SWIG_AsVal_int(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Info_initialize" "', argument " "2"" of type '" "int""'");
-  } 
-  arg2 = static_cast< int >(val2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3,SWIGTYPE_p_p_char, 0 |  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "Info_initialize" "', argument " "3"" of type '" "char *[]""'"); 
-  } 
-  arg3 = reinterpret_cast< char ** >(argp3);
+  {
+    int i;
+    
+    if (!PyList_Check(obj1)) 
+    {
+      PyErr_SetString(PyExc_ValueError, "Expecting a list");
+      return NULL;
+    }
+    
+    arg2 = PyList_Size(obj1);
+    arg3 = (char **) malloc((arg2+1)*sizeof(char *));
+    
+    for (i = 0; i < arg2; i++) 
+    {
+      PyObject *s = PyList_GetItem(obj1,i);
+      if (!PyString_Check(s)) 
+      {
+        free(arg3);
+        PyErr_SetString(PyExc_ValueError, "List items must be strings");
+        return NULL;
+      }
+      arg3[i] = PyString_AsString(s);
+    }
+    arg3[i] = 0;
+  }
   {
     try
     {
@@ -3354,8 +3364,14 @@ SWIGINTERN PyObject *_wrap_Info_initialize(PyObject *SWIGUNUSEDPARM(self), PyObj
     }
   }
   resultobj = SWIG_From_bool(static_cast< bool >(result));
+  {
+    if (arg3) free(arg3);
+  }
   return resultobj;
 fail:
+  {
+    if (arg3) free(arg3);
+  }
   return NULL;
 }
 
@@ -3583,30 +3599,40 @@ SWIGINTERN PyObject *_wrap_Init_initialize__SWIG_1(PyObject *SWIGUNUSEDPARM(self
   char **arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  int val2 ;
-  int ecode2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OOO:Init_initialize",&obj0,&obj1,&obj2)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:Init_initialize",&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_pyossimtest__Init, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Init_initialize" "', argument " "1"" of type '" "pyossimtest::Init *""'"); 
   }
   arg1 = reinterpret_cast< pyossimtest::Init * >(argp1);
-  ecode2 = SWIG_AsVal_int(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Init_initialize" "', argument " "2"" of type '" "int""'");
-  } 
-  arg2 = static_cast< int >(val2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3,SWIGTYPE_p_p_char, 0 |  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "Init_initialize" "', argument " "3"" of type '" "char *[]""'"); 
-  } 
-  arg3 = reinterpret_cast< char ** >(argp3);
+  {
+    int i;
+    
+    if (!PyList_Check(obj1)) 
+    {
+      PyErr_SetString(PyExc_ValueError, "Expecting a list");
+      return NULL;
+    }
+    
+    arg2 = PyList_Size(obj1);
+    arg3 = (char **) malloc((arg2+1)*sizeof(char *));
+    
+    for (i = 0; i < arg2; i++) 
+    {
+      PyObject *s = PyList_GetItem(obj1,i);
+      if (!PyString_Check(s)) 
+      {
+        free(arg3);
+        PyErr_SetString(PyExc_ValueError, "List items must be strings");
+        return NULL;
+      }
+      arg3[i] = PyString_AsString(s);
+    }
+    arg3[i] = 0;
+  }
   {
     try
     {
@@ -3618,20 +3644,26 @@ SWIGINTERN PyObject *_wrap_Init_initialize__SWIG_1(PyObject *SWIGUNUSEDPARM(self
     }
   }
   resultobj = SWIG_Py_Void();
+  {
+    if (arg3) free(arg3);
+  }
   return resultobj;
 fail:
+  {
+    if (arg3) free(arg3);
+  }
   return NULL;
 }
 
 
 SWIGINTERN PyObject *_wrap_Init_initialize(PyObject *self, PyObject *args) {
   int argc;
-  PyObject *argv[4];
+  PyObject *argv[3];
   int ii;
   
   if (!PyTuple_Check(args)) SWIG_fail;
   argc = args ? (int)PyObject_Length(args) : 0;
-  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
     argv[ii] = PyTuple_GET_ITEM(args,ii);
   }
   if (argc == 1) {
@@ -3643,7 +3675,7 @@ SWIGINTERN PyObject *_wrap_Init_initialize(PyObject *self, PyObject *args) {
       return _wrap_Init_initialize__SWIG_0(self, args);
     }
   }
-  if (argc == 3) {
+  if (argc == 2) {
     int _v;
     void *vptr = 0;
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_pyossimtest__Init, 0);
@@ -3654,6 +3686,9 @@ SWIGINTERN PyObject *_wrap_Init_initialize(PyObject *self, PyObject *args) {
         _v = SWIG_CheckState(res);
       }
       if (_v) {
+        if (argc <= 2) {
+          return _wrap_Init_initialize__SWIG_1(self, args);
+        }
         void *vptr = 0;
         int res = SWIG_ConvertPtr(argv[2], &vptr, SWIGTYPE_p_p_char, 0);
         _v = SWIG_CheckState(res);
