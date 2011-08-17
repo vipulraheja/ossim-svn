@@ -25,6 +25,8 @@
         }
 }
 
+%include "std_string.i"
+
 %typemap(in) (int argc, char *argv[]) 
 {
         int i;
@@ -52,9 +54,21 @@
         $2[i] = 0;
 }
 
+%include <std_map.i>
+%include <std_vector.i>
+%include <std_string.i>
+%include <typemaps.i>
+
+
 %typemap(freearg) (int argc, char *argv[]) 
 {
         if ($2) free($2);
+}
+
+namespace std
+{
+        %template(UintVector) vector<pyossimtest_uint32>;
+        %template(Mapss) map<string, string>;
 }
 
 

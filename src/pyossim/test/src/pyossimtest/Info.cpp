@@ -60,5 +60,7 @@ std::map<std::string, std::string> pyossimtest::Info::getImageInfo(const std::st
                         metaDataFlag,
                         paletteFlag,
                         kwl);
+   cout << kwl <<endl;
+
    return kwl.getMap();
 }

@@ -3,22 +3,15 @@
 import sys
 import pyossimtest
 
-def arraycopy(source, sourcepos, dest, destpos, numelem):
-	dest[destpos:destpos+numelem] = source[sourcepos:sourcepos+numelem]
-
 def main(args):
-	newArgs = ""
-	newArgs.join("pyossimtest.Info")
-
-	arraycopy(args, 0, newArgs, 1, args.length)
+	a = raw_input()
 	
-	info = pyossimtest.Info()
+	while a is not None:
+		info = pyossimtest.Info()
 
-	if info.initialize( 1, ["Image0034.jpg"] ):
-		try:
-			info.execute()
-		except Exception as e:
-			print "Caught exception: ", e
+		info.getImageInfo(str(a),False,False,True,True,True,False)
+
+		a = raw_input()
 
 if __name__ == "__main__":
 	main(sys.argv)
