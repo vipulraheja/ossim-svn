@@ -31,4 +31,3 @@
 
 %include "ossim/base/ossimConstants.h"
 %include "ossim/base/ossimLsrPoint.h"
-

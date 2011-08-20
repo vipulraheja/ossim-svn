@@ -62,15 +62,15 @@ class Image:
 		return overviewFile
 
 
-a = Image()
+#a = Image()
 #print a.m_img
-b = a.open("testImage.tif")
-bands = list((1,2,3,4,5,6))
+#b = a.open("testImage.tif")
+#bands = list((1,2,3,4,5,6))
 #print bands
-c = a.selectBands(bands)
-print c
-d = a.getBandSelection()
-print d
+#c = a.selectBands(bands)
+#print c
+#d = a.getBandSelection()
+#print d
 #histogram = "testImage.his"
 #e = a.setHistogram(histogram)
 #print e
