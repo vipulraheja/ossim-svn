@@ -11,7 +11,7 @@ pyossim/
 		|-projection/  		Directory that contains all projection swig-interface files
 		|-src/			Directory that contains source cpp files for the classes wrapped
 		|-object/		Directory that contains compiled object files of classes wrapped and compiled
-		|-docs/			Directory where all documents are placed
+		|-docs/			Directory where all documents and scripts are placed
 
 		|-README   		Readme file written earlier
 		|-LEFTOUT  		File containing names of classes missed out
@@ -43,6 +43,7 @@ Steps to compile and generate wrapped library:
    - pyossim.py
 
 4. Now, type the following command to generate the object(.o) files of the wrapped classes.
+
    $ g++ -fPIC -c /home/vipul/ossim-svn/src/pyossim/swig/src/* master_wrap.cxx -I/usr/include/python2.6
 
    here, the argument "/home/vipul/ossim-svn/src/pyossim/swig/src/*" is to include all files present 
@@ -64,6 +65,7 @@ Steps to compile and generate wrapped library:
 
 6. Now, using these object files, we will create a Python shared library that can be accessed from python 
    console. For that, we execute the following command:
+   
    $  g++ -shared object/* master_wrap.o -o _pyossim.so -L/home/vipul/ossim-svn/src/ossim_package_support/cmake/build -l ossim
 
    Now here, the argument "object/*" is to include all the object class files generated in the previous step

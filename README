@@ -1,13 +1,36 @@
-File	: README
-Author	: Vipul Raheja
-License	: LGPL
++----------------------------------------------------------------------+
++ File	: README						   
++ Author : Vipul Raheja
++ License : LGPL
++----------------------------------------------------------------------+
 
-PyOSSIM will act as a Python wrapper to the core library, making 
+Project Description:
+--------------------
+PyOSSIM will act as a Python wrapper to the OSSIM core library, making 
 available the functionalities of OSSIM core libraries via Python, 
-originally written in C++. 
+originally written in C++.
 
 Many GIS analysis tools like GRASS and QGIS, as well as libraries like 
-GDAL have the Python binding support, but OSSIM also needs it in order 
+GDAL have the Python binding support, but OSSIM also needed it in order 
 to enable these tools and libraries to interact with it. In this way, 
-we shall be making available the functionalities of OSSIM to these GIS 
-and remote sensing analysis tools and libraries.
+we are making available the functionalities of OSSIM to these GIS and 
+remote sensing analysis tools and libraries.
+
+Project Links:
+--------------
+GSoC Proposal: http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/acemcloud/4001
+OSSIM Wiki/Weekly Reports: trac.osgeo.org/ossim/wiki/GsocPyOssim
+GitHub Repository and Wiki: https://github.com/vipulraheja/ossim-svn
+
+Archive Details:
+----------------
+Source/Plugin Folders: src 
+Readme File: README
+Diff File: VipulRaheja.diff
+PyOSSIM Code Folder: src/pyossim
+
+Author Details:
+---------------
+Name: Vipul Raheja
+E-Mail: vipul[dot]iiith[at]gmail[dot]com, vipul.raheja[at]research[dot]iiit[dot]ac[dot]in
+IRC: acemcloud

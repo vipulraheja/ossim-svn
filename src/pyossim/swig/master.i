@@ -347,3 +347,7 @@
 %include "util/ossimFileWalker.i"
 %include "util/ossimInfo.i"
 %include "util/ossimRpfUtil.i"
+
+
+/* Importing Support_data Interfaces */
+%include "support_data/ossimInfoBase.i"

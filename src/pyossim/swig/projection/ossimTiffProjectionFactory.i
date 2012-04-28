@@ -2,7 +2,7 @@
  * Filename        : ossimTiffProjectionFactory.i
  * Author          : Vipul Raheja
  * License         : See top level LICENSE.txt file.
- * Description     : Contains SWIG-Python of class ossimMapProjection
+ * Description     : Contains SWIG-Python of class ossimTiffProjectionFactory
  * -----------------------------------------------------------------------------*/
 
 %module pyossim
